@@ -1,0 +1,489 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Google Tag Manager -->
+  <script>
+    (function (w, d, s, l, i) {
+      w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+          new Date().getTime(), event: 'gtm.js'
+      }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-T9Z8ST');
+  </script>
+  <script type="text/javascript"
+    src="https://www.ooredoo.qa/web/wp-content/themes/ooredoo-cms/assets/js/jquery.min.js?ver=3.5.1"
+    id="jquery-js"></script>
+  <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="167x167" href="/apple-touch-icon-167x167.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
+  <link rel="apple-touch-icon" sizes="1024x1024" href="/apple-touch-icon-1024x1024.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48x48.png">
+  <link rel="icon" type="image/png" sizes="64x64" href="/favicon-64x64.png">
+  <link rel="icon" type="image/png" sizes="128x128" href="/favicon-128x128.png">
+  <link rel="icon" type="image/png" sizes="256x256" href="/favicon-256x256.png">
+  <link rel="manifest" href="/recharge/site.webmanifest">
+  <meta name="msapplication-TileImage" content="/mstile-144x144.png">
+  <title>Ooredoo Recharge | Recharge Online | Ooredoo Qatar</title>
+  <meta name="description"
+    content="Recharge and stay connected. Instantly top-up and enjoy great connectivity. From data and flexi points to minutes and roaming, get your prepaid recharge here!" />
+  <script type="module" crossorigin src="/recharge/assets/index-BJjmgHug.js"></script>
+  <link rel="stylesheet" crossorigin href="/recharge/assets/index-0fJsyNgT.css">
+</head>
+
+<body>
+  <div id="root"></div>
+  <script>
+
+    /*--------------------------------------------------------------
+    ##  MS Live Chat Scripts
+    --------------------------------------------------------------*/
+
+    // Get the current language from the CUSTOMER_CUSTOM_LOCAL cookie (values: "ar_QA" | "en_GB")
+    function getCustomerLocaleCookie() {
+      const cookies = document.cookie ? document.cookie.split('; ') : [];
+      for (let i = 0; i < cookies.length; i++) {
+        const eqIndex = cookies[i].indexOf('=');
+        if (eqIndex === -1) continue;
+        const name = cookies[i].substring(0, eqIndex);
+        if (name === 'CUSTOMER_CUSTOM_LOCAL') {
+          return decodeURIComponent(cookies[i].substring(eqIndex + 1));
+        }
+      }
+      return null;
+    }
+
+    const currentLanguage = getCustomerLocaleCookie();
+    const isArabic = currentLanguage === "ar_QA";
+
+    // Sync the document direction/language with the resolved language so
+    // RTL-scoped CSS (e.g. [dir='rtl'] rules in src/index.css) applies correctly.
+    document.documentElement.setAttribute("dir", isArabic ? "rtl" : "ltr");
+    document.documentElement.setAttribute("lang", isArabic ? "ar" : "en");
+
+    const onBusinessPage = window.location.href.indexOf("business") > -1;
+
+    // JWT Token provided for authentication
+    let jwtToken = "";
+
+    $.ajax({
+      url: "https://www.ooredoo.qa/chatWidgetToken/",
+      type: "GET",
+      dataType: "text",
+      success: function (response) {
+        try {
+          // Check if the response is already the token
+          jwtToken = response;
+
+        } catch (error) {
+          // console.error("Error: ", error);
+        }
+      },
+      error: function (xhr, status, error) {
+        // console.error("Error: ", error);
+      },
+      complete: function () {
+
+        let dataAppId = "";
+
+        if (jwtToken == "") {
+          // Non Authenticated
+          if (isArabic) {
+            //ARABIC
+            if (onBusinessPage) {
+              // Live Chat-Business-Web-AR | Non Auth - Business AR
+              dataAppId = "863ef811-90ee-4f16-9482-228ae68c40f6";
+            } else {
+              // Person-Web-UnAuth-AR | Non Auth - Person AR
+              dataAppId = "85285819-833c-42ad-90fe-9b1a8380267a";
+            }
+          } else {
+            // ENGLISH
+            if (onBusinessPage) {
+              // Live Chat–Business–Web-EN | Non Auth - Business EN
+              dataAppId = "aa6bdada-3d33-4549-b977-3f2be542f1c8";
+            } else {
+              // Person-Web-UnAuth-EN | Non Auth - Person EN
+              dataAppId = "975a58f7-49be-4a52-a931-25689c238aa6";
+            }
+          }
+        } else {
+          //  Authenticated
+          if (isArabic) {
+            // ARABIC
+            if (onBusinessPage) {
+              // Live Chat-Business-WebAuth-AR | Auth - Business AR
+              dataAppId = "acb2f277-3064-4c39-aaab-6a035812ab44";
+            } else {
+              // Person-Web-Auth-AR | Auth - Person AR
+              dataAppId = "fc5529fa-81dd-414f-bef3-3a4397934513";
+            }
+          } else {
+            // ENGLISH
+            if (onBusinessPage) {
+              // Live Chat–Business–WebAuth-EN | Auth - Business EN
+              dataAppId = "6f85cc7a-6e74-4298-92f1-42f6f3d69510";
+            } else {
+              // Person-Web-Auth-EN | Auth - Person EN
+              dataAppId = "25531948-6bd7-4f17-bdd4-68844ab32a54";
+            }
+          }
+
+        }
+
+
+        const botImgHTML = !onBusinessPage
+          ? `<div class="bot-img-container">
+        <img src="https://www.ooredoo.qa/web/wp-content/uploads/2025/02/obotbubble.png" alt="robot image" class="bot-img">
+      </div>`
+          : '';
+
+        $('body').prepend(`
+    <div class="chat-bot-container">
+      <div class="chat-btn" id="chat-btn">
+          ${botImgHTML}
+          <div class="icon-circle">
+              <img src="https://www.ooredoo.qa/web/wp-content/uploads/2024/11/ChatIcon.svg" alt="ooredoo icon">
+          </div>
+          <div class="text-container">
+              <h3>${isArabic ? "مرحباً" : "Welcome"}</h3>
+              <p>${isArabic ? "بدء الدردشة" : "Lets Chat!"}</p>
+          </div>
+      </div>
+    </div>
+  `);
+
+        const chatBtn = document.querySelector('#chat-btn');
+
+        document.addEventListener('DOMContentLoaded', () => {
+          HideBtnLogic();
+        })
+
+        $(window).on("load", function () {
+          $('#Microsoft_Omnichannel_LCWidget_Chat_Iframe_Window').css({
+            'z-index': '-1',
+            'visibility': 'hidden',
+          });
+        });
+
+        chatBtn.addEventListener('click', () => {
+          $('#Microsoft_Omnichannel_LCWidget_Chat_Iframe_Window').css({
+            'z-index': '999999',
+            'visibility': 'initial',
+          });
+          Microsoft.Omnichannel.LiveChatWidget.SDK.startChat();
+          // chatBtn.style.display = "none";
+        })
+
+        window.addEventListener('lcw:ready', () => {
+          chatBtn.style.display = "flex";
+        })
+        // hiding chat button when window opens
+        function HideBtnLogic() {
+          setTimeout(() => {
+            const div = document.querySelector('#Microsoft_Omnichannel_LCWidget_Chat_Iframe_Window');
+            if (div) {
+              const resizeObserver = new ResizeObserver(entries => {
+                for (let entry of entries) {
+                  const newHeight = entry.contentRect.height;
+                  const divHeight = div.getBoundingClientRect().height;
+                  if (divHeight > 0) {
+                    chatBtn.style.right = "50px";
+                  } else {
+                    chatBtn.style.right = "0";
+                  }
+                }
+              });
+
+              resizeObserver.observe(div);
+            } else {
+              console.log('Element not found!');
+            }
+
+          }, 1500);
+        }
+
+
+
+        // Define the customization callback function
+        function lcw() {
+          const loadingTitle = isArabic ? "مرحبًا بكم في " : "Welcome to";
+          const loadingSubTitle = isArabic ? "خدمة الدردشة المباشرة من Ooredoo " : "Ooredoo Live Chat";
+          const pageFont = isArabic ? "Noto Kufi Arabic, serif" : "Rubik, sans-serif";
+
+          return {
+            styleProps: {
+              generalStyles: {
+                width: '400px',
+                height: '480px',
+                right: '60px',
+                borderRadius: '8px',
+                "&:focus": {
+                  borderColor: "transparent",
+                  outline: "0px",
+                },
+              }
+            },
+            proactiveChatPaneProps: {
+              generalStyleProps: {
+                fontFamily: pageFont,
+                fontSize: '18px',
+              }
+            },
+            preChatSurveyPaneProps: {
+              generalStyleProps: {
+                borderWidth: "0px",
+                color: "#221E20",
+                customButtonStyleProps: {
+                  marginTop: "25px",
+                  backgroundColor: "#ED1C24",
+                  borderRadius: "28px !important",
+                  color: "#ffffff",
+                  fontFamily: pageFont,
+                  fontSize: "inherit",
+                  height: "38px",
+                },
+                adaptiveCardContainerStyleProps: {
+                  color: "#221E20",
+                  backgroundColor: "transparent",
+                  borderColor: "transparent",
+                },
+                customTextInputStyleProps: {
+                  borderColor: "blue",
+                  color: "#221E20",
+                  fontFamily: pageFont,
+                  marginTop: 20,
+                }
+              },
+              styleProps: {
+                customButtonStyleProps: {
+                  backgroundColor: "#ED1C24",
+                  borderRadius: "28px",
+                  color: "#ffffff",
+                  fontFamily: pageFont,
+                  fontSize: "inherit",
+                  height: "38px",
+                  backgroundImage: "url(https://www.ooredoo.qa/web/wp-content/uploads/2024/11/ChatIcon.svg)",
+                },
+                adaptiveCardContainerStyleProps: {
+                  color: "#221E20",
+                  borderWidth: "0px",
+                },
+                customTextStyleProps: {
+                  color: "#646364 !important",
+                  fontFamily: pageFont,
+                },
+                customTextInputStyleProps: {
+                  borderColor: "#8F8F8F",
+                  borderRadius: "8px",
+                  color: "#646364",
+                  fontFamily: pageFont,
+                  paddingTop: "20px",
+                  paddingTop: "20",
+                },
+                customTextInputStyleProps: {
+                  borderRadius: '25px',
+                }
+              },
+            },
+            postChatSurveyPaneProps: {
+              controlProps: {
+                title: ""
+              },
+              fontFamily: pageFont,
+              styleProps: {
+                confirmButtonStyleProps: {
+                  borderRadius: "20px",
+                  borderColor: "#ed1c24",
+                  backgroundColor: "green",
+                  color: "#fff"
+                },
+              },
+              generalStyleProps: {
+                color: "#ffffff",
+                fontFamily: pageFont,
+                customButtonStyleProps: {
+                  backgroundColor: "#ED1C24",
+                  borderRadius: "28px !important",
+                  color: "#ffffff",
+                  fontFamily: pageFont,
+                  fontSize: "inherit",
+                  height: "38px",
+                },
+              }
+            },
+            loadingPaneProps: {
+              controlProps: {
+                titleText: loadingTitle,
+                subtitleText: loadingSubTitle,
+                spinnerText: '',
+                // hideSubtitle: true,
+              },
+            },
+            headerProps: {
+              controlProps: {
+                headerIconProps: {
+                  height: '40px',
+                  width: '50px',
+                  src: "https://www.ooredoo.qa/web/wp-content/uploads/2025/02/transperentobotforredbg.svg",
+                },
+              },
+              styleProps: {
+                generalStyleProps: {
+                  backgroundColor: "#ed1c24",
+                  borderRadius: '8px 8px 0 0',
+                },
+                titleStyleProps: {
+                  fontFamily: pageFont,
+                  fontSize: '17px',
+                },
+                minimizeButtonStyleProps: {
+                  color: "#fff",
+                  margin: "12px 5px 5px 5px"
+                },
+                minimizeButtonHoverStyleProps: {
+                  backgroundColor: "#ff000a",
+                  color: "#000000"
+                },
+                iconStyleProps: {
+                  width: "48px",
+                  height: "48px"
+                },
+              }
+            },
+            confirmationPaneProps: {
+              styleProps: {
+                confirmButtonStyleProps: {
+                  borderRadius: "20px",
+                  borderColor: "#ed1c24",
+                  backgroundColor: "#ed1c24",
+                  color: "#fff",
+                },
+                confirmButtonHoveredStyleProps: {
+                  borderColor: "#ed1c24",
+                  border: "1px solid",
+                  backgroundColor: "#ed1c24",
+                  outline: "0px",
+                },
+                confirmButtonFocusedStyleProps: {
+                  borderColor: "#ed1c24",
+                  border: "1px solid",
+                  backgroundColor: "#ed1c24",
+                  outline: "0px",
+                },
+                cancelButtonStyleProps: {
+                  borderRadius: "20px",
+                  borderColor: '#ed1c24',
+                  color: '#ed1c24',
+                }
+              }
+            },
+            chatButtonProps: {
+              styleProps: {
+                iconStyleProps: {
+                  cursor: "pointer",
+                  backgroundImage: "url(https://www.ooredoo.qa/web/wp-content/uploads/2024/11/ChatIcon.svg)",
+                  backgroundColor: "#ed1c24",
+                  borderStyle: "hidden",
+                  margin: "0px"
+                },
+              }
+            }
+          }
+
+        }
+
+        // Make lcw function globally accessible
+        window.lcw = lcw;
+
+
+        (function () {
+          var lc = document.createElement("script");
+          lc.type = "text/javascript";
+          lc.async = true;
+          lc.id = "Microsoft_Omnichannel_LCWidget";
+          lc.src = "https://oc-cdn-public-eur.azureedge.net/livechatwidget/scripts/LiveChatBootstrapper.js";
+          lc.setAttribute("data-lcw-version", "prod");
+          lc.setAttribute("data-org-id", "1be616c8-49c8-ef11-b8e4-000d3ab5d95f"); // PROD ID
+          lc.setAttribute("data-org-url", "https://m-1be616c8-49c8-ef11-b8e4-000d3ab5d95f.eu.omnichannelengagementhub.com"); // PROD ID
+          lc.setAttribute("data-customization-callback", "lcw");
+          lc.setAttribute("data-font-family-override", isArabic ? "Noto Kufi Arabic, Rubik" : "Rubik, sans-serif");
+          lc.setAttribute("data-app-id", dataAppId);
+          lc.setAttribute("data-hide-chat-button", "true");
+          $("body").append(lc);
+        })();
+
+
+
+        if (jwtToken != "") {
+          // Function to provide the JWT token for authentication
+          /*function authTokenProvider(callback) {
+            // Provide the hardcoded JWT token
+            callback(jwtToken);
+          }
+
+          // Handle the live chat widget when ready
+          window.addEventListener("lcw:ready", function handleLivechatReadyEvent() {
+            // Set the authentication token provider
+            Microsoft.Omnichannel.LiveChatWidget.SDK.setAuthTokenProvider(authTokenProvider);
+
+          });*/
+
+          /* START :: The New implementation */
+          getAuthenticationToken = function (callback1) {
+            // New Tokens with same payload
+            var token = jwtToken;
+            callback1(token);
+          }
+          window.addEventListener("lcw:ready", function handleLivechatReadyEvent() {
+            // Microsoft.Omnichannel.LiveChatWidget.SDK.startChat();
+          });
+          /* END :: The New implementation */
+
+          // Handle live chat errors
+          window.addEventListener("lcw:error", function handleLivechatErrorEvent(errorEvent) {
+            console.error("Live Chat Error:", errorEvent);
+          });
+        }
+
+        // Start Live Chat on Clicks
+        $('#Clicks_Need_Help_Live_Chat, #header-menu-items [href="#live-chat"]').click(function (e) {
+          e.preventDefault();
+
+          if (window.Microsoft && Microsoft.Omnichannel && Microsoft.Omnichannel.LiveChatWidget && Microsoft.Omnichannel.LiveChatWidget.SDK) {
+            Microsoft.Omnichannel.LiveChatWidget.SDK.startChat({
+              inNewWindow: false,
+            });
+
+            $('#Microsoft_Omnichannel_LCWidget_Chat_Iframe_Window').css({
+              'z-index': '999999',
+              'visibility': 'initial',
+            });
+          } else {
+            console.error('Live Chat SDK not ready.');
+          }
+        });
+
+
+      }
+    });
+
+
+  </script>
+
+</body>
+
+</html>
