@@ -1,12 +1,7 @@
 {
  "checked": "2026-10-12",
  "note": "null means unlimited. The robot updates monthly plans, prepaid recharges and data plans every day.",
- "sources": {
-  "shahry": "https://www.ooredoo.qa/web/en/postpaid-plans/shahry/",
-  "qatarna": "https://www.ooredoo.qa/web/en/postpaid-plans/qatarna/",
-  "vodafonePrepaid": "https://www.vodafone.qa/en/about-us/media/document/1551520856225/260610-tariff-notification-prepaid-v1-.pdf",
-  "vodafoneTariff": "https://www.vodafone.qa/en/about-us/media/document/1551521426929/260913-postpaid-tariff-notification-v1.pdf"
- },
+ "sources": {},
  "plans": [
   {
    "id": "shahry-plus-select",
@@ -15,7 +10,7 @@
    "std": 100,
    "promo": 100,
    "pm": 0,
-   "data": 15,
+   "data": 8,
    "mins": 150,
    "intl": {
     "in": 0,
@@ -227,8 +222,8 @@
    "p": "v",
    "n": "Postpaid+ Essential",
    "std": 130,
-   "promo": 130,
-   "pm": 0,
+   "promo": 115,
+   "pm": 4,
    "data": 15,
    "mins": 500,
    "intl": {
@@ -248,8 +243,8 @@
    "p": "v",
    "n": "Postpaid+ Extra",
    "std": 180,
-   "promo": 180,
-   "pm": 0,
+   "promo": 145,
+   "pm": 4,
    "data": 40,
    "mins": null,
    "intl": {
@@ -269,8 +264,8 @@
    "p": "v",
    "n": "Postpaid+ Max",
    "std": 230,
-   "promo": 230,
-   "pm": 0,
+   "promo": 180,
+   "pm": 4,
    "data": 60,
    "mins": null,
    "intl": {
@@ -1204,24 +1199,5 @@
    },
    "perks": []
   }
- ],
- "problems": [
-  "couldn't find Unlimited+",
-  "couldn't find Unlimited+ Premium",
-  "couldn't find Unlimited+ Platinum",
-  "couldn't find Unlimited+ VIP",
-  "couldn't read Hala Super 40, Hala Super 50, Hala Super 65, Hala Super 75, Hala Super 100, Hala Super 125, Hala Super 200, Hala Super 500, Hala Super 250",
-  "couldn't read Hala Flexi 50, Hala Flexi 65, Hala Flexi 75, Hala Flexi 100, Hala Flexi 150, Hala Flexi 200",
-  "couldn't read Flex 50, Flex 65, Flex 75, Flex 100, Flex 120, Flex 150, Flex 200, Flex 300, Flex 500",
-  "couldn't read Mobile Wi-Fi 150, Mobile Wi-Fi 199",
-  "couldn't read Data SIM Unlimited, Data SIM Unlimited Premium",
-  "couldn't read Hala Data 50, Hala Data 65, Hala Data 75, Hala Data 100, Hala Data 150, Hala Data 200",
-  "couldn't read Hala Unlimited Data 250",
-  "couldn't read Prepaid Internet 50, Prepaid Internet 75, Prepaid Internet 100, Prepaid Internet 150, Prepaid Internet 200",
-  "Data SIM+ Go std read as 0, which looks wrong (kept 150)",
-  "Data SIM+ Go promo read as 0, which looks wrong (kept 150)",
-  "Data SIM+ Pro data read as 2, which looks wrong (kept 300)",
-  "Data SIM+ Premium data read as 2, which looks wrong (kept 500)",
-  "Data SIM+ Platinum data read as 2, which looks wrong (kept 500)"
  ]
 }

@@ -208,13 +208,23 @@ export function parseVodafoneDataPlans(t) {
 export const believable = (oldV, newV) => newV > 0 && (!oldV || (newV <= oldV * 3 && newV >= oldV / 3));
 
 // ---------- the actual run ----------
+// Every page the robot reads is also saved to debug/ (raw page + the text it extracted),
+// so when it gets confused, a human (or Claude) can see exactly what it saw.
+const DEBUG = path.join(ROOT, "debug");
+const dname = url => url.replace(/^https?:\/\//, "").replace(/[^a-z0-9]+/gi, "_").slice(-90);
+function saveDebug(url, ext, data) { try { fs.mkdirSync(DEBUG, { recursive: true }); fs.writeFileSync(path.join(DEBUG, dname(url) + ext), data); } catch {} }
 async function get(url, binary = false) {
-  const res = await fetch(url, { headers: { "user-agent": "Mozilla/5.0 (QatarPlanFinder price robot)", "accept-language": "en" } });
-  if (!res.ok) throw new Error(`${url} answered ${res.status}`);
-  return binary ? Buffer.from(await res.arrayBuffer()) : res.text();
+  const res = await fetch(url, { headers: { "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36", "accept-language": "en" } });
+  if (!res.ok) { saveDebug(url, ".error.txt", `HTTP ${res.status}`); throw new Error(`${url} answered ${res.status}`); }
+  if (binary) return Buffer.from(await res.arrayBuffer());
+  const html = await res.text();
+  saveDebug(url, ".html", html); saveDebug(url, ".txt", htmlToText(html));
+  return html;
 }
 async function pdfText(url) {
-  return pdfBufferText(await get(url, true));
+  const t = await pdfBufferText(await get(url, true));
+  saveDebug(url, ".txt", t);
+  return t;
 }
 
 async function main() {

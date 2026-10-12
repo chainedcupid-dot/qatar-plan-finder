@@ -28,7 +28,8 @@ if [ -z "$(sed -n 's/.*"goatcounter": *"\([a-z0-9-]*\)".*/\1/p' config.json)" ];
   echo "  1. Sign up at https://www.goatcounter.com/signup (pick a short code, e.g. qatarplans)"
   command -v xdg-open >/dev/null && xdg-open https://www.goatcounter.com/signup >/dev/null 2>&1 || true
   read -rp "  2. Type your GoatCounter code here (or just press Enter to skip): " GC
-  GC=$(echo "$GC" | tr 'A-Z' 'a-z' | tr -cd 'a-z0-9-')
+  # Accept a plain code, a full https://CODE.goatcounter.com link, or the whole script snippet
+  GC=$(echo "$GC" | tr 'A-Z' 'a-z' | sed -n 's#.*https\?://\([a-z0-9-]*\)\.goatcounter\.com.*#\1#p;t;p' | head -1 | tr -cd 'a-z0-9-')
   printf '{ "goatcounter": "%s" }\n' "$GC" > config.json
   [ -n "$GC" ] && echo "  Counter on. Your numbers: https://$GC.goatcounter.com"
 fi

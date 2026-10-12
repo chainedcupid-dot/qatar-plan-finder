@@ -37,7 +37,7 @@ jobs:
         run: |
           git config user.name "price-robot"
           git config user.email "price-robot@users.noreply.github.com"
-          git add plans.json
+          git add plans.json $(test -d debug && echo debug)
           git diff --cached --quiet || git commit -m "Prices checked $(date -u +%F)"
           git push
 
