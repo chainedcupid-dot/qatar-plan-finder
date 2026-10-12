@@ -1,0 +1,1433 @@
+Tariff Document: Consumer
+1
+General Tariff information
+Service Provider Name Vodafone Qatar P.Q.S.C
+Tariff Number C02
+Marketing Name of the Retail Offer Prepaid Standard Terms and Conditions
+Tariff Type Permanent
+Duration N/A
+Customer Group Consumer
+Tariff Notification Date 10 June 2026
+Tariff Version Number 96
+Contents
+1. Definitions ............................................................................................................................................................................................... 3
+2. Tariff Terms and Conditions............................................................................................................................................................... 3
+3. Prepaid SIM Pack................................................................................................................................................................................... 3
+3.1. Standard Welcome Pack ......................................................................................................................................................... 3
+3.2. Instant SIM ................................................................................................................................................................................... 3
+4. Vodafone Recharge Products........................................................................................................................................................... 3
+4.1. Credit Only Products ................................................................................................................................................................ 3
+4.2. Data Only Products................................................................................................................................................................... 4
+4.3. My Best Offer Products ............................................................................................................................................................ 5
+4.4. Combo+ Products ..................................................................................................................................................................... 5
+4.5. Flex Recharge Products .......................................................................................................................................................... 6
+4.6. International Recharge Products (ICC Cards).................................................................................................................. 8
+5. Subscription Packs ............................................................................................................................................................................... 8
+5.1. Local 25 Dhs ............................................................................................................................................................................... 8
+5.2. International 65 Dhs ................................................................................................................................................................ 9
+5.3. India Opt-in rates ....................................................................................................................................................................... 9
+5.4. India Combo Packs ................................................................................................................................................................... 9
+5.5. Bangladesh Discount Rate...................................................................................................................................................10
+5.6. Bangladesh Combo Packs....................................................................................................................................................10
+5.7. Egypt Discount Rate...............................................................................................................................................................10
+5.8. Egypt Combo Packs ...............................................................................................................................................................11
+5.9. Philippines Discount Rate ....................................................................................................................................................11
+5.10. Philippines Combo Packs .....................................................................................................................................................11
+5.11. Pakistan Discount Rate .........................................................................................................................................................12
+5.12. Pakistan Combo Packs ..........................................................................................................................................................12
+5.13. Sri Lanka Discount Rate........................................................................................................................................................12
+5.14. Sri Lanka Combo Packs.........................................................................................................................................................12
+5.15. Sudan Combo Pack ................................................................................................................................................................13
+6. Roaming ................................................................................................................................................................................................13
+6.1. Vodafone Passport Pack .......................................................................................................................................................13
+6.2. Vodafone Passport Card ........................................................................................................................................................13
+6.3. Weekly Passport Pack Only ..................................................................................................................................................13
+6.4. GCC Weekly Passport Pack Data Only ..............................................................................................................................14
+6.5. Daily Passport Pack.................................................................................................................................................................14
+6.6. Special Prepaid Roaming Pack QR 30..............................................................................................................................15
+6.7. Prepaid Roaming Pack QR 10 ............................................................................................................................................15
+6.8. Roaming Rate Card .................................................................................................................................................................16
+7. Visitor Packs / Ahlan Packs ............................................................................................................................................................. 16
+8. Standard Rates ....................................................................................................................................................................................17
+8.1. Local Rates ................................................................................................................................................................................17
+Tariff Document: Consumer
+2
+8.2. International Rates .................................................................................................................................................................17
+9. Other Services......................................................................................................................................................................................21
+9.1. Advance Credit .........................................................................................................................................................................21
+9.2. Premium Services ...................................................................................................................................................................21
+9.3. Digital Bonus.............................................................................................................................................................................22
+9.4. CBQ App Offer ..........................................................................................................................................................................22
+10. Service Provider Obligations .....................................................................................................................................................24
+11. Customer Obligations .................................................................................................................................................................24
+12. Tariff Modification Version Control ..........................................................................................................................................25
+Tariff Document: Consumer
+3
+1. Definitions
+• Artificially Inflated Traffic - A flow or volume of traffic via any Service, which Vodafone believes is: (i)
+disproportionate to the flow or volume of traffic which Vodafone expects from good faith commercial practice
+and usage of the Service; (ii) disproportionate to Customer’s previous traffic profiles (in any given month) with
+Vodafone; (iii) uses automated means to make calls (save where this is expressly approved by Vodafone in
+writing); or (iv) may result in Customer exceeding the credit limit which Vodafone places on Customer’s
+Vodafone account from time to time.
+• Customer -means the person subscribing to and using Prepaid services.
+• Products and Services means communication products and services, including, but not limited to, national
+and international calls and SMS (text messages), national and mobile internet, roaming, and any other products
+and services we offer you.
+• Vodafone bonuses mean the bonus minutes or MBs included in your Prepaid plan.
+• Vodafone Retail Store - Vodafone’s retail stores across Qatar and available at
+http://www.vodafone.qa/en/support/main-topics/other-topics/store-locations
+• We, Us, Vodafone means Vodafone Qatar P.Q.S.C (Commercial Registration Number 39656, PO Box 27727,
+Doha Qatar).
+• Unstructured Supplementary Service Data (USSD) or "Quick Codes" or "Feature codes", is a
+communications protocol used to communicate with Vodafone’s mobile network.
+2. Tariff Terms and Conditions
+• Vodafone’s Prepaid General terms and conditions shall apply which are available at
+https://www.vodafone.qa/en/legal-and-regulatory
+• Vodafone may from time to time, offer and publish promotions and readjustments by various means. Such
+promotions and readjustments will automatically modify this Tariff.
+• The Prepaid service will start, and all terms and conditions will apply from when the Customer puts the SIM
+card into a mobile phone and uses any of our Products and Services.
+• Vodafone may offer 20% discounts on permanent or promotional offers as per Article 3.9 of the Retail Tariff
+Instructions.
+• Customers can only purchase Add-On products which are less than QR100 from their primary balance.
+• If a customer recharges with multiple products that include data-only products, flex products and prepaid
+products, which give endless/unlimited internet, then the order of consumption of data will be as below:
+a. Priority 1- Highest speed data would be consumed first example data from flex or standard data.
+b. Priority 2 – Data from endless/unlimited products in decreasing order of speed
+3. Prepaid SIM Pack
+3.1. Standard Welcome Pack
+• The Welcome Pack is sold at QR25.00
+3.2. Instant SIM
+• Vodafone Instant SIM allows customers to activate a Prepaid connection. The SIM Pack is available for QR 10 in
+selected outlets around Qatar. While certain non-telecom partners can give the Instant SIM for free at their
+discretion.
+Tariff Document: Consumer
+4
+4. Vodafone Recharge Products
+• Vodafone offers several types of recharge products
+• These benefits are available only on Eligible Recharge done through the My Vodafone App, Vodafone Website
+(Vodafone.qa), Vodafone Stores, and/or at any Vodafone authorised Retail outlets.
+• The benefits are added automatically upon recharge.
+4.1. Credit Only Products
+• These products are available as standalone recharges or as part of Vodafone choice recharge vouchers.
+• The validity of each credit is as set out below. Every time a customer recharges with a Credit Only product, the
+specific validity period set out below will apply.
+• Day of recharge is considered as the 1st day of validity.
+• Credit recharge for Prepaid is as follows:
+Price (QR) Credit Balance1 Validity (days)
+10 10 30
+15 15 30
+20 20 30
+40 40 30
+50 50 30
+65 65 30
+75 75 30
+80 80 30
+100 100 90
+150 150 90
+200 200 90
+300 300 90
+500 500 90
+4.2. Data Only Products
+• These products are available as standalone recharges or as part of Vodafone choice recharge vouchers.
+• Data Allowance on Mobile Internet Packs are for local usage only.
+• Customers can use Mobile Internet whilst roaming; however, the data roaming charges will apply. The data
+roaming prices are available on Vodafone website www.vodafone.com.qa
+• Day of recharge is considered as the first day of validity unless otherwise mentioned.
+Price (QR) Data Validity (Days)
+5 5GB2 (Only for TikTok) 1
+1 Balance can be used for local call, data, SMS or roaming usage.
+2 Any leftover data will not be transferred to the next period, even if you recharge before your current recharge expires.
+Tariff Document: Consumer
+5
+10 4 GB 2
+15 1.5GB 5
+20 2GB 7
+25 12GB 3
+40 6 GB 14
+50 8 GB 28
+65 11 GB 28
+75 14 GB 28
+80 12GB 28
+100 20GB 28
+125 100GB 7
+150 25GB 28
+200 35GB 28
+4.3. My Best Offer
+• My Best Offers are special personalised offers for Vodafone Prepaid customers on My Vodafone App and eTop
+(Direct top up) when they recharge on these two channels to encourage digitalisation.
+• Each eligible Prepaid customer will have one or more My Best offers available daily
+• The price, benefits (explained below) and validity of My Best offers are personalised according to every
+customer’s usage behaviour and needs.
+• Customers will get up to 6 benefits, including local data, social media data, night data (10 pm to 5 am), endless
+internet (speed as per product), local minutes and international minutes.
+• My Best Offers work like standard Prepaid recharge products. Customers who opt in for the My Best Offers will
+receive an SMS notification explaining the Offer accepted.
+4.4. Combo+ Products
+• These products are available as standalone recharges or as part of Vodafone choice recharge vouchers.
+• Combo+ products offer data, local and international minutes with one recharge.
+• All unused Combo+ local data and local minutes shall be carried forward, provided that the customer
+performs a recharge with the same Combo+ denomination prior to the expiry of the existing Combo+ validity
+period.
+• The following are combo+ products offered by Vodafone.
+Name Price
+(QR)
+Local data Roaming
+data
+Local
+Minutes
+Endless
+Internet Speed
+International
+Minutes
+Validity (Days)
+Combo+
+10
+10 100 MB - 100 Minutes - - 3 days
+Combo
++15
+15 1.5 GB - 60 Minutes - - 7 days
+Combo+
+40
+40 4 GB - 150 Minutes - 10 Int’l 28 days
+Combo+ 50 5 GB - 200 Minutes - 10 Int’l +
+bonus minutes 28 days
+Tariff Document: Consumer
+6
+50
+Combo+
+65
+65 8 GB - 240 Minutes 256 Kbps 20 Int’l +
+bonus minutes 28 days
+Combo+
+75
+75 10 GB - 300 Minutes 256 Kbps 20 Int’l + bonus
+minutes
+28 days
+Combo+
+100
+100 16 GB - 400 Minutes 256 Kbps 20 Int’l +
+bonus minutes
+28 days
+Combo+
+125
+125 19 GB - 500 Minutes 512 Kbps 20 Int’l +
+bonus minutes 28 days
+Combo+
+150
+150 24 GB - 750 Minutes 512 Kbps - 28 days
+Combo+
+250
+250 30 GB 1 GB 1000
+Minutes
+- 60 Int’l Mins 180 days
+Combo+
+300
+300 40 GB - 1500 Minutes 512 Kbps 50 Int’l Mins 28 days
+• The international Minutes included in the Combo+ are limited to the following countries:
+Name International Mins List of Countries
+Combo+ QR 40
+Combo+ QR 50
+Combo+ QR 65
+Combo+ QR 75
+Combo+ QR 100
+Combo+ QR 125
+Combo+ QR 250
+10
+10
+20
+20
+20
+20
+60
+Egypt, India, Philippines, Sri Lanka, Thailand,
+Pakistan, Saudi Arabia, U.A.E., Bangladesh,
+Bahrain, Turkey, Indonesia, Nepal, and
+Sudan
+Combo+ QR 300 50 Valid for All countries except Estonia & Syria
+• The following are the bonus international minutes for each card:
+Name Bonus International Minutes
+Combo+ 50
+1. India: 45 mins
+2. Pakistan: 10 mins
+3. Nepal: 10 mins
+4. Bangladesh: 25 mins
+5. Philippines: 25 mins to Philippines Globe
+6. Indonesia: 16 mins
+Combo+ 65, Combo+ 75,
+Combo+100 & 125
+1. India: 75 mins
+2. Pakistan: 25 mins
+3. Nepal: 25 mins
+4. Bangladesh: 250 mins
+5. Philippines: 250 mins to Philippines Globe
+6. Indonesia: 30 mins
+7. Sri Lanka: 25
+Tariff Document: Consumer
+7
+4.4.1 Vodafone MyBook
+• All Customers who recharge with Combo+65 and above products are eligible for the Vodafone MyBook App
+free subscription.
+• Vodafone MyBook subscription will be valid for 30 days from the day of subscribing to Vodafone MyBook.
+• In case of multiple recharges, MyBook subscription will not be accumulated.
+• Customer must activate the subscription from the Vodafone MyBook App.
+• Customer can activate his/her subscription on the Vodafone MyBook App within the validity of the eligible
+Combo+65 or above product.
+4.4.2 Combo+ Passes
+• Customers who recharge with Combo+ 50 or higher products will be eligible to subscribe to Free Combo+
+passes.
+• Customers can choose from a total of three passes as listed below:
+Pass Benefit
+Social Pass 2GB data to be used only on Snapchat, TikTok, Instagram and Facebook.
+Night Pass 4GB night data to be used only from 10pm till 5am.
+Local Minutes pass 200 local minutes.
+• Customers who recharge with Combo+ 50 can choose any 1 pass from the 3 available passes
+• Customers who recharge with Combo+65 can choose any 2 passes from the 3 available passes
+• Customers who recharge with Combo+75 and above can choose any 3 passes from the 3 available passes.
+• Customers will have to opt-in to the pass after recharging with a Combo+ card of QR 40 and above to be able
+to use the benefits of passes.
+• Customers can Opt-in to passes via My Vodafone App and/or through *100*3# USSD only.
+• Validity of the pass is the same as the validity of the Main combo product. Ex. If Combo pack expires on 31 Mar
+2025, the applicable pass will also expire on 31 Mar 2025, even if the customer opted in to the pass on 20 Mar
+2025.
+4.4.3 Combo+ Boosters:
+• Customers who recharge with Combo+ 40 or higher products will be eligible to purchase boosters.
+• Customer can choose from the following five boosters:
+Booster Name Standard Data
+Booster
+Night Data
+Booster
+Social Data
+Booster
+Local Minutes
+Booster
+Intl. Minutes
+Booster
+Price QR 5 QR 5 QR 5 QR 5 QR 5
+Allowances 2 GB 4 GB 2 GB 150 45 minutes to
+India 25 minutes
+to Bangladesh,
+Pakistan,
+Philippines
+16 minutes to
+Indonesia
+10 minutes to
+Nepal
+Validity 3 days 3 days 3 days 3 days 3 days
+Tariff Document: Consumer
+8
+• Boosters will only be available to customers that have purchased any of the Combo+ 40 and above products.
+• Customers will be able to purchase the boosters within 30 days of purchasing Combo+40 or above product.
+• Boosters will only be available for purchase from My Vodafone App.
+4.5. Flex Recharge Products
+• These products are available as standalone recharges or as part of Vodafone choice recharge vouchers.
+• All unused Flex can be carried forward if the customer’s recharge again with the same card before the expiry of
+the Flex except QR10 and 20. The customer can utilise the Flex Units for local data, local SMS or local and
+international calls, as well as roaming data/SMS/ calls as per below.
+• Customers can dial *130# to check their Flex balance or can visit My Vodafone app.
+Recharge Amount Flex Validity
+QR 10 70 Flex 3 days
+QR15 110 Flex Activation plus 5 Days
+QR20 150 Flex 7 days
+QR 40 350 Flex 14 days
+QR 50 450 Flex 28 days
+QR 65 650 Flex 28 days
+QR 75 750 Flex 28 days
+QR 80 700 Flex 28 days
+QR 100 1100 Flex 28 days
+QR 120 1350 Flex 28 days
+QR 150 2200Flex 28 days
+QR 200 3300Flex 28 days
+QR 300 3750 Flex 28 days
+QR 500 6250 Flex 28 days
+• Local usage of Flex has following rates:
+1 Local Min 1 SMS/ Local or international 1GB Local Data
+1 Flex 1 Flex 74 Flex
+• The international Flex rates for the different countries are below:
+Flex Rate/Min List of Countries
+1 India
+1 Bangladesh
+3 Philippines
+5 Pakistan, Bahrain, Egypt, France, Indonesia, Kenya, Kuwait, Malaysia, Nepal, Nigeria,
+Oman, Saudi Arabia, Spain, Sri Lanka, Thailand, UAE, UK, USA
+6 Turkey
+Tariff Document: Consumer
+9
+10 Afghanistan, Andorra, Anguilla, Australia, Austria, Bermuda, Bhutan, Bosnia, Brazil,
+Brunei, Cambodia, Canada, Cayman Islands, China, Colombia, Costa Rica, Cyprus, Czech
+Republic, Denmark, El Salvador, Equatorial Guinea, Estonia, Finland, French Guiana,
+Germany, Ghana, Greece, Grenada, Hong Kong, Hungary, Iran, Iraq, Ireland, Italy, Japan,
+Jordan, Kazakhstan, Kyrgyzstan, Lao P.D.R., Lebanon, Liechtenstein, Macao, Mariana
+Island, Martinique, Mauritius, Mexico, Mongolia, Montserrat, Namibia, Netherlands,
+Netherlands Antilles, New Caledonia, New Zealand, North Korea, Norway, Palestine,
+Portugal, Puerto Rico, Romania, Russia, San Marino, Santa Lucia, Singapore, Slovakia,
+South Africa, South Korea, St Vincent Grenada, Sudan, Suriname, Sweden, Taiwan,
+Tajikistan, Trinidad & Tobago, Turkmenistan, Turks Caicos
+Islands, Uganda, US Virgin Islands, Uzbekistan, Vatican, Venezuela, Vietnam, Yemen
+15 Albania, Angola, Antigua, Armenia, Argentina, Aruba, Belarus, Belgium, Benin, Belize,
+Bolivia, Botswana, Bulgaria, Burkina Faso, Cameroon, Cape Verde, Comoro Island,
+Congo, Congo Republic, Croatia, Djibouti, Ecuador, Eritrea, Ethiopia, Fiji, French
+Polynesia, Georgia, Gibraltar, Guadeloupe, Guatemala, Guernsey, Guyana, Haiti,
+Honduras, Iceland, Ivory Coast, Lesotho, Liberia, Luxembourg, Macedonia, Malawi,
+Malta, Micronesia, Moldova, Monaco, Montenegro, Morocco, Mozambique, Myanmar,
+Nicaragua, Niger, Palau, Panama, Paraguay, Peru, Poland, Reunion, Rwanda, Samoa,
+Senegal, Serbia, Somalia, South Sudan, Swaziland, Switzerland,
+Syria, Tanzania, Togo, Tonga, Ukraine, Uruguay, Virgin Islands and Zambia
+30 Azerbaijan, Algeria Bahamas, Barbados, Burundi, Central African Republic, Chad, Chile,
+Cook Islands, Cuba, Dominica, Dominican Republic, East Timor, Faroe Island, Gabon,
+Gambia, Greenland, Guam, Guinea Bissau, Guinea Republic, Jamaica, Jersey, Kosovo,
+Latvia, Libya, Lithuania, Madagascar, Maldives, Mali, Marshall Islands, Mauritania,
+Mayotte, Nauru, Niue Island, Papua New Guinea, Sao Tome & Principe, Seychelles, Sierra
+Leone, Slovenia, Solomon Islands, St Kitts Nevis, St Pierre & Miquelon, Tunisia, Tuvalu,
+Vanuatu, Wallis & Futana Island and Zimbabwe
+• The Flex Roaming rates are as per below:
+5MB Roaming Data 1 Incoming & Outgoing Minute 1 Outgoing SMS
+1 Flex 10 Flex 10 Flex
+• These rates will apply to all our Roaming Passport countries available at VQ’s website: www.vf.qa/roaming
+4.6. International Recharge Products (ICC Cards)
+• The following are the current available ICC products that customers can recharge.
+Name Price
+(QR)
+International
+Minutes*
+Validity
+(days) Bonus International Minutes
+Bonus Intl
+Mins Validity
+(days)
+International
+Calling Card 10 10 18 Minutes 7
+India: 102 mins
+Pakistan: 12 mins
+Bangladesh: 52 mins
+Philippines: 52 mins to Philippines
+Globe
+Indonesia: 32 mins
+Sudan: 10 mins
+Ethiopia: 10
+Kenya: 10
+Ghana: 10
+Nigeria: 10
+Eritrea: 10
+7
+Tariff Document: Consumer
+10
+Saudi Arabia: 20
+UAE: 20
+Bahrain: 20
+Kuwait: 20
+Oman: 20
+International
+Calling Card 15 15 28 Minutes 14
+India: 140 mins
+Pakistan: 17 mins
+Bangladesh: 70 mins
+Philippines: 70 mins to Philippines
+Globe
+Indonesia: 45 mins
+Sudan: 15 mins
+14
+International
+Calling Card 20
+20
+38 Minutes
+and
+20 minutes to
+Sudan only
+30
+India: 350 mins
+Nepal: 25 mins
+Bangladesh: 500 mins
+Philippines: 600 mins to
+Philippines Globe
+Indonesia: 60 mins
+Sri Lanka (Dialog): 50 mins
+Kenya: 30 mins
+Ghana: 30 mins
+Eritrea: 30 mins
+Ethiopia: 30 mins
+Pakistan:
+ICC 20 :22 mins
+ICC 25 :27 mins
+ICC 30 :33 mins
+14
+International
+Calling Card 25
+25
+48 Minutes
+and
+25 minutes to
+Sudan only
+30
+International
+Calling Card 30 30
+57 Minutes and
+30 minutes to
+Sudan only
+30
+• Applicable Countries* for International Calling Card 15 & above: Egypt, India, Philippines, Sri Lanka, Thailand,
+Pakistan, Saudi Arabia, U.A.E., Bangladesh, Bahrain, Turkey, Indonesia, **Nepal (not available with QR 20/25/30)
+• Applicable Countries* for International Calling Card 10: Egypt, India, Philippines, Sri Lanka, Thailand, Pakistan,
+Bangladesh, Turkey, Indonesia & Nepal
+• The customer can choose between international minutes or bonus minutes. To receive the bonus minutes, the
+customer must first have an international minutes balance from the international calling card. Then, dial *120#
+to activate the country bonus.
+5. Subscription Packs
+5.1. Local 25 Dhs
+• All Customers can make local calls in Qatar on any network for just 25 Dhs per minute by paying a subscription
+of 50 Dhs per week.
+• To activate the Pack, Customer can dial *200*10# from their mobile and it will automatically renew every week.
+• Customer will receive an SMS from Vodafone confirming that the Pack has been activated and that 50 Dhs has
+been debited from the balance.
+• If the Customer doesn’t have enough balance for the renewal, the pack will go into Sleep Period for 30 days. If
+the Customer recharges during the Sleep Period, the renewal will automatically happen and 50 Dhs will be
+debited from the Customers balance.
+• Priority of usage of the Pack shall be after the Customer utilises any included minutes which it already subscribes
+to and before the standard rate apply.
+• A Customer can deactivate the Pack at any given time by dialling *250*10# after which the Pack will not
+automatically renew, however the Customer can still activate the Pack by dialling 200*10#.
+Tariff Document: Consumer
+11
+5.2. International 65 Dhs
+• Customers can call 117 countries for 65 Dhs per minute by opting into the offer.
+• Visit www.vodafone.qa/international for the list of countries.
+• Activate the rate by dialling *200*260#, with 50 Dhs deducted weekly. If the balance is insufficient at renewal,
+the rate will be on hold for 7 days. Calls will be charged at standard rates during this period. If no recharge occurs
+within 7 days, the offer will be removed.
+• To opt out, dial *250*260#. Standard rates will apply upon cancellation.
+• To reactivate the 65 Dhs offer, dial *200*260#, and a 50 Dhs fee will be charged weekly.
+5.3. India Opt-in rates
+• To activate the pack for 50Dhs per week customer can dial *200* 202#. On subscription, the customers will get
+the following discounted rate.
+Destination Discounted Rate
+India 18Dhs per minute
+• 50Dhs will be deducted from the prepaid balance every 7 Days.
+• The Opt in rate to India will be valid for 7 days from the day of activation. The 50Dhs will continue to be deducted
+from the customer’s prepaid balance every 7 days until the customer opts out of the offer.
+• If a customer does not have sufficient balance at time of renewal, the India opt in rate will remain on the account
+‘on hold’ for 30 days and will renew as soon as the customer recharges with sufficient credit. The customer will
+be charged the standard rate for calls while the promotion is ‘on hold’. If there is no recharge during this 30-day
+period the India opt in rate will be removed and the standard India rate will apply.
+• The customer can opt out of the offer by dialling *250*9911#. Once the customer has cancelled the offer the
+standard India calling rate will apply immediately and the promotional rate will no longer renew.
+• The customer can activate the India opt in rate again by dialling *200*202#at any time. Customers will be
+charged 50Dhs for another 7 days of the opt in rate on reactivation.
+• To activate the pack for QR2 per week customer can dial *200* 203#. On subscription, the customers will get the
+following discounted rate.
+Destination Discounted Rate
+India 11Dhs per minute
+• 2QR will be deducted from the prepaid balance every 7 Days.
+• The opt in rate to India will be valid for 7 days from the day of activation. The 2QR will continue to be deducted
+from the customer’s prepaid balance every 7 days until the customer opts out of the offer.
+• If a customer does not have sufficient balance at time of renewal, the India opt in rate will remain on the account
+‘on hold’ for 30 days and will renew as soon as the customer recharges with sufficient credit. The customer will
+be charged the standard rate for calls while the promotion is ‘on hold’. If there is no recharge during this 30-day
+period, the India opt in rate will be removed and the standard India rate will apply.
+• The customer can opt out of the offer by dialling *250*203#. Once the customer has cancelled the offer the
+standard India calling rate will apply immediately and the promotional rate will no longer renew.
+• The customer can activate the India opt in rate again by dialling *200*203#at any time. Customers will be
+charged QR2 for another 7 days of the opt in rate on reactivation.
+5.4. India Combo Packs
+• All new and existing customers can subscribe to India Combo Packs to receive the following benefits:
+Tariff Document: Consumer
+12
+Price
+(QR)
+International
+Mins to India
+Bonus
+Data
+Bonus
+Local Mins
+Pack
+Validity (days)
+Bonus
+Validity
+(days)
+Activation
+Code
+10 100 100MB 10 30 7 *200*9002#
+20 160 200MB 20 30 7 *200*204#
+50 600 500MB 50 14 7 *200*502#
+• Customers can activate the combo packs through USSD and My Vodafone App.
+• The international minutes are applicable only for calls made to India and are not available for roaming calls.
+• An out of pack rate of just 9Dhs per minute will be applicable after the expiry of the pack minutes.
+• The pack does not auto renew, and the customer can opt-in again after the expiry through USSD or My Vodafone
+App.
+5.5. Bangladesh Discount Rate
+• Customers can make calls to Bangladesh for 25Dhs per minute if they opt in for the offer.
+• Customers can activate the Bangladesh rate of 25Dhs per minute by dialling *200*288# and QR2 will be
+deducted from the prepaid balance every 7 Days. The opt in rate to Bangladesh will be valid for 7 days from the
+day of activation. The QR2 will continue to be deducted from the customer’s prepaid balance every 7 days until
+the customer opts out of the offer.
+• If a customer does not have sufficient balance at time of renewal, the Bangladesh opt in rate will remain on the
+account ‘on hold’ for 30 days and will renew as soon as the customer recharges with sufficient credit. The
+customer will be charged the standard rate for calls while the promotion is ‘on hold’. If there is no recharge during
+this 30 days’ period, the Bangladesh discount rate will be removed and the standard Bangladesh rate will apply.
+• The customer can opt out of the offer by dialling *250*288#. Once the customer has cancelled the offer the
+standard Bangladesh calling rate will apply immediately and the promotional rate will no longer renew.
+• The customer can activate the Bangladesh discount rate again by dialling *200*288# at any time. Customers will
+be charged QR2 for another 7 days of the opt in rate on reactivation.
+5.6. Bangladesh Combo Packs
+• All new and existing customers can subscribe to Bangladesh Combo Packs to receive the following benefits:
+Price
+(QR)
+International Mins
+to Bangladesh
+Bonus
+Data
+Bonus
+Local Mins
+Pack
+Validity (days)
+Bonus
+Validity (days)
+Activation
+Code
+10 60 100MB 10 30 7 *200*9004#
+20 130 200MB 20 30 7 *200*236#
+50 400 500MB 50 14 7 *200*504#
+• Customers can activate the combo packs through USSD and My Vodafone App.
+• The international minutes are applicable only for calls made to Bangladesh and are not available for roaming
+calls.
+• An out of pack rate of just 15Dhs per minute will be applicable after the expiry of the pack minutes. The pack
+does not auto renew, and the customer can opt-in again after the expiry through USSD or My Vodafone App.
+5.7. Egypt Discount Rate
+• Customers can make calls to Egypt for 45Dhs per minute if they opt in for the offer.
+• Customers can activate the Egypt rate of 45Dhs per minute by dialling *200*220# and QR2 will be deducted
+from the prepaid balance every 7 Days.
+• The opt in rate to Egypt will be valid for 7 days from the day of activation. The QR2 will continue to be deducted
+Tariff Document: Consumer
+13
+from the customer’s prepaid balance every 7 days until the customer opts out of the offer.
+• If a customer does not have sufficient balance at time of renewal, the Egypt opt in rate will remain on the account
+‘on hold’ for 30 days and will renew as soon as the customer recharges with sufficient credit. The customer will
+be charged the standard rate for calls while the promotion is ‘on hold’. If there is no recharge during this 30 days’
+period, the Egypt discount rate will be removed and the standard Egypt rate will apply.
+• The customer can opt out of the offer by dialling *250*220#. Once the customer has cancelled the offer the
+standard Egypt calling rate will apply immediately and the promotional rate will no longer renew.
+• The customer can activate the Egypt discount rate again by dialling *200*220# at any time. Customers will be
+charged QR2 for another 7 days of the opt in rate on reactivation.
+5.8. Egypt Combo Packs
+• All new and existing customers can subscribe to Egypt Combo Packs to receive the following benefits:
+Price QR International
+Mins to Egypt
+Bonus
+Data
+Bonus
+Local Mins
+Pack
+Validity (days)
+Bonus
+Validity(days)
+Activation
+Code
+10 13 100MB 10 30 7 *200*9006#
+20 50 200MB 20 30 7 *200*224#
+50 110 500MB 50 14 7 *200*506#
+• Customers can activate the combo packs through USSD and My Vodafone App. The international minutes are
+applicable only for calls made to Egypt and are not available for roaming calls.
+• An out of pack rate of just 30Dhs per minute will be applicable after the expiry of the pack minutes. The pack
+does not auto renew, and the customer can opt-in again after the expiry through USSD or My Vodafone App.
+5.9. Philippines Discount Rate
+• Customers can make calls to the Philippines for 9Dhs per minute if they opt in for the offer.
+• Customers can activate the Philippines rate of 9Dhs per minute by dialling *200*2002#, and QR2 will be
+deducted from the prepaid balance every 7 Days. The opt-in rate to the Philippines will be valid for 7 days from
+the day of activation. The QR2 will continue to be deducted from the customer’s prepaid balance every 7 days
+until the customer opts out of the offer.
+• If a customer does not have sufficient balance at the time of renewal, the Philippine opt-in rate will remain on the
+account ‘on hold’ for 30 days and will renew as soon as the customer recharges with sufficient credit. The
+customer will be charged the standard rate for calls while the promotion is ‘on hold’. If there is no recharge during
+this 30-day’ period, the Philippine discount rate will be removed, and the standard Philippine rate will apply.
+• The customer can opt out of the offer by dialling *250*2002#. Once the customer has cancelled the offer, the
+standard Philippine calling rate will apply immediately, and the promotional rate will no longer be renewed.
+• The customer can activate the Philippine discount rate again by dialling *200*2002# at any time. Customers will
+be charged QR2 for another 7 days of the opt-in rate on reactivation.
+5.10. Philippines Combo Packs
+• All new and existing customers can subscribe to Philippines Combo Packs to receive the following benefits:
+Price (QR) International
+Mins to
+Philippines
+Bonus
+Data
+Bonus
+Local
+Mins
+Pack
+Validity(day
+s)
+Bonus
+Validity (days)
+Activation
+Code
+Deactivatio
+n Code
+10 15 100MB 10 30 7 *200*9005# *200*9005#
+15 250 250MB 0 7 Same day
+midnight
+*200*121# *250*121#
+Tariff Document: Consumer
+14
+50 850 500MB 50 28 7 *200*505# *250*505#
+• Customers can activate the combo packs through USSD and the My Vodafone App.
+• The international minutes are applicable only for calls made to the Philippines and are not available for roaming
+calls.
+• An out-of-pack rate of just 9Dhs per minute will be applicable after the expiry of the pack minutes.
+• The pack does not auto-renew, and the customer can opt in again after the expiry through USSD or My Vodafone
+App.
+5.11. Pakistan Discount Rate
+• Customers can make calls to Pakistan for 20Dhs per minute if they opt in for the offer.
+• Customers can activate the Pakistan rate of 20Dhs per minute by dialling *200*300#, and QR2 will be deducted
+from the prepaid balance every 7 Days. The opt-in rate to Pakistan will be valid for 7 days from the day of
+activation. The QR2 will continue to be deducted from the customer’s prepaid balance every 7 days until the
+customer opts out of the offer.
+• If a customer does not have sufficient balance at the time of renewal, the Pakistan opt-in rate will remain on the
+account ‘on hold’ for 30 days and will renew as soon as the customer recharges with sufficient credit. The
+customer will be charged the standard rate for calls while the promotion is ‘on hold’. If there is no recharge during
+this 30-day’ period, the Pakistan discount rate will be removed, and the standard Pakistan rate will apply.
+• The customer can opt out of the offer by dialling *250*300#. Once the customer has cancelled the offer the
+standard Pakistan calling rate will apply immediately, and the promotional rate will no longer renew.
+• The customer can activate the Pakistan discount rate again by dialling *200*300# at any time. Customers will be
+charged QR2 for another 7 days of the opt-in rate on reactivation.
+5.12. Pakistan Combo Packs
+• All new and existing customers can subscribe to Pakistan Combo Packs to receive the following benefits:
+Price
+(QR)
+International
+Mins to
+Pakistan
+Bonus
+Data
+Bonus
+Local Mins
+Pack
+Validity
+(days)
+Bonus
+Validity
+(days)
+Activation
+Code
+10 20 100 10 30 7 *200*9008#
+20 120 200MB 20 30 7 *200*2020#
+50 300 500MB 50 14 7 *200*508#
+• Customers can activate the combo packs through USSD and My Vodafone App.
+• The international minutes are applicable only for calls made to Pakistan and are not available for roaming calls.
+• An out-of-pack rate of just 20Dhs per minute will be applicable after the expiry of the pack minutes.
+• The pack does not auto-renew, and the customer can opt in again after the expiry through USSD or My Vodafone
+App.
+5.13. Sri Lanka Discount Rate
+• Customers can make calls to Sri Lanka for 50Dhs per minute if they opt in for the offer.
+• Customers can activate the Sri Lanka rate of 50Dhs per minute by dialling *200*2003#, and QR2 will be deducted
+from the prepaid balance every 7 Days. The opt-in rate to Sri Lanka will be valid for 7 days from the day of
+activation. The QR2 will continue to be deducted from the customer’s prepaid balance every 7 days until the
+customer opts out of the offer.
+• If a customer does not have sufficient balance at the time of renewal, the Sri Lanka opt-in rate will remain on the
+account ‘on hold’ for 30 days and will renew as soon as the customer recharges with sufficient credit. The
+customer will be charged the standard rate for calls while the promotion is ‘on hold’. If there is no recharge during
+this 30-day’ period, the Sri Lanka discount rate will be removed, and the standard Sri Lanka rate will apply.
+Tariff Document: Consumer
+15
+• The customer can opt out of the offer by dialling *250*2003#. Once the customer has cancelled the offer the
+standard Sri Lanka calling rate will apply immediately, and the promotional rate will no longer renew.
+• The customer can activate the Sri Lanka discount rate again by dialling *200*2003# at any time. Customers will
+be charged QR2 for another 7 days of the opt in rate on reactivation.
+5.14. Sri Lanka Combo Packs
+• All new and existing customers can subscribe to Sri Lanka Combo Packs to receive the following benefits:
+Price
+(QR)
+International
+Mins to Sri
+Lanka
+Bonus
+Data
+Bonus
+Local Mins
+Pack
+Validity (days)
+Bonus
+Validity (days)
+Activation Code
+10 15 100MB 10 30 7 *200*9009#
+20 50 200MB 20 30 7 *200*2050#
+50 130 500MB 50 14 7 *200*509#
+• Customers can activate the combo packs through USSD and the My Vodafone App.
+• The international minutes are applicable only for calls made to Sri Lanka and are not available for roaming calls.
+• An out-of-pack rate of just 50Dhs per minute will be applicable after the expiry of the pack minutes.
+• The pack does not auto-renew, and the customer can opt-in again after the expiry through USSD or My Vodafone
+App.
+5.15. Sudan Combo Pack
+• All new and existing customers can subscribe to the Sudan Combo Pack to receive the following benefits:
+Price
+(QR)
+International
+Mins to Sudan
+Bonus
+Data
+Bonus Local
+Mins
+Pack
+Validity (days)
+Bonus Validity
+(days)
+Activation
+Code
+10 15 100MB 10 30 7 *200*9001#
+• Customers can activate this combo pack through USSD and the My Vodafone App.
+• The international minutes are applicable only for calls made to Sudan and are not available for roaming calls.
+• The pack does not auto-renew, and the customer can opt in again after the expiry through USSD or My Vodafone
+App.
+6. Roaming
+• The following are the current available roaming products that customers can recharge and use while roaming.
+6.1 Vodafone Passport Pack
+• All Customers who subscribe to the Passport Pack (“Passport Pack”) by paying QR100 per week shall receive the
+benefits below:
+Roaming Data Roaming Minutes Validity
+3 GB 100 outgoing and incoming 7 days
+• The benefits are only applicable in the passport pack countries available at www.vodafone.qa/passportpack
+• Customers can subscribe while in Qatar or abroad through the My Vodafone App or by dialling the activation code
+*110*110#.
+• If the Customer consumes more than the total data/voice allowance before the expiry, then the rate will be QR
+Tariff Document: Consumer
+16
+1 per 1MB/Minute until the 7-day period expires, and thereafter the standard roaming rates in Article 18 below
+will apply.
+• Customer will receive an SMS notification when their data/voice is consumed or when the validity period has
+expired. Customers can also dial *129# or check the My Vodafone App. To know the remaining data allowance
+in the Offer.
+• Any remaining data/voice in the passport Pack if not consumed within 7 days from the activation date will expire.
+6.2 Vodafone Passport Card
+• All Customers who purchase the Passport Card (“Passport Card”) by paying QR100 shall receive the benefits
+below with 7 days validity:
+Roaming Offer Roaming Minutes
+3 GB 100 outgoing and incoming
+• The benefits are only applicable in the passport pack countries available at www.vodafone.qa/passportpack
+• Customers can purchase while in Qatar through retail outlets or abroad through the Vodafone website
+www.vodafone.qa
+• Activation is valid for seven (7) days and Customers can active several cards at the same time.
+• If the Customer consumes more than the total data/voice allowance before the expiry, then standard roaming
+rates below will apply.
+• Customer will receive an SMS notification when their data/voice is consumed or when the validity period has
+expired.
+• Customer can also dial *129# or check the My Vodafone App. To know the remaining data allowance in the Offer.
+• Any remaining data/voice in the Passport Card if not consumed within 7 days from the activation date will expire.
+• Customers can use the Passport Card along with Vodafone Passport Pack.
+6.3 Weekly Passport Pack- Data Only
+• All Customers who subscribe to the Passport Pack – Data Only (“Passport Pack- Data Only ”) by paying QR100
+per week shall receive the benefits below:
+Roaming Offer Roaming Minutes Validity
+6 GB N/A 7 Days
+• The benefits are only applicable in the passport pack countries available at www.vodafone.qa/passportpack
+• Customers can subscribe while in Qatar or abroad through the My Vodafone App or by dialling the activation code
+*110*1101#.
+• If the Customer consumes more than the total data/voice allowance before the expiry, then the rate will be QR
+1 per 1MB/Minute until the 7-day period expires and thereafter the standard roaming rates in Article 18 below
+will apply.
+• Customer will receive an SMS notification when their data/voice is consumed or when the validity period has
+expired. Customer can also dial *129# or check the My Vodafone App. To know the remaining data allowance in
+the Offer.
+• Any remaining data in the passport Pack if not consumed within 7 days from the activation date will expire.
+6.4 GCC Weekly Passport Pack – Data Only
+• All Customers who subscribe to the GCC Passport Pack – Data Only (“GCC Passport Pack- Data Only ”) by paying
+QR150 per week shall receive the benefits below:
+Tariff Document: Consumer
+17
+Roaming Offer Roaming Minutes Validity
+10GB N/A 7 Days
+• The pack is valid in the following GCC countries: KSA, UAE, Kuwait, Bahrain, and Oman. Usage outside these
+countries will be charged at standard roaming rates.
+• Customers can subscribe while in Qatar or abroad through the My Vodafone App or by dialling the activation code
+*110*70#.
+• If the Customer consumes more than the total data/voice allowance before the expiry, then the rate will be QR
+1 per 1MB/Minute until the 7-day period expires and thereafter the standard roaming rates in Article 18 below
+will apply.
+• Customer will receive an SMS notification when their data/voice is consumed or when the validity period has
+expired. Customer can also dial *129# or check the My
+• Vodafone App. To know the remaining data allowance in the Offer.
+• Any remaining data in the passport Pack if not consumed within 7 days from the activation date will expire.
+6.5 Daily Passport Pack
+• All Customers who subscribe to the Daily Passport Pack (“Daily Passport Pack”) by paying QR35 per Day shall
+receive the benefits below:
+Roaming Data Roaming Minutes
+500 MB 30 outgoing and incoming
+• The benefits are only applicable in the passport pack countries available at www.vodafone.qa/passportpack
+• Customer can subscribe while in Qatar or abroad through My Vodafone App, E-top up or by dialling the activation
+code *200*35# for Prepaid customers.
+• Activated is valid for one day and Customers can reactivate the Passport Pack after expiry.
+• If the Customer consumes more than the total data/voice allowance before the expiry, then the rate will be QR
+1 per 1MB/Minute until the day period expires and thereafter the standard roaming rates below will apply.
+• Customer will receive an SMS notification when their data/voice is consumed or when the validity period has
+expired.
+• Customer can also dial *129# or check the My Vodafone App. to know the remaining data allowance in the Offer.
+• Any remaining data/voice in the Daily passport Pack if not consumed within the same day from the activation
+date will expire.
+6.6 Special Prepaid Roaming Pack QR 30
+• All Customers who purchase the Prepaid roaming pack 30 (“Prepaid roaming pack”) by paying QR30 shall
+receive the benefits below with 28 days validity:
+Product Roaming Pack 30
+Price QR 30
+Roaming Data 1 GB
+Incoming roaming Minutes 60 Mins
+Outgoing minutes to Qatar 30 Mins
+Validity 28 days
+• The benefits are only applicable in the countries available at www.vf.qa/QR30Roaming
+Tariff Document: Consumer
+18
+• Customers can purchase while in Qatar through retail outlets or abroad through the Vodafone website
+www.vodafone.qa
+• Activation is valid for twenty-eight (28) days and Customers can activate several packs at the same time.
+• If the Customer consumes more than the total minutes / data allowance before the expiry, then standard
+roaming rates below will apply.
+• Customer will receive an SMS notification when their minutes / data is consumed or when the validity period has
+expired.
+6.7 Prepaid Roaming Pack QR 10
+• All Customers who purchase the Prepaid roaming pack 10 (“Prepaid roaming pack”) by paying QR10 shall
+receive the benefits below with 3 days validity:
+Product Roaming Pack 10
+Price QR 10
+Roaming Data 500 MB
+Roaming Mins (Incoming &
+outgoing) 5 Mins
+Validity 3 days
+• The benefits are only in the following countries: India, Pakistan, Bangladesh, Nepal, Sri Lanka, Egypt, Jordan,
+Philippines, Tunisia, Turkey, Morocco, Algeria.
+• Customers can purchase while in Qatar through retail outlets or abroad through the Vodafone website
+www.vodafone.qa
+• Activation is valid for three (3) days and Customers can activate several packs at the same time.
+• If the Customer consumes more than the total minutes / data allowance before the expiry, then standard
+roaming rates below will apply.
+• Customer can also dial *129# or check the My Vodafone App. to know the remaining data allowance in the Offer.
+• Customer will receive an SMS notification when their minutes / data is consumed or when the validity period has
+expired.
+6.8 Roaming Rate Card
+• The latest List of Prepaid Roaming Countries is available at VQ’s website www.vodafone.com.qa/roaming
+Countries /
+Regions
+Local Calls Calls back
+to Qatar
+GCC
+Calls
+Internation
+al Calls
+Receiving
+calls
+SMS Data
+QR/min QR/min QR/min QR/min QR/min QR/SM
+S
+QR/M
+B
+GCC 0.88 2.00 2.00 17.00 0.80 0.22 1.53
+Vodafone
+Countries
+3.00 8.00 17.00 17.00 2.25 1.50 15.00
+Middle East and
+North Africa
+5.00 3.00 17.00 17.00 17.00 2.00 55.00
+Americas &
+Europe
+5.00 3.00 17.00 17.
+00
+17.00 2.00 55.00
+Tariff Document: Consumer
+19
+Asia & Oceania 5.00 3.00 17.00 17.
+00
+17.00 2.00 55.00
+Africa & Rest of the
+World
+5.00 3.00 17.00 17.
+00
+17.00 2.00 55.00
+Satellite & In-
+flight Services
+30.00 30.00 30.00 30.00 30.00 2.00 75
+7 Visitor Packs / Ahlan Packs
+• Ahlan Packs are available through all channels of recharge from the My Vodafone App, Vodafone Website, E-
+Voucher, and E-top up outlets.
+• This Pack is only available to Customers without a QID but excludes Customer’s with a cancelled visa. These
+Customers will use their valid Passports at the time of subscription such as visitors on business visa or attending
+events etc.
+• The benefits are added automatically on recharge:
+Price
+(QR) Name Local Data Local
+Mins
+Local SMS International
+Minutes
+Validity
+(days)
+75 Ahlan Pack 75 6 GB 25 - - 7
+100 Ahlan Pack 100 10 GB 100 - 25 14
+150 Ahlan Pack 150 25 GB + Endless @ 512
+Kbps
+400 100 75 30
+8 Standard Rates
+8.4 Local Rates
+• All calling prices are charged per minute and Mobile internet usage is charged on per MB increments.
+Service Cost Unit
+National Voice3 QR 0.75 Per minute
+Video Calling QR0.55 Per minute
+National SMS QR0.39 Per SMS
+Mobile Internet QR0.20 Per MB
+8.5 International Rates
+• The International Calling Rate Card are as below:
+Service Cost Unit
+International Call (for over 145 countries) QR0.99 Per Minute
+International SMS QR0.60 Per SMS
+• Please visit www.vodafone.qa/international for a full list of countries and rates
+3
+Calls to a mobile or to a fixed line.
+Tariff Document: Consumer
+20
+• The International Standard Rates per country are as below: The standard rack rates for international calls are as per
+below and are available at https://www.vodafone.qa/en/services/international-calls?
+Country Call Rates (Dhs) Country Call Rates (Dhs)
+Afghanistan 119 Lebanon 119
+Albania 166 Lesotho 150
+Algeria 299 Liberia 166
+Andorra 99 Libya 250
+Angola 150 Liechtenstein 99
+Anguilla 99 Lithuania 250
+Antarctica 2800 Luxembourg 150
+Antigua 150 Macau 99
+Argentina 150 Macedonia 166
+Armenia 150 Madagascar 350
+Aruba 150 Malawi 150
+Ascension 600 Malaysia 119
+Australia 199 Maldives Island 250
+Austria 99 Mali 250
+Azerbaijan 250 Malta 150
+Bahamas 350 Mariana Island 99
+Bahrain 129 Marshall Island 350
+Bangladesh 119 Martinique 99
+Barbados 350 Mauritania 250
+Belarus 150 Mauritius 99
+Belgium 150 Mayotte 250
+Belize 150 Mexico 99
+Benin 150 Micronesia 150
+Bermuda 99 Moldova 150
+Bhutan 99 Monaco 150
+Bolivia 150 Mongolia 99
+Bosnia Herz 99 Montenegro 166
+Botswana 150 Montserrat 99
+Brazil 99 Morocco 250
+Brunei 99 Mozambique 150
+Bt Virgin Islands 150 Myanmar 150
+Bulgaria 150 Namibia 99
+Tariff Document: Consumer
+21
+Burkina Faso 150 Nauru 350
+Burundi 250 Nepal 119
+Cambodia 99 Netherlands 199
+Cameroon 150 Netherlands Ant 99
+Canada 99 New Caledonia 99
+Cape Verde 150 New Zealand 199
+Cayman Islands 99 Nicaragua 150
+Central Africa 250 Niger 150
+Chad 250 Nigeria 119
+Chile 250 Niue Island 250
+China 119 Norfolk Island 600
+Colombia 99 Norway 99
+Comoro Island 150 Oman 129
+Congo 150 Pakistan 119
+Congo Rep 150 Palau 150
+Cook Island 250 Palestine Auth 119
+Costa Rica 99 Panama 150
+Croatia 150 Papua New Guinea 250
+Cruise Ships 150 Paraguay 150
+Cuba 350 Peru 150
+Cyprus 199 Philippines 119
+Czech Rep 99 Poland 150
+Denmark 99 Portugal 99
+Diego Garcia 600 Puerto Rico 99
+Djibouti 166 Reunion 150
+Dominican Rep 350 Romania 199
+East Timor 350 Russia 199
+Ecuador 150 Rwanda 150
+Egypt 119 Samoa 150
+El Salvador 99 San Marino 99
+Equatorial Gui 150 Santa Lucia 99
+Eritrea 150 Sao Tome Prin 250
+Estonia 250 Satellite 2800
+Ethiopia 150 Saudi Arabia 129
+Faeroe Island 99 Senegal 166
+Tariff Document: Consumer
+22
+Falkland Island 2800 Serbia Mont 150
+Ferry Cruise 150 Seychelles 250
+Fiji 150 Sierra Leone 250
+Finland 99 Singapore 119
+France 199 Slovak Rep 99
+French Guiana 99 Slovenia 250
+French Polynesia 150 Solomon Island 350
+Gabon 250 Somalia 250
+Gambia 350 South Africa 119
+Georgia 150 South Sudan 150
+Germany 199 Spain 199
+Ghana 119 Sri Lanka 119
+Gibraltar 150 St Helena 2800
+Greece 99 St Kitts Nevis 250
+Greenland 250 St Pierre Miq 250
+Grenada 99 St. Vincent Gren 99
+Guadeloupe 150 Sudan 119
+Guam 350 Surinam 99
+Guatemala 150 Swaziland 150
+Guernsey 150 Sweden 199
+Guinea Bissau 250 Switzerland 299
+Guinea Rep 250 Switzerland Con 99
+Guyana 150 Syria 200
+Haiti 150 Taiwan 99
+Honduras 150 Tajikistan 99
+Hong Kong 119 Tanzania 150
+Hungary 99 Thailand 119
+Iceland 150 Thuraya 600
+India 150 Togo 166
+Indonesia 119 Tokelau 600
+In-Flight 2800 Tonga 166
+Iran 119 Trinidad & Tobago 99
+Iraq 119 Tunisia 250
+Ireland 199 Turkey 119
+Israel 99 Turkmenistan 99
+Tariff Document: Consumer
+23
+Italy 199 Turks Caicos Island 99
+Ivory Coast 150 Tuvalu 350
+Jamaica 350 Uganda 150
+Japan 99 Ukraine 150
+Jersey 250 UAE 129
+Jordan 119 UK 199
+Kazakhstan 99 Uruguay 150
+Kenya 119 USA 199
+Kiribati 2800 Uzbekistan 99
+North Korea 99 Vanuatu 250
+South Korea 119 Venezuela 99
+Kosovo 250 Vietnam 119
+Kuwait 129 Virgin Island USA 99
+Kyrgyz 99 Wallis Fun Island 250
+Laos 99 Yemen 119
+Latvia 250 Zambia 150
+Zimbabwe 250
+9 Other Services
+9.1 Advance Credit
+• Advance Credit is a Value-Added Service that allows customers with a balance below QR1 to get QR5 Advance
+Credit.
+• Advance Credit is available for Vodafone Prepaid customers with the following criteria:
+• Customers need to have been on the Vodafone network for 60 days or more.
+• Customers must have a balance of less than QR1.
+• Any Prepaid customers that do not fulfil the above criteria aren’t able to use Advance Credit.
+• To get advance credit, you need to send an SMS with the number ‘5’ to 97555 and QR5 of credit will be added to
+your Prepaid balance.
+• The SMS to activate Advance Credit costs QR1. Since you will have less than QR1 when you send the SMS then the
+cost of the SMS will get deducted from the QR5 that Vodafone adds to your balance. For example, if you have 50Dhs
+balance and send the number ‘5’ to 97555 to get Advance Credit. Q 5 will be added to your balance and QR1 will
+immediately be deducted for the cost of the SMS for this service. After these two transactions you will have QR4.50
+balance remaining.
+• The amount of QR5 Advance Credit will then be deducted from your next recharge. For example, if you recharge
+with QR35 after you have used Advance Credit then you will receive QR30 on your next recharge.
+• Advance Credit is available only twice in between recharges.
+• The validity of Advance Credit is the same as your current credit balance and Advance Credit does not extend the
+validity of your existing credit or bonuses in the way a regular recharge would.
+• Advance Credit can be used on any of the standard Vodafone services. You can make international, local use mobile
+internet, and send local or international SMS until the advance credit is used up or expired.
+• You can also buy other products from Vodafone with Advance Credit, as long as the product or service you are
+purchasing is less than the amount of Advance Credit on your balance. For example, the Daily Internet Pack 2.
+Tariff Document: Consumer
+24
+• You cannot transfer Advance Credit to other Customers.
+• You can activate Advance Credit whilst roaming in countries where charges can be applied in real time. For a full list
+of countries where you can use Advance Credit whilst roaming, please visit www.vodafone.qa/roaming.
+9.2 Premium Services
+• Customers making voice calls to the number range in Bahrain will be at the following rate below:
+Number Range Standard Rate Premium Call Rate
+Bahrain Prepaid Prepaid
++97371110000 till +97371119999 99 Dhs per min 2.50 QR per min
+9.3 Digital Bonus
+• Customers recharging with QR65 and above (excluding credit) through Vodafone Website or My Vodafone App will
+get the extra benefits equivalent to 15% of value on Combo+, Data & Flex (“Digital Bonus”) as per below table:
+Recharge Type Digital bonus Offer
+Data 15% Extra Benefit (Data) Validity (days)
+QR 65 1.7 GB 28
+QR 75 2.1 GB 28
+QR 80 1.8 GB 28
+QR 100 3.0 GB 28
+QR 150 3.8 GB 28
+QR 200 5.3 GB 28
+QR 125 15.0 GB 7
+QR 250 22.5 GB 28
+Combo+ 15% Extra Benefit (Data) Validity (days)
+QR 65 1.2 GB 28
+QR 75 1.5 GB 28
+QR 100 2.4 GB 28
+QR 125 2.9 GB 28
+QR 150 3.6 GB 28
+QR 250 4.5 GB 180
+QR 300 6.0 GB 28
+Combo+ 15% Extra Benefit (Local
+Mins) Validity (days)
+QR 65 36 Mins 28
+QR 75 45 Mins 28
+QR 100 54 Mins 28
+QR 125 75 Mins 28
+QR 150 113 Mins 28
+QR 250 150 Mins 180
+QR 300 225 Mins 28
+Combo+ 15% Extra Benefit (Intl' Mins) Validity (days)
+QR 65 3 Intl Mins 28
+QR 75 3 Intl Mins 28
+QR 100 3 Intl Mins 28
+QR 125 3 Intl Mins 28
+QR 250 9 Intl Mins 180
+QR 300 8 Intl Mins 28
+Tariff Document: Consumer
+25
+Flex 15% Extra Benefit (Flex) Validity (days)
+QR 65 98 Flex 28
+QR 75 113 Flex 28
+QR 80 105 Flex 28
+QR 100 165 Flex 28
+QR 120 203 Flex 28
+QR 150 330 Flex 28
+QR 200 495 Flex 28
+QR 300 563 Flex 28
+QR 500 938 Flex 28
+• To avail the digital Benefits, Customers should recharge only through Vodafone website or My Vodafone App.
+• All other channels like physical recharge cards, E-top and E-voucher will not receive the Hadaya Benefits.
+• Hadaya Benefits are not applicable on Visitor / Ahlan packs, Roaming packs, or on Unlimited products.
+9.4 CBQ App Offer
+• All Customers who recharge through the Commercial Bank of Qatar (CBQ) Paycard App, will get the extra benefits
+equivalent to 8% of value as per below table:
+Recharge Type Offer
+Credit QR Extra Benefit Validity (days)
+Credit 10 1 QR 30
+Credit 20 2 QR 30
+Credit 40 3 QR 30
+Credit 50 4 QR 30
+Credit 65 5 QR 30
+Credit 75 7 QR 30
+Credit 80 7 QR 30
+Credit 100 8 QR 90
+Credit 150 12 QR 90
+Credit 200 16 QR 90
+Credit 300 24 QR 90
+Credit 500 40 QR 90
+International QR Extra Benefit Validity (days)
+International card 10 2 INTL mins 7
+International card 20 4 INTL mins 30
+International card 30 5 INTL mins 30
+Flex QR Extra Benefit Validity (days)
+10 10 Flex 3
+20 20 Flex 7
+40 30 Flex 14
+50 60 Flex 28
+65 65 Flex 28
+75 75 Flex 28
+80 80 Flex 28
+100 110 Flex 28
+120 140 Flex 28
+150 200 Flex 28
+200 280 Flex 28
+300 300 Flex 28
+Tariff Document: Consumer
+26
+500 500 Flex 28
+Data QR Extra Benefit Validity (days)
+10 85 MB 3
+20 165 MB 7
+40 500 MB 14
+50 750 MB 28
+65 850 MB 28
+75 1.1 GB 28
+80 1GB 28
+100 1.6 GB 28
+150 2 GB 28
+200 2.8 GB 28
+250 12 GB 28
+Combo+ QR Extra Benefit Validity (days)
+Combo+ 40 400 MB 28
+Combo+ 65 900 MB 28
+Combo+ 75 1.1 GB 28
+Combo+ 100 1.8 GB 28
+Combo+ 125 2.1 GB 28
+Combo+ 150 2.5 GB 28
+Combo+ 250 3 GB 180
+Combo+ 300 4 GB 28
+• To avail this Offer, Customers should recharge only through CBQ Pay card App. Recharges through other channels
+like E-top, recharge card and E-voucher will not get this extra 8% value. This is not applicable for Roaming recharge
+of Passport 100 or Unlimited products.
+10 Service Provider Obligations
+• Vodafone shall use best endeavours to provide Customer with the Services however, due to the nature of this
+technology; Vodafone cannot guarantee a fault-free service.
+• Vodafone may suspend the Services: (i) in order to carry out maintenance or testing of the Vodafone Network.
+• (ii) during any technical failure of the Vodafone Network; (iii) when it is necessary to safeguard the security and
+integrity of the Vodafone Network or to reduce the incidence of fraud; (iv) where it is necessary for reasons of Force
+Majeure; (v) where it identifies an Artificially Inflated Traffic due to fraud. Vodafone shall endeavour to keep all such
+suspensions to a minimum and shall give Customer notice of such suspensions where reasonably practicable.
+• Vodafone is not responsible or liable for any non-performance of Services or for any degradation or deviation of the
+Services that can be reasonably attributed to the actions or omissions of the Customer or third parties.
+11 Customer Obligations
+• Prepaid Service is for the use of the registered Customer only. The Customer may not transfer the registered Prepaid
+SIM card to another person without a valid transfer of number (TON) using the TON form at any Vodafone Retail
+Stores. Unauthorized transfer of a Prepaid SIM card may result in service cancellation.
+• The Customer must promptly notify Vodafone if the SIM Card is lost, stolen or damaged. In the event of loss, theft
+or damage of the SIM Card, the Customer must notify Vodafone within forty-eight (48) hours of becoming aware.
+• Porting Out: The Customer can port their Prepaid Number but only after all invoiced charges outstanding at the time
+of port out request is fully paid. If charges are outstanding at the time of porting, Vodafone will inform the Customer
+of the amount payable and the timeframe in which that payment must be made to avoid the cancellation of the
+Customer’s port request. The Customer must pay all charges that have been incurred by the Customer, but which
+have not been invoiced by Vodafone as at the date of the port, including any early contract termination fees.
+Vodafone will issue the Customer with a final invoice in respect of those charges. If the final invoice is not paid within
+30 days of the invoice date, Vodafone may direct the other service provider to bar the ability of the Customer to
+Tariff Document: Consumer
+27
+make outgoing calls (except for calls to emergency service numbers and operator service numbers), send SMS/,
+access data services and any other outgoing services using the ported mobile number. After 45 days, Vodafone may
+direct the other service provider to suspend the ability of the Customer to receive public telecommunications
+services using the ported mobile number and terminate the public telecommunications services in respect of the
+ported mobile number. The Subscriber may lose the right to use the ported mobile number if the invoiced charges
+are not paid within a certain period after the date of termination. If the Customer requests the porting of a mobile
+number from Vodafone and it is subsequently discovered that the port has been made in error, is fraudulent or the
+Customer does not otherwise have the right to port that mobile number, Vodafone may take such measures as are
+necessary to address this issue, including returning the ported number to the original range holder.
+Tariff Document: Consumer
+28
+12 Tariff Modification Version Control
+Tariff Modification
+Version Number Effective Date Description of Change
+3.58 18/06/2017 Changes in 14; 14A; 14B; 14C.
+3.59 3/8/2017 Changes in 21
+3.6 16/08/2017 Changes in 7.1
+3.61 24/08/2017 Changes in 22
+3.62 15/10/2017 Changes in 6; 14; 16.1; 21; 23
+3.63 1/11/2017 Changes in 8A
+3.64 5/2/2018 Changes in 21
+3.65 15/03/2018 Changes in 3.1, 12.2 12.3
+3.66 27/03/2018 Changes in 16
+3.67 1/4/2018 Changes in 19
+3.68 29/04/2018 Changes in 8; 12.1; 13; 14; 14A; 15; 18 & 18A; 21 22;
+3.69 8/5/2018 Changes in 8 and 8A
+3.7 16/08/2018 Changes in 8A
+3.71 28/08/2018 Changes in 22
+3.72 13/09/2018 Changes in 21 and 23
+3.73 25/11/2018 Changes in 2.1 20 and 22 – New Flex Choice Option.
+3.74 18/12/2018 Changes in 1, 4
+3.75 8/1/2019 Changes in 6, 20 and 12.2
+3.76 14/03/19 Changes in 4 – new MI Packs
+3.77 27/03/19 Changes in 5; 16.1
+3.78 1/4/2019 Changes in 19 – GCC rates revised.
+3.79 30/05/2019 Changes in 4 – new Internet Pack – Unlimited QR 30 Pack.
+3.8 22/09/2019 Changes in 2; 21and24
+3.81 23/09/2019 Changes in 4
+3.82 3/10/2019 Changes in 11
+3.83 27/11/2019 Changes in 5
+1 6/2/2020 New tariff format, changes in 23.
+2 7/2/2020 Changes in 23.2.
+3 4/3/2020 Promotion offers from September 2019 onwards are made permanent
+going forward from March 2020. Changes in 4; 23 and 26.
+4 9/3/2020 Removed Note, Formatting changes.
+5 26/03/2020 Change in 22.1
+6 13/09/2020 Change in 4.4, 11.7, 18.3 and 26.1
+7 25/10/2020 Change in 4.4 and 26
+8 2/11/2020
+9 12/11/2020 Changes in 6.2, 6.3 and 7.1
+10 25/11/2020 Changes in 16,17 and 18
+11 03/12/2020 Changes in 13, 14, 16, 18-23.
+12 20/6/2021 Clause 34 New Prepay VIP Add On
+13 22/08/2021 Changes in 36
+Tariff Document: Consumer
+29
+14 30/08/2021 Changes in 24.3
+15 12/09/2021 New clause 36
+16 21/09/2021 Changes in Clause 32
+17 1/11/2021 Changes in 24, new Ahlan Pack and in Clause 38
+18 4/01/2022 Changes in 25.4
+19 14/04/2022 Change in 25.4
+20 20/07/2022 Change in 24
+21 11/08/22 Change in 33 and 37
+22 23/08/2022 Change in 33 and 34
+23 29/09/2022 Change in 25.4
+24 03/10/2022 Change in 37
+25 09/11/2022 Change in 25.4 and 33 new combo 120 and new Flex 120
+26 06/12/2022 Change in Clause 1 and 25.4 new combo 30/60/120/150
+27 20/12/2022 Change in Clause 1.
+28 26/12/2022 Change in Clause 2.1 and revised numbering in Clause 11.
+29 19/02/2023
+Change in Clause 37 Digital Bonus combo benefit and new Flex 120 Change
+in Clause 38 New Flex 120, Changed Combo to Combo + and
+addition of New Combo 30/60/120/150
+30 26/06/2023 Changes to Clause 4, Mobile Internet
+31 24/07/2023 Change in 25.3 25.3A, 37 and 38
+32 23/08/2023 New Clause 25.5 and 25.6
+33 07/09/2023 Changes in 30, 33 and 34. Deleted 35.
+34 21/09/2023 Clause 10
+35 29/09/2023 Changes in 5, 10 and 35.
+36 03/10/2023 Change in 10, 11 and 25.4
+37 12/10/2023 Change in 2
+38 25/10/2023 Changes in 1 and 25.4
+39 26/10/2023 Changes in 1 and 4
+40 30/10/2023 Changes in 36 and 37
+41 07/11/2023 New clause 25.5
+42 23/11/2023 Change in Clause 1, 25.6 and 25.7
+43 06/12/2023 Change in 25.6 Page 15
+44 11/12/2023 Changes in 2.1, 6, 7, 11.2, 11.3, 11.4, 11.5, 11.6, 25.4, 25.5, 25.6, 25.7, 32, 36,
+37
+45 20/12/2023 Changes in 2.1 and 32 and deletion of 6 and 7.
+46 01/01/2024 Changes in 4, 10.1, 24.6, 29 and 36
+47 11/01/2024 Changes 24.3
+48 01/02/2024 Changes in section 3, 5, 14.4, 15 & 16. Launch of new QR35 and QR 65
+products and notice for disconnection of QR 30 and QR 65 on 30th April
+2024
+Tariff Document: Consumer
+30
+49 20/2/2024 Change in 10.5 and reformatted document /tables.
+50 28/2/2024 Typo corrected in 9.3, footnote in 9.8 and change in 10.5 and deletion of
+footnote in 9.5.
+51 20/3/2024 Deletion of 9.6 and 10.5
+52 27/3/2024 Changes in 11.2,11.3, 16 and 17.1
+53 04/04/2024 New Clause 13.3
+54 09/04/2024 Change in 5.4
+55 21/04/2024 Changes in 3.4, 5.4, 14.4, 16.1 and 17.1 and deletion of 10.1. New Clause 10.5
+and 16.2
+56 01/05/2024 Changes in 3.4, 5.4, 14.2, 14.4, 14.5, 16.1 and 17.1 and deletion of 16.2
+57 07/05/2024 Changes in 3.4, 5.4 and 14.4. New clause 9.3 and 10.6
+58 19/05/2024 Change in 10.7
+59 30/05/2024 Change in 15.1
+60 05/06/2024 Changes in 9.9, 9.11, 9.13, 9.15, 9.17 and 9.19. New clause 9.20 and 13.4
+61 14/07/2024 Change in 15.1
+62 21/07/2024 Change in 11.1 and 11.2
+63 31/07/2024 Change in 8.1 and removal of MMS and video calling from Tariff.
+64 28/08/2024 Complete change in the formatting – previous sections numbers no longer
+apply. New Clause 3.2
+65 09/09/2024 Changes in 4.2 and 9.3
+66 23/09/2024 Changes in 4.3
+67 30/09/2024 Deletion of 4.6 and Changes in 4.2, 4.3, 9.3 & 9.4
+68 15/10/2024 Changes in 4.1, 4.2, 4.3, 4.4, 4.5,9.3 and 9.4
+69 05/11/2024 Changes in 4.4 and 7
+70 14/11/2024 Changes in 9.3
+71 29/12/2024 Changes in 4.2; Number Formatting.
+72 16/02/2025 Changes in 4.4 and 9.3
+73 26/02/2025 Changes in 4.2, 4.3, 4.5
+74 11/03/2025 Changes in 9.3 and 9.4
+75 26/03/2025 Changes in 6.1 and 6.2
+76 09/04/2025 Changes in 9.3
+77 21/05/2025 Changes in 4.3
+78 09/07/2025 Changes in 6.3
+79 17/07/2025 Changes in 6.4 and 6.6
+80 23/07/2025 Changes in 6.7
+81 14/08/2025 New Clause 4.3
+82 28/08/2025 Changes in 4.1, 4.2 and 4.4
+83 25/09/2025 Changes in 4.4
+84 02/10/2025 Changes in 4.4
+Tariff Document: Consumer
+31
+85 15/10/2025 Changes in 4.1, 4.2, 4.4 & 4.5
+86 20/10/2025 Changes in 4.4
+87 30/10/2025 Changes in 7, 9.3 and 9.4
+88 03/12/2025 Changes in 4.5
+89 09/12/2025 Changes in 4.6
+90 16/12/2025 Changes in 4.6
+91 29/12/2025 Changes in 4.4.1
+92 08/01/2026 Changes in 4.4.2
+93 26/01/2026 Changes in 4.4
+94 29/01/2026 Changes in 4.2
+95 10/05/2026 Changes in 4.4
+96 10/06/2026 Changes in 4.4, 4.5 and 4.6

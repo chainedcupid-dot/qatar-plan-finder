@@ -66,3 +66,38 @@ for (const pl of db.data.filter(p => p.n.startsWith("Prepaid Internet"))) assert
 assert.equal(believable(10, 11.5), true); assert.equal(believable(10, 300), false);
 
 console.log("All robot tests passed ✔");
+
+// ===== Real pages saved by the robot on 12 Oct 2026 =====
+const R = await import("./check.mjs");
+const real = f => fs.readFileSync(new URL("./fixtures/" + f, import.meta.url), "utf8");
+const vt = R.parseVodafoneTariff(real("real-vf-tariff.txt"));
+assert.deepEqual([vt["unlimited-plus"].std, vt["unlimited-plus"].data, vt["unlimited-plus"].after], [300, 125, 10000]);
+assert.deepEqual([vt["unlimited-plus-vip"].std, vt["unlimited-plus-vip"].data], [1000, 1000]);
+assert.equal(vt["unlimited-plus"].promo, undefined, "no promo row in new layout: keep the old promo");
+assert.deepEqual([vt["postpaid-plus-max"].std, vt["postpaid-plus-max"].data, vt["postpaid-plus-max"].after], [230, 60, 1000]);
+const vd = R.parseVodafoneDataPlans(real("real-vf-tariff.txt"));
+assert.deepEqual([vd["Mobile Wi-Fi 199"].std, vd["Mobile Wi-Fi 199"].data, vd["Data SIM Unlimited Premium"].std, vd["Data SIM Unlimited Premium"].after], [199, 60, 399, 20000]);
+const fl = R.vodafoneFlex(real("real-vf-prepaid.txt"));
+assert.deepEqual([fl[100].amount, fl[150].amount, fl[500].amount], [1100, 2200, 6250]);
+const dOnly = R.vodafoneDataOnly(real("real-vf-prepaid.txt"));
+assert.deepEqual([dOnly[100].amount, dOnly[100].days, dOnly[125].amount, dOnly[125].days], [20, 28, 100, 7]);
+const dsc = R.parseDataSimCards(R.htmlToText(real("real-datasim.html")));
+assert.deepEqual(["Go", "Super", "Pro", "Premium", "Platinum"].map(n => [dsc["Data SIM+ " + n].std, dsc["Data SIM+ " + n].data]), [[150, 35], [200, 60], [300, 300], [400, 500], [550, 500]]);
+const docs2 = R.pickVodafoneDocs(real("real-vf-docs.html"), new Date("2026-10-12"));
+assert.match(docs2.tariff, /260913-postpaid-tariff/); assert.match(docs2.promo, /260729-postpaid-voice-promo/); assert.match(docs2.prepaid, /260610-tariff-notification-prepaid/);
+const shReal = R.parseShahry(R.htmlToText(real("real-shahry.html")));
+assert.deepEqual(shReal["shahry-plus-super"], { std: 200, promo: 160, pm: 4, data: 25 });
+const qaReal = R.parseQatarna(R.htmlToText(real("real-qatarna.html")));
+assert.equal(qaReal["qatarna-plus-pro"].std, 365);
+
+// Ooredoo official prepaid tariff (grid layout)
+assert.match(R.pickOoredooPrepaidPdf(fx("oo-regulatory.html").toString()), /C11-01-Prepaid-Mobile-Services-195\.pdf$/);
+const oo = R.parseOoredooPrepaid(await pdfBufferText(fx("oo-prepaid.pdf")));
+assert.deepEqual(oo["Hala Super 75"], { data: 11.5, mins: 345, after: 256 });
+assert.deepEqual(oo["Hala Super 250"], { data: 34.5, mins: 1150 });
+assert.deepEqual(oo["Hala Super 200"], { data: 38.8, mins: 1150, after: 1000 });
+assert.deepEqual(oo["Hala Flexi 100"], { pool: 1265, days: 28 });
+assert.deepEqual(oo["Hala Data 65"], { data: 12.65, days: 28 });
+assert.deepEqual(oo["Hala Data 200"], { data: 40.25, days: 28 });
+assert.deepEqual(oo["Hala Unlimited Data 250"], { data: 172.5, days: 30, after: 512 });
+console.log("Real-page tests passed ✔");

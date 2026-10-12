@@ -1,0 +1,35 @@
+Tariff Document C11-01 Prepaid Mobile Services
+4.3 Hala Super Recharge
+Hala Super Recharge Super 100 Super 200 Super 500
+Price (QAR) 100 200 500
+Local Data (GB) 16 32 Unlimited
+Local Data with the Digital Offer (GB) 18.4 38.8 Unlimited
+Local Minutes 400 1,000 40,000
+Local Minutes with the Digital Offer 460 1,150 46,000
+Allowance Validity (days) 28 28 28
+Endless data feature 256 Kbps 1 Mbps 1 Mbps
+4.4 New Hala Super Recharge
+Denomination Super 15 Super 40 Super 50 Super 65 Super 75 Super 125 Super 250
+Price (QAR) 15 40 50 65 75 125 250
+Local Data (GB) 1.5 4 5 8 10 19 30
+Local Data with the Digital Offer (GB) -NA- -NA- - NA- 9.2 11.5 21.8 4.5 GB
+Endless Local Data not included not included not included 256 Kbps 256 Kbps 256 Kbps not included
+Local Minutes 60 150 200 240 300 500 1,000
+Local Minutes with the Digital Offer -NA- -NA- -NA- 276 345 575 150
+Allowance Validity (days) 7 10 28 28 28 28 28 180
+4.6 Flexi Cards
+Flexi Denomination Cards (QAR) 10 20 40 50 65 75 100 150 200
+Allocated Flexi Points 70 150 350 450 650 750 1,100 2,200 3,300
+Bonus Flexi Point -NA- -NA- -NA- -NA- 98 113 165 330 495
+Validity of allocated and bonus Flexi Point (days) 3 7 14 28 28 28 28 28 28
+4.10.2 Hala Mobile Local Data Recharge Cards
+Denomination (QR) 10 20 25 40 50 65 75 80 100 150 200
+Allowance (GB) 4 2 12 6 8 11 14 12 20 25 35
+Allowance with the Digital Offer (GB) NA- -NA- -NA- -NA- -NA- 12.65 16.1 13.8 23 28.75 40.25
+Validity (days) 2 7 3 14 28 28 28 28 28 28 28
+4.12 Hala Unlimited Local Data Recharge
+Price (QAR) 125 250
+Local Data Allowance at Full Speed (GB) 100 150
+Additional Local Data Allowance at Full Speed in case of digital recharges (GB) 15 22.5
+Throttled Speed after the total Local Data Allowance above has been consumed Up to a speed of 1 Mbps (unlimited local data) Up to a speed of 512 Kbps (unlimited local data)
+Allowance Validity (days) 7 30

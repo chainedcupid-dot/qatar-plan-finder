@@ -1,0 +1,1513 @@
+Tariff Notification: Consumer
+General Tariff Information
+Service Provider Name Vodafone Qatar P.Q.S.C
+Tariff Number C01
+Tariff Type Consumer
+Duration N/A
+Marketing Name of the Retail Postpaid Standard Terms and Conditions
+Customer Group Consumer
+Tariff Notification Date 13 September 2026
+Tariff Version Number 90
+Table of Contents
+1. Definitions ............................................................................................................................................................................................................................... 4
+2. Tariff Terms and Conditions............................................................................................................................................................................................... 4
+3. Service Features ..................................................................................................................................................................................................................... 4
+4. Consumer Postpaid Plans................................................................................................................................................................................................... 5
+4.1. New Unlimited+ Plans ....................................................................................................................................................................................................... 5
+4.2. Postpaid+ Plans.................................................................................................................................................................................................................... 6
+4.3. NEW - Vodafone Ahli Plans.............................................................................................................................................................................................. 6
+4.3.1 Vodafone Ahli Plans – Terms and Conditions .......................................................................................................................................... 7
+4.3.2 Ahli Add-On Plans (Additional Lines) .......................................................................................................................................................... 7
+4.4. Special Plans for Reimbursement Customers .......................................................................................................................................................... 8
+4.4.1 Reimbursement (Employee) Plans T&C...................................................................................................................................................... 9
+4.4.2 Social Media Data .............................................................................................................................................................................................10
+4.5. Vodafone Testaahel Special Offer...............................................................................................................................................................................10
+4.6. Vodafone for All - Power to people with disabilities .............................................................................................................................................11
+4.7. Mobile Wi Fi / Data Plans ................................................................................................................................................................................................11
+5. Fair Usage Policy .................................................................................................................................................................................................................12
+5.1. Local Calls & SMS .............................................................................................................................................................................................................12
+5.2. Local Data – Fair Usage Policy (FUP) .........................................................................................................................................................................13
+5.3. Roaming Data & Minutes – Fair Usage Policy (FUP) ............................................................................................................................................13
+6. Advanced Features .............................................................................................................................................................................................................14
+6.1. Multi SIM ..............................................................................................................................................................................................................................14
+6.2. International Call Block ..................................................................................................................................................................................................14
+6.3. Mute.......................................................................................................................................................................................................................................14
+6.4. Call+.......................................................................................................................................................................................................................................15
+6.5. Bill Manager ........................................................................................................................................................................................................................15
+6.6. Bill limit.................................................................................................................................................................................................................................16
+6.7. Apple Watch ........................................................................................................................................................................................................................16
+6.8. iPass 16
+7. Lifestyle Benefits (non-Telco)......................................................................................................................................................................................16
+7.1. Valet Parking.......................................................................................................................................................................................................................16
+Tariff Notification: Consumer
+7.2. Vodafone World (VW) ......................................................................................................................................................................................................17
+7.2.1 VW Benet - App credit: ..................................................................................................................................................................................17
+7.2.2 VW Benet - Uber: ............................................................................................................................................................................................17
+7.2.3 Snoonu .................................................................................................................................................................................................................18
+7.2.4 Karti Store Purchases ......................................................................................................................................................................................18
+8. Add-Ons and Extras .............................................................................................................................................................................................................18
+8.1. International Minute Add-Ons .....................................................................................................................................................................................18
+8.1.1 QR35 International Add-on. ..........................................................................................................................................................................18
+8.1.2 QR 10 International Add-on ..........................................................................................................................................................................18
+8.1.3 7 Days International Calling Boosters ......................................................................................................................................................19
+8.1.4 Countries for International Add-On ...........................................................................................................................................................19
+8.2. Local Data Add-Ons ..........................................................................................................................................................................................................19
+8.2.1 QR 20 Local Data Add-Ons ...........................................................................................................................................................................19
+8.2.2 7 Days Data Booster Pack ..............................................................................................................................................................................19
+8.2.3 Speed Boosters for Unlimited+ Plans .......................................................................................................................................................20
+8.3. Local Minutes Add-ons ....................................................................................................................................................................................................20
+8.3.1 QR 20 Local Minutes Add-On ......................................................................................................................................................................20
+8.3.2 7 Days Local Minutes Booster Packs..........................................................................................................................................................20
+8.3.3 Local 25Dhs Calling Opt in ...........................................................................................................................................................................20
+9. Roaming Products ..............................................................................................................................................................................................................20
+9.1. Roam Like Home Pack ....................................................................................................................................................................................................20
+9.1.1 Daily RLHP Add-On ..........................................................................................................................................................................................21
+9.1.2 Weekly RLHP Add-on ......................................................................................................................................................................................21
+9.1.3 Monthly RLHP Add-on ....................................................................................................................................................................................21
+9.1.4 GCC RLHP Weekly Pack ..................................................................................................................................................................................22
+9.2. Vodafone Passport Packs ..............................................................................................................................................................................................22
+9.2.1 Daily Passport Pack ..........................................................................................................................................................................................22
+9.2.2 Weekly Pack........................................................................................................................................................................................................23
+9.2.3 Weekly Pack – Data Only ...............................................................................................................................................................................23
+9.2.4 Monthly Pack .....................................................................................................................................................................................................23
+9.2.5 Vodafone GCC Passport – Data only..........................................................................................................................................................23
+9.2.6 Vodafone GCC Passport Pack .......................................................................................................................................................................24
+9.3. Global Roaming Countries ............................................................................................................................................................................................24
+10. Standard Rate card ...........................................................................................................................................................................................................26
+10.1. National Rate Card .................................................................................................................................................................................................26
+10.2. International Rate Card ........................................................................................................................................................................................26
+Tariff Notification: Consumer
+10.3. Roaming Rate Card ................................................................................................................................................................................................27
+10.3.1 Roaming Countries ....................................................................................................................................................................................27
+10.3.2 Roaming and international Rates .........................................................................................................................................................28
+11. Service Provider Obligations ........................................................................................................................................................................................29
+12. Customer Obligations .....................................................................................................................................................................................................29
+13. Tariff Modification Version Control .............................................................................................................................................................................31
+Tariff Notification: Consumer
+1. Definitions
+1.1. Artificially Inflated Traffic - A flow or volume of traffic via any Service, which Vodafone believes is: (i) disproportionate to
+the flow or volume of traffic which Vodafone expects from good faith commercial practice and usage of the Service; (ii)
+disproportionate to Customer’s previous traffic profiles (in any given month) with Vodafone; (iii) uses automated means to
+make calls (save where this is expressly approved by Vodafone in writing); or (iv) may result in Customer exceeding the
+credit limit which Vodafone places on Customer’s Vodafone account from time to time.
+1.2. Auto-Pay is a convenient payment option in the My Vodafone App that allows customers to automatically pay their
+monthly bills using their credit card.
+1.3. Bill Cycle - A regular billing cycle assigned to your account. e.g., 1 or 15 of the month and continues until the same day
+of the following month.
+1.4. Customer or You / Your – A person subscribing to and using the Postpaid service for their reasonable personal use.
+1.5. Extras – Value bundles that you can purchase in addition to your Postpaid Plan.
+1.6. Minimum Subscription Period (Lock-in): Unless otherwise stated in the applicable Service Tariff and communicated to
+you before the subscription of service and receiving your evidenced consent, for Postpaid, the minimum contractual
+period/lock-in is three (3) months from the date of signing this Agreement. Cancellation of the Service before that time
+will result in applicable charges due and payable for the remaining period of the three months.
+1.7. My Vodafone App – is a dedicated Vodafone Qatar application available on iOS and Android devices. It can be used for
+multiple purposes such as recharging, paying bills, obtaining a new connection and contacting customer service.
+1.8. Online – means our dedicated website available at https://www.vodafone.qa.
+1.9. Products and Services – The communication products and services we offer you, including national and international
+calls and SMS, national and international MMS, mobile internet, roaming and Extras.
+1.10. Postpaid – Our monthly post-payment option for mobile voice and mobile data, in which you are billed for account
+charges at the end of each bill cycle for products and services used, next month’s plan rental and any charges subject to
+the Minimum Subscription Period.
+1.11. Standard Rate card – The list of all our prices for our products and services without any bundles or offers. (Section 10)
+1.12. Star Number – is any number for which a customer pays a reservation fee online or at any Vodafone retail store. The
+detailed terms and conditions are available at https://www.vodafone.qa/en/legal-and- regulatory/terms-and-
+conditions/star-numbers.
+1.13. Plan – Our pricing plans are charged in line with our rate card.
+1.14. Vodafone, We, Us – A Public Qatari Shareholding Company, by virtue of Ministerial Resolution number (160) of 2008 and
+in accordance with the laws of the State of Qatar, having Commercial Registration number 39656.
+1.15. Retail Store – Vodafone retail stores across Qatar and available at https://www.vodafone.qa/en/help/find-a-
+store#findastore.
+1.16. Vodafone Customer Care – If You have any queries or concerns, please contact Customer Care by calling 122 from Your
+Vodafone mobile, +974 40001122 internationally or from any phone, or by visiting one of our stores. Non-Vodafone
+customers can call us at 800 7111.
+2. Tariff Terms and Conditions
+• Vodafone’s Postpaid general terms and conditions shall apply.
+• Vodafone may, from time to time, offer and publish promotions and readjustments by various means. Such promotions
+and readjustments will automatically modify this Tariff.
+• The Postpaid service will start, and these terms and conditions will apply when the Customer inserts the SIM card into a
+mobile phone and uses any of Vodafone’s Products and Services.
+• Vodafone may, as per Article 3.9 of the Retail Tariff instructions (RTI), offer up to a 20% discount on the products or services
+from time to time on a permanent or promotional basis.
+3. Service Features
+• Customer will be charged QR100 to migrate from Postpaid or Mobile Broadband Plans to Prepaid.
+• Customer can choose one of the Postpaid plans below per number. Customers can also purchase Extra (s) and Add On
+(s) in addition to their Postpaid account based on their specific requirements.
+• The minimum service period of three (3) months applies.
+Tariff Notification: Consumer
+• If the Customer exceeds the allowances in their chosen Plan, charges for all excess usage will be as per the Standard
+Rate card prices set out below.
+• Customers can also park their numbers (“PYN”) for a one-time fee of QR100 for up to four (4) months by visiting any
+Vodafone Retail Store. After the four (4) month period, the number will revert to the Customer’s original plan subscribed
+before parking the number, and all Postpaid terms and conditions shall continue to apply.
+• The number of months the customer remains parked will not count as part of the contract period. The customer tenure
+will not take into account the parked months/duration.
+• Customers can avail Park My number twice within any 12-month period
+• Customers must have completed at least 3 paid bills to be eligible for this PYN service. If the Customer receives a
+notification that a new Plan has been activated that you have not initiated, then You will immediately inform Vodafone
+Qatar to take appropriate action.
+4. Consumer Postpaid Plans
+4.1. New Unlimited+ Plans
+• All new Customers who subscribe to our New Unlimited + plans below through any of the available channels, such as Retail
+Stores, Online or My Vodafone App (“MVA”) will get the following benefits as part of their monthly plan.
+• For Unlimited Usage in the plans refer to Fair Usage Policy (Section 5)
+Plan Name New Unlimited+ New Unlimited+
+Premium
+New Unlimited+
+Platinum New Unlimited+ VIP
+Monthly Rental 300 450 750 1000
+Local Mins and SMS Unlimited (In Qatar) Unlimited (In Qatar) Unlimited (In Qatar, GCC
+& 30 countries)
+Unlimited (In Qatar,
+GCC & 30 countries)
+International Minutes
+1 200 300 400 1000
+GCC Roaming Min. - 1000 Min. Roam Like Home Roam Like Home
+Global Roaming Min &
+SMS - 100 300 700
+Local Data Unlimited Unlimited Unlimited Unlimited
+Endless Data Speed 10 Mbps 15 Mbps 15 Mbps 15 Mbps
+Roaming Data – Roam
+Like Home - Unlimited in GCC Unlimited in GCC + 30
+countries
+Unlimited in GCC + 30
+countries
+Global Roaming Data
+(9.3) 15 GB 20 GB 50 GB 100 GB
+Call+ (6.4) Free Free Free Free
+Multi Sim (6.1) QR 50 for 1 local SIM QR 25 for 1 local SIM 1 Free Local SIM 2 Free SIMs - (1 Free
+local + 1 Free GCC)
+International Call
+Block (6.2)
+QR 10 per month (6
+months Free)
+QR 10 per month (6
+months Free) Free Free
+Mute service (6.3) QR 10 per month (6
+months Free)
+QR 10 per month (6
+months Free) Free Free
+Lifestyle Benefits included
+Valet Parking (7.1) - Regular VIP VIP
+Vodafone World (VW)
+(7.2)
+Up to QR30 worth of
+benefit
+Up to QR50 worth of
+benefit
+Up to QR100 worth of
+benefit
+Up to QR150 worth of
+benefit
+Free Vodafone
+MyBook subscription Included Included Included Included
+Star Number (QR) 5,000 10,000 20,000 25,000
+Tariff Notification: Consumer
+value included
+1 The eligible-country list is available at https://www.vodafone.qa/new-intl-minutes-countries.
+4.2. Postpaid+ Plans
+• Customers who subscribe or upgrade to new Postpaid + Essential and Postpaid + Extra Plans below through any of the
+available channels, such as Retail Stores, Online, or through the MVA, will get the following benefits as part of their plan.
+• For Unlimited Usage in the plans refer to Fair Usage Policy (Section 5)
+New Postpaid+ Plans Postpaid+ Essential Postpaid+ Extra Postpaid+ Max
+Monthly Rental (QR) 130 180 230
+Local Minutes & SMS 500 Unlimited Unlimited
+Full Speed Local Data (GB) 15 GB 40 GB 60 GB
+Endless Data Speed 128 Kbps 512 Kbps 1 Mbps
+International minutes Up to 300 Up to 300 Up to 300
+Free Vodafone My Book
+subscription
+Included Included Included
+Star Number (QR) free worth 1,500 2,500 3,500
+• Postpaid+ Essential, Extra and Max customers can benefit up to 300 international minutes per month for select
+countries as follows:
+Nationality International Minutes
+India 300
+Philippines 150
+Pakistan 150
+Bangladesh 300
+International * 50
+* The eligible-country list is available at https://www.vodafone.qa/new-intl-minutes-countries.
+4.3. NEW - Vodafone Ahli Plans
+• Vodafone Qatar’s new Postpaid family offering includes four plans: Ahli, Ahli Pro, Ahli Premium and Ahli Platinum (together,
+the “Ahli Plans”). Each Ahli Plan includes multiple mobile lines under one plan and a single bill, as set out in the table
+below.
+• For Unlimited Usage in the plans refer to Fair Usage Policy (Section 5)
+Plan Name  Ahli Ahli Pro Ahli Premium Ahli Platinum
+Price 399 499 699 1,199
+Primary Lines 2 2 2 2
+Local Data Unlimited Unlimited Unlimited Unlimited
+Local Data (Full Speed FUP) 50 GB 125 GB 250 GB 500 GB
+Endless Data Speed 1 Mbps 10 Mbps 15 Mbps 15 Mbps
+Local Calls Unlimited Unlimited Unlimited Unlimited
+Local SMS Unlimited (2000) Unlimited (2000) Unlimited (2000) Unlimited (2000)
+International Minutes 1 Up to 300 150 300 400
+Unlimited Roaming Data - - GCC (50 GB) GCC + 31 Countries
+(RLH)
+Tariff Notification: Consumer
+Unlimited Roaming Calls - - GCC (1000 minutes) GCC + 31 Countries
+(RLH)
+Global Roaming Data (9.3) - 10 GB 15 GB 30 GB
+Global Roaming Minutes (9.3) - - 100 Roaming minutes 150 Roaming minutes
+Call+ (6.4) - Free Free Free
+Free Vodafone MyBook
+subscription
+Included Included Included Included
+Welcome iPoints Bonus Welcome 1,000 Welcome 3,000 Welcome 5,000 Welcome 10,000
+Valet Parking (7.1) - - Regular VIP
+Vodafone World Value (7.2) QR 10 per line QR 20 per line QR 40 per line QR 80 per line
+Star Number QR 3,500 per line QR 5,000 per line QR 10,000 per line QR 20,000 per line
+1 The eligible-country list is available at https://www.vodafone.qa/new-intl-minutes-countries.
+4.3.1 Vodafone Ahli Plans – Terms and Conditions
+• Each Ahli Plan includes two primary lines as part of the monthly plan fee.
+• Monthly charges, add-on charges and any out-of-bundle usage will be billed for all lines under the Ahli Plan in a single bill
+to the Ahli account owner.
+• Standard Vodafone out-of-bundle rates apply where usage is not covered by an included allowance, benefit, add-on or
+spend control.
+• Ahli plan at QR 399 customers can benefit up to 300 international minutes per month for select countries as follows:
+Nationality International Minutes
+India 300
+Philippines 150
+Pakistan 150
+Bangladesh 300
+International* 50
+*The eligible-country list is available at https://www.vodafone.qa/new-intl-minutes-countries.
+• Ahli Pro, Ahli Premium and Ahli Platinum customers can get 150, 300 and 400 international minutes per month,
+respectively, for eligible countries. The eligible-country list is available at https://www.vodafone.qa/new-intl-minutes-
+countries.
+4.3.2 Ahli Add-On Plans (Additional Lines)
+• Ahli add-ons are additional lines that an Ahli Plan owner may add. They include the Ahli Lite, Ahli Net and Ahli Plus
+additional-line options.
+• Each add-on line is associated with a mobile number, is charged monthly in addition to the main Ahli Plan fee, and has
+allowances that refresh with the billing cycle unless otherwise stated.
+Add-On Plan Names Ahli Lite Ahli Net Ahli Plus
+Price QR 65 QR 99 QR 199
+Local Data 10 GB 75 GB Same Local & Roaming benefits
+as the Main Ahli Plan except for
+additional iPoints and Vodafone
+World benefits
+Endless Data Speed 256 Kbps 256 Kbps
+Local Minutes 200 -
+CUG – Family Calls CUG – for other lines in the
+same Ahli Plan Account -
+Tariff Notification: Consumer
+4.4. Special Plans for Reimbursement Customers
+• These plans are for customers who are employed by one of the companies or subsidiaries listed as Eligible Companies in
+Section 4.4.1.
+• For Unlimited Usage in the plans refer to Fair Usage Policy (Section 5)
+Plan Name Postpaid+ Essential
+– B2B2C – 10GB
+Postpaid+ Essential –
+B2B2C – 15GB
+Postpaid+
+Extra – B2B2C
+Postpaid+ Max
+– B2B2C
+Monthly Rental 130 130 180 230
+Employee (B2B2C)
+Discounted Rental 115 115 155 175
+Local Minutes & SMS Unlimited 500 Unlimited Unlimited
+Full Speed Data (GB) 10 GB 15 GB 30 GB 40 GB
+Social Media Data N/A N/A 15 GB 25 GB
+International minutes Up to 300 Up to 300 Up to 300 Up to 300
+Star Number (QR) 1,500 1,500 2,500 3,500
+Vodafone My Book Included Included Included Included
+Extra Local Data 5 GB 20 GB 15 GB -
+Extra International Minutes 25 25 50 50
+Employee (B2B2C)
+Discount
+and Extra benefit validity
+9 months 9 months 9 months 9 months
+• The international minutes included in these plans are:
+Nationality International Minutes
+India 300
+Philippines 150
+Pakistan 150
+Bangladesh 300
+International * 50
+* The eligible-country list is available at https://www.vodafone.qa/new-intl-minutes-countries
+Plan Name  Unlimited+
+(B2B2C)
+Unlimited+
+Premium (B2B2C)
+Unlimited+
+Platinum (B2B2C)
+Unlimited+ VIP
+(B2B2C)
+Monthly Rental 300 450 750 1000
+Employee (B2B2C)
+Discounted Rental 225 350 650 900
+Local Minutes & SMS Unlimited Unlimited Unlimited Unlimited
+Full Speed Data (GB) Unlimited Unlimited Unlimited Unlimited
+Social Media Data (4.4.2) Unlimited Unlimited Unlimited Unlimited
+International minutes 1 200 300 400 1,000
+Global Roaming data (9.3) 5 GB 20 GB Unlimited Unlimited
+GCC roaming Data - Unlimited - -
+GCC Roaming mins - Unlimited Unlimited Unlimited
+Global Roaming Minutes (9.3) - 100 300 700
+Star Number (QR) 5,000 10,000 20,000 25,000
+Valet Parking (7.1) - Regular VIP VIP
+Tariff Notification: Consumer
+Vodafone MyBook Included Included Included Included
+iPass Included (6.8) 1 Pass 2 passes 3 passes + Black Pass 4 passes + Black Pass
+Multi Sim (6.1) QR 50 / SIM QR 25 / SIM 1 SIM FREE 2 Free SIMs - (1 Free
+local + 1 Free GCC)
+International Call Block (6.2) QR10
+(6 months Free)
+QR10
+(6 months Free) Included Included
+Mute service (6.3) QR10
+(6 months Free)
+QR10
+(6 months Free) Included Included
+Extra International Minutes - 100 100 -
+Employee (B2B2C) Discount
+and Extra benefit validity 9 months 9 months 9 months 9 months
+1 The eligible-country list is available at https://www.vodafone.qa/new-intl-minutes-countries.
+4.4.1 Reimbursement (Employee) Plans T&C
+• This Offer cannot be combined with any other offer or promotion.
+• The offer is valid for new and for existing customers in case of upgrading their plans or migrating from Prepaid to Postpaid.
+• Discount (offer) and Extra benefits will be valid for 9 months from the date of activation for new customers joining from 31
+December 2025.
+• When a Customer ceases to work for the Eligible Company, eligibility will be reassessed either every 12 months or upon
+receiving earlier termination information from the company.
+• Extra benefits in the offer will be terminated if the customer changes their plan, downgrades their plan, terminates their
+service and/ or if the number is suspended due to non-payment.
+• To avail the Offer, customers must present a valid Employee’s Job ID as proof that he is working in one of the eligible
+• companies placed on the list.
+• The Customer is responsible for all bill payments, and there is no liability in the company.
+• The Offer is available only if the plan is paid for directly by the customer, not the company/entity's employment.
+• The employee Offer applies only to employees of the following list of companies (or entities).
+• The List of Eligible Companies for Vodafone Employee (B2B2C) Offer is below:
+Abdallah Abdelghani & Partners Abu Issa Group Administrative Control and Transparency
+Al Fardan Group Al Jazeera media network Al Mana Group
+Al Rayan Bank Al Salam Group Al Saraiya Group
+Ali Bin Ali Al-Kass Channel Amiri Diwan
+Amiri Guard Ashghal Aspire Zone
+Barwa Real Estate Civil Service and Government Development
+Bureau Commercial Bank of Qatar
+Doha Bank Dolphin Energy Dukhan Bank
+Elan Publishing Media Ernest and Young Ezdan Holding
+Fadaat Media Group General Authority of Customs General Tax Authority
+Halliburton Hamad Medical Corporation HBK Contracting
+Huawei Jaidah Group Jusour6
+Kahramaa Lekhwiya Malomatia
+Mawani Qatar Mekdam Holding Milaha
+Ministry of Awqaf Ministry of Communications and Information
+Technology Ministry of Culture
+Ministry of Development Planning and
+Statistics Ministry Of Economy and Commerce Ministry of Education
+Ministry of Environment & Climate Change Ministry of Finance Ministry of Foreign Affairs
+Ministry of Interior Ministry of Justice Ministry of Labour
+Ministry of Municipality Ministry of Public Health Ministry of Social Development and Family
+Ministry of Sports & Youth Ministry of Transport Mowasalat
+Nakilat Nasser Bin Khaled Althani & Sons Holding
+Company National Human Rights Committee
+Tariff Notification: Consumer
+Newton International Schools Parsons International Power International Holding
+Primary Health Care Corporation Private Engineering Office Public Prosecution
+PWC Qatar Airways Group Qatar Armed Forces
+Qatar Business Incubation Centre Qatar Central Bank Qatar Charity
+Qatar Chemical Company Qatar Development Bank Qatar Energy Group
+Qatar Engineering and Construction Co. Qatar Exchange Qatar Financial Centre Authority
+Qatar football association Qatar Foundation Qatar Free Zones Authority
+Qatar General Insurance Qatar International Islamic Bank Qatar Investment Authority
+Qatar Islamic Bank Qatar Media City Qatar Media Corporation
+Qatar Museum Qatar National Bank Qatar News Agency
+Qatar Olympic Committee Qatar Post Qatar Rail
+Qatar Steel Qatar Tourism Authority Qatar University
+Qatari Diar Qatari Investors Group QD-SBG
+QIC QLM Sidra Hospital
+State Audit Bureau Supreme Committee for Delivery & Legacy Supreme Judicial Council
+Teyseer Group United Development Company University of Doha for Science &
+Technology
+Waseef Assets Management WOQOD
+4.4.2 Social Media Data
+• Social Media Data is given automatically based on the customer’s plan and no further action is required from the customer.
+• The Social Media Apps included are:
+o TikTok
+o Snapchat
+o WhatsApp
+o Instagram
+o Facebook
+• The B2B2C plans have following fair usage policy for Social Media Data:
+o Unlimited+ (B2B2C): 50 GB
+o Unlimited+ Premium (B2B2C): 100 GB
+o Unlimited+ Platinum and VIP: 250 GB
+• When customers use any of the above Social Media Apps the Social Media Data allowances will be consumed first. In case
+a customer uses all Social Media Data then they will consume data from the Main Bucket.
+• The Social Media Data allowances are restricted to local use only. Any Social Media Apps used outside Qatar which
+is included in the pack while roaming will consume the available roaming data allowance or be charged as out-of-bundle.
+• The Social Media Data allowance accessed via a VPN will not be considered as part of Social Media Data and will be
+consumed from the Main Bucket.
+• Any activity including sending and receiving pictures, video, sharing texts, viewing and sharing other content and
+accessing and sharing location data on the Social Media Apps will use the Social Media Data.
+• Social Media Data is only valid when using the official apps of the Social Media Apps.
+• The Social Media Data does not apply to third-party content (such as advertisement, video and content hosted from
+other featured sites that can be played in the Social Media App etc.).
+• Customers cannot do any tethering or create hotspots and use Social Media Data only for their own personal use.
+4.5. Vodafone Testaahel Special Offer
+• Eligible Testaahel cardholder Customers will receive the extra discounts and benefits set out in the following table, in
+addition to the plan benefits mentioned in Sections 4.1 (Unlimited+ Plans) and 4.2 (Postpaid+ Plans), when they
+subscribe to the relevant plans.
+• Bonus iPoints will be available for only new subscriptions including port-in. Bonus iPoints will be credited for one time
+only within the first week of the month following the subscription to the customers’ unique Loyalty IDs, for those
+registered in the Vodafone iPoints program www.vodafone.qa/en/ipoints.
+• Extra discounts and benefits will be removed if plan is migrated to prepaid or line is deactivated.
+Tariff Notification: Consumer
+New Postpaid+
+Essential
+New
+Postpaid+
+Extra
+New
+Postpaid+
+Max
+New
+Unlimited+
+New
+Unlimited+
+Premium
+New
+Unlimited+
+Platinum
+New
+Unlimited+
+VIP
+Discount from
+Monthly Rental QR 15 QR 25 QR 55 QR 75 QR 100 QR 150 QR 200
+Extra Local Data 5 GB 25 GB 20 GB - - - -
+Extra Int. Minutes 25 50 50 - 100 100 -
+Valet Parking - - - - VIP VIP VIP
+iPoints Welcome Bonus 10,000 10,000 10,000 20,000 20,000 20,000 20,000
+Offer Validity 12 months 12 months 12 months 12 months 12 months 12 months 12 months
+4.6. Vodafone for All - Power to people with disabilities
+• All customers who are registered and hold a valid special needs or retirement card from the Qatar Society for the
+Rehabilitation of Special Needs (QSRSN) or National Retirement Authority are entitled to the following benefits, limited
+to one (1) mobile line.
+• For Unlimited Usage in the plans refer to Fair Usage Policy (Section 5)
+Postpaid+ Special Unlimited+ Special Unlimited+ Premium
+Special
+Unlimited+
+Platinum Special
+Price QR 100 QR 185 QR 265 QR 450
+Local Mins and SMS Unlimited Unlimited Unlimited Unlimited
+Total Data 40 GB Unlimited Unlimited Unlimited
+Endless Data Speed 512 Kbps 10 Mbps 15Mbps 15Mbps
+International Minutes up to 300 200 300 500
+Global Roaming Data (9.3) - 15 GB 20 GB 100 GB
+GCC Roaming Min. - - 1000 Unlimited
+Global Roaming Min (9.3) - - 100 200
+Call+ (6.4) - Free Free Free
+Multi Sim - QR50/SIM - Up to 4 QR25/SIM - Up to 4 1 free local SIM
+International Call Block - QR 10 (6 months Free) QR 10 (6 months Free) Free
+Mute service - QR 10 (6 months Free) QR 10 (6 months Free) Free
+Vodafone My Book Included Included Included Included
+Vodafone World Benefits - QR30 QR50 QR100
+Star Number Discount QR 2.500 QR 5.000 QR 10.000 QR 25.000
+• If the Customer is a minor or cannot physically attend the Vodafone store to purchase the plan, they can authorise a family
+member (by completing a Vodafone letter of authorisation available at Vodafone stores, and upon presentation of the
+nominated person’s Qatari ID) to act on their behalf.
+• Customers will also be entitled to a 10% discount on the recommended retail price of selected handsets which offer special
+accessibility features. Eligible customers will only be able to get the discount on one handset every six (6) months. This
+discount cannot be used in conjunction with any other handset offer.
+• Once the customer runs out in bundle allowances, they will be charged the Standard Rates.
+4.7. Mobile Wi Fi / Data Plans
+• The Mobile Wi-Fi / Data plans are designed to be used with a 4G or 5G Mobile Mi-Fi Device. Customer can choose
+one of the available 4G or 5G devices in Vodafone Stores or use it with any personal device. List of devices available
+at Vodafone are listed below
+Tariff Notification: Consumer
+• For Unlimited Usage in the plans refer to Fair Usage Policy (Section 5)
+Plan Name  Mobile Wi-Fi 150
+Plan
+Mobile Wi-Fi 199
+Plan Data SIM Unlimited Data SIM Unlimited
+premium
+Monthly Rental QR150 QR 199 QR 299 QR 399
+Local Data 35 GB 60 GB Unlimited Unlimited
+Endless Local Data
+Speed 128 Kbps 128 Kbps 1 Mbps 20 Mbps
+Roaming Data - -
+Unlimited in GCC & below
+mentioned countries – FUP
+of 100 GB
+• Unlimited GCC & Vodafone countries Data roaming has a Fair Usage Policy of 100 GB. Countries included are
+Bahrain, Kuwait, Oman, Saudi Arabia, United Arab Emirates, Albania, Egypt, Greece, Ireland, Netherlands,
+Romania, Turkey, Australia, Germany, Hungary, Italy, New Zealand, South Africa, United Kingdom, Czech
+Republic, Ghana, India, Malta, Portugal, and Spain.
+• A one-month advance rental payment is required for Data SIM Unlimited and Data SIM Unlimited premium plans
+on subscription.
+• Customers may downgrade their plan after three (3) months of activation. The customer will need a device
+available at any Vodafone Store or insert the MBB Sim in their phone to utilise this service. Customers can learn
+more by visiting https://www.vodafone.qa/en/services/data- plans/internet-on-Postpaid.
+• The value of each MBB plan will be valid up until the end of each Bill Cycle, and any unused value will be forfeited
+at the end of the Bill Cycle Date.
+• The included Data value is for local use only, except for Data SIM unlimited premium, which includes Unlimited
+Roaming Data in GCC & Vodafone countries (FUP 100 GB).
+• The reduced speed i.e. throttling, will be removed once the subscriber reaches the renewal date or bill cycle.
+• Postpaid (Mobile Wi-Fi) plans. Customers who downgrade their current Postpaid (Mobile Wi-Fi ) Plans will have
+their promotional offers removed.
+5. Fair Usage Policy
+5.1. Local Calls & SMS
+The plans have the following limits of Local Minutes:
+Plan Name Local Minutes Local SMS
+New Unlimited+ 44,640 2000
+New Unlimited+ Premium 44,640 2000
+New Unlimited+ Platinum 44,640 2000
+New Unlimited+ VIP 44,640 2000
+Ahli 10,000 2000
+Ahli Pro 44,640 2000
+Ahli Premium 44,640 2000
+Ahli Platinum 44,640 2000
+Unlimited+ (B2B2C) 44,640 2000
+Unlimited+ Premium (B2B2C) 44,640 2000
+Unlimited+ Platinum (B2B2C) 44,640 2000
+Unlimited+ VIP (B2B2C) 44,640 2000
+Postpaid+ Special 10,000 300
+Unlimited+ Special 44,640 300
+Unlimited+ Premium Special 44,640 2000
+Unlimited+ Platinum Special 44,640 2000
+Tariff Notification: Consumer
+5.2. Local Data – Fair Usage Policy (FUP)
+• For Unlimited Local Data and the Endless data – the fair usage policy is as follows:
+Plan Name Full Speed Data Endless Data
+New Unlimited+ 125 GB 450 GB
+New Unlimited+ Premium 350 GB 500 GB
+New Unlimited+ Platinum 750 GB 500 GB
+New Unlimited+ VIP 1000 GB 500 GB
+Ahli 50 GB 500 GB
+Ahli Pro 125 GB 500 GB
+Ahli Premium 250 GB 500 GB
+Ahli Platinum 500 GB 500 GB
+Unlimited+ (B2B2C) 75 GB + 50 GB Social media 500 GB
+Unlimited+ Premium (B2B2C) 250 GB + 100 GB Social media 500 GB
+Unlimited+ Platinum (B2B2C) 500 GB + 250 GB Social media 500 GB
+Unlimited+ VIP (B2B2C) 750 GB + 250 GB Social media 500 GB
+Postpaid+ Special 40 GB 500 GB
+Unlimited+ Special 125 GB 500 GB
+Unlimited+ Premium Special 350 GB 500 GB
+Unlimited+ Platinum Special 500 GB 500 GB
+Multi-SIM (Across all plans) 50 GB per SIM -
+5.3. Roaming Data & Minutes – Fair Usage Policy (FUP)
+• Roaming benefits are not intended for permanent roaming or extended continuous use outside Qatar. Vodafone
+may monitor roaming usage and may restrict, suspend or charge for roaming services where usage indicates
+permanent roaming or misuse.
+• Any roaming usage outside included destinations, partner networks, usage types or plan allowances will be
+charged at Vodafone’s standard roaming rates unless protected by an applicable roaming control or add-on.
+Plan Name Global
+Data
+Roam Like Home – FUP Roaming minutes - FUP
+New Unlimited+ 15 GB - -
+New Unlimited+
+Premium
+20 GB 50 GB in GCC 1000 GCC roaming minutes
+New Unlimited+
+Platinum
+50 GB 750 GB in GCC + 30
+countries
+Unlimited – shared with Local
+Minutes
+New Unlimited+ VIP 100 GB 1,000 GB in GCC + 30
+countries
+Ahli Pro 10 GB - -
+Ahli Premium 15 GB 50 GB in GCC 1000 GCC roaming minutes
+Ahli Platinum 30 GB 500 GB in GCC + 30
+countries
+Unlimited – shared with Local
+Unlimited+ (B2B2C) 5 GB -
+Unlimited+ Premium
+(B2B2C)
+20 GB 50 GB in GCC 1000 Minutes GCC roaming minutes
+Unlimited+ Platinum
+(B2B2C)
+100 GB - 1000 Minutes GCC roaming minutes
+Unlimited+ VIP (B2B2C) 100 GB - -
+Postpaid+ Special - - -
+Unlimited+ Special 15 GB - -
+Unlimited+ Premium
+Special
+20 GB 50 GB in GCC 100 Min +1000 Minutes GCC roaming
+minutes
+Tariff Notification: Consumer
+Unlimited+ Platinum
+Special
+100 GB 500 GB in GCC + 30
+countries
+200 Min + 1000 Minutes GCC roaming
+minutes
+Multi SIM – GCC
+• The 35 countries (30 countries + GCC) are as below:
+Saudi Arabia UAE UK Spain Poland
+USA Austria Jordan Norway Czechia
+Sri Lanka Oman Germany Switzerland Portugal
+Egypt Bangladesh Malaysia Pakistan Indonesia
+Thailand Kuwait Turkey France Singapore
+Italy Australia Greece Netherlands South Korea
+Philippines Tunisia Bahrain China South Africa
+6. Advanced Features
+6.1. Multi SIM
+• Multi-SIM is an additional SIM linked with the same Number as the primary SIM, allowing Customers to stay connected
+using one number across all their devices, such as smartphones, tablets, or laptops.
+• Customer can activate and deactivate the multi-SIMs by visiting any of the Vodafone Retail stores.
+• The primary SIM is the SIM associated with the Customer’s initial voice or data price plan and specified in the Customer
+• account.
+• Data included in Local Data Multi SIM can only be used locally in Qatar
+• Multi SIM is not enabled for mobile telephones, like making calls or sending SMS.
+• Multi-SIM Data usage will be consumed from the primary Data allowance. Customers can check the usage from MVA.
+However, no separate usage per SIM will be shown, and only the primary number’s call details will be captured in the bill.
+• Customers can purchase a maximum of four (4) Multi SIMs (1 Main SIM and 4 additional Multi SIMs) depending on their Plan.
+• If the primary SIM was barred, deactivated, ported out, or terminated, all Multi SIMs connected to that primary SIM will also
+be barred, deactivated or terminated.
+• Customer’s Plans allowances are strictly intended for own personal use only and must not be shared with or used by any
+other person. Customer cannot resell or allow any third party to use the service for remuneration or otherwise
+commercially exploit the service. Usage will be monitored, in the event of any fraudulent use or misuse of the Multi Sim
+service, as determined at Vodafone Qatar's sole discretion, we reserve the right to terminate this Multi Sim service with
+notice to you.
+• Multi SIM service is not available for Ahli Plans.
+6.2. International Call Block
+• International Call Block (“ICB”) is a service that allows customers to block all international incoming calls regardless of
+the location of the customer.
+• Customers can enable and disable ICB through the MVA or USSD code; enable 369, disable 360
+• When the ICB is enabled, customers will receive calls from Qatar local numbers only (starting with +974).
+• When ICB is enabled, customers can still initiate a call to any international number. The ICB does not block any
+outgoing calls
+• The ICB service fee is QR 10 per month for customers where it is not already included in the plan
+• ICB is not available for Ahli Plans
+6.3. Mute
+• “Mute” service allows Customers to block all incoming calls.
+• Customers can enable and disable Mute service through the MVA.
+• Customers can still receive notifications of who is trying to contact them when the “Mute” service is enabled.
+• “Mute” is QR QR 10 per month for customers where it is not already included in the plan
+• “Mute” is not available for Ahli Plans
+Tariff Notification: Consumer
+6.4. Call+
+• Call+ allows Customers on selected plans to make calls back to Qatar and anywhere in the world while roaming, only
+through the My Vodafone App and cannot be accessed independently.
+• Unless included as a free service, Call+ can be activated as an add-on for QR 100 per month
+• Call+ uses your data connection and the minutes for Call+ are included in your plan's allowance. The service can only be
+activated if the Customer has access to the internet.
+• Paid Add On has 1 GB roaming data inside just to enable outgoing calls through the MVA while roaming.
+• The service is accessible through the My Vodafone App (MVA) only.
+• On reaching the FUP of 1000 calls Customer will not be able to make a call.
+• This service is not accessible in Qatar, it’s accessible while roaming only.
+• Customers must be connected to the internet (either through roaming data or Wi-Fi) to use Call+. If a customer has
+consumed all roaming data and is not connected to Wi-Fi, they will not be able to use Call+, even if they still have the
+allocated minutes.
+• If there’s VPN connection detected, Call+ will not work and should be disabled.
+• Standard roaming data charges may apply if data limits are exceeded.
+• If a customer on an eligible plan or passport pack exhausts their Call+ minutes allocation: Postpaid customers will be
+charged 35 Dhs per minute for calls back to Qatar while roaming.
+• The service availability is dependent on VoIP service availability in the country where the customer is roaming.
+• Customers are advised to review their plan details and use them regularly to avoid unexpected charges.
+• This service does not support calls to emergency services. Users should not rely on this service as a primary means of
+communication in emergencies.
+6.5. Bill Manager
+• All existing and new Customers plans benefits from the Bill Manager service for free.
+• Bill Manager ensures that Customers are prevented from receiving excessive bills from local data and roaming usage, by
+automatically adding the best Add-ons available.
+• For roaming in a passport pack country, Bill Manager will automatically add 1GB Data + 100 roaming minutes valid for 7
+days once the customer has consumed out-of-bundle data or calls worth QR 100. However, in non-passport countries, Bill
+Manager will not be able to further optimise spending.
+• For local out-of-bundle charges, Bill Manager will give Customers the benefits below without extra charges once the
+Customer has reached a certain spend threshold:
+Spend Threshold Extra Value Given
+>QR 20 Standard rate of 99Dhs/MB
+QR 20 250 MB
+QR40 250 MB
+QR60 250 MB
+QR70 6 GB
+QR110 10 GB
+QR150 14 GB
+QR200 20 GB
+QR300 35 GB
+QR500 500 GB
+• Bill Manager will send an SMS notification every time it provides best add-ons available/Extra Value (as per the table
+above). The best add-ons available/Extra Value will be provided without an additional charge and is non-recurring.
+• All best add-ons available/Extra Value provided by Bill Manager will expire at the end of the customer’s bill cycle or
+prior to this if the add-on has a validity period (i.e. passport will expire after 7 days).
+Tariff Notification: Consumer
+• Any customer not wanting to take advantage of Bill Manager can disable Bill Manager via the My Vodafone App.
+6.6. Bill limit
+• The Bill Limit feature helps Customers control all their Postpaid expenses on their number outside of their plan rental
+• (“Bill Limit”). It is available for all Postpaid mobility customers for both voice and MBB customers.
+• Bill Limit will be set by default for all Customers by Vodafone based on their current billing patterns of the customers.
+Customers can, however, change it later on directly by using the My Vodafone App or by dialing *161#. Alternatively,
+Customers can also call the call centre to change their Bill Limit setting.
+• Customers who are currently being charged QR3 for the smart limit will continue to get charged QR3 for the new Bill Limit.
+For the others, the service will be free, including new customers. You can change Your Bill Limit setting any number of
+times during the month.
+• All customers whose purchases fail due to insufficient Bill Limit will get a notification via SMS notifying them to change
+their Bill Limit values and the way to do so.
+• Customers who do not want any Bill control are free to unsubscribe to the service by calling the call centre.
+• The minimum Bill Limit which can be set by the customer is 0.01QR. The max Bill Limit a customer can subscribe to is
+equal to their credit limit.
+6.7. Apple Watch
+• In addition to your Mobile Plan charges, the Customer will incur a monthly recurring fee of 30 QAR for each Apple Watch
+(“Apple Watch Service”) that is paired to the Customer's Mobile Plan.
+• If a customer cancels the watch after paying the 1st of the month bill (QAR 30) the customer will not get any refund on
+the following month's bill.
+• To get the Apple Watch Service, the Customer must have an eligible device (iPhone 6s or later models), an eligible cellular
+Apple Watch (cellular Apple Watch Series 3 or later models) and an eligible Vodafone Postpaid voice plan.
+• Mobile Plan allowances (Local & International Calls and Local Mobile Data) will be shared between the Apple Watch and
+iPhone.
+• Standard out-of-bundle charges will apply once the customer has consumed all the in-plan allowances
+• Roaming services are not available on Apple Watch.
+6.8. iPass
+• This service is only available for Unlimited B2B2C Plans (4.4)
+• Kids & Family Fun Pass - for members who love family dining, outings, and entertainment activities, with fantastic
+deals, unbeatable offers, and unforgettable experiences tailored just for families!
+• Fitness Pass –members seeking fitness-based activities, unbeatable offers, and unforgettable experiences tailored
+for fitness enthusiasts!
+• Ladies Pass - members craving exceptional activities, exclusive offers, and unforgettable experiences designed just
+for ladies!
+• Wellness Pass - members seeking ultimate wellness, with rejuvenating activities, exclusive offers, & transformative
+experiences focused on health & well-being!
+• Black Pass –This Pass includes premium benefits in wellness, fitness, dining, and family entertainment.
+7. Lifestyle Benefits (non-Telco)
+7.1. Valet Parking
+• As per the selected Postpaid plan, certain customers will get free valet parking in major malls and entertainment
+venues across Qatar
+• To enjoy the complimentary valet parking benefits, customers must download the MVA and use the Digital Valet
+Parking service
+• There are two kinds of Valet Parking services – which are clearly marked by the Valet Parking service provider at
+the venues:
+1. Regular Valet parking service with 4 usages of Regular parking per month
+2. VIP Valet parking service with 4 usages of VIP parking per month
+•
+• Vodafone may disable the Valet Parking Privilege at its own discretion. In addition, the Eligible Customer can only
+Tariff Notification: Consumer
+use the Bar Code provided once per hour and cannot be shared amongst other users/cars.
+7.2. Vodafone World (VW)
+• Vodafone World is a program designed to bring added lifestyle value to Vodafone Postpaid customers through exclusive
+monthly vouchers redeemable with well-known partner brands. Vodafone World is included in selected Vodafone
+Postpaid plans.
+• Vodafone World gives credit value (different as per every plan) which can then be used with only 1 of partners mentioned
+below.
+• VW customers can choose to redeem their voucher only on 1 single benefit for each bill period.
+• Once a benefit is subscribed to, VW customers can use the benefit until the bill renewal date.
+• If customers want to switch to another Vodafone World benefit, they have to unsubscribe from the existing benefit and
+subscribe to another benefit before the bill renewal date. The newly subscribed benefit can be used only after the bill
+renewal date.
+• Unless the benefit is unsubscribed, it will be renewed automatically after the bill renewal date.
+• Vodafone can change the list and number of available Vodafone World benefits without any further notice.
+• Vodafone can terminate an already-redeemed benefit after 30 days’ notice in case of fraud or expiry.
+- To explore more and redeem your desired voucher, visit the Vodafone World section in the MVA and know more about
+Vodafone World, or visit our webpage at the link - https://www.vodafone.qa/Vodafoneworld
+7.2.1 VW Benefit - App credit:
+• Customers who select App Credit from Vodafone World, will receive cashback on their next bill, applicable to purchases
+made at any Direct Operator Billing (“DOB”) store.
+• The cashback value is non-transferable and will not be carried over if not fully utilised.
+• Customers must select the payment method on the main App stores as their mobile number.
+• Allocated credit to be used in the main App store: Apple App Store, Google Play Store or Huawei App Gallery
+• Customers can use this credit for Monthly YouTube Premium access as well.
+• To continue receiving the discount, the customer must select YouTube Premium each month from the Vodafone World
+benefits list; otherwise, the standard subscription fee will apply.
+• Customers must select the payment method as their mobile number for their YouTube Premium purchase
+7.2.2 VW Benefit - Uber:
+• Customers must get the Promo code through MVA under the Vodafone World section by subscribing to the Uber benefit.
+• Customers must then redeem the Promo code through the Uber App, by adding the promo code under Wallet in the
+Account section
+• Cap per ride applied based on the below values:
+Value Uber offer Cap per ride T&C
+QR 10 25% off 2 Comfort trips QR 5 25% off 2 Comfort trips (Average trip fare for Comfort is 25
+QAR), capped at 5 QAR (so total will be 10 QAR)
+QR 20 50% off 2 Comfort trips QR 10 50% off 2 Comfort trips, (so total will be 20 QAR)
+QR 40 80% off 1 Uber Black or
+Uber Van XL QR 40 80% off 1 Uber Black or Uber VanXL trip (Average fare is 50
+QAR) (so total will be 40 QAR)
+QR 30 100% off on 1 black ride
+per month QR 30
+The customer must select this benefit from the Vodafone World
+list every month. If a customer exceeds the cap per ride
+Customer will
+need to pay the extra.
+QR 50 50% off on 3 Black trips
+per month QR 20
+Only on the Black trip and 3 rides. Discount of 50% with a
+maximum amount of QR 20. (Ex: a ride of QR 30, the customer
+will get a QR 15
+discount, and a ride of QR 50, the customer will get QR 20
+discount)
+QR 80 80% off 2 Uber Black or
+Uber Van XL trip QR 40 80% off 2 Uber Black or Uber VanXL trip (Average fare is 50 QAR)
+so total will be 80 QAR
+Tariff Notification: Consumer
+QR 100 50% off on 3 Black trips
+per month QR 40
+Only on the Black trip and 3 rides. Discount of 50% with a
+maximum amount of QR 40. (Ex: a ride of QR 70, the customer
+will get a QR 35 discount, and a ride of QR 100, the customer
+will get a QR 40
+discount)
+QR 150
+100% off on 3 airport
+trips on Uber XL per
+month
+QR 70 Only on Uber XL rides and only 3 rides. If a customer exceeds
+the cap per ride Customer will need to pay the extra.
+7.2.3 Snoonu
+• Customer must redeem the voucher code through the Snoonu App.
+• Customer uses less than the value of the Snoonu voucher, they will lose the rest of the voucher benefit
+• Customer uses more than the value of the Snoonu voucher, they will need to make payment for the difference between
+the voucher value and the purchases total value on the Snoonu App.
+• The Snoonu voucher is not applicable at the following outlets:
+1. Pizza Hut
+2. Hardee's
+3. KFC
+7.2.4 Karti Store Purchases
+• Customers will receive cashback on their next bill, applicable to purchases made on Karti store
+• The credited value is non-transferable and will not carry over if not fully utilized.
+• Customers must use their Vodafone mobile number as a payment method when he is purchasing on Karti store.
+• The cashback value is non-transferable and will not be carried over if not fully utilized.
+• Customers will only get the cashback amount based on Karti store purchases and within the limit assigned to the plan.
+• Gaming cards are subject to vendor availability at Karti store
+• Merchant example PlayStation store & XBOX store & Steam game store etc.
+8. Add-Ons and Extras
+8.1. International Minute Add-Ons
+8.1.1 QR35 International Add-on.
+• This add-on gives customers minutes to call selected destinations.
+• The add-on is priced QR 35 and charges automatically recur every month.
+• The minutes include in this pack are only available for calls originated in Qatar.
+Destinations International minutes
+India 750
+Philippines – Globe Network Only 140
+Pakistan 250
+Bangladesh 700
+Sri Lanka 70
+Egypt 100
+8.1.2 QR 10 International Add-on
+• The minutes included in this pack are only available for calls originating in Qatar
+• This add-on cost QR 10 monthly and recurs monthly. It offers international minutes for following countries:
+Destinations International minutes
+India 200
+Philippines 25
+Pakistan 50
+Bangladesh 200
+Other countries (8.1.4) 20
+Tariff Notification: Consumer
+8.1.3 7 Days International Calling Boosters
+Pack name Description
+7-day India booster pack 200 India international outgoing minutes valid for 7days for just
+QR20 only
+7-day Pakistan booster pack 50 Pakistan international outgoing minutes valid for 7 days for
+just QR20 only
+7-day Philippine’s booster pack 50 Philippines international outgoing minutes to GLOBE telecom
+valid for 7days for just QR20 only
+7-day Bangladesh booster pack 80 Bangladesh international outgoing minutes valid for 7 days for
+just QR20 only
+7-day international booster pack 40 international outgoing minutes to call other countries (8.1.4)
+valid for 7 days for just QR20 only.
+8.1.4 Countries for International Add-On
+• For the Others Countries QR 10 International Add-On and 7-day international booster pack international minutes
+are applicable for calls to: Afghanistan; Andorra; Angola; Argentina; Armenia; Aruba; Australia; Austria; Bahrain;
+Bangladesh; Belgium; Bhutan; Bolivia; Botswana; Brazil; Brunei; Bulgaria; Cambodia; Canada; China; Colombia; Costa
+Rica; Cyprus; Czech Republic; Denmark; Ecuador; Egypt; El Salvador; Estonia; Finland; France; French Guiana;
+Georgia; Germany; Ghana; Gibraltar; Greece; Guadeloupe; Guatemala; Honduras; Hong Kong; Hungary; Iceland;
+India; Indonesia; Iran; Iraq; Ireland; Italy; Japan; Jordan; Kazakhstan; Kenya; Korea (South); Kuwait; Kyrgyzstan;
+Lebanon; Liechtenstein; Lithuania; Luxembourg; Macau; Malawi; Malaysia; Malta; Mauritius; Mexico; Mongolia;
+Mozambique; Namibia; Nepal; Netherlands; New Caledonia; New Zealand; Nigeria; Norway; Bermuda; Chile;
+Dominican Republic; Faeroe Islands; Greenland; Guam; Inmarsat; Laos; Mariana Island; Monaco; Puerto Rico;
+Reunion Island; United States; Uruguay; US Virgin Islands; Oman; Pakistan; Palestine; Panama; Paraguay; Peru;
+Philippines; Poland; Portugal; Romania; Russia; Saudi Arabia; Singapore; Slovakia; Slovenia; South Africa; Spain; Sri
+Lanka; Sudan; Suriname; Swaziland; Sweden; Switzerland; Syria; Taiwan; Tajikistan; Thailand; Turkey; Turkmenistan;
+Ukraine; United Arab Emirates; United Kingdom; Uzbekistan; Venezuela; Vietnam; Yemen Arab Republic and
+Zambia.
+8.2. Local Data Add-Ons
+8.2.1 QR 20 Local Data Add-Ons
+• These data Add-ons are for selected Postpaid Plans. These add-on are monthly recurring add-ons
+Local Data Add on Postpaid+ Essential Postpaid+ Extra Unlimited+
+QR 20 2 GB 5 GB 8 GB
+8.2.2 7 Days Data Booster Pack
+• These data Add-ons are for all Postpaid Plans
+• These are one-time subscription add-ons and customers can subscriber these multiple times
+Pack name Description
+7-day Data booster pack 2.5 GB local data valid for 7days for just QR20 only
+7-day 25GB data booster pack 25 GB local data valid for 7days for just QR50 only
+Tariff Notification: Consumer
+8.2.3 Speed Boosters for Unlimited+ Plans
+Daily Monthly
+QR 20 (FUP of 5GB per day) QR 100 (FUP of 100GB per month)
+8.3. Local Minutes Add-ons
+8.3.1 QR 20 Local Minutes Add-On
+• These Add-ons are for selected Postpaid Plans
+• These add-ons are monthly recurring add-ons
+Local minutes Add-on Postpaid+ Essential Postpaid+ Extra
+QR 20 200 300
+8.3.2 7 Days Local Minutes Booster Packs
+Pack name Description
+7-day Local booster pack 150 local minutes valid 7 days for just QR 20 only.
+8.3.3 Local 25Dhs Calling Opt in
+• Customers can make national voice calls for 25Dhs per minute if they opt in for the rate. Customers can activate the
+national voice call rate of 25Dhs per minute by dialing *200*25#.
+• There is no charge for opting in for the 25Dhs rate.
+9. Roaming Products
+9.1. Roam Like Home Pack
+• Customers on the following Postpaid Plans below (“Eligible Plans”) can activate the new Roam Like home Pack (“RLHP”)
+Add On:
+U Start Legacy U Plus Legacy U Plus India Legacy
+Unlimited 300 Legacy Unlimited 375 Legacy Unlimited 450 Legacy
+Unlimited VIP Legacy Vodafone First Legacy Vodafone First Plus Legacy
+Vodafone First Family Legacy Postpaid Essential Legacy Postpaid Extra Legacy
+Unlimited Legacy Unlimited Premium Legacy Unlimited+ VIP
+Unlimited+ Unlimited+ Premium Unlimited+ Platinum
+Postpaid+ Essential Postpaid+ Extra Postpaid+ MAX
+Ahli Ahli Pro Ahli Premium
+Ahli Platinum
+• RLHP once activated on the Eligible Plans above enables the Customer to use their Local Units (voice calls, SMS), Local
+Data allowances, current Add-ons allowance and out of bundle services while roaming in the following RLHP countries
+(“RLHP Countries”):
+Saudi Arabia Oman Kuwait
+UAE Bahrain Turkey
+UK Germany France
+Spain Switzerland Italy
+USA Egypt Australia
+Tariff Notification: Consumer
+Austria Bangladesh Greece
+Jordan Malaysia Netherlands
+Norway Pakistan Philippines
+Sri Lanka Thailand Tunisia
+China Poland Czechia
+Portugal Indonesia Singapore
+South Korea South Africa
+• The benefits are only applicable in the RLHP Countries mentioned above.
+• Customers can use their Eligible Plan, Add-On, and promotional allowances while roaming in RLHP Countries. Incoming
+calls in the specified RLHP Countries are free for customers subscribed to the RLHP Add-On. Standard roaming rates will
+apply when customers roam in countries not included in the RLHP Country list or if You make calls to countries outside
+the RLHP countries.
+• Customer can make international calls while roaming except if the destination wasn't eligible for calls as per your current
+Postpaid Plan benefits while in Qatar. In such cases standard international call rates will apply. For example, local
+allowance not eligible for roaming use such as Data at lower (throttled) speed, which is used after the main Data allowance
+from your current Postpaid Plan.
+• Customer can also dial *129# or check the My Vodafone App. to know the remaining data allowance in the plan.
+• Any remaining data/voice in the RLHP if not consumed in 30 Days from the activation date will convert back to local.
+• Customer will receive an SMS notification when their data/voice is consumed or when the validity period has expired.
+9.1.1 Daily RLHP Add-On
+• Daily Roam Like Home Pack (“RLHP”) is an Add-On that transforms the customers local benefits into roaming privileges.
+It allows customers to use their current postpaid plan allowances and Add-ons while traveling in certain countries for (1
+day ) on activation by paying QR 50.
+• Customers can subscribe while in Qatar or abroad through the My Vodafone App or by dialing the activation code
+• *110*55# provided they are on the plan’s Eligible plans for RLHP.
+• Activation is valid for one (1) day, and customers can do multiple activations as long as it for personal use and not leading
+to Artificially Inflated Traffic.
+• Any remaining data/voice in the RLHP if not consumed in one (1) Day from the activation date, will be converted back to
+local benefits.
+• RLHP cannot do permanent roaming, which means that customers can only subscribe to this Add On for a maximum of
+twelve (12) times consecutively.
+9.1.2 Weekly RLHP Add-on
+• Weekly Roam Like Home Pack (“RLHP”) is an Add-On that transforms the customers local benefits into roaming privileges.
+It allows customers to use their current postpaid plan allowances and Add-ons while traveling in certain countries for (7
+days) on activation by paying QR 150.
+• Customers can subscribe while in Qatar or abroad through the My Vodafone App or by dialing the activation code
+• *110*120# provided they are on the plan’s Eligible plans for RLHP.
+• Activation is valid for seven (7) days and customers can do multiple activations as long as it is for personal use and not
+lead to Artificially Inflated Traffic.
+• Any remaining data/voice in the RLHP if not consumed in seven (7) Days from the activation date, will convert back to
+local benefits.
+• RLHP cannot do permanent roaming which means that customers can only subscribe to this Add On for a maximum of
+twelve (12) times consecutively.
+9.1.3 Monthly RLHP Add-on
+• RLHP is an add-on that transforms customers’ local benefits into roaming privileges. It allows customers to use current
+Plan allowances and Add-Ons while traveling in RLHP Countries for thirty (30) days by paying QR 500 provided they are on
+Tariff Notification: Consumer
+the Eligible Plans.
+• Customers can subscribe while in Qatar or abroad through the My Vodafone App or by dialing the activation code
+• *110*500#
+• Activation is valid for thirty (30) days and customers can do multiple activation as long as it for personal use and not leading
+to Artificially Inflated Traffic.
+• Any remaining data/voice in the RLHP if not consumed in 30 Days from the activation date will convert back to local RLHP
+cannot be used for permanent roaming which means that customers can only subscribe to this Add On for a maximum of
+three (3) times consecutively.
+9.1.4 GCC RLHP Weekly Pack
+• The Weekly Roam Like Home Pack – GCC (“GCC RLHP”) is an Add-On that allows eligible postpaid customers to use their
+local plan allowances (data, minutes, SMS, and add-ons) while roaming in GCC countries for 7 days at a price of QR 125.
+• Customers on the following Postpaid Plans (“Eligible Plans”) can activate the new Roam Like Home Weekly Pack – GCC
+("GCC RLHP") Add-On:
+U Start Legacy U Plus Legacy U Plus India Legacy
+Unlimited 300 Legacy Unlimited 375 Legacy Unlimited 450 Legacy
+Unlimited VIP Legacy Vodafone First Legacy Vodafone First Plus Legacy
+Vodafone First Family Legacy Postpaid Essential Legacy Postpaid Extra Legacy
+Unlimited Legacy Unlimited Premium Legacy Unlimited+ VIP
+Unlimited+ Unlimited+ Premium Unlimited+ Platinum
+Postpaid+ Essential Postpaid+ Extra Postpaid+ MAX
+Ahli Ahli Pro Ahli Premium
+Ahli Platinum
+• Once activated, GCC RLHP allows customers to use their local plan allowances (data, minutes, SMS, add-ons, and out-of-
+bundle services) while roaming in the following GCC countries (“GCC RLHP Countries”):
+Saudi Arabia United Arab Emirates (UAE) Kuwait
+Oman Bahrain
+• Customers can subscribe to the pack while in Qatar or abroad, through the My Vodafone App or by dialing the activation
+code *110*130#, provided they are on one of the eligible postpaid plans.
+• The pack is valid for seven (7) days from the time of activation. Customers may activate the pack multiple times, as long
+as the usage is for personal use and does not lead to Artificially Inflated Traffic.
+• The GCC RLHP Add-On is intended for short-term roaming use and does not support permanent roaming. Customers
+may only activate the pack a maximum of twelve (12) consecutive times.
+9.2. Vodafone Passport Packs
+• These packs provide data and minutes which are only applicable in the passport pack countries available at
+www.vodafone.qa/passportpack except for the GCC Packs which are only valid for roaming in GCC countries which are
+(Saudi Arabia, UAE, Kuwait, Bahrain and Oman)
+• Customer can subscribe while in Qatar or abroad through My Vodafone App, E-top up or by dialing the activation codes,
+*110*35# for Postpaid.
+• Customer will receive an SMS notification when their data/voice is consumed or when the validity period has expired.
+• Customer can also dial *129# or check the My Vodafone App. to know the remaining data allowance in the Offer.
+9.2.1 Daily Passport Pack
+• All Customers who subscribe to the Daily Passport Pack (“Daily Passport Pack”) by paying QR35 per Day shall
+receive the benefits below:
+Roaming Data Roaming Minutes
+1GB 30 outgoing and incoming
+Tariff Notification: Consumer
+• This pack is valid for one day
+• Customers can reactivate again only after expiry of existing pack
+• If the Customer consumes more than the total data/voice allowance before the expiry, then the rate will be QR 1 per
+1MB/Minute until the day period expires and thereafter the standard roaming rates below will apply.
+• Any remaining data/voice in the Daily passport Pack if not consumed within the same day from the activation date will
+expire.
+9.2.2 Weekly Pack
+• All Customers who subscribe to the Passport Pack (“Passport Pack”) by paying QR100 per week shall receive the benefits
+below:
+Roaming Data Roaming Minutes & SMS
+3GB 100 outgoing and incoming
+• This pack is valid for one (1) week
+• If the Customer consumes more than the total data/voice allowance before the expiry, then the rate will be QR 1 per
+1MB/Minute until the 7-day period expires and thereafter the standard roaming rates below will apply.
+• Any remaining data/voice in the passport Pack if not consumed within 7 days from the activation date will expire.
+• Inflight roaming is free with every passport activation with a FUP of 40 GB per passport activation per flight.
+9.2.3 Weekly Pack – Data Only
+• All Customers who subscribe to the Passport Pack – Data Only (“Passport Pack Data Only”) by paying QR100 per week
+shall receive the benefits below:
+Roaming Data Roaming Minutes
+6 GB N/A
+• This pack is valid for one (1) week
+• If the Customer consumes more than the total data allowance before the expiry, then the rate will be QR 1 per 1MB until
+the 7-day period expires and thereafter the standard roaming rates below will apply.
+• Any remaining data in the passport Pack if not consumed within 7 days from the activation date, will expire.
+9.2.4 Monthly Pack
+• All Customers who subscribe to the Passport Pack (“Passport Pack”) by paying QR 320 per month shall receive the
+benefits below:
+Roaming Data Roaming Minutes
+10 GB 300 Outgoing and Incoming Minutes
+• This pack is valid for 1 month from the date of activation
+• If the Customer consumes more than the total data/voice allowance before the expiry, then the rate will be QR 1 per
+1MB/Minute until the 1-month period expires and thereafter the standard roaming rates below will apply.
+• Any remaining data or voice allowance in the Passport Pack will expire if not consumed within one (1) month from the
+activation date.
+• Inflight roaming is free with every passport activation with a FUP of 40 GB per passport activation.
+9.2.5 Vodafone GCC Passport – Data only
+• All Customers who subscribe to the GCC Passport Data Pack by paying QR 150 per week shall receive the benefits below:
+Roaming Data in GCC Countries only Roaming Minutes
+10 GB N/A
+Tariff Notification: Consumer
+• This pack is valid for one (1) week
+• If the customer consumes more than the total data allowance before the expiry, then the rate will be QR 1 per MB until
+the 7-day period expires. After that, standard roaming rates will apply.
+• Any remaining data in the GCC Passport Data Pack will expire 7 days after the activation date if not consumed.
+9.2.6 Vodafone GCC Passport Pack
+• All Customers who subscribe to the GCC Passport Pack (“GCC Passport Pack”) by paying QR150 per week shall receive
+the benefits below:
+Roaming Data in GCC Countries Roaming Minutes
+5 GB 100 Outgoing and Incoming
+• This pack is valid for one (1) week
+• If the Customer consumes more than the total data/voice allowance before the expiry, then the rate will be QR 1 per
+1MB/Minute until the 7-day period expires and thereafter the standard roaming rates below will apply.
+• Any remaining data/voice in the passport Pack if not consumed within 7 days from the activation date will expire.
+9.3. Global Roaming Countries
+The Global Roaming refers to roaming in the following countries:
+Afghanistan Argentina Azerbaijan
+Albania Algeria Andorra
+Anguilla Antigua Armenia
+Aruba Australia Austria
+Bahrain Bangladesh Barbados
+Belarus Belgium Benin
+Bermuda Bonaire Bolivia
+Bosnia & Herzegovina Brazil British Virgin Islands
+Bulgaria Canada Cape Verde
+Cayman Islands China Chile
+Chad Colombia Curacao
+Congo Croatia Cyprus
+Czech Republic Cote D'Ivoire Denmark
+Dominica Egypt El Salvador
+Estonia Fiji Finland
+France French Guiana Germany
+Gibraltar Georgia Ghana
+Greece Greenland Grenada
+Guadeloupe Guatemala Guernsey
+Guinea-Bissau Guyana Haiti
+Hong Kong Hungary Iceland
+India Indonesia Inflight – On Air
+Inflight – Aero Mobile Iraq* Ireland
+Italy Jamaica Japan
+Tariff Notification: Consumer
+Jersey Jordan Kazakhstan
+Kenya Kuwait Laos
+Latvia Lebanon Lesotho
+Lichtenstein Lithuania Luxembourg
+Macau* Macedonia Mauritius *
+Malaysia Malta Martinique
+Mexico Moldova Montenegro
+Morocco Montserrat Mozambique
+Myanmar Nauru Nepal
+Netherlands Zealand Nigeria
+Norway Oman Paraguay*
+Pakistan Palestine Panama
+Papua Guinea Peru* Philippines
+Poland Portugal Republic of Congo
+Romania Russia Rwanda
+Samoa Saudi Arabia Senegal
+Seychelles Serbia Singapore
+Sierra Leon* Slovakia Slovenia
+South Africa South Korea Spain
+Sri Lanka St. Kitts & Nevis St. Lucia
+St. Vincent & The
+Grenadines
+Suriname Sudan
+Sweden Switzerland Taiwan
+Tajikistan Tanzania Thailand
+Tonga Trinidad & Tobago Tunisia
+Turkey Turks and Caicos Islands UAE
+Ukraine USA Uzbekistan
+Uruguay Uganda UK
+Vanuatu Vietnam Zambia
+Burkina Faso Botswana Cameroon
+Costa Rica Dominican Republic Ecuador
+Faroe Islands Isle of Man Guinea
+Honduras Kyrgyzstan Cambodia
+Liberia Mali Malawi
+Nicaragua Puerto Rico Swaziland
+Brunei Ethiopia Bahamas
+French Polynesia Madagascar Mongolia
+South Sudan
+Tariff Notification: Consumer
+10. Standard Rate card
+10.1. National Rate Card
+• All calling prices are charged per minute, and Mobile internet usage is charged on a per MB increment.
+Cost Unit
+National Voice QR0.35 Per minute
+Video Calling QR0.45 Per minute
+National SMS QR0.30 Per SMS
+National MMS QR0.90 Per MMS
+Mobile Internet QR0.99 Per MB
+10.2. International Rate Card
+• Please visit www.vodafone.qa/international for a full list of countries and rates.
+Cost Unit
+International SMS QR0.60 Per SMS
+International MMS QR1.35 Per MMS
+Satellite QR 28.00 Per minute
+• International Calling Rate Card by Country
+Rate Country List
+QR 0.99
+Bosnia and Herzegovina, Faroe Islands, Ghana, Macau, Mariana Islands, Netherlands
+Antilles, New Zealand, Palestine, Saint Lucia, Saint Vincent and the Grenadines, South
+Korea, St Vincent, Suriname, Taiwan, Trinidad and Tobago, Turks Caicos Islands, United
+States.
+QR 0.66 Saipan
+QR 1.5
+Albania, Angola, Antigua and Barbuda, Armenia, Azores, Belarus, Belgium, Benin,
+Botswana, British Virgin Islands, Cameroon, Cape Verde, Christmas Islands, Cocos Islands,
+Comoros, Congo (Brazzaville), Croatia, Djibouti, Equatorial Guinea, French Polynesia,
+French West Indies, Ivory Coast, Liberia, Macedonia, Montenegro, Mozambique, Rwanda,
+Samoa US, Senegal, Serbia, Sweden, Switzerland, Tanzania, Togo, Tonga, Uganda, Ukraine,
+United Kingdom, Zaire.
+QR 1.55 Bahrain, Kuwait, Oman, Saudi Arabia, and UAE
+Tariff Notification: Consumer
+QR 2.0
+Afghanistan, Andorra, Anguilla, Argentina, Aruba, Australia, Austria, Azerbaijan,
+Bangladesh, Belize, Bermuda, Bhutan, Bolivia, Brazil, Brunei, Bulgaria, Burkina Faso,
+Burundi, Cambodia, Canada, Cayman Islands, Chad, Chile, China, Colombia, Congo, Costa
+Rica, Cyprus, Czech Republic, Denmark, Ecuador, Egypt, El Salvador, Eritrea, Ethiopia, Fiji,
+Finland, France, French Guiana, Gabon, Georgia, Germany, Gibraltar, Greece, Greenland,
+Grenada, Guadeloupe, Guatemala, Guernsey, Guyana, Haiti, Honduras, Hong Kong,
+Hungary, Iceland, India, Indonesia, Iran, Iraq, Ireland, Italy, Japan, Jersey, Jordan,
+Kazakhstan, Kenya, Kosovo, Kyrgyzstan, Laos, Latvia, Lebanon, Lesotho, Libya,
+Liechtenstein, Lithuania, Luxembourg, Malawi, Malaysia, Mali, Malta, Martinique,
+Mauritania, Mauritius, Mayotte, Mexico, Micronesia, Moldova, Monaco, Mongolia,
+Montserrat, Morocco, Myanmar, Namibia, Nepal, Netherlands, New Caledonia, Nicaragua,
+Niger, Nigeria, Niue Island, North Korea, Norway, Pakistan, Palau, Panama, Paraguay, Peru,
+Philippines, Poland, Portugal, Puerto Rico, Reunion, Romania, Russia, Samoa, San Marino,
+Seychelles, Sierra Leone, Singapore, Slovakia, Slovenia, Somalia, South Africa, Spain, Sri
+Lanka, St Kitts Nevis, St Pierre Miq, Sudan, Swaziland, Syria,
+Tajikistan, Thailand, Turkey, Turkmenistan, Uruguay, Uzbekistan, Vanuatu, Venezuela,
+Virgin Islands, Yemen, Zambia, Zimbabwe.
+QR 2.5
+Algeria, Central African Republic, Cook Islands, Estonia, Guinea, Guinea-Bissau, Maldives,
+Papua New Guinea, Saint Kitts and Nevis, Sao Tome, Tunisia, Vietnam, Wallis and Futuna
+Islands.
+QR 2.99 Bahamas, Barbados, Cuba, Dominica, Gambia, Guam, Jamaica, Madagascar, Nauru, Tuvalu.
+QR 3.5 Dominican Republic, East Timor, Marshall Islands, Solomon Islands
+QR 28 Antarctica, Ascension, Diego Garcia, Falkland Islands, Kiribati, Norfolk Island, Satellite, St
+Helena, Tokelau.
+10.3. Roaming Rate Card
+• Customers can now get roaming in over 180 countries. However, roaming in a small portion of these countries (less than
+1% of total) may have delayed charges of up to 31 days.
+• To activate full roaming in certain countries, list available at http://www.vodafone.qa/en/support/faqs/plans/roaming
+• Please note that the Customer will need to provide a valid credit card as a security guarantee or pay a deposit of QR
+2,000 at any Vodafone Store.
+• To learn more and find out which other countries are included, please contact 122 or visit our nearest Vodafone store or
+http://www.vodafone.qa/en/plans-and-numbers/other- services/roaming.
+Zone
+Making calls
+in the country
+you're in
+(QR per Min)
+Calls Back to
+Qatar
+(QR per Min)
+Calls to GCC
+(QR
+per Min)
+Internet
+Calls
+(QR per
+Min)
+Received
+Calls (QR
+per Min)
+Send SMS
+(QR per
+SMS)
+Data
+Roaming
+(QR per
+MB)
+Send MMS
+(QR per
+MMS
+1 0.88 2.00 2.00 17.00 0.80 0.22 1.53 3
+2 5.00 17.00 17.00 17.00 3.00 2 55.00 5
+3 5.00 17.00 17.00 17.00 3.00 2 15.00 5
+4 5.00 17.00 17.00 17.00 3.00 2 55.00 7
+5 5.00 17.00 17.00 17.00 3.00 2 55.00 7
+6 5.00 17.00 17.00 17.00 3.00 2 55.00 9
+7 30.00 30.00 30.00 30.00 30.00 2 75.00 10
+10.3.1 Roaming Countries
+Zone Area Countries
+Tariff Notification: Consumer
+1 GCC Bahrain; Kuwait; Oman; Saudi Arabia and United Arab Emirates
+2 MENA Algeria; Iran; Iraq; Jordan; Palestine; South Sudan; Lebanon; Morocco; Sudan; Syria and Tunisia
+3 Vodafone Albania; Australia; Czech Republic; Egypt; Greece; Hungary; Germany; Ghana; India; Ireland;
+Italy; Malta; Netherlands; New Zealand; Portugal; Romania; South Africa; Spain; Turkey and
+United Kingdom
+4 Asia &
+Oceania
+Afghanistan; American Samoa; Azerbaijan; Bangladesh; Cambodia; China; Bhutan; Brunei; Cook
+Island; East Timor; Fiji; Georgia; Hong Kong; Indonesia; Japan; Kazakhstan; Kyrgyzstan; Macau;
+Malawi; Malaysia; Maldives; Mongolia; Myanmar; Nauru; Nepal; Norfolk Island; New Caledonia;
+Pakistan; Palau; Papua New Guinea; Philippines; Samoa; Singapore; Solomon Island; Solomon
+Islands; South Korea; Sri Lanka; Taiwan; Tajikistan; Thailand; Tonga; Trinidad and Tobago;
+Turkmenistan; Uzbekistan; Vanuatu; Vietnam and Yemen
+5 Americas &
+Europe
+Aland; Andorra; Anguilla; Antigua and Barbuda; Aruba; Austria; Argentina; Armenia; Bahamas;
+Barbados; Belarus; Belgium; Belize; Bermuda; Bolivia; Bosnia and Herzegovina; Brazil; British
+Virgin Islands; Bulgaria; Canada; Cayman Islands; Chile; Colombia; Costa Rica; Croatia; Cyprus;
+Cuba; Denmark; Dominica; Dominican Republic; Ecuador; El Salvador; Estonia; Falkland Islands;
+Faroe Islands; Finland; France; French Guyana; Gibraltar; Greenland; Grenada; Guadeloupe;
+Guam; Guatemala; Guernsey; Guinea; Guinea Bissau; Guyana; Haiti; Iceland; Isle of Man;
+Jamaica; Jersey; Kosovo; Latvia; Liechtenstein; Lithuania; Luxembourg; Macedonia; Martinique;
+Mexico; Moldova; Monaco; Montenegro; Montserrat; Netherlands Antilles; Nicaragua; Northern
+Mariana Islands; Norway; Panama; Paraguay; Peru; Poland; Puerto Rico; Russia; Saint Kitts and
+Nevis; Saint Lucia; Saint Pierre and Miquelon; Saint Vincent and the Grenadines; San Marino;
+Serbia; Slovakia; Slovenia; Suriname; Sweden; Switzerland; Tahiti; Turks and Caicos Islands;
+Ukraine; United States; Uruguay and Venezuela
+6 Africa & ROW Angola; Benin; Botswana; Burkina Faso; Cape Verde; Central African Republic; Burundi;
+Cameroon; Chad; Comoros Islands; Cote D'Ivoire; Democratic Republic of the Congo; Djibouti;
+Equatorial Guinea; Ethiopia; Gabon; Gambia; Honduras; Kenya; Laos; Lesotho; Liberia; Libya;
+Madagascar; Mali; Mauritius; Mauritania; Mayotte; Mozambique; Namibia; Niger; Nigeria;
+Republic of the Congo; Réunion Island; Rwanda; Sao Tome and Principe; Senegal; Seychelles;
+Sierra Leone; Somalia; Swaziland; Tanzania; Togo; Uganda; Zambia and Zimbabwe.
+7 Others Air Flight Services; Maritime Services and Satellite Services
+10.3.2 Roaming and international Rates
+• The following roaming and international rates shall apply to customers subscribed to the eligible Postpaid plans listed
+below:
+New Unlimited+ Platinum Unlimited 375 Unlimited VIP Legacy
+New Unlimited+ VIP Unlimited 450 Unlimited+ Premium Special
+( Vodafone for all )
+Unlimited Unlimited Premium Unlimited+ Special
+( Vodafone for all)
+Unlimited 300 Unlimited VIP
+• The roaming rate of QR 1 per minute for incoming and outgoing calls shall apply to customers subscribed to the above
+Tariff Notification: Consumer
+eligible plans while roaming in the following countries:
+Albania Guinea-Bissau Papua New Guinea Denmark Palestine
+Algeria Guyana Philippines Dominica Panama
+Anguilla Haiti Poland Egypt Tanzania
+Antigua Hong Kong Portugal El Salvador Thailand
+Armenia Hungary Republic of Congo Estonia Tonga
+Aruba India Romania Fiji Trinidad & Tobago
+Australia Indonesia Russia France Tunisia
+Austria Ireland Rwanda French Guiana Turkey
+Bahrain Italy Samoa Germany Turks and Caicos Islands
+Bangladesh Jamaica Saudi Arabia Ghana *UAE
+Barbados Japan Seychelles Greece UK
+Belarus Jersey Serbia Grenada Ukraine
+Belgium Jordan Singapore Guadeloupe USA
+Bermuda Kazakhstan Slovenia Guernsey Uzbekistan
+Bonaire Kenya South Africa Zambia Vanuatu
+Brazil *Kuwait South Korea Mexico Vietnam
+British Virgin Islands Laos Spain Montserrat Pakistan
+Bulgaria Latvia Sri Lanka Morocco Norway
+Canada Czech Republic St. Kitts & Nevis Mozambique *Oman
+Cayman Islands Lichtenstein St. Lucia Myanmar Taiwan
+China Lithuania St. Vincent & The
+Grenadines
+Nauru Tajikistan
+Congo Luxembourg Surinam Netherlands Malta
+Croatia Macedonia Sweden New Zealand Martinique
+Curacao Malaysia Switzerland Nigeria Cote D'Ivoire
+11. Service Provider Obligations
+• Vodafone shall use its best endeavours to provide the Customer with the Services; however, due to the nature of this
+technology, Vodafone cannot guarantee a fault-free service.
+• Vodafone may suspend the Services: (i) to carry out maintenance or testing of the Vodafone Network; (ii) during any
+technical failure of the Vodafone Network; (iii) when it is necessary to safeguard the security and integrity of the
+Vodafone Network or to reduce the incidence of fraud; (iv) where it is necessary for reasons of Force Majeure; (v) where it
+identifies an Artificially Inflated Traffic due to fraud. Vodafone shall endeavour to keep all such suspensions to a
+minimum and shall give Customer notice of such suspensions where reasonably practicable.
+• Vodafone is not responsible or liable for any non-performance of Services or for any degradation or deviation of the
+Services that can be reasonably attributed to the actions or omissions of the Customer or third parties.
+12. Customer Obligations
+• Postpaid Service is for the use of the registered Customer only. The Customer may not transfer the registered Postpaid
+SIM card to another person without a valid transfer of number (“TON”) using the TON form at any Vodafone Retail Stores.
+Unauthorized transfer of a Postpaid SIM card may result in service cancellation.
+• The Customer must promptly notify Vodafone if the SIM Card is lost, stolen or damaged. In the event of loss, theft or
+damage of the SIM Card, the Customer must notify Vodafone within forty-eight (48) hours of becoming aware.
+• Porting Out:
+• The Customer can port their Postpaid Number, but only after all invoiced charges outstanding at the time of port-out
+request are fully paid. If charges are outstanding at the time of porting, Vodafone will inform the Customer of the amount
+payable and the timeframe in which that payment must be made to avoid the cancellation of the Customer’s port request.
+• The Customer must pay all charges that have been incurred by the Customer, but which have not been invoiced by
+Vodafone as at the date of the port, including any early contract termination fees. Vodafone will issue the Customer with
+a final invoice in respect of those charges. If the final invoice is not paid within 30 days of the invoice date, Vodafone may
+Tariff Notification: Consumer
+direct the other service provider to bar the ability of the Customer to make outgoing
+• calls (except for calls to emergency service numbers and operator service numbers), send SMS/MMS, access data services
+and any other outgoing services using the ported mobile number.
+• After 45 days, Vodafone may direct the other service provider to suspend the ability of the Customer to receive public
+telecommunications services using the ported mobile number and terminate the public telecommunications services in
+respect of the ported mobile number. The Subscriber may lose the right to use the ported mobile number if the invoiced
+charges are not paid within a certain period after the date of termination.
+• If the Customer requests the porting of a mobile number from Vodafone and it is subsequently discovered that the port
+has been made in error, is fraudulent or the Customer does not otherwise have the right to port that mobile number,
+Vodafone may take such measures as are necessary to address this issue, including returning the ported number to the
+original range holder.
+Tariff Notification: Consumer
+13. Tariff Modification Version Control
+Version Number Effective Date Description of Change
+1.43 15/06/2017 Changes in 3.1, 3.1.1, 3.1.3, 3.2, 3.2.3, 3.2.4, 3.3, 3.4, 3.5, 3.6, 3.8, 4, 7.2, 3.7
+1.44 08/08/2017 Change in 3.1
+1.45 10/08/2017 Change in 3.7
+1.46 24/10/2017 Change in 3.3 – 3.6 and 5
+1.47 15/10/2017 Change in 3.3, 9.3, 7.2
+1.48 01/11/2017 Change in 3.1
+1.49 08/11/2017 Change in 3.2.3
+1.50 31/12/2018 Change in 3.3 and 4
+1.51 05/02/2018 Change in 3.1.2 & 3.1.3, 3.2.2, 3.3 and 3.9
+1.52 06/03/2018 Change in 3.1
+1.53 01/04/2018 Change in 7.3
+1.54 29/04/2018 Change in 3.3
+1.55 13/05/2018 Change in 3.3
+1.56 13/09/2018 Change in 7.2
+1.57 13/11/2018 Change in 3.1, 3.2.1, 3.9, 10, 3.1 and 3.10
+1.58 13/12/2018 Change in 1.5, 2, 4.4,4.5, 4.6, 4.7,5, 6.1, 4, 3.3, 3.4, 3.9.2, 7 and 8
+1.59 31/12/2018 Change in 5.2
+1.60 08/01/2019 Change in 5.1 and 6.4
+1.61 23/01/2019 Change in 7
+16.2 18/02/2019 Change in 4; 4.3 and 4.6
+16.3 28/02/2019 Change in 4.1
+16.4 28/03/2019 Change in 14 and 15
+16.5 01/04/2019 Change in 10.3
+16.6 23/07/2019 Change in 4.1
+1.68 30/09/2019 Change in 4.1
+1.69 22/10/2019 Change in 4.1
+1.70 17/11/2019 Change in 12A
+1.71 12/12/2019 Change in 6.1
+1.72 17/12/19 Change in 4.1.1, 4.1.2 and 4.1.5
+1 09/12/2020 Change in 5 and 5.2
+2 26/03/2020 Change in 7
+3 19/04/2020 Changes in 4.1.1; 4.1.6; 6.10 and 7.
+4 26/04/20 20 Change in 10.3
+5 15/06/20 Change in 7
+6 18/06/20 Changes in 14
+7 1/07/20 Changes in 14
+8 9/07/20 Changes in 7
+9 13/09/2020 Changes in 6.8, 6.9 and 10.2
+10 21/09/2020 Change in 4.1.5
+Tariff Notification: Consumer
+11 1/10/2020 Change in 5 and 6
+12 08/02/2021 Changes in 5,7 and 15
+13 7/04/2022 Addition of clause 18
+14 22/04/2021 Change in 4.1 and 4.2
+15 28/06/2021 Change in 3.2.
+16 28/07/2021 Addition of clause 19
+17 08/09/2021 Addition of clause 7.1
+18 28/09/21 Clause 3.5, 5, 7 and 7.1
+19 30/9/2021 Clause 7
+20 14/10/2021 New U Plus India
+21 19/10/2021 Changes in 6.8
+22 17/11/2021 Changes in 4.1 and 4.1.2
+23 22/11/2021 Changes in 4.1, 4.1.2, 6.4 and 6.5
+24 3/01/2022 Changes in 7
+25 13/02/2022 Changes in 3 and 4.1
+26 24/04/2022 Changes in 4.2, 4.3, 4.4, 4.7, 4.9, 4.10 (2,3 and 4) and 7
+27 24/05/2022 Changes 4.1
+28 09/06/2022 Addition of Clause 9
+29 07/07/2022 Addition in Clause 7.9
+30 11/08/2022 New clause 5A
+31 13/10/2022 Change in 7.9
+32 22/11/2022 Change in 4.5 and 7.9
+33 18/04/2023 Addition of Clause 8
+34 28/05/2023 Changes in 4.1, 4.2 and 4.4
+35 08/06/2023 Revamp of all Plans and grandfathering of old plans.
+36 25/06/2023 New Clause 4.6 (2) and 10
+37 10/08/2023 Changes in 7
+38 25/09/23 Changes in 4.1 and 4.2 and new clause 9
+39 08/10/2023 Changes in 7
+40 30/10/2023 Changes in 9 (1) and 9 (2)
+41 07/11/2023 New Clause 4.3 and change in 7
+42 08/11/2023 Change 7
+43 09/11/2023 Changes in 7
+44 27/11/2023 Changes in 1 and 15
+45 11/12/2023 Deletion of 6.3 and change in 6.7
+46 27/12/2023 Reformatting of the entire document and Changes in 3, 4 and 6.11
+47 01/01/2024 Deletion of 3.5 and 3.7
+48 11/01/2024 Deletion of 4.1 and 4.2
+49 28/1/2024 Deletion of 7.1 and 7.8
+50 01/02/2024 New clause 6A
+51 08/02/2024 Changes in 6A
+52 11/03/2024 Change in 6A
+Tariff Notification: Consumer
+53 06/05/2024 New clause in 9.1
+54 12/05/2024 Changes in 10.2 and 10.3
+55 10/06/2024 Change in 4.5
+56 07/07/2024 Change in 6A
+57 08/07/2024 Change in 7.1
+58 16/09/2024 Change in 3.4 and 6A
+59 29/09/2024 New clauses 4.2, 4.4, and 4.5; changes in 4.12 & 6.11; deletion of 4.3
+60 29/10/2024 Deletion of 6A
+61 10/11/2024 New clauses in 1.2 and 3.6
+62 24/11/2024 New clause in 4.4.1
+63 01/12/2024 Changes in 4.2 and 4.4
+64 03/12/2024 Changes in 6.11
+65 07/01/2025 Changes in 7
+66 19/01/2025 Changes in 4.2
+67 28/01/2025 Changes in 3.6
+68 04/02/2025 Changes in 4.2 and 4.4.3
+69 26/03/2025 Changes in 9.2 and 9.3
+70 11/05/2025 Changes in 1
+71 09/07/2025 Changes in 4.2,4.4, 4.9.1 and 9.3
+72 17/07/2025 Changes in 6.11,6.11.3 and 9.4
+73 29/07/2025 New clause 6A
+74 12/08/2025 Changes in clause 4.9.4
+75 28/08/2025 Changes in 4
+76 04/09/2025 Changes in 4.1.1 and 4.1.6
+77 02/10/2025 Changes in 4.1.6
+78 16/10/2025 Changes in 4.7
+79 30/10/2025 Changes in 9
+80 03/11/2025 Changes in 4.1
+81 11/11/2025 Changes in 4.1, 9.2 and 9.5
+82 20/11/2025 Changes in 3
+83 28/12/2025 Changes in 4.3, 4.4 and 4.6
+84 05/01/2026 Change in 4.11.1
+85 30/03/2026 Change in 4.7.2
+86 07/04/2026 Changes in 4.11.4 and 6.11.1
+87 14/05/2026 Changes in 4.1.2 and 4.11.4
+88 14/06/2026 Changes in 5.1, 6.1, 6.2, 6.4, 6.5, 6.6 and 6.7
+89 30/08/2026 Changes in 5.1 and 5.2
+90 13/09/2026 Complete document cleanup with reformatting. Introduction of Ahli
+Plans.
