@@ -1,0 +1,34 @@
+4. Consumer Postpaid Plans
+4.1 NewUnlimited+ Plans
+New Unlimited Plans New Unlimited+ New Unlimited+
+Premium
+New Unlimited+
+Platinum NewUnlimited+ VIP
+Monthly Rental (MR) 300 450 750 1000
+MRthrough Retail
+(6 months)1 250 400 750 1000
+MRthroughOnline /
+MVA (6 months)2 225 350 650 1000
+Local Mins and SMS Unlimited (In Qatar) Unlimited (In Qatar)
+4.1.1 Speed and Fair Usage Policy (FUP)
+• New Unlimited+: First 125 GB at full 5G speed and then unlimited data at the speed of 10 Mbps.
+• New Unlimited+ Premium: First 350 GB at full 5G speed and unlimited data at the speed of 15
+Mbps.
+• New Unlimited+ Platinum: First 750 GB at full 5G speed and then unlimited data
+• New Unlimited+ VIP: First 1000 GB at full 5G speed and then unlimited data
+4.2 New Postpaid+ Plans
+NewPostpaid+ Plans Postpaid+ Essential Postpaid+ Extra Postpaid+ Max
+Monthly Rental (QR) 130 180 230
+Local Minutes & SMS 500
+o New Postpaid+ Essential: The first 15 GB is at full 5G speed, and then unlimited data at the speed of 128 Kbps.
+o New Postpaid+ Extra: First 40 GB at full 5G speed and then unlimited data at the speed of 512 Kbps
+o New Postpaid+ Max: First 60 GB at full 5G speed and then unlimited data at the speed of 1Mbps
+4.3 Vodafone Employee (B2B2C) Offer
+Employee Monthly Rental 225 350 650 900
+7. Mobile Wi Fi / Data Plans
+Plan Name Monthly Fee Roaming Data Data (Monthly) Fair Usage Policy
+Mobile Wi-Fi 150 Plan QR150 - 35GB 35GB @ fullspeed then 128kbps
+Mobile Wi-Fi 199 Plan QR 199 - 60 GB 60 GB @ fullspeed then 128 kbps
+Data SIM Unlimited QR 299 - Unlimited 300 GB @ full speed followed by unlimited data @1 Mbps.
+Data SIM Unlimited premium QR 399 Unlimited 300 GB @ full speed then 200 GB @ 20 Mbps
+8 Consumer IOT (Internet of Things) Plans

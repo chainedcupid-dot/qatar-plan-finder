@@ -1,0 +1,849 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Compare every Ooredoo and Vodafone postpaid plan in Qatar against how you actually use your phone. قارن باقات Ooredoo وVodafone في قطر.">
+<meta name="theme-color" content="#8a1538">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icon.svg">
+<style>body{margin:0}[hidden]{display:none!important}</style>
+<title>Qatar Plan Finder</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@500;700&family=IBM+Plex+Sans+Arabic:wght@400;500;600&family=IBM+Plex+Mono:wght@500&family=Noto+Sans+Devanagari:wght@400;600&family=Noto+Sans+Bengali:wght@400;600&family=Noto+Sans+Malayalam:wght@400;600&display=swap">
+<style>
+/* Layout: one calm column like a bank or government e-service: brand bar, quick picks, usage dials, verdict, ranked plans.
+   Palette: Qatar maroon for brand and actions, desert sand for "best pick" highlights, cool stone neutrals. Never pink. */
+:root{
+  --bg:#f3f4f5; --surface:#ffffff; --ink:#15191d; --muted:#5d656d; --line:#dfe2e5;
+  --maroon:#8a1538; --maroon-ink:#8a1538; --on-maroon:#ffffff; --maroon-tint:#f5eaed;
+  --sand:#b8892f; --sand-tint:#f7efdf;
+  --good:#1d6b45; --good-tint:#e4f2ea; --warn:#9a5208; --warn-tint:#fbefe0;
+  --ooredoo:#c8102e; --vodafone:#4a4f55;
+  --f-display:"Readex Pro","IBM Plex Sans Arabic","Noto Sans Devanagari","Noto Sans Bengali","Noto Sans Malayalam",system-ui,sans-serif;
+  --f-body:"IBM Plex Sans Arabic","Noto Sans Devanagari","Noto Sans Bengali","Noto Sans Malayalam","Segoe UI",system-ui,sans-serif;
+  --f-num:"IBM Plex Mono",ui-monospace,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#111417; --surface:#1a1e22; --ink:#eef0f2; --muted:#a2aab2; --line:#2c3238;
+  --maroon:#8a1538; --maroon-ink:#e4c07a; --on-maroon:#ffffff; --maroon-tint:#2a1a1f;
+  --sand:#e4c07a; --sand-tint:#2b2516;
+  --good:#6fcf9b; --good-tint:#15291f; --warn:#f0ac62; --warn-tint:#2e2214;
+  --ooredoo:#ff6b78; --vodafone:#c3c8cd; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#111417; --surface:#1a1e22; --ink:#eef0f2; --muted:#a2aab2; --line:#2c3238;
+  --maroon:#8a1538; --maroon-ink:#e4c07a; --on-maroon:#ffffff; --maroon-tint:#2a1a1f;
+  --sand:#e4c07a; --sand-tint:#2b2516;
+  --good:#6fcf9b; --good-tint:#15291f; --warn:#f0ac62; --warn-tint:#2e2214;
+  --ooredoo:#ff6b78; --vodafone:#c3c8cd; color-scheme:dark}
+*{box-sizing:border-box}
+body{overflow-x:clip;background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:15px;line-height:1.5;padding-inline:16px;padding-block:0 48px}
+.brandbar{overflow:hidden;background:var(--maroon);color:var(--on-maroon);margin-inline:-16px;padding-inline:16px;padding-block:14px}
+.brandbar .in{max-width:720px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:12px}
+.brand{display:flex;align-items:center;gap:10px;min-width:0;flex:1 1 auto}
+.brand>div{min-width:0}
+.brand b,.brand small{display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.brand svg{flex:none;width:40px;height:40px}
+.brand b{font-family:var(--f-display);font-weight:700;font-size:18px;line-height:1.15;display:block}
+.brand small{opacity:.85;font-size:13px}
+.wrap{max-width:720px;margin:0 auto;display:flex;flex-direction:column;gap:18px;padding-top:20px}
+h1{font-family:var(--f-display);font-weight:700;font-size:clamp(22px,5.4vw,30px);line-height:1.2;margin:0;text-wrap:balance}
+.sub{color:var(--muted);margin:6px 0 0;max-width:56ch}
+.controls{display:flex;gap:8px;align-items:center;flex:none}
+.lang{flex:none;border:1px solid rgba(255,255,255,.45);background:transparent;color:var(--on-maroon);font:600 14px var(--f-body);padding:7px 14px;border-radius:999px;cursor:pointer}
+.theme:focus-visible{outline:2px solid #fff;outline-offset:2px}
+.langwrap{position:relative;display:inline-flex;flex:none}
+.langface{display:flex;align-items:center;gap:6px;border:1px solid rgba(255,255,255,.45);border-radius:999px;padding:0 12px;height:36px;color:var(--on-maroon);font:600 13px var(--f-body)}
+.langface svg{width:17px;height:17px}
+.langwrap select{position:absolute;inset:0;opacity:0;width:100%;height:100%;cursor:pointer;font-size:16px}
+.langwrap:focus-within .langface{outline:2px solid #fff;outline-offset:2px}
+.langwrap select option{color:#15191d;background:#fff}
+:root[lang="ur"] .val,:root[lang="ur"] .price{direction:ltr;unicode-bidi:isolate}
+.theme{flex:none;width:36px;height:36px;border-radius:999px;border:1px solid rgba(255,255,255,.45);background:transparent;color:var(--on-maroon);cursor:pointer;display:grid;place-items:center;padding:0}
+.theme svg{width:18px;height:18px}
+button:focus-visible,select:focus-visible,input:focus-visible,a:focus-visible{outline:2px solid var(--sand);outline-offset:2px}
+.presets{display:flex;flex-wrap:wrap;gap:8px}
+.preset{border:1px solid var(--line);background:var(--surface);color:var(--ink);font:500 14px var(--f-body);padding:8px 14px;border-radius:999px;cursor:pointer;display:flex;gap:6px;align-items:center}
+.preset[aria-pressed="true"]{background:var(--maroon);border-color:var(--maroon);color:var(--on-maroon)}
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:18px;display:flex;flex-direction:column;gap:18px}
+.panel h2,.kicker{font-family:var(--f-display);font-weight:500;font-size:13px;letter-spacing:.05em;text-transform:uppercase;color:var(--muted);margin:0}
+.field{display:flex;flex-direction:column;gap:6px}
+.row{display:flex;justify-content:space-between;align-items:baseline;gap:8px}
+label{font-weight:600}
+.val{font-family:var(--f-num);color:var(--maroon-ink);font-variant-numeric:tabular-nums}
+:root[lang="ar"] .val,:root[lang="ar"] .price{font-family:var(--f-body)}
+input[type=range]{width:100%;accent-color:var(--maroon)}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+@media (max-width:520px){.grid2{grid-template-columns:1fr}}
+select,input[type=number]{width:100%;font:15px var(--f-body);padding:9px 10px;border:1px solid var(--line);border-radius:8px;background:var(--bg);color:var(--ink)}
+.hint{font-size:13px;color:var(--muted);margin:0}
+.verdict{border-radius:14px;padding:16px 18px;background:var(--maroon-tint);border:1px solid var(--line);display:flex;flex-direction:column;gap:6px}
+.verdict.good{background:var(--good-tint)}
+.verdict strong{font-family:var(--f-display);font-size:19px;font-weight:700}
+.verdict p{margin:0}
+.verdict .mnp{font-size:13px;color:var(--muted)}
+.share{align-self:flex-start;display:inline-flex;gap:8px;align-items:center;margin-top:4px;background:#1f7a4c;color:#fff;text-decoration:none;font-weight:600;font-size:14px;padding:8px 14px;border-radius:999px}
+.share svg{width:18px;height:18px}
+.list{display:flex;flex-direction:column;gap:10px}
+.plan{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px 16px;display:grid;grid-template-columns:1fr auto;gap:4px 14px;align-items:start}
+.plan.best{border:2px solid var(--sand);padding:13px 15px}
+.plan.miss{opacity:.62}
+.prov{font-size:12px;font-weight:600;letter-spacing:.05em;text-transform:uppercase}
+.prov.o{color:var(--ooredoo)} .prov.v{color:var(--vodafone)}
+.pname{font-family:var(--f-display);font-weight:700;font-size:17px;margin:0}
+.price{text-align:end;font-family:var(--f-num);font-variant-numeric:tabular-nums;white-space:nowrap}
+.price b{font-size:19px}
+.price small{display:block;color:var(--muted);font-family:var(--f-body);font-size:12px}
+.promo{grid-column:1/-1;font-size:13px;color:var(--muted)}
+.specs{grid-column:1/-1;display:flex;flex-wrap:wrap;gap:6px;margin-top:6px}
+.chip{font-size:12.5px;padding:3px 9px;border-radius:999px;background:var(--bg);border:1px solid var(--line)}
+.chip.short{background:var(--warn-tint);border-color:transparent;color:var(--warn);font-weight:600}
+.tag{grid-column:1/-1;font-size:13px;font-weight:600;color:var(--good)}
+.tag.top{color:var(--ink);display:flex;gap:6px;align-items:center}
+.tag.top i{font-style:normal;background:var(--sand-tint);color:var(--sand);border-radius:999px;padding:1px 9px;font-size:12px}
+.tag.bad{color:var(--warn)}
+.go{grid-column:1/-1;font-size:13.5px;font-weight:600;color:var(--maroon-ink);text-decoration:none;margin-top:4px}
+.go:hover{text-decoration:underline}
+.more{align-self:center;border:1px solid var(--line);background:var(--surface);color:var(--ink);font:600 14px var(--f-body);padding:9px 16px;border-radius:999px;cursor:pointer}
+footer{color:var(--muted);font-size:13px;display:flex;flex-direction:column;gap:6px}
+footer a{color:var(--maroon-ink)}
+@media (prefers-reduced-motion:no-preference){.plan{transition:opacity .2s}}
+.tabs{display:grid;grid-template-columns:repeat(3,1fr);gap:4px;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:4px}
+.tab{border:0;background:transparent;color:var(--muted);font:600 14.5px var(--f-body);padding:10px 6px;border-radius:9px;cursor:pointer;line-height:1.2}
+.tab[aria-selected="true"]{background:var(--maroon);color:var(--on-maroon)}
+.tabnote{margin:-6px 0 0;font-size:13.5px;color:var(--muted)}
+.kind{font-size:11.5px;font-weight:600;color:var(--muted);border:1px solid var(--line);border-radius:6px;padding:0 6px;margin-inline-start:6px;vertical-align:2px}
+</style>
+</head><body>
+
+<div class="brandbar"><div class="in">
+  <div class="brand"><svg viewBox="0 0 48 48" role="img" aria-label="Qatar Plan Finder logo"><rect width="48" height="48" rx="12" fill="#ffffff"/><rect x="10" y="27" width="7" height="11" rx="2" fill="#8a1538"/><rect x="20.5" y="20" width="7" height="18" rx="2" fill="#8a1538"/><rect x="31" y="13" width="7" height="25" rx="2" fill="#8a1538"/><circle cx="34.5" cy="8" r="3.5" fill="#c99a3e"/></svg><div><b id="t-brand"></b><small id="t-brand2"></small></div></div>
+  <div class="controls">
+    <button class="theme" id="theme" type="button"></button>
+    <label class="langwrap"><span class="langface" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M3 12h18M12 3c2.6 2.6 3.8 5.6 3.8 9s-1.2 6.4-3.8 9c-2.6-2.6-3.8-5.6-3.8-9S9.4 5.6 12 3z" fill="none" stroke="currentColor" stroke-width="1.8"/></svg><b id="langcode">EN</b></span><select id="lang" aria-label="Language"></select></label>
+  </div>
+</div></div>
+<div class="wrap">
+  <header>
+    <h1 id="t-title"></h1>
+    <p class="sub" id="t-sub"></p>
+  </header>
+
+  <div class="tabs" role="tablist" id="tabs">
+    <button class="tab" role="tab" id="tab-monthly" data-tab="monthly" type="button"></button>
+    <button class="tab" role="tab" id="tab-prepaid" data-tab="prepaid" type="button"></button>
+    <button class="tab" role="tab" id="tab-data" data-tab="data" type="button"></button>
+  </div>
+  <p class="tabnote" id="tabnote"></p>
+
+  <section class="panel" aria-labelledby="t-usage">
+    <h2 id="t-usage"></h2>
+    <div class="presets" id="presets" role="group"></div>
+    <div class="field">
+      <div class="row"><label for="data" id="t-data"></label><span class="val" id="data-v"></span></div>
+      <input type="range" id="data" min="1" max="200" step="1" value="25">
+    </div>
+    <div class="field" data-on="monthly prepaid">
+      <div class="row"><label for="mins" id="t-mins"></label><span class="val" id="mins-v"></span></div>
+      <input type="range" id="mins" min="0" max="1500" step="50" value="400">
+    </div>
+    <div class="grid2" data-on="monthly prepaid">
+      <div class="field">
+        <label for="dest" id="t-dest"></label>
+        <select id="dest"></select>
+      </div>
+      <div class="field">
+        <div class="row"><label for="intl" id="t-intl"></label><span class="val" id="intl-v"></span></div>
+        <input type="range" id="intl" min="0" max="1000" step="25" value="0">
+      </div>
+    </div>
+    <div class="grid2" data-on="monthly">
+      <div class="field">
+        <label for="trip" id="t-trip"></label>
+        <select id="trip"></select>
+      </div>
+      <div class="field">
+        <div class="row"><label for="roam" id="t-roam"></label><span class="val" id="roam-v"></span></div>
+        <input type="range" id="roam" min="0" max="100" step="1" value="0">
+      </div>
+    </div>
+    <div class="field" data-on="data">
+      <label for="abroad" id="t-abroad"></label>
+      <select id="abroad"></select>
+    </div>
+    <div class="grid2">
+      <div class="field">
+        <label for="current" id="t-current"></label>
+        <select id="current"></select>
+      </div>
+      <div class="field" id="custom-wrap" hidden>
+        <label for="custom" id="t-custom"></label>
+        <input type="number" id="custom" min="0" step="5" value="150" inputmode="numeric">
+      </div>
+    </div>
+    <p class="hint" id="t-hint"></p>
+  </section>
+
+  <div class="verdict" id="verdict" aria-live="polite"></div>
+
+  <div class="list" id="list"></div>
+  <button class="more" id="more" type="button"></button>
+
+  <footer>
+    <span id="t-checked"></span>
+    <span id="t-src"></span>
+  </footer>
+</div>
+
+<script>
+// ===================== PLAN DATA (checked 12 Oct 2026) =====================
+// null or U = unlimited. intl = included minutes per destination per pack.
+// Monthly bills: std = normal price, promo for pm months (new lines online).
+// Prepaid recharges: price + days of validity. Flex packs share one pool of units.
+const U = Infinity;
+const IN5 = (i,b,ph,pk,a)=>({in:i,bd:b,ph,pk,any:a});
+let CHECKED = "2026-10-12";
+let DB = {
+ monthly: [
+  {p:"o",n:"Shahry+ Select",std:100,promo:100,pm:0,data:8,mins:150,intl:{in:0,ph:0,any:0},roam:{gcc:0,pop:0,other:0},perks:["build"]},
+  {p:"o",n:"Shahry+ Go",std:140,promo:130,pm:4,data:15,mins:500,intl:{in:300,ph:150,any:50},roam:{gcc:0,pop:0,other:0},perks:["wa"]},
+  {p:"o",n:"Shahry+ Shahid",std:180,promo:145,pm:4,data:8,mins:150,intl:{in:0,ph:0,any:0},roam:{gcc:0,pop:0,other:0},perks:["wa","shahid"]},
+  {p:"o",n:"Shahry+ Super",std:200,promo:160,pm:4,data:25,mins:U,intl:{in:300,ph:150,any:50},roam:{gcc:0,pop:0,other:0},perks:["wa","social20","stream1"]},
+  {p:"o",n:"Shahry+ Social",std:250,promo:210,pm:4,data:40,mins:U,intl:{in:300,ph:150,any:50},roam:{gcc:0,pop:0,other:0},perks:["wa","socialU","stream1"]},
+  {p:"o",n:"Qatarna+ Pro",std:365,promo:280,pm:6,data:125,mins:U,intl:{in:500,ph:350,any:200},roam:{gcc:15,pop:15,other:15},perks:["stream2"]},
+  {p:"o",n:"Qatarna+ Premium",std:525,promo:405,pm:6,data:350,mins:U,intl:{in:750,ph:525,any:300},roam:{gcc:U,pop:30,other:30},perks:["stream3"]},
+  {p:"o",n:"Qatarna+ Platinum",std:925,promo:750,pm:6,data:750,mins:U,intl:{in:1250,ph:875,any:500},roam:{gcc:U,pop:U,other:100},perks:["stream4","valet"]},
+  {p:"o",n:"Qatarna+ Al Nokhba",std:1200,promo:1200,pm:0,data:1000,mins:U,intl:{in:2500,ph:1750,any:1000},roam:{gcc:U,pop:U,other:200},perks:["stream5","valet"]},
+  {p:"v",n:"Postpaid+ Essential",std:130,promo:115,pm:4,data:15,mins:500,intl:{in:300,ph:150,any:50},roam:{gcc:0,pop:0,other:0},perks:[]},
+  {p:"v",n:"Postpaid+ Extra",std:180,promo:145,pm:4,data:40,mins:U,intl:{in:300,ph:150,any:50},roam:{gcc:0,pop:0,other:0},perks:[]},
+  {p:"v",n:"Postpaid+ Max",std:230,promo:180,pm:4,data:60,mins:U,intl:{in:300,ph:150,any:50},roam:{gcc:0,pop:0,other:0},perks:[]},
+  {p:"v",n:"Unlimited+",std:300,promo:225,pm:6,data:125,mins:U,intl:{in:200,ph:200,any:200},roam:{gcc:15,pop:15,other:15},perks:["vw30"]},
+  {p:"v",n:"Unlimited+ Premium",std:450,promo:350,pm:6,data:350,mins:U,intl:{in:300,ph:300,any:300},roam:{gcc:50,pop:20,other:20},perks:["vw50","valet"]},
+  {p:"v",n:"Unlimited+ Platinum",std:750,promo:650,pm:6,data:750,mins:U,intl:{in:400,ph:400,any:400},roam:{gcc:U,pop:U,other:50},perks:["vw100","valet"]},
+  {p:"v",n:"Unlimited+ VIP",std:1000,promo:1000,pm:0,data:1000,mins:U,intl:{in:1000,ph:1000,any:1000},roam:{gcc:U,pop:U,other:100},perks:["vw150","valet"]}
+ ],
+ prepaid: [
+  {p:"o",n:"Hala Super 40",price:40,days:28,data:4,mins:150,intl:IN5(55,35,35,35,10),perks:[]},
+  {p:"o",n:"Hala Super 50",price:50,days:28,data:5,mins:200,intl:IN5(55,35,35,35,10),perks:[]},
+  {p:"o",n:"Hala Super 65",price:65,days:28,data:9.2,mins:276,intl:IN5(95,270,270,95,20),perks:["urban"]},
+  {p:"o",n:"Hala Super 75",price:75,days:28,data:11.5,mins:345,intl:IN5(95,270,270,95,20),perks:["endless"]},
+  {p:"o",n:"Hala Super 100",price:100,days:28,data:18.4,mins:460,intl:IN5(95,270,270,95,20),perks:["endless"]},
+  {p:"o",n:"Hala Super 125",price:125,days:28,data:21.8,mins:575,intl:IN5(95,270,270,95,20),perks:["endless"]},
+  {p:"o",n:"Hala Super 200",price:200,days:28,data:34.8,mins:1150,intl:IN5(95,270,270,95,20),perks:["endless"]},
+  {p:"o",n:"Hala Super 500",price:500,days:28,data:345,mins:U,intl:IN5(95,270,270,95,20),perks:["endless"]},
+  {p:"o",n:"Hala Super 250",price:250,days:180,data:34.5,mins:1150,intl:IN5(69,69,69,69,69),perks:["endless","sixmonths"]},
+  {p:"o",n:"Hala Flexi 50",price:50,days:28,pool:450,gb:73,perks:["flex"]},
+  {p:"o",n:"Hala Flexi 65",price:65,days:28,pool:748,gb:73,perks:["flex"]},
+  {p:"o",n:"Hala Flexi 75",price:75,days:28,pool:863,gb:73,perks:["flex"]},
+  {p:"o",n:"Hala Flexi 100",price:100,days:28,pool:1265,gb:73,perks:["flex"]},
+  {p:"o",n:"Hala Flexi 150",price:150,days:28,pool:2530,gb:73,perks:["flex"]},
+  {p:"o",n:"Hala Flexi 200",price:200,days:28,pool:3795,gb:73,perks:["flex"]},
+  {p:"v",n:"Combo+ 40",price:40,days:28,data:4,mins:150,intl:IN5(10,10,10,10,10),perks:[]},
+  {p:"v",n:"Combo+ 50",price:50,days:28,data:5,mins:200,intl:IN5(55,35,35,20,10),perks:[]},
+  {p:"v",n:"Combo+ 65",price:65,days:28,data:8,mins:240,intl:IN5(95,270,270,45,20),perks:["endless"]},
+  {p:"v",n:"Combo+ 75",price:75,days:28,data:10,mins:300,intl:IN5(95,270,270,45,20),perks:["endless"]},
+  {p:"v",n:"Combo+ 100",price:100,days:28,data:16,mins:400,intl:IN5(95,270,270,45,20),perks:["endless"]},
+  {p:"v",n:"Combo+ 125",price:125,days:28,data:19,mins:500,intl:IN5(95,270,270,45,20),perks:["endless"]},
+  {p:"v",n:"Combo+ 150",price:150,days:28,data:24,mins:750,intl:IN5(0,0,0,0,0),perks:[]},
+  {p:"v",n:"Combo+ 300",price:300,days:28,data:40,mins:1500,intl:IN5(50,50,50,50,50),perks:["endless"]},
+  {p:"v",n:"Combo+ 250",price:250,days:180,data:30,mins:1000,intl:IN5(60,60,60,60,60),perks:["sixmonths"]},
+  {p:"v",n:"Flex 50",price:50,days:28,pool:450,gb:74,perks:["flex"]},
+  {p:"v",n:"Flex 65",price:65,days:28,pool:650,gb:74,perks:["flex"]},
+  {p:"v",n:"Flex 75",price:75,days:28,pool:750,gb:74,perks:["flex"]},
+  {p:"v",n:"Flex 100",price:100,days:28,pool:1100,gb:74,perks:["flex"]},
+  {p:"v",n:"Flex 120",price:120,days:28,pool:1350,gb:74,perks:["flex"]},
+  {p:"v",n:"Flex 150",price:150,days:28,pool:2200,gb:74,perks:["flex"]},
+  {p:"v",n:"Flex 200",price:200,days:28,pool:3300,gb:74,perks:["flex"]},
+  {p:"v",n:"Flex 300",price:300,days:28,pool:3750,gb:74,perks:["flex"]},
+  {p:"v",n:"Flex 500",price:500,days:28,pool:6250,gb:74,perks:["flex"]}
+ ],
+ data: [
+  {p:"o",n:"Data SIM+ Go",std:150,promo:150,pm:0,data:35,abroad:{gcc:0,pop:0},perks:["bill"]},
+  {p:"o",n:"Data SIM+ Super",std:200,promo:200,pm:0,data:60,abroad:{gcc:0,pop:0},perks:["bill"]},
+  {p:"o",n:"Data SIM+ Pro",std:300,promo:300,pm:0,data:300,abroad:{gcc:0,pop:0},perks:["bill","after1"]},
+  {p:"o",n:"Data SIM+ Premium",std:400,promo:400,pm:0,data:500,abroad:{gcc:U,pop:0},perks:["bill","stream2"]},
+  {p:"o",n:"Data SIM+ Platinum",std:550,promo:550,pm:0,data:500,abroad:{gcc:U,pop:U},perks:["bill","stream2"]},
+  {p:"v",n:"Mobile Wi-Fi 150",std:150,promo:150,pm:0,data:35,abroad:{gcc:0,pop:0},perks:["bill"]},
+  {p:"v",n:"Mobile Wi-Fi 199",std:199,promo:199,pm:0,data:60,abroad:{gcc:0,pop:0},perks:["bill"]},
+  {p:"v",n:"Data SIM Unlimited",std:299,promo:299,pm:0,data:300,abroad:{gcc:0,pop:0},perks:["bill","after1"]},
+  {p:"v",n:"Data SIM Unlimited Premium",std:399,promo:399,pm:0,data:300,abroad:{gcc:100,pop:100},perks:["bill","after1"]},
+  {p:"o",n:"Hala Data 50",price:50,days:28,data:8,abroad:{gcc:0,pop:0},perks:[]},
+  {p:"o",n:"Hala Data 65",price:65,days:28,data:12.7,abroad:{gcc:0,pop:0},perks:[]},
+  {p:"o",n:"Hala Data 75",price:75,days:28,data:16.1,abroad:{gcc:0,pop:0},perks:[]},
+  {p:"o",n:"Hala Data 100",price:100,days:28,data:23,abroad:{gcc:0,pop:0},perks:[]},
+  {p:"o",n:"Hala Data 150",price:150,days:28,data:28.8,abroad:{gcc:0,pop:0},perks:[]},
+  {p:"o",n:"Hala Data 200",price:200,days:28,data:40.3,abroad:{gcc:0,pop:0},perks:[]},
+  {p:"o",n:"Hala Unlimited Data 250",price:250,days:30,data:172.5,abroad:{gcc:0,pop:0},perks:["endless"]},
+  {p:"v",n:"Prepaid Internet 50",price:50,days:28,data:8,abroad:{gcc:0,pop:0},perks:[]},
+  {p:"v",n:"Prepaid Internet 75",price:75,days:28,data:14,abroad:{gcc:0,pop:0},perks:[]},
+  {p:"v",n:"Prepaid Internet 100",price:100,days:28,data:20,abroad:{gcc:0,pop:0},perks:[]},
+  {p:"v",n:"Prepaid Internet 150",price:150,days:28,data:25,abroad:{gcc:0,pop:0},perks:[]},
+  {p:"v",n:"Prepaid Internet 200",price:200,days:28,data:35,abroad:{gcc:0,pop:0},perks:[]}
+ ]
+};
+// Speed you drop to after the full-speed data runs out, in Kbps (from each plan's terms). Missing = not stated.
+const AFTER = {"Shahry+ Go":128,"Shahry+ Shahid":128,"Shahry+ Super":512,"Shahry+ Social":512,"Qatarna+ Pro":10000,"Qatarna+ Premium":15000,
+ "Qatarna+ Platinum":15000,"Qatarna+ Al Nokhba":15000,"Postpaid+ Essential":128,"Postpaid+ Extra":512,"Postpaid+ Max":1000,"Unlimited+":10000,
+ "Unlimited+ Premium":15000,"Unlimited+ Platinum":15000,"Unlimited+ VIP":15000,"Hala Super 75":256,"Hala Super 100":256,"Hala Super 125":256,
+ "Hala Super 200":256,"Hala Super 500":1000,"Hala Super 250":1000,"Combo+ 65":256,"Combo+ 75":256,"Combo+ 100":256,"Combo+ 125":512,"Combo+ 300":512,
+ "Data SIM+ Go":128,"Data SIM+ Super":128,"Data SIM+ Pro":1000,"Data SIM+ Premium":20000,"Data SIM+ Platinum":20000,"Mobile Wi-Fi 150":128,
+ "Mobile Wi-Fi 199":128,"Data SIM Unlimited":1000,"Data SIM Unlimited Premium":20000,"Hala Unlimited Data 250":512};
+// Minutes to Nepal on prepaid packs (base international + Nepal bonus).
+const NEPAL = {"Hala Super 40":20,"Hala Super 50":20,"Hala Super 65":45,"Hala Super 75":45,"Hala Super 100":45,"Hala Super 125":45,"Hala Super 200":45,
+ "Hala Super 500":45,"Hala Super 250":69,"Combo+ 40":10,"Combo+ 50":20,"Combo+ 65":45,"Combo+ 75":45,"Combo+ 100":45,"Combo+ 125":45,"Combo+ 150":0,
+ "Combo+ 300":50,"Combo+ 250":60};
+DB.prepaid.forEach(p=>{ if(p.intl && p.intl.np===undefined && NEPAL[p.n]!==undefined) p.intl.np = NEPAL[p.n]; });
+const withAfter = list => list.forEach(p=>{ if(p.after===undefined && AFTER[p.n]) p.after = AFTER[p.n]; });
+Object.values(DB).forEach(withAfter);
+// Flex units per international minute (Vodafone's published rates; Ooredoo Flexi assumed similar).
+const FLEX_RATE = {in:1,bd:1,ph:3,pk:5,np:5,any:5};
+
+// ===================== WORDS =====================
+const T = {
+ en:{dir:"ltr",lang:"عربي",brand:"Qatar Plan Finder",brand2:"دليل باقات قطر",title:"Which mobile plan is right for you?",
+  sub:"Every plan from Ooredoo and Vodafone, ranked by how you actually use your phone. Free, and not owned by either company.",
+  langName:"English",
+  tabs:{monthly:"Monthly bill",prepaid:"Prepaid",data:"Data only"},
+  tabnote:{monthly:"Postpaid plans: you pay one bill at the end of each month.",prepaid:"Recharge cards: pay first, no contract, no bill.",data:"Internet only, for a router, tablet or a second SIM. No calls."},
+  presets:{
+   monthly:{light:"Light user",regular:"Regular",heavy:"Heavy user",home:"Calls home a lot",travel:"Travels often"},
+   prepaid:{light:"Light user",regular:"Regular",heavy:"Heavy user",home:"Calls home a lot"},
+   data:{light:"Light browsing",home:"Home internet",heavy:"Heavy streaming",travel:"Travels in the GCC"}},
+  usage:"How you use it",data:"Data each month",mins:"Local calls (minutes a month)",dest:"You call abroad to",intl:"International minutes a month",
+  trip:"You travel to",roam:"Roaming data while away",abroad:"Use it outside Qatar too?",
+  current:{monthly:"Your plan now",prepaid:"Your recharge now",data:"Your data plan now"},
+  custom:"What you pay now (QR a month)",
+  hint:"Not sure? The Ooredoo or My Vodafone app shows last month's data and minutes.",
+  dests:{none:"Nobody abroad",in:"India",bd:"Bangladesh",ph:"Philippines",pk:"Pakistan",any:"Other countries"},
+  trips:{none:"I don't travel",gcc:"GCC countries",pop:"UK, Turkey, Egypt, China & other popular spots",other:"Anywhere else"},
+  abroads:{none:"No, only in Qatar",gcc:"Yes, in the GCC",pop:"Yes, in the GCC and further"},
+  other:"Other / not listed",noneYet:"I don't have one yet",gb:"GB",min:"min",qr:"QR",
+  yr:v=>`QR ${v.toLocaleString("en")} first year`,yrR:v=>`≈ QR ${v.toLocaleString("en")} a year`,mo:"/mo",every:d=>d===180?"for 6 months":`every ${d} days`,
+  then:(p,m,s)=>`QR ${p} for ${m} months online, then QR ${s}`,
+  fits:"Covers everything you use",cheapest:"Cheapest that fits you",short:"Not enough for you",
+  kind:{bill:"Monthly bill",recharge:"Prepaid"},
+  chip:{data:v=>`${v} GB fast data`,dataU:v=>`Unlimited (${v} GB at full speed)`,mins:v=>v===U?"Unlimited local calls":`${v} local min`,
+   intl:v=>v===U?"Unlimited intl":`${v} intl min`,roam:v=>v===U?"Unlimited roaming there":`${v} GB roaming`,noRoam:"No roaming included",
+   pool:(v,g)=>`${v} units to spend · 1 GB = ${g} units · 1 min = 1 unit`,abroadOk:v=>v===U?"Works there too":`${v} GB usable there`,abroadNo:"Qatar only",
+   after:(spd,q)=>`After the limit: ${spd}, ${q}`},
+  speedQ:["chat only","slow browsing","music & basic video","still fine for HD video"],
+  perks:{wa:"Free WhatsApp data",shahid:"Shahid included",social20:"20 GB social apps",socialU:"Unlimited social apps",stream1:"1 streaming app",
+   stream2:"2 streaming apps",stream3:"3 streaming apps",stream4:"4 streaming apps",stream5:"5 streaming apps",valet:"Valet parking",
+   vw30:"QR 30 monthly voucher",vw50:"QR 50 monthly voucher",vw100:"QR 100 monthly voucher",vw150:"QR 150 monthly voucher",build:"Add extras for a fee",
+   urban:"Urban Point deals",endless:"Slow data after the limit, never cut off",sixmonths:"One recharge lasts 6 months",
+   flex:"Spend units on data, calls or international, your way",bill:"Monthly bill",after1:"Then unlimited at 1 Mbps"},
+  vSave:(n,s)=>`Switch to ${n} and save about QR ${s.toLocaleString("en")} a year.`,vSaveHead:"There's a better deal",
+  vGood:"You're already on a good deal",vGoodBody:n=>`Nothing beats yours for how you use it. Cheapest alternative: ${n}.`,
+  vPick:"Your best match",vPickBody:(n,c)=>`${n} covers everything you use for ${c}.`,
+  vNone:"No single plan covers all that",vNoneBody:"Try lowering a slider, or check another tab.",
+  share:"Share on WhatsApp",shareText:(n,u)=>`Qatar Plan Finder picked ${n} for me. Find yours: ${u}`,
+  mnp:"Switching company? You keep your number, and you can do it online.",
+  go:p=>`See it on ${p==="o"?"Ooredoo":"Vodafone"}'s site →`,
+  more:n=>`Show ${n} that don't fit`,less:"Hide the ones that don't fit",
+  checked:d=>`Prices checked ${d.toLocaleDateString("en-GB",{day:"numeric",month:"long",year:"numeric"})}.`,
+  src:'Sources: <a href="https://www.ooredoo.qa/web/en/postpaid-plans/" target="_blank" rel="noopener">Ooredoo plans</a> · <a href="https://www.ooredoo.qa/web/en/prepaid-plans/recharge/" target="_blank" rel="noopener">Ooredoo Hala recharges</a> · <a href="https://www.vodafone.qa/en/about-us/legal-and-regulatory/tariff-documents" target="_blank" rel="noopener">Vodafone tariff documents</a>',},
+ ar:{dir:"rtl",lang:"English",brand:"دليل باقات قطر",brand2:"Qatar Plan Finder",title:"أي باقة جوال تناسبك؟",
+  sub:"كل باقات Ooredoo وVodafone، مرتبة حسب استخدامك الفعلي لهاتفك. مجاني، ولا يتبع أيًا من الشركتين.",
+  langName:"العربية",
+  tabs:{monthly:"فاتورة شهرية",prepaid:"مسبق الدفع",data:"بيانات فقط"},
+  tabnote:{monthly:"باقات الدفع الآجل: فاتورة واحدة في نهاية كل شهر.",prepaid:"بطاقات الشحن: ادفع أولًا، بدون عقد وبدون فاتورة.",data:"إنترنت فقط، لراوتر أو تابلت أو شريحة ثانية. بدون مكالمات."},
+  presets:{
+   monthly:{light:"استخدام خفيف",regular:"استخدام عادي",heavy:"استخدام كثيف",home:"أتصل بأهلي كثيرًا",travel:"أسافر كثيرًا"},
+   prepaid:{light:"استخدام خفيف",regular:"استخدام عادي",heavy:"استخدام كثيف",home:"أتصل بأهلي كثيرًا"},
+   data:{light:"تصفح خفيف",home:"إنترنت المنزل",heavy:"مشاهدة كثيفة",travel:"أسافر في الخليج"}},
+  usage:"كيف تستخدمه",data:"البيانات شهريًا",mins:"المكالمات المحلية (دقائق شهريًا)",dest:"تتصل خارج قطر بـ",intl:"الدقائق الدولية شهريًا",
+  trip:"تسافر إلى",roam:"بيانات التجوال أثناء السفر",abroad:"تستخدمه خارج قطر أيضًا؟",
+  current:{monthly:"باقتك الحالية",prepaid:"شحنك الحالي",data:"باقة البيانات الحالية"},
+  custom:"ما تدفعه الآن (ر.ق شهريًا)",
+  hint:"غير متأكد؟ تطبيق Ooredoo أو My Vodafone يوضح استهلاك الشهر الماضي.",
+  dests:{none:"لا أتصل بالخارج",in:"الهند",bd:"بنغلاديش",ph:"الفلبين",pk:"باكستان",any:"دول أخرى"},
+  trips:{none:"لا أسافر",gcc:"دول الخليج",pop:"بريطانيا وتركيا ومصر والصين ووجهات شائعة أخرى",other:"أي مكان آخر"},
+  abroads:{none:"لا، داخل قطر فقط",gcc:"نعم، في الخليج",pop:"نعم، في الخليج وأبعد"},
+  other:"أخرى / غير موجودة",noneYet:"ليس لدي واحدة بعد",gb:"جيجا",min:"دقيقة",qr:"ر.ق",
+  yr:v=>`${v.toLocaleString("ar-QA")} ر.ق في السنة الأولى`,yrR:v=>`≈ ${v.toLocaleString("ar-QA")} ر.ق في السنة`,mo:"/شهر",every:d=>d===180?"لمدة 6 أشهر":`كل ${d} يومًا`,
+  then:(p,m,s)=>`${p} ر.ق لمدة ${m} أشهر عبر الإنترنت، ثم ${s} ر.ق`,
+  fits:"تغطي كل استخدامك",cheapest:"الأرخص المناسب لك",short:"لا تكفي احتياجك",
+  kind:{bill:"فاتورة شهرية",recharge:"مسبق الدفع"},
+  chip:{data:v=>`${v} جيجا بسرعة كاملة`,dataU:v=>`غير محدود (${v} جيجا بسرعة كاملة)`,mins:v=>v===U?"مكالمات محلية غير محدودة":`${v} دقيقة محلية`,
+   intl:v=>v===U?"دولي غير محدود":`${v} دقيقة دولية`,roam:v=>v===U?"تجوال غير محدود هناك":`${v} جيجا تجوال`,noRoam:"بدون تجوال",
+   pool:(v,g)=>`${v} وحدة للصرف · 1 جيجا = ${g} وحدة · الدقيقة = وحدة`,abroadOk:v=>v===U?"تعمل هناك أيضًا":`${v} جيجا هناك`,abroadNo:"داخل قطر فقط",
+   after:(spd,q)=>`بعد انتهاء الباقة: ${spd}، ${q}`},
+  speedQ:["للدردشة فقط","تصفح بطيء","موسيقى وفيديو بسيط","يكفي لفيديو HD"],
+  perks:{wa:"واتساب مجاني",shahid:"اشتراك شاهد",social20:"20 جيجا للتواصل الاجتماعي",socialU:"تواصل اجتماعي غير محدود",stream1:"تطبيق بث واحد",
+   stream2:"تطبيقا بث",stream3:"3 تطبيقات بث",stream4:"4 تطبيقات بث",stream5:"5 تطبيقات بث",valet:"صف السيارات",
+   vw30:"قسيمة 30 ر.ق شهريًا",vw50:"قسيمة 50 ر.ق شهريًا",vw100:"قسيمة 100 ر.ق شهريًا",vw150:"قسيمة 150 ر.ق شهريًا",build:"إضافات برسوم",
+   urban:"عروض Urban Point",endless:"إنترنت بطيء بعد الحد، لا ينقطع",sixmonths:"شحنة واحدة لمدة 6 أشهر",
+   flex:"اصرف الوحدات على البيانات أو المكالمات أو الدولي كما تشاء",bill:"فاتورة شهرية",after1:"ثم غير محدود بسرعة 1 ميجابت"},
+  vSave:(n,s)=>`انتقل إلى ${n} ووفّر حوالي ${s.toLocaleString("ar-QA")} ر.ق في السنة.`,vSaveHead:"يوجد عرض أفضل",
+  vGood:"اختيارك الحالي ممتاز",vGoodBody:n=>`لا يوجد خيار أرخص يناسب استخدامك. أرخص بديل: ${n}.`,
+  vPick:"أفضل خيار لك",vPickBody:(n,c)=>`${n} تغطي كل استخدامك بـ ${c}.`,
+  vNone:"لا يوجد خيار واحد يغطي كل ذلك",vNoneBody:"جرّب تقليل أحد المؤشرات، أو تصفح تبويبًا آخر.",
+  share:"شارك عبر واتساب",shareText:(n,u)=>`دليل باقات قطر اختار لي ${n}. اعرف باقتك: ${u}`,
+  mnp:"ستنتقل لشركة أخرى؟ تحتفظ برقمك، ويمكنك الانتقال عبر الإنترنت.",
+  go:p=>`شاهدها على موقع ${p==="o"?"Ooredoo":"Vodafone"} ←`,
+  more:n=>`عرض ${n} لا تناسبك`,less:"إخفاء غير المناسبة",
+  checked:d=>`تم التحقق من الأسعار في ${d.toLocaleDateString("ar-QA",{day:"numeric",month:"long",year:"numeric"})}.`,
+  src:'المصادر: <a href="https://www.ooredoo.qa/web/ar/postpaid-plans/" target="_blank" rel="noopener">باقات Ooredoo</a> · <a href="https://www.ooredoo.qa/web/ar/prepaid-plans/recharge/" target="_blank" rel="noopener">شحن هلا</a> · <a href="https://www.vodafone.qa/en/about-us/legal-and-regulatory/tariff-documents" target="_blank" rel="noopener">وثائق تعرفة Vodafone</a>',}
+};
+
+// ===================== MORE LANGUAGES =====================
+// Each language only lists what it changes; anything missing falls back to English.
+const fmt = v => v.toLocaleString("en");
+const dateIn = (loc,d) => d.toLocaleDateString(loc+"-u-nu-latn",{day:"numeric",month:"long",year:"numeric"});
+const prov = p => p==="o" ? "Ooredoo" : "Vodafone";
+const sN = (word) => ({stream1:`1 ${word}`,stream2:`2 ${word}`,stream3:`3 ${word}`,stream4:`4 ${word}`,stream5:`5 ${word}`});
+const vw = (f) => ({vw30:f(30),vw50:f(50),vw100:f(100),vw150:f(150)});
+const MORE = {
+ hi:{dir:"ltr",langName:"हिन्दी",brand2:"क़तर प्लान फ़ाइंडर",title:"आपके लिए कौन सा मोबाइल प्लान सही है?",
+  sub:"Ooredoo और Vodafone के सभी प्लान, आपके असली इस्तेमाल के हिसाब से। मुफ़्त, और किसी भी कंपनी का नहीं।",
+  tabs:{monthly:"मासिक बिल",prepaid:"प्रीपेड",data:"सिर्फ़ डेटा"},
+  tabnote:{monthly:"पोस्टपेड: हर महीने के आख़िर में एक बिल।",prepaid:"रिचार्ज: पहले पैसे दें, कोई कॉन्ट्रैक्ट नहीं, कोई बिल नहीं।",data:"सिर्फ़ इंटरनेट, राउटर, टैबलेट या दूसरे सिम के लिए। कॉल नहीं।"},
+  presets:{monthly:{light:"कम इस्तेमाल",regular:"सामान्य",heavy:"ज़्यादा इस्तेमाल",home:"घर बहुत फ़ोन करता हूँ",travel:"अक्सर यात्रा"},
+   prepaid:{light:"कम इस्तेमाल",regular:"सामान्य",heavy:"ज़्यादा इस्तेमाल",home:"घर बहुत फ़ोन करता हूँ"},
+   data:{light:"हल्की ब्राउज़िंग",home:"घर का इंटरनेट",heavy:"बहुत वीडियो",travel:"खाड़ी देशों में यात्रा"}},
+  usage:"आप कैसे इस्तेमाल करते हैं",data:"हर महीने डेटा",mins:"लोकल कॉल (मिनट प्रति माह)",dest:"आप विदेश में कॉल करते हैं",intl:"अंतरराष्ट्रीय मिनट प्रति माह",
+  trip:"आप यात्रा करते हैं",roam:"बाहर रहते हुए रोमिंग डेटा",abroad:"क़तर के बाहर भी इस्तेमाल करेंगे?",
+  current:{monthly:"आपका अभी का प्लान",prepaid:"आपका अभी का रिचार्ज",data:"आपका अभी का डेटा प्लान"},custom:"अभी आप कितना देते हैं (QR प्रति माह)",
+  hint:"पक्का नहीं पता? Ooredoo या My Vodafone ऐप में पिछले महीने का डेटा और मिनट दिखते हैं।",
+  dests:{none:"विदेश कॉल नहीं",in:"भारत",bd:"बांग्लादेश",ph:"फ़िलीपींस",pk:"पाकिस्तान",np:"नेपाल",any:"दूसरे देश"},
+  trips:{none:"यात्रा नहीं करता",gcc:"खाड़ी देश (GCC)",pop:"UK, तुर्की, मिस्र, चीन और दूसरी मशहूर जगहें",other:"कहीं और"},
+  abroads:{none:"नहीं, सिर्फ़ क़तर में",gcc:"हाँ, खाड़ी देशों में",pop:"हाँ, खाड़ी और उससे आगे"},
+  other:"दूसरा / सूची में नहीं",noneYet:"अभी कोई नहीं है",min:"मिनट",mo:"/माह",
+  yr:v=>`पहले साल QR ${fmt(v)}`,yrR:v=>`≈ QR ${fmt(v)} सालाना`,every:d=>d===180?"6 महीने के लिए":`हर ${d} दिन`,
+  then:(p,m,s)=>`ऑनलाइन ${m} महीने QR ${p}, फिर QR ${s}`,
+  fits:"आपकी पूरी ज़रूरत पूरी करता है",cheapest:"आपके लिए सबसे सस्ता",short:"आपके लिए काफ़ी नहीं",kind:{bill:"मासिक बिल",recharge:"प्रीपेड"},
+  chip:{data:v=>`${v} GB फ़ास्ट डेटा`,dataU:v=>`अनलिमिटेड (${v} GB फ़ुल स्पीड)`,mins:v=>v===U?"अनलिमिटेड लोकल कॉल":`${v} लोकल मिनट`,
+   intl:v=>v===U?"अनलिमिटेड अंतरराष्ट्रीय":`${v} अंतरराष्ट्रीय मिनट`,roam:v=>v===U?"वहाँ अनलिमिटेड रोमिंग":`${v} GB रोमिंग`,noRoam:"रोमिंग शामिल नहीं",
+   pool:(v,g)=>`${v} यूनिट · 1 GB = ${g} यूनिट · 1 मिनट = 1 यूनिट`,abroadOk:v=>v===U?"वहाँ भी चलता है":`वहाँ ${v} GB`,abroadNo:"सिर्फ़ क़तर में",
+   after:(spd,q)=>`लिमिट के बाद: ${spd}, ${q}`},
+  speedQ:["सिर्फ़ चैट","धीमी ब्राउज़िंग","गाने और साधारण वीडियो","HD वीडियो भी चलेगा"],
+  perks:{wa:"WhatsApp डेटा मुफ़्त",shahid:"Shahid शामिल",social20:"सोशल ऐप्स के लिए 20 GB",socialU:"सोशल ऐप्स अनलिमिटेड",...sN("स्ट्रीमिंग ऐप"),
+   valet:"वैले पार्किंग",...vw(n=>`हर माह QR ${n} वाउचर`),build:"पैसे देकर एक्स्ट्रा जोड़ें",urban:"Urban Point ऑफ़र",sixmonths:"एक रिचार्ज 6 महीने चलता है",
+   flex:"यूनिट डेटा, कॉल या विदेश कॉल पर, जैसे चाहें"},
+  vSave:(n,s)=>`${n} पर जाएँ और साल में लगभग QR ${fmt(s)} बचाएँ।`,vSaveHead:"बेहतर डील मौजूद है",
+  vGood:"आपकी डील पहले से अच्छी है",vGoodBody:n=>`आपके इस्तेमाल के लिए इससे सस्ता कुछ नहीं। सबसे सस्ता विकल्प: ${n}।`,
+  vPick:"आपके लिए सबसे अच्छा",vPickBody:(n,c)=>`${n} आपकी पूरी ज़रूरत ${c} में पूरी करता है।`,
+  vNone:"कोई एक प्लान यह सब नहीं देता",vNoneBody:"कोई स्लाइडर कम करें, या दूसरा टैब देखें।",
+  share:"WhatsApp पर भेजें",shareText:(n,u)=>`Qatar Plan Finder ने मेरे लिए ${n} चुना। अपना प्लान देखें: ${u}`,
+  mnp:"कंपनी बदल रहे हैं? नंबर वही रहेगा, और ऑनलाइन बदल सकते हैं।",go:p=>`${prov(p)} की साइट पर देखें →`,
+  more:n=>`${n} जो फ़िट नहीं होते, दिखाएँ`,less:"जो फ़िट नहीं, छिपाएँ",checked:d=>`क़ीमतें ${dateIn("hi-IN",d)} को जाँची गईं।`},
+
+ ur:{dir:"rtl",langName:"اردو",brand2:"قطر پلان فائنڈر",title:"آپ کے لیے کون سا موبائل پلان صحیح ہے؟",
+  sub:"Ooredoo اور Vodafone کے تمام پلان، آپ کے اصل استعمال کے مطابق۔ مفت، اور کسی کمپنی کا نہیں۔",
+  tabs:{monthly:"ماہانہ بل",prepaid:"پری پیڈ",data:"صرف ڈیٹا"},
+  tabnote:{monthly:"پوسٹ پیڈ: ہر مہینے کے آخر میں ایک بل۔",prepaid:"ری چارج: پہلے ادائیگی، کوئی معاہدہ نہیں، کوئی بل نہیں۔",data:"صرف انٹرنیٹ، راؤٹر، ٹیبلٹ یا دوسری سم کے لیے۔ کال نہیں۔"},
+  presets:{monthly:{light:"کم استعمال",regular:"عام",heavy:"زیادہ استعمال",home:"گھر بہت کال کرتا ہوں",travel:"اکثر سفر"},
+   prepaid:{light:"کم استعمال",regular:"عام",heavy:"زیادہ استعمال",home:"گھر بہت کال کرتا ہوں"},
+   data:{light:"ہلکی براؤزنگ",home:"گھر کا انٹرنیٹ",heavy:"بہت زیادہ ویڈیو",travel:"خلیجی ممالک کا سفر"}},
+  usage:"آپ کیسے استعمال کرتے ہیں",data:"ماہانہ ڈیٹا",mins:"لوکل کالز (منٹ ماہانہ)",dest:"آپ بیرونِ ملک کال کرتے ہیں",intl:"بین الاقوامی منٹ ماہانہ",
+  trip:"آپ سفر کرتے ہیں",roam:"سفر میں رومنگ ڈیٹا",abroad:"قطر سے باہر بھی استعمال کریں گے؟",
+  current:{monthly:"آپ کا موجودہ پلان",prepaid:"آپ کا موجودہ ری چارج",data:"آپ کا موجودہ ڈیٹا پلان"},custom:"ابھی آپ کتنا دیتے ہیں (QR ماہانہ)",
+  hint:"یقین نہیں؟ Ooredoo یا My Vodafone ایپ میں پچھلے مہینے کا ڈیٹا اور منٹ نظر آتے ہیں۔",
+  dests:{none:"بیرونِ ملک کال نہیں",in:"بھارت",bd:"بنگلہ دیش",ph:"فلپائن",pk:"پاکستان",np:"نیپال",any:"دوسرے ممالک"},
+  trips:{none:"سفر نہیں کرتا",gcc:"خلیجی ممالک",pop:"برطانیہ، ترکی، مصر، چین اور دیگر مشہور جگہیں",other:"کہیں اور"},
+  abroads:{none:"نہیں، صرف قطر میں",gcc:"ہاں، خلیجی ممالک میں",pop:"ہاں، خلیج اور اس سے آگے"},
+  other:"دوسرا / فہرست میں نہیں",noneYet:"ابھی کوئی نہیں",min:"منٹ",mo:"/ماہ",
+  yr:v=>`پہلے سال QR ${fmt(v)}`,yrR:v=>`≈ QR ${fmt(v)} سالانہ`,every:d=>d===180?"6 ماہ کے لیے":`ہر ${d} دن`,
+  then:(p,m,s)=>`آن لائن ${m} ماہ QR ${p}، پھر QR ${s}`,
+  fits:"آپ کی پوری ضرورت پوری کرتا ہے",cheapest:"آپ کے لیے سب سے سستا",short:"آپ کے لیے کافی نہیں",kind:{bill:"ماہانہ بل",recharge:"پری پیڈ"},
+  chip:{data:v=>`${v} GB تیز ڈیٹا`,dataU:v=>`لامحدود (${v} GB فل اسپیڈ)`,mins:v=>v===U?"لامحدود لوکل کالز":`${v} لوکل منٹ`,
+   intl:v=>v===U?"لامحدود بین الاقوامی":`${v} بین الاقوامی منٹ`,roam:v=>v===U?"وہاں لامحدود رومنگ":`${v} GB رومنگ`,noRoam:"رومنگ شامل نہیں",
+   pool:(v,g)=>`${v} یونٹ · 1 GB = ${g} یونٹ · 1 منٹ = 1 یونٹ`,abroadOk:v=>v===U?"وہاں بھی چلتا ہے":`وہاں ${v} GB`,abroadNo:"صرف قطر میں",
+   after:(spd,q)=>`حد کے بعد: ${spd}، ${q}`},
+  speedQ:["صرف چیٹ","سست براؤزنگ","موسیقی اور سادہ ویڈیو","HD ویڈیو بھی چلے گی"],
+  perks:{wa:"WhatsApp ڈیٹا مفت",shahid:"Shahid شامل",social20:"سوشل ایپس کے لیے 20 GB",socialU:"سوشل ایپس لامحدود",...sN("اسٹریمنگ ایپ"),
+   valet:"ویلے پارکنگ",...vw(n=>`ہر ماہ QR ${n} واؤچر`),build:"فیس دے کر اضافی چیزیں",urban:"Urban Point آفرز",sixmonths:"ایک ری چارج 6 ماہ چلتا ہے",
+   flex:"یونٹ ڈیٹا، کال یا بین الاقوامی پر، جیسے چاہیں"},
+  vSave:(n,s)=>`${n} پر جائیں اور سال میں تقریباً QR ${fmt(s)} بچائیں۔`,vSaveHead:"بہتر ڈیل موجود ہے",
+  vGood:"آپ کی ڈیل پہلے سے اچھی ہے",vGoodBody:n=>`آپ کے استعمال کے لیے اس سے سستا کچھ نہیں۔ سب سے سستا متبادل: ${n}۔`,
+  vPick:"آپ کے لیے بہترین",vPickBody:(n,c)=>`${n} آپ کی پوری ضرورت ${c} میں پوری کرتا ہے۔`,
+  vNone:"کوئی ایک پلان یہ سب نہیں دیتا",vNoneBody:"کوئی سلائیڈر کم کریں، یا دوسرا ٹیب دیکھیں۔",
+  share:"WhatsApp پر بھیجیں",shareText:(n,u)=>`Qatar Plan Finder نے میرے لیے ${n} چنا۔ اپنا پلان دیکھیں: ${u}`,
+  mnp:"کمپنی بدل رہے ہیں؟ نمبر وہی رہے گا، اور آن لائن بدل سکتے ہیں۔",go:p=>`${prov(p)} کی ویب سائٹ پر دیکھیں ←`,
+  more:n=>`${n} جو موزوں نہیں، دکھائیں`,less:"غیر موزوں چھپائیں",checked:d=>`قیمتیں ${dateIn("ur-PK",d)} کو چیک کی گئیں۔`},
+
+ bn:{dir:"ltr",langName:"বাংলা",brand2:"কাতার প্ল্যান ফাইন্ডার",title:"আপনার জন্য কোন মোবাইল প্ল্যান সঠিক?",
+  sub:"Ooredoo আর Vodafone-এর সব প্ল্যান, আপনার আসল ব্যবহার অনুযায়ী সাজানো। বিনামূল্যে, আর কোনো কোম্পানির নয়।",
+  tabs:{monthly:"মাসিক বিল",prepaid:"প্রিপেইড",data:"শুধু ডেটা"},
+  tabnote:{monthly:"পোস্টপেইড: প্রতি মাসের শেষে একটি বিল।",prepaid:"রিচার্জ: আগে টাকা দিন, কোনো চুক্তি নেই, কোনো বিল নেই।",data:"শুধু ইন্টারনেট, রাউটার, ট্যাবলেট বা দ্বিতীয় সিমের জন্য। কল নেই।"},
+  presets:{monthly:{light:"কম ব্যবহার",regular:"সাধারণ",heavy:"বেশি ব্যবহার",home:"দেশে অনেক কল করি",travel:"প্রায়ই ভ্রমণ"},
+   prepaid:{light:"কম ব্যবহার",regular:"সাধারণ",heavy:"বেশি ব্যবহার",home:"দেশে অনেক কল করি"},
+   data:{light:"হালকা ব্রাউজিং",home:"বাসার ইন্টারনেট",heavy:"অনেক ভিডিও",travel:"উপসাগরীয় দেশে ভ্রমণ"}},
+  usage:"আপনি কীভাবে ব্যবহার করেন",data:"প্রতি মাসে ডেটা",mins:"লোকাল কল (মাসে মিনিট)",dest:"আপনি বিদেশে কল করেন",intl:"মাসে আন্তর্জাতিক মিনিট",
+  trip:"আপনি ভ্রমণ করেন",roam:"বাইরে থাকার সময় রোমিং ডেটা",abroad:"কাতারের বাইরেও ব্যবহার করবেন?",
+  current:{monthly:"আপনার বর্তমান প্ল্যান",prepaid:"আপনার বর্তমান রিচার্জ",data:"আপনার বর্তমান ডেটা প্ল্যান"},custom:"এখন কত দেন (মাসে QR)",
+  hint:"নিশ্চিত নন? Ooredoo বা My Vodafone অ্যাপে গত মাসের ডেটা আর মিনিট দেখা যায়।",
+  dests:{none:"বিদেশে কল করি না",in:"ভারত",bd:"বাংলাদেশ",ph:"ফিলিপাইন",pk:"পাকিস্তান",np:"নেপাল",any:"অন্য দেশ"},
+  trips:{none:"ভ্রমণ করি না",gcc:"উপসাগরীয় দেশ (GCC)",pop:"যুক্তরাজ্য, তুরস্ক, মিশর, চীন ও অন্যান্য জনপ্রিয় জায়গা",other:"অন্য কোথাও"},
+  abroads:{none:"না, শুধু কাতারে",gcc:"হ্যাঁ, উপসাগরীয় দেশে",pop:"হ্যাঁ, উপসাগর ও তার বাইরে"},
+  other:"অন্য / তালিকায় নেই",noneYet:"এখনো নেই",min:"মিনিট",mo:"/মাস",
+  yr:v=>`প্রথম বছরে QR ${fmt(v)}`,yrR:v=>`≈ বছরে QR ${fmt(v)}`,every:d=>d===180?"6 মাসের জন্য":`প্রতি ${d} দিনে`,
+  then:(p,m,s)=>`অনলাইনে ${m} মাস QR ${p}, তারপর QR ${s}`,
+  fits:"আপনার সব প্রয়োজন মেটায়",cheapest:"আপনার জন্য সবচেয়ে সস্তা",short:"আপনার জন্য যথেষ্ট নয়",kind:{bill:"মাসিক বিল",recharge:"প্রিপেইড"},
+  chip:{data:v=>`${v} GB দ্রুত ডেটা`,dataU:v=>`আনলিমিটেড (${v} GB ফুল স্পিডে)`,mins:v=>v===U?"আনলিমিটেড লোকাল কল":`${v} লোকাল মিনিট`,
+   intl:v=>v===U?"আনলিমিটেড আন্তর্জাতিক":`${v} আন্তর্জাতিক মিনিট`,roam:v=>v===U?"সেখানে আনলিমিটেড রোমিং":`${v} GB রোমিং`,noRoam:"রোমিং নেই",
+   pool:(v,g)=>`${v} ইউনিট · 1 GB = ${g} ইউনিট · 1 মিনিট = 1 ইউনিট`,abroadOk:v=>v===U?"সেখানেও চলে":`সেখানে ${v} GB`,abroadNo:"শুধু কাতারে",
+   after:(spd,q)=>`সীমা শেষ হলে: ${spd}, ${q}`},
+  speedQ:["শুধু চ্যাট","ধীর ব্রাউজিং","গান ও সাধারণ ভিডিও","HD ভিডিওও চলবে"],
+  perks:{wa:"WhatsApp ডেটা ফ্রি",shahid:"Shahid সহ",social20:"সোশ্যাল অ্যাপে 20 GB",socialU:"সোশ্যাল অ্যাপ আনলিমিটেড",...sN("স্ট্রিমিং অ্যাপ"),
+   valet:"ভ্যালে পার্কিং",...vw(n=>`প্রতি মাসে QR ${n} ভাউচার`),build:"টাকা দিয়ে বাড়তি যোগ করুন",urban:"Urban Point অফার",sixmonths:"একটি রিচার্জে 6 মাস",
+   flex:"ইউনিট ডেটা, কল বা বিদেশ কলে, যেভাবে চান"},
+  vSave:(n,s)=>`${n}-এ যান এবং বছরে প্রায় QR ${fmt(s)} বাঁচান।`,vSaveHead:"আরও ভালো ডিল আছে",
+  vGood:"আপনার ডিল আগে থেকেই ভালো",vGoodBody:n=>`আপনার ব্যবহারের জন্য এর চেয়ে সস্তা কিছু নেই। সবচেয়ে সস্তা বিকল্প: ${n}।`,
+  vPick:"আপনার জন্য সেরা",vPickBody:(n,c)=>`${n} আপনার সব প্রয়োজন মেটায়: ${c}।`,
+  vNone:"একটি প্ল্যানে এর সব নেই",vNoneBody:"একটি স্লাইডার কমিয়ে দেখুন, বা অন্য ট্যাব দেখুন।",
+  share:"WhatsApp-এ শেয়ার করুন",shareText:(n,u)=>`Qatar Plan Finder আমার জন্য ${n} বেছে দিয়েছে। আপনারটা দেখুন: ${u}`,
+  mnp:"কোম্পানি বদলাচ্ছেন? নম্বর একই থাকবে, আর অনলাইনেই করা যায়।",go:p=>`${prov(p)}-এর সাইটে দেখুন →`,
+  more:n=>`মানানসই নয় এমন ${n}টি দেখান`,less:"মানানসই নয় এমনগুলো লুকান",checked:d=>`দাম যাচাই করা হয়েছে: ${dateIn("bn-BD",d)}।`},
+
+ ml:{dir:"ltr",langName:"മലയാളം",brand2:"ഖത്തർ പ്ലാൻ ഫൈൻഡർ",title:"നിങ്ങൾക്ക് ഏത് മൊബൈൽ പ്ലാൻ ആണ് നല്ലത്?",
+  sub:"Ooredoo, Vodafone എന്നിവയുടെ എല്ലാ പ്ലാനുകളും, നിങ്ങളുടെ യഥാർത്ഥ ഉപയോഗം അനുസരിച്ച്. സൗജന്യം, ഒരു കമ്പനിയുടേതുമല്ല.",
+  tabs:{monthly:"മാസ ബിൽ",prepaid:"പ്രീപെയ്ഡ്",data:"ഡാറ്റ മാത്രം"},
+  tabnote:{monthly:"പോസ്റ്റ്‌പെയ്ഡ്: എല്ലാ മാസവും അവസാനം ഒരു ബിൽ.",prepaid:"റീചാർജ്: ആദ്യം പണം, കരാറില്ല, ബില്ലില്ല.",data:"ഇന്റർനെറ്റ് മാത്രം, റൗട്ടർ, ടാബ്‌ലെറ്റ് അല്ലെങ്കിൽ രണ്ടാം സിമ്മിന്. കോളില്ല."},
+  presets:{monthly:{light:"കുറഞ്ഞ ഉപയോഗം",regular:"സാധാരണ",heavy:"കൂടുതൽ ഉപയോഗം",home:"നാട്ടിലേക്ക് ധാരാളം വിളിക്കും",travel:"പലപ്പോഴും യാത്ര"},
+   prepaid:{light:"കുറഞ്ഞ ഉപയോഗം",regular:"സാധാരണ",heavy:"കൂടുതൽ ഉപയോഗം",home:"നാട്ടിലേക്ക് ധാരാളം വിളിക്കും"},
+   data:{light:"കുറച്ച് ബ്രൗസിംഗ്",home:"വീട്ടിലെ ഇന്റർനെറ്റ്",heavy:"ധാരാളം വീഡിയോ",travel:"ഗൾഫ് രാജ്യങ്ങളിൽ യാത്ര"}},
+  usage:"നിങ്ങൾ എങ്ങനെ ഉപയോഗിക്കുന്നു",data:"മാസം ഡാറ്റ",mins:"ലോക്കൽ കോളുകൾ (മാസം മിനിറ്റ്)",dest:"നിങ്ങൾ വിദേശത്തേക്ക് വിളിക്കുന്നത്",intl:"മാസം അന്താരാഷ്ട്ര മിനിറ്റ്",
+  trip:"നിങ്ങൾ യാത്ര ചെയ്യുന്നത്",roam:"യാത്രയിലെ റോമിംഗ് ഡാറ്റ",abroad:"ഖത്തറിന് പുറത്തും ഉപയോഗിക്കുമോ?",
+  current:{monthly:"ഇപ്പോഴത്തെ പ്ലാൻ",prepaid:"ഇപ്പോഴത്തെ റീചാർജ്",data:"ഇപ്പോഴത്തെ ഡാറ്റ പ്ലാൻ"},custom:"ഇപ്പോൾ എത്ര കൊടുക്കുന്നു (മാസം QR)",
+  hint:"ഉറപ്പില്ലേ? Ooredoo അല്ലെങ്കിൽ My Vodafone ആപ്പിൽ കഴിഞ്ഞ മാസത്തെ ഡാറ്റയും മിനിറ്റും കാണാം.",
+  dests:{none:"വിദേശത്തേക്ക് വിളിക്കാറില്ല",in:"ഇന്ത്യ",bd:"ബംഗ്ലാദേശ്",ph:"ഫിലിപ്പീൻസ്",pk:"പാകിസ്ഥാൻ",np:"നേപ്പാൾ",any:"മറ്റ് രാജ്യങ്ങൾ"},
+  trips:{none:"യാത്ര ചെയ്യാറില്ല",gcc:"ഗൾഫ് രാജ്യങ്ങൾ (GCC)",pop:"UK, തുർക്കി, ഈജിപ്ത്, ചൈന, മറ്റ് പ്രശസ്ത സ്ഥലങ്ങൾ",other:"മറ്റെവിടെയെങ്കിലും"},
+  abroads:{none:"ഇല്ല, ഖത്തറിൽ മാത്രം",gcc:"ഉണ്ട്, ഗൾഫിൽ",pop:"ഉണ്ട്, ഗൾഫിലും അതിനപ്പുറവും"},
+  other:"മറ്റൊന്ന് / ലിസ്റ്റിൽ ഇല്ല",noneYet:"ഇപ്പോൾ ഇല്ല",min:"മിനിറ്റ്",mo:"/മാസം",
+  yr:v=>`ആദ്യ വർഷം QR ${fmt(v)}`,yrR:v=>`≈ വർഷം QR ${fmt(v)}`,every:d=>d===180?"6 മാസത്തേക്ക്":`ഓരോ ${d} ദിവസത്തിലും`,
+  then:(p,m,s)=>`ഓൺലൈനിൽ ${m} മാസം QR ${p}, പിന്നെ QR ${s}`,
+  fits:"നിങ്ങളുടെ എല്ലാ ആവശ്യവും നിറവേറ്റും",cheapest:"നിങ്ങൾക്ക് ഏറ്റവും വിലകുറഞ്ഞത്",short:"നിങ്ങൾക്ക് മതിയാകില്ല",kind:{bill:"മാസ ബിൽ",recharge:"പ്രീപെയ്ഡ്"},
+  chip:{data:v=>`${v} GB വേഗതയുള്ള ഡാറ്റ`,dataU:v=>`അൺലിമിറ്റഡ് (${v} GB ഫുൾ സ്പീഡിൽ)`,mins:v=>v===U?"അൺലിമിറ്റഡ് ലോക്കൽ കോൾ":`${v} ലോക്കൽ മിനിറ്റ്`,
+   intl:v=>v===U?"അൺലിമിറ്റഡ് അന്താരാഷ്ട്ര":`${v} അന്താരാഷ്ട്ര മിനിറ്റ്`,roam:v=>v===U?"അവിടെ അൺലിമിറ്റഡ് റോമിംഗ്":`${v} GB റോമിംഗ്`,noRoam:"റോമിംഗ് ഇല്ല",
+   pool:(v,g)=>`${v} യൂണിറ്റ് · 1 GB = ${g} യൂണിറ്റ് · 1 മിനിറ്റ് = 1 യൂണിറ്റ്`,abroadOk:v=>v===U?"അവിടെയും പ്രവർത്തിക്കും":`അവിടെ ${v} GB`,abroadNo:"ഖത്തറിൽ മാത്രം",
+   after:(spd,q)=>`പരിധി കഴിഞ്ഞാൽ: ${spd}, ${q}`},
+  speedQ:["ചാറ്റ് മാത്രം","പതുക്കെ ബ്രൗസിംഗ്","പാട്ടും സാധാരണ വീഡിയോയും","HD വീഡിയോയും ശരിയാകും"],
+  perks:{wa:"WhatsApp ഡാറ്റ സൗജന്യം",shahid:"Shahid ഉൾപ്പെടെ",social20:"സോഷ്യൽ ആപ്പുകൾക്ക് 20 GB",socialU:"സോഷ്യൽ ആപ്പുകൾ അൺലിമിറ്റഡ്",...sN("സ്ട്രീമിംഗ് ആപ്പ്"),
+   valet:"വാലറ്റ് പാർക്കിംഗ്",...vw(n=>`മാസം QR ${n} വൗച്ചർ`),build:"പണം നൽകി കൂടുതൽ ചേർക്കാം",urban:"Urban Point ഓഫറുകൾ",sixmonths:"ഒരു റീചാർജ് 6 മാസം",
+   flex:"യൂണിറ്റുകൾ ഡാറ്റ, കോൾ, വിദേശ കോൾ എന്നിവയ്ക്ക് ഇഷ്ടം പോലെ"},
+  vSave:(n,s)=>`${n}-ലേക്ക് മാറൂ, വർഷം ഏകദേശം QR ${fmt(s)} ലാഭിക്കൂ.`,vSaveHead:"മികച്ച ഡീൽ ഉണ്ട്",
+  vGood:"നിങ്ങളുടെ ഡീൽ ഇപ്പോൾ തന്നെ നല്ലതാണ്",vGoodBody:n=>`നിങ്ങളുടെ ഉപയോഗത്തിന് ഇതിലും വിലകുറഞ്ഞത് ഇല്ല. ഏറ്റവും വിലകുറഞ്ഞ മറ്റൊന്ന്: ${n}.`,
+  vPick:"നിങ്ങൾക്ക് ഏറ്റവും നല്ലത്",vPickBody:(n,c)=>`${n} നിങ്ങളുടെ എല്ലാ ആവശ്യവും നിറവേറ്റും: ${c}.`,
+  vNone:"ഇതെല്ലാം ഒരു പ്ലാനിലും ഇല്ല",vNoneBody:"ഒരു സ്ലൈഡർ കുറച്ചു നോക്കൂ, അല്ലെങ്കിൽ മറ്റൊരു ടാബ് നോക്കൂ.",
+  share:"WhatsApp-ൽ ഷെയർ ചെയ്യൂ",shareText:(n,u)=>`Qatar Plan Finder എനിക്ക് ${n} തിരഞ്ഞെടുത്തു. നിങ്ങളുടേത് കണ്ടെത്തൂ: ${u}`,
+  mnp:"കമ്പനി മാറുകയാണോ? നമ്പർ മാറില്ല, ഓൺലൈനായി ചെയ്യാം.",go:p=>`${prov(p)} സൈറ്റിൽ കാണൂ →`,
+  more:n=>`ചേരാത്ത ${n} എണ്ണം കാണിക്കൂ`,less:"ചേരാത്തവ മറയ്ക്കൂ",checked:d=>`വിലകൾ പരിശോധിച്ചത്: ${dateIn("ml-IN",d)}.`},
+
+ ne:{dir:"ltr",langName:"नेपाली",brand2:"कतार प्लान फाइन्डर",title:"तपाईंलाई कुन मोबाइल प्लान ठिक छ?",
+  sub:"Ooredoo र Vodafone का सबै प्लान, तपाईंको वास्तविक प्रयोग अनुसार। निःशुल्क, र कुनै कम्पनीको होइन।",
+  tabs:{monthly:"मासिक बिल",prepaid:"प्रिपेड",data:"डेटा मात्र"},
+  tabnote:{monthly:"पोस्टपेड: हरेक महिनाको अन्त्यमा एउटा बिल।",prepaid:"रिचार्ज: पहिले पैसा, कुनै सम्झौता छैन, बिल छैन।",data:"इन्टरनेट मात्र, राउटर, ट्याब्लेट वा दोस्रो सिमका लागि। कल छैन।"},
+  presets:{monthly:{light:"थोरै प्रयोग",regular:"सामान्य",heavy:"धेरै प्रयोग",home:"घरमा धेरै फोन गर्छु",travel:"धेरै यात्रा"},
+   prepaid:{light:"थोरै प्रयोग",regular:"सामान्य",heavy:"धेरै प्रयोग",home:"घरमा धेरै फोन गर्छु"},
+   data:{light:"हल्का ब्राउजिङ",home:"घरको इन्टरनेट",heavy:"धेरै भिडियो",travel:"खाडी देशमा यात्रा"}},
+  usage:"तपाईं कसरी प्रयोग गर्नुहुन्छ",data:"मासिक डेटा",mins:"लोकल कल (मासिक मिनेट)",dest:"तपाईं विदेश फोन गर्नुहुन्छ",intl:"मासिक अन्तर्राष्ट्रिय मिनेट",
+  trip:"तपाईं यात्रा गर्नुहुन्छ",roam:"बाहिर हुँदा रोमिङ डेटा",abroad:"कतार बाहिर पनि प्रयोग गर्नुहुन्छ?",
+  current:{monthly:"तपाईंको हालको प्लान",prepaid:"तपाईंको हालको रिचार्ज",data:"तपाईंको हालको डेटा प्लान"},custom:"अहिले कति तिर्नुहुन्छ (मासिक QR)",
+  hint:"पक्का छैन? Ooredoo वा My Vodafone एपमा गत महिनाको डेटा र मिनेट देखिन्छ।",
+  dests:{none:"विदेश फोन गर्दिनँ",in:"भारत",bd:"बंगलादेश",ph:"फिलिपिन्स",pk:"पाकिस्तान",np:"नेपाल",any:"अन्य देश"},
+  trips:{none:"यात्रा गर्दिनँ",gcc:"खाडी देश (GCC)",pop:"बेलायत, टर्की, इजिप्ट, चीन र अन्य चर्चित ठाउँ",other:"अरू कतै"},
+  abroads:{none:"होइन, कतारमा मात्र",gcc:"हो, खाडी देशमा",pop:"हो, खाडी र त्यसभन्दा पर"},
+  other:"अरू / सूचीमा छैन",noneYet:"अहिले छैन",min:"मिनेट",mo:"/महिना",
+  yr:v=>`पहिलो वर्ष QR ${fmt(v)}`,yrR:v=>`≈ वार्षिक QR ${fmt(v)}`,every:d=>d===180?"6 महिनाका लागि":`हरेक ${d} दिनमा`,
+  then:(p,m,s)=>`अनलाइनमा ${m} महिना QR ${p}, त्यसपछि QR ${s}`,
+  fits:"तपाईंको सबै आवश्यकता पूरा गर्छ",cheapest:"तपाईंका लागि सबैभन्दा सस्तो",short:"तपाईंलाई पुग्दैन",kind:{bill:"मासिक बिल",recharge:"प्रिपेड"},
+  chip:{data:v=>`${v} GB छिटो डेटा`,dataU:v=>`अनलिमिटेड (${v} GB पूरा गतिमा)`,mins:v=>v===U?"अनलिमिटेड लोकल कल":`${v} लोकल मिनेट`,
+   intl:v=>v===U?"अनलिमिटेड अन्तर्राष्ट्रिय":`${v} अन्तर्राष्ट्रिय मिनेट`,roam:v=>v===U?"त्यहाँ अनलिमिटेड रोमिङ":`${v} GB रोमिङ`,noRoam:"रोमिङ समावेश छैन",
+   pool:(v,g)=>`${v} युनिट · 1 GB = ${g} युनिट · 1 मिनेट = 1 युनिट`,abroadOk:v=>v===U?"त्यहाँ पनि चल्छ":`त्यहाँ ${v} GB`,abroadNo:"कतारमा मात्र",
+   after:(spd,q)=>`सीमा सकिएपछि: ${spd}, ${q}`},
+  speedQ:["च्याट मात्र","ढिलो ब्राउजिङ","गीत र साधारण भिडियो","HD भिडियो पनि चल्छ"],
+  perks:{wa:"WhatsApp डेटा निःशुल्क",shahid:"Shahid समावेश",social20:"सामाजिक एपका लागि 20 GB",socialU:"सामाजिक एप अनलिमिटेड",...sN("स्ट्रिमिङ एप"),
+   valet:"भ्यालेट पार्किङ",...vw(n=>`मासिक QR ${n} भाउचर`),build:"शुल्क तिरेर थप्न सकिन्छ",urban:"Urban Point अफर",sixmonths:"एक रिचार्ज 6 महिना",
+   flex:"युनिट डेटा, कल वा विदेश कलमा, जसरी चाहनुहुन्छ"},
+  vSave:(n,s)=>`${n} मा जानुहोस् र वर्षमा करिब QR ${fmt(s)} बचाउनुहोस्।`,vSaveHead:"अझ राम्रो डिल छ",
+  vGood:"तपाईंको डिल पहिले नै राम्रो छ",vGoodBody:n=>`तपाईंको प्रयोगका लागि योभन्दा सस्तो केही छैन। सबैभन्दा सस्तो विकल्प: ${n}।`,
+  vPick:"तपाईंका लागि उत्तम",vPickBody:(n,c)=>`${n} ले तपाईंको सबै आवश्यकता पूरा गर्छ: ${c}।`,
+  vNone:"एउटै प्लानमा यी सबै छैन",vNoneBody:"कुनै स्लाइडर घटाउनुहोस्, वा अर्को ट्याब हेर्नुहोस्।",
+  share:"WhatsApp मा पठाउनुहोस्",shareText:(n,u)=>`Qatar Plan Finder ले मेरा लागि ${n} छान्यो। आफ्नो हेर्नुहोस्: ${u}`,
+  mnp:"कम्पनी बदल्दै हुनुहुन्छ? नम्बर उही रहन्छ, र अनलाइन गर्न सकिन्छ।",go:p=>`${prov(p)} को साइटमा हेर्नुहोस् →`,
+  more:n=>`नमिल्ने ${n} वटा देखाउनुहोस्`,less:"नमिल्ने लुकाउनुहोस्",checked:d=>`मूल्य जाँचिएको मिति: ${dateIn("ne-NP",d)}।`},
+
+ fil:{dir:"ltr",langName:"Filipino",brand2:"Hanapan ng Plan sa Qatar",title:"Aling mobile plan ang bagay sa'yo?",
+  sub:"Lahat ng plan ng Ooredoo at Vodafone, inayos ayon sa totoong gamit mo ng phone. Libre, at hindi pag-aari ng alinmang kumpanya.",
+  tabs:{monthly:"Buwanang bill",prepaid:"Prepaid",data:"Data lang"},
+  tabnote:{monthly:"Postpaid: isang bill sa katapusan ng bawat buwan.",prepaid:"Load: magbayad muna, walang kontrata, walang bill.",data:"Internet lang, para sa router, tablet o pangalawang SIM. Walang tawag."},
+  presets:{monthly:{light:"Kaunting gamit",regular:"Karaniwan",heavy:"Malakas gumamit",home:"Madalas tumawag sa pamilya",travel:"Madalas bumiyahe"},
+   prepaid:{light:"Kaunting gamit",regular:"Karaniwan",heavy:"Malakas gumamit",home:"Madalas tumawag sa pamilya"},
+   data:{light:"Kaunting browsing",home:"Internet sa bahay",heavy:"Maraming video",travel:"Biyahe sa GCC"}},
+  usage:"Paano mo ito ginagamit",data:"Data bawat buwan",mins:"Local na tawag (minuto bawat buwan)",dest:"Tumatawag ka sa ibang bansa, sa",intl:"International na minuto bawat buwan",
+  trip:"Bumibiyahe ka sa",roam:"Roaming data habang wala sa Qatar",abroad:"Gagamitin din sa labas ng Qatar?",
+  current:{monthly:"Plan mo ngayon",prepaid:"Load mo ngayon",data:"Data plan mo ngayon"},custom:"Magkano ang binabayaran mo ngayon (QR kada buwan)",
+  hint:"Hindi sigurado? Makikita sa Ooredoo o My Vodafone app ang data at minuto mo noong nakaraang buwan.",
+  dests:{none:"Walang tinatawagan sa abroad",in:"India",bd:"Bangladesh",ph:"Pilipinas",pk:"Pakistan",np:"Nepal",any:"Ibang bansa"},
+  trips:{none:"Hindi ako bumibiyahe",gcc:"Mga bansa sa GCC",pop:"UK, Turkey, Egypt, China at iba pang sikat na lugar",other:"Kahit saan pa"},
+  abroads:{none:"Hindi, sa Qatar lang",gcc:"Oo, sa GCC",pop:"Oo, sa GCC at mas malayo pa"},
+  other:"Iba / wala sa listahan",noneYet:"Wala pa ako",mo:"/buwan",
+  yr:v=>`QR ${fmt(v)} sa unang taon`,yrR:v=>`≈ QR ${fmt(v)} bawat taon`,every:d=>d===180?"para sa 6 na buwan":`bawat ${d} araw`,
+  then:(p,m,s)=>`QR ${p} sa loob ng ${m} buwan online, tapos QR ${s}`,
+  fits:"Sakto sa lahat ng gamit mo",cheapest:"Pinakamura na bagay sa'yo",short:"Kulang para sa'yo",kind:{bill:"Buwanang bill",recharge:"Prepaid"},
+  chip:{data:v=>`${v} GB na mabilis na data`,dataU:v=>`Unlimited (${v} GB sa full speed)`,mins:v=>v===U?"Unlimited na local na tawag":`${v} local na minuto`,
+   intl:v=>v===U?"Unlimited international":`${v} international na minuto`,roam:v=>v===U?"Unlimited roaming doon":`${v} GB roaming`,noRoam:"Walang kasamang roaming",
+   pool:(v,g)=>`${v} units · 1 GB = ${g} units · 1 minuto = 1 unit`,abroadOk:v=>v===U?"Gumagana rin doon":`${v} GB magagamit doon`,abroadNo:"Sa Qatar lang",
+   after:(spd,q)=>`Pagkaubos: ${spd}, ${q}`},
+  speedQ:["pang-chat lang","mabagal na browsing","musika at simpleng video","kaya pa ang HD video"],
+  perks:{wa:"Libreng WhatsApp data",shahid:"Kasama ang Shahid",social20:"20 GB para sa social apps",socialU:"Unlimited na social apps",
+   stream1:"1 streaming app",stream2:"2 streaming apps",stream3:"3 streaming apps",stream4:"4 streaming apps",stream5:"5 streaming apps",
+   valet:"Valet parking",...vw(n=>`QR ${n} na voucher kada buwan`),build:"Magdagdag ng extras na may bayad",urban:"Mga deal ng Urban Point",sixmonths:"Isang load, 6 na buwan",
+   flex:"Gamitin ang units sa data, tawag o international, ikaw ang bahala"},
+  vSave:(n,s)=>`Lumipat sa ${n} at makatipid ng mga QR ${fmt(s)} bawat taon.`,vSaveHead:"May mas magandang deal",
+  vGood:"Maganda na ang deal mo",vGoodBody:n=>`Walang mas mura para sa gamit mo. Pinakamurang alternatibo: ${n}.`,
+  vPick:"Pinakabagay sa'yo",vPickBody:(n,c)=>`Sakto ang ${n} sa lahat ng gamit mo: ${c}.`,
+  vNone:"Walang iisang plan na sakto sa lahat ng iyan",vNoneBody:"Subukang ibaba ang isang slider, o tingnan ang ibang tab.",
+  share:"I-share sa WhatsApp",shareText:(n,u)=>`Pinili ng Qatar Plan Finder ang ${n} para sa akin. Hanapin ang sa'yo: ${u}`,
+  mnp:"Lilipat ng kumpanya? Hindi magbabago ang number mo, at puwedeng online.",go:p=>`Tingnan sa site ng ${prov(p)} →`,
+  more:n=>`Ipakita ang ${n} na hindi bagay`,less:"Itago ang mga hindi bagay",checked:d=>`Sinuri ang mga presyo noong ${dateIn("fil-PH",d)}.`}
+};
+const deepMerge = (base, over) => { const out = {...base}; for(const k in over){ const v = over[k];
+  out[k] = (v && typeof v==="object" && !Array.isArray(v) && typeof base[k]==="object") ? deepMerge(base[k], v) : v; } return out; };
+for(const k in MORE) T[k] = deepMerge(T.en, MORE[k]);
+T.en.dests = {...T.en.dests, np:"Nepal"}; T.ar.dests = {...T.ar.dests, np:"نيبال"};
+// keep "Nepal" right after Pakistan in every list
+for(const k in T){ const d = T[k].dests; T[k].dests = {none:d.none,in:d.in,bd:d.bd,ph:d.ph,pk:d.pk,np:d.np,any:d.any}; }
+const LANG_ORDER = ["en","ar","hi","ur","bn","ml","ne","fil"];
+
+// ===================== STATE =====================
+const PRESETS = {
+ monthly:{light:{data:8,mins:150,dest:"none",intl:0,trip:"none",roam:0},regular:{data:25,mins:400,dest:"none",intl:0,trip:"none",roam:0},
+  heavy:{data:90,mins:1000,dest:"none",intl:0,trip:"none",roam:0},home:{data:20,mins:300,dest:"in",intl:300,trip:"none",roam:0},
+  travel:{data:40,mins:500,dest:"none",intl:0,trip:"gcc",roam:10}},
+ prepaid:{light:{data:4,mins:120,dest:"none",intl:0},regular:{data:12,mins:300,dest:"none",intl:0},heavy:{data:30,mins:900,dest:"none",intl:0},
+  home:{data:8,mins:200,dest:"in",intl:150}},
+ data:{light:{data:10,abroad:"none"},home:{data:150,abroad:"none"},heavy:{data:400,abroad:"none"},travel:{data:40,abroad:"gcc"}}
+};
+const DEFAULT_PRESET = {monthly:"regular",prepaid:"regular",data:"home"};
+const DATA_MAX = {monthly:200,prepaid:100,data:500};
+const CURRENT_DEFAULT = {monthly:"Shahry+ Super",prepaid:"none",data:"none"};
+let L = "en", TAB = "monthly", showAll = false;
+const ST = {};
+for(const t of ["monthly","prepaid","data"]) ST[t] = {...{data:25,mins:400,dest:"none",intl:0,trip:"none",roam:0,abroad:"none"}, ...PRESETS[t][DEFAULT_PRESET[t]], preset:DEFAULT_PRESET[t], current:CURRENT_DEFAULT[t], custom:150};
+try{ const s = localStorage.getItem("qpf-lang"); if(T[s]) L=s; const tb = localStorage.getItem("qpf-tab"); if(ST[tb]) TAB=tb; }catch(e){}
+if(/^#(monthly|prepaid|data)$/.test(location.hash)) TAB = location.hash.slice(1);
+const $ = id => document.getElementById(id);
+
+const URLS = {shahry:"https://www.ooredoo.qa/web/en/postpaid-plans/shahry/",qatarna:"https://www.ooredoo.qa/web/en/postpaid-plans/qatarna/",
+ hala:"https://www.ooredoo.qa/web/en/prepaid-plans/recharge/",datasim:"https://www.ooredoo.qa/web/en/postpaid-plans/data-sim/",
+ postpaid:"https://www.vodafone.qa/Postpaid-Plus-Plans",unlimited:"https://www.vodafone.qa/Unlimited-Plus-Plans"};
+function planUrl(pl){
+ let u = null;
+ if(pl.p==="o") u = pl.n.startsWith("Shahry")?URLS.shahry : pl.n.startsWith("Qatarna")?URLS.qatarna : pl.n.startsWith("Data SIM")?URLS.datasim : URLS.hala;
+ else if(pl.n.startsWith("Postpaid+")) u = URLS.postpaid; else if(pl.n.startsWith("Unlimited+")) u = URLS.unlimited;
+ return u && L==="ar" ? u.replace("/web/en/","/web/ar/") : u;
+}
+
+// ===================== MATH =====================
+const isRecharge = pl => pl.days !== undefined;
+const intlOf = (pl,d) => pl.intl ? (pl.intl[d] ?? pl.intl[{bd:"in",pk:"ph",np:"any"}[d]] ?? 0) : 0;
+function yearCost(pl){
+ if(isRecharge(pl)) return Math.round(pl.price*365/pl.days);
+ const m = Math.min(pl.pm,12); return pl.promo*m + pl.std*(12-m);
+}
+function currentYearCost(pl){ return isRecharge(pl) ? yearCost(pl) : pl.std*12; }
+function evaluate(pl, s){
+ const fails = [];
+ const k = isRecharge(pl) ? pl.days/30 : 1;   // how much of a month one pack covers
+ const need = {data:s.data*k, mins:s.mins*k, intl:s.intl*k, roam:s.roam};
+ if(pl.pool){
+  const units = need.data*pl.gb + need.mins + (s.dest!=="none" ? need.intl*FLEX_RATE[s.dest] : 0);
+  if(units > pl.pool) fails.push("pool");
+  return fails;
+ }
+ if(pl.data < need.data) fails.push("data");
+ if(TAB==="data"){ if(s.abroad!=="none" && !(pl.abroad[s.abroad]>0)) fails.push("abroad"); return fails; }
+ if(pl.mins < need.mins) fails.push("mins");
+ if(s.dest!=="none" && intlOf(pl,s.dest) < need.intl) fails.push("intl");
+ if(TAB==="monthly" && s.trip!=="none" && s.roam>0 && pl.roam[s.trip] < s.roam) fails.push("roam");
+ return fails;
+}
+
+// ===================== UI =====================
+function readControls(){
+ const s = ST[TAB];
+ for(const k of ["data","mins","intl","roam"]) s[k] = +$(k).value;
+ for(const k of ["dest","trip","abroad","current"]) s[k] = $(k).value;
+ s.custom = +$("custom").value || 0;
+}
+function writeControls(){
+ const s = ST[TAB];
+ $("data").max = DATA_MAX[TAB];
+ for(const k of ["data","mins","intl","roam","dest","trip","abroad","current"]) $(k).value = s[k];
+ $("custom").value = s.custom;
+}
+function fillSelects(){
+ const t = T[L];
+ const opts = o => Object.entries(o).map(([k,v])=>`<option value="${k}">${v}</option>`).join("");
+ $("dest").innerHTML = opts(t.dests); $("trip").innerHTML = opts(t.trips); $("abroad").innerHTML = opts(t.abroads);
+ const list = DB[TAB];
+ const price = p => isRecharge(p) ? `${t.qr} ${p.price}` : `${t.qr} ${p.std}`;
+ const grp = (pv,label) => `<optgroup label="${label}">${list.filter(p=>p.p===pv).map(p=>`<option value="${p.n}">${p.n} · ${price(p)}</option>`).join("")}</optgroup>`;
+ $("current").innerHTML = `<option value="none">${t.noneYet}</option>` + grp("o","Ooredoo") + grp("v","Vodafone") + `<option value="other">${t.other}</option>`;
+}
+function applyLang(){
+ const t = T[L];
+ document.documentElement.lang = L; document.documentElement.dir = t.dir;
+ $("lang").innerHTML = LANG_ORDER.map(k=>`<option value="${k}">${T[k].langName}</option>`).join(""); $("lang").value = L; $("langcode").textContent = {en:"EN",ar:"ع",hi:"हि",ur:"UR",bn:"বাং",ml:"മല",ne:"ने",fil:"FIL"}[L];
+ $("t-brand").textContent = t.brand; $("t-brand2").textContent = t.brand2;
+ $("t-title").textContent = t.title; $("t-sub").textContent = t.sub;
+ for(const k of ["monthly","prepaid","data"]){ const b=$("tab-"+k); b.textContent=t.tabs[k]; b.setAttribute("aria-selected",String(k===TAB)); }
+ $("tabnote").textContent = t.tabnote[TAB];
+ for(const k of ["usage","data","mins","dest","intl","trip","roam","abroad","custom","hint"]) $("t-"+k).textContent = t[k];
+ $("t-current").textContent = t.current[TAB];
+ document.querySelectorAll("[data-on]").forEach(el=>{ el.hidden = !el.dataset.on.split(" ").includes(TAB); });
+ const pr = PRESETS[TAB], s = ST[TAB];
+ $("presets").innerHTML = Object.keys(pr).map(k=>`<button type="button" class="preset" data-p="${k}" aria-pressed="${s.preset===k}">${t.presets[TAB][k]}</button>`).join("");
+ $("t-checked").textContent = t.checked(new Date(CHECKED+"T12:00:00")); $("t-src").innerHTML = t.src; 
+ fillSelects(); writeControls(); render();
+}
+
+function render(){
+ const t = T[L], s = ST[TAB];
+ const num = v => (Math.round(v*10)/10).toLocaleString(L==="ar"?"ar-QA":"en");
+ const max = DATA_MAX[TAB];
+ $("data-v").textContent = (s.data>=max ? `${num(max)}+` : num(s.data)) + " " + t.gb;
+ $("mins-v").textContent = `${num(s.mins)} ${t.min}`;
+ $("intl-v").textContent = s.dest==="none" ? "—" : `${num(s.intl)} ${t.min}`;
+ $("roam-v").textContent = s.trip==="none" ? "—" : `${num(s.roam)} ${t.gb}`;
+ $("intl").disabled = s.dest==="none"; $("roam").disabled = s.trip==="none";
+ $("custom-wrap").hidden = s.current!=="other";
+
+ const rows = DB[TAB].map(pl=>({pl, fails:evaluate(pl,s), yr:yearCost(pl)}));
+ const fit = rows.filter(r=>!r.fails.length).sort((a,b)=>a.yr-b.yr);
+ const miss = rows.filter(r=>r.fails.length).sort((a,b)=>a.fails.length-b.fails.length||a.yr-b.yr);
+
+ // Verdict
+ const curPlan = DB[TAB].find(p=>p.n===s.current);
+ const hasNow = s.current!=="none";
+ const curYear = curPlan ? currentYearCost(curPlan) : s.custom*12;
+ const curFits = curPlan ? !evaluate(curPlan,s).length : true;
+ const v = $("verdict"), best = fit[0];
+ if(!best){ v.className="verdict"; v.innerHTML=`<strong>${t.vNone}</strong><p>${t.vNoneBody}</p>`; }
+ else{
+  const save = curYear - best.yr;
+  if(hasNow && (best.pl.n===s.current || (save<=0 && curFits))){
+   const alt = fit.find(r=>r.pl.n!==s.current) || best;
+   v.className="verdict good"; v.innerHTML=`<strong>${t.vGood}</strong><p>${t.vGoodBody(alt.pl.n)}</p>`;
+  } else if(hasNow && save>0){
+   const mnp = curPlan && curPlan.p!==best.pl.p ? `<p class="mnp">${t.mnp}</p>` : "";
+   v.className="verdict"; v.innerHTML=`<strong>${t.vSaveHead}</strong><p>${t.vSave(best.pl.n, Math.round(save))}</p>${mnp}`;
+  } else {
+   const cost = isRecharge(best.pl) ? `${t.qr} ${num(best.pl.price)} ${t.every(best.pl.days)}` : t.yr(best.yr);
+   v.className="verdict"; v.innerHTML=`<strong>${t.vPick}</strong><p>${t.vPickBody(best.pl.n, cost)}</p>`;
+  }
+  const here = location.href.split("#")[0] + "#" + TAB;
+  const wa = "https://wa.me/?text="+encodeURIComponent(t.shareText(best.pl.n, here));
+  v.insertAdjacentHTML("beforeend",`<a class="share" href="${wa}" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.7.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.3-.4.7-1.4a.5.5 0 0 0 0-.5l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.8 11.9 11.9 0 0 0 4.6 4c1.7.7 2.3.8 3.2.6a2.7 2.7 0 0 0 1.8-1.3 2.2 2.2 0 0 0 .1-1.3c0-.1-.2-.2-.4-.3z"/></svg>${t.share}</a>`);
+ }
+
+ const card = (r,i,isFit) => {
+  const pl=r.pl, f=r.fails, c=t.chip, rc=isRecharge(pl);
+  const chips = [];
+  const cls = k => f.includes(k) ? " short" : "";
+  if(pl.pool){
+   chips.push(`<span class="chip${cls("pool")}">${c.pool(num(pl.pool),pl.gb)}</span>`);
+  } else {
+   chips.push(`<span class="chip${cls("data")}">${!rc && pl.data>=125 && TAB==="monthly" ? c.dataU(num(pl.data)) : c.data(num(pl.data))}</span>`);
+   if(TAB!=="data") chips.push(`<span class="chip${cls("mins")}">${c.mins(pl.mins)}</span>`);
+   if(TAB!=="data" && s.dest!=="none") chips.push(`<span class="chip${cls("intl")}">${c.intl(intlOf(pl,s.dest))}</span>`);
+   if(TAB==="monthly" && s.trip!=="none"){ const rv=pl.roam[s.trip]; chips.push(`<span class="chip${cls("roam")}">${rv?c.roam(rv):c.noRoam}</span>`); }
+   if(TAB==="data" && s.abroad!=="none"){ const av=pl.abroad[s.abroad]; chips.push(`<span class="chip${cls("abroad")}">${av?c.abroadOk(av):c.abroadNo}</span>`); }
+  }
+  if(pl.after){
+   const spd = pl.after>=1000 ? `${pl.after/1000} Mbps` : `${pl.after} Kbps`;
+   const q = t.speedQ[pl.after<=128?0 : pl.after<=512?1 : pl.after<=2000?2 : 3];
+   chips.push(`<span class="chip">${c.after(spd,q)}</span>`);
+  }
+  pl.perks.filter(k=>!["bill","endless","after1"].includes(k)).forEach(k=>chips.push(`<span class="chip">${t.perks[k]}</span>`));
+  const price = rc
+   ? `<b>${t.qr} ${num(pl.price)}</b><small>${t.every(pl.days)}</small><small>${t.yrR(r.yr)}</small>`
+   : `<b>${t.qr} ${num(pl.std)}</b>${t.mo}<small>${t.yr(r.yr)}</small>`;
+  const kind = TAB==="data" ? `<span class="kind">${rc?t.kind.recharge:t.kind.bill}</span>` : "";
+  const tag = isFit ? (i===0 ? `<span class="tag top"><i>★ ${t.cheapest}</i></span>` : `<span class="tag">${t.fits}</span>`) : `<span class="tag bad">${t.short}</span>`;
+  const url = planUrl(pl);
+  return `<article class="plan${isFit&&i===0?" best":""}${isFit?"":" miss"}">
+   <div><div class="prov ${pl.p}">${pl.p==="o"?"Ooredoo":"Vodafone"}</div><h3 class="pname">${pl.n}${kind}</h3></div>
+   <div class="price">${price}</div>
+   ${tag}${!rc && pl.pm ? `<div class="promo">${t.then(num(pl.promo),num(pl.pm),num(pl.std))}</div>` : ""}
+   <div class="specs">${chips.join("")}</div>
+   ${isFit && url ? `<a class="go" href="${url}" target="_blank" rel="noopener">${t.go(pl.p)}</a>` : ""}</article>`;
+ };
+ $("list").innerHTML = fit.map((r,i)=>card(r,i,true)).join("") + (showAll ? miss.map((r,i)=>card(r,i,false)).join("") : "");
+ $("more").hidden = !miss.length;
+ $("more").textContent = showAll ? t.less : t.more(num(miss.length));
+}
+
+// ===================== EVENTS =====================
+const clearPreset = () => { ST[TAB].preset = null; document.querySelectorAll(".preset").forEach(b=>b.setAttribute("aria-pressed","false")); };
+["data","mins","intl","roam"].forEach(id=>$(id).addEventListener("input",()=>{readControls();clearPreset();render();}));
+["dest","trip","abroad"].forEach(id=>$(id).addEventListener("change",()=>{readControls();clearPreset();render();}));
+$("current").addEventListener("change",()=>{readControls();render();});
+$("custom").addEventListener("input",()=>{readControls();render();});
+$("presets").addEventListener("click",e=>{
+ const b=e.target.closest(".preset"); if(!b) return;
+ Object.assign(ST[TAB], PRESETS[TAB][b.dataset.p], {preset:b.dataset.p});
+ document.querySelectorAll(".preset").forEach(x=>x.setAttribute("aria-pressed",String(x===b)));
+ writeControls(); render();
+});
+$("tabs").addEventListener("click",e=>{
+ const b=e.target.closest(".tab"); if(!b || b.dataset.tab===TAB) return;
+ TAB=b.dataset.tab; showAll=false;
+ try{localStorage.setItem("qpf-tab",TAB)}catch(err){}
+ applyLang();
+});
+$("more").addEventListener("click",()=>{showAll=!showAll;render();});
+$("lang").addEventListener("change",()=>{L=$("lang").value;try{localStorage.setItem("qpf-lang",L)}catch(e){}track(`lang/${L}`,`Language: ${L}`);applyLang();});
+// Light / dark switch. Starts from the phone's setting; a tap overrides it and is remembered.
+const SUN='<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.5" fill="currentColor"/><g stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 2v2.5M12 19.5V22M2 12h2.5M19.5 12H22M4.9 4.9l1.8 1.8M17.3 17.3l1.8 1.8M4.9 19.1l1.8-1.8M17.3 6.7l1.8-1.8"/></g></svg>';
+const MOON='<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M20.5 14.6A8.5 8.5 0 0 1 9.4 3.5a8.5 8.5 0 1 0 11.1 11.1z"/></svg>';
+const isDark = () => { const a = document.documentElement.dataset.theme; return a ? a==="dark" : matchMedia("(prefers-color-scheme: dark)").matches; };
+const paintThemeBtn = () => { const d = isDark(); $("theme").innerHTML = d ? SUN : MOON; $("theme").setAttribute("aria-label", d ? "Light mode" : "Dark mode"); };
+try{ const th = localStorage.getItem("qpf-theme"); if(th==="dark"||th==="light") document.documentElement.dataset.theme = th; }catch(e){}
+$("theme").addEventListener("click",()=>{ const next = isDark() ? "light" : "dark"; document.documentElement.dataset.theme = next;
+ try{localStorage.setItem("qpf-theme",next)}catch(e){} paintThemeBtn(); });
+matchMedia("(prefers-color-scheme: dark)").addEventListener?.("change", paintThemeBtn);
+paintThemeBtn();
+applyLang();
+
+// ===================== ANONYMOUS COUNTER =====================
+// Only runs on the public site, when config.json names a GoatCounter account. No cookies.
+// Counts: page visits (automatic), tab switches, taps on "See it on ...", WhatsApp shares, language flips.
+function track(path, title){
+ try{ if(window.goatcounter && window.goatcounter.count) window.goatcounter.count({path, title: title||path, event:true}); }catch(e){}
+}
+const slug = s => s.toLowerCase().replace(/\+/g,"-plus").replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"");
+document.addEventListener("click",e=>{
+ const go = e.target.closest("a.go");
+ if(go){ const card = go.closest(".plan"); const n = card.querySelector(".pname").firstChild.textContent;
+   const prov = card.querySelector(".prov").textContent.toLowerCase(); track(`go/${prov}/${slug(n)}`, `Opened ${n} on ${prov}`); return; }
+ if(e.target.closest("a.share")){ track(`share/whatsapp/${TAB}`, `WhatsApp share (${TAB})`); return; }
+ const tb = e.target.closest(".tab"); if(tb){ track(`tab/${tb.dataset.tab}`, `Tab: ${tb.dataset.tab}`); return; }
+});
+fetch("config.json",{cache:"no-store"}).then(r=>r.ok?r.json():null).then(c=>{
+ const code = c && c.goatcounter;
+ if(!code || !/^[a-z0-9-]{2,50}$/.test(code)) return;
+ const sc = document.createElement("script");
+ sc.async = true; sc.src = "https://gc.zgo.at/count.js"; sc.dataset.goatcounter = `https://${code}.goatcounter.com/count`;
+ document.head.appendChild(sc);
+}).catch(()=>{});
+
+// On the public site, the robot's price file (plans.json) sits next to this page and has the freshest prices.
+fetch("plans.json",{cache:"no-store"}).then(r=>r.ok?r.json():null).then(j=>{
+ if(!j) return;
+ const inf = v => v===null ? U : v;
+ const fixRoam = o => o && Object.fromEntries(Object.entries(o).map(([k,v])=>[k,inf(v)]));
+ const fix = p => ({...p, mins:inf(p.mins), roam:fixRoam(p.roam), abroad:fixRoam(p.abroad)});
+ if(Array.isArray(j.plans) && j.plans.length) DB.monthly = j.plans.map(fix);
+ if(Array.isArray(j.prepaid) && j.prepaid.length) DB.prepaid = j.prepaid.filter(p=>!p.gone).map(fix);
+ if(Array.isArray(j.data) && j.data.length) DB.data = j.data.filter(p=>!p.gone).map(fix);
+ Object.values(DB).forEach(withAfter);
+ if(j.checked) CHECKED = j.checked;
+ applyLang();
+}).catch(()=>{});
+</script>
+</body></html>

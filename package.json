@@ -1,0 +1,12 @@
+{
+  "name": "qatar-plan-finder",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "robot": "node robot/check.mjs",
+    "test": "node robot/test.mjs"
+  },
+  "dependencies": {
+    "unpdf": "1.8.1"
+  }
+}
