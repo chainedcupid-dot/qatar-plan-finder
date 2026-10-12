@@ -1,7 +1,14 @@
 {
  "checked": "2026-10-12",
  "note": "null means unlimited. The robot updates monthly plans, prepaid recharges and data plans every day.",
- "sources": {},
+ "sources": {
+  "shahry": "https://www.ooredoo.qa/web/en/postpaid-plans/shahry/",
+  "qatarna": "https://www.ooredoo.qa/web/en/postpaid-plans/qatarna/",
+  "ooredooPrepaid": "https://www.ooredoo.qa/web/wp-content/uploads/2026/10/C11-01-Prepaid-Mobile-Services-195.pdf",
+  "vodafonePrepaid": "https://www.vodafone.qa/en/about-us/media/document/1551520856225/260610-tariff-notification-prepaid-v1-.pdf",
+  "vodafoneTariff": "https://www.vodafone.qa/en/about-us/media/document/1551521426929/260913-postpaid-tariff-notification-v1.pdf",
+  "vodafonePromo": "https://www.vodafone.qa/en/about-us/media/document/1551521125942/260729-postpaid-voice-promo-notification.pdf"
+ },
  "plans": [
   {
    "id": "shahry-plus-select",
@@ -236,7 +243,8 @@
     "pop": 0,
     "other": 0
    },
-   "perks": []
+   "perks": [],
+   "after": 128
   },
   {
    "id": "postpaid-plus-extra",
@@ -257,7 +265,8 @@
     "pop": 0,
     "other": 0
    },
-   "perks": []
+   "perks": [],
+   "after": 512
   },
   {
    "id": "postpaid-plus-max",
@@ -278,7 +287,8 @@
     "pop": 0,
     "other": 0
    },
-   "perks": []
+   "perks": [],
+   "after": 1000
   },
   {
    "id": "unlimited-plus",
@@ -301,7 +311,8 @@
    },
    "perks": [
     "vw30"
-   ]
+   ],
+   "after": 10000
   },
   {
    "id": "unlimited-plus-premium",
@@ -325,7 +336,8 @@
    "perks": [
     "vw50",
     "valet"
-   ]
+   ],
+   "after": 15000
   },
   {
    "id": "unlimited-plus-platinum",
@@ -349,7 +361,8 @@
    "perks": [
     "vw100",
     "valet"
-   ]
+   ],
+   "after": 15000
   },
   {
    "id": "unlimited-plus-vip",
@@ -373,7 +386,8 @@
    "perks": [
     "vw150",
     "valet"
-   ]
+   ],
+   "after": 15000
   }
  ],
  "prepaid": [
@@ -417,7 +431,7 @@
    "n": "Hala Super 65",
    "price": 65,
    "days": 28,
-   "data": 9.2,
+   "data": 8,
    "mins": 276,
    "intl": {
     "in": 95,
@@ -428,7 +442,8 @@
    },
    "perks": [
     "urban"
-   ]
+   ],
+   "after": 256
   },
   {
    "id": "hala-super-75",
@@ -436,7 +451,7 @@
    "n": "Hala Super 75",
    "price": 75,
    "days": 28,
-   "data": 11.5,
+   "data": 10,
    "mins": 345,
    "intl": {
     "in": 95,
@@ -447,7 +462,8 @@
    },
    "perks": [
     "endless"
-   ]
+   ],
+   "after": 256
   },
   {
    "id": "hala-super-100",
@@ -455,7 +471,7 @@
    "n": "Hala Super 100",
    "price": 100,
    "days": 28,
-   "data": 18.4,
+   "data": 16,
    "mins": 460,
    "intl": {
     "in": 95,
@@ -474,7 +490,7 @@
    "n": "Hala Super 125",
    "price": 125,
    "days": 28,
-   "data": 21.8,
+   "data": 19,
    "mins": 575,
    "intl": {
     "in": 95,
@@ -485,7 +501,8 @@
    },
    "perks": [
     "endless"
-   ]
+   ],
+   "after": 256
   },
   {
    "id": "hala-super-200",
@@ -493,7 +510,7 @@
    "n": "Hala Super 200",
    "price": 200,
    "days": 28,
-   "data": 34.8,
+   "data": 32,
    "mins": 1150,
    "intl": {
     "in": 95,
@@ -504,7 +521,8 @@
    },
    "perks": [
     "endless"
-   ]
+   ],
+   "after": 256
   },
   {
    "id": "hala-super-500",
@@ -523,7 +541,8 @@
    },
    "perks": [
     "endless"
-   ]
+   ],
+   "after": 1000
   },
   {
    "id": "hala-super-250",
@@ -531,7 +550,7 @@
    "n": "Hala Super 250",
    "price": 250,
    "days": 180,
-   "data": 34.5,
+   "data": 30,
    "mins": 1150,
    "intl": {
     "in": 69,
@@ -668,7 +687,8 @@
    },
    "perks": [
     "endless"
-   ]
+   ],
+   "after": 256
   },
   {
    "id": "combo-plus-75",
@@ -687,7 +707,8 @@
    },
    "perks": [
     "endless"
-   ]
+   ],
+   "after": 256
   },
   {
    "id": "combo-plus-100",
@@ -706,7 +727,8 @@
    },
    "perks": [
     "endless"
-   ]
+   ],
+   "after": 256
   },
   {
    "id": "combo-plus-125",
@@ -725,7 +747,8 @@
    },
    "perks": [
     "endless"
-   ]
+   ],
+   "after": 512
   },
   {
    "id": "combo-plus-150",
@@ -742,7 +765,8 @@
     "pk": 0,
     "any": 0
    },
-   "perks": []
+   "perks": [],
+   "after": 512
   },
   {
    "id": "combo-plus-300",
@@ -761,7 +785,8 @@
    },
    "perks": [
     "endless"
-   ]
+   ],
+   "after": 512
   },
   {
    "id": "combo-plus-250",
@@ -906,7 +931,8 @@
    },
    "perks": [
     "bill"
-   ]
+   ],
+   "after": 128
   },
   {
    "id": "data-sim-plus-super",
@@ -922,7 +948,8 @@
    },
    "perks": [
     "bill"
-   ]
+   ],
+   "after": 128
   },
   {
    "id": "data-sim-plus-pro",
@@ -939,7 +966,8 @@
    "perks": [
     "bill",
     "after1"
-   ]
+   ],
+   "after": 1000
   },
   {
    "id": "data-sim-plus-premium",
@@ -956,7 +984,8 @@
    "perks": [
     "bill",
     "stream2"
-   ]
+   ],
+   "after": 20000
   },
   {
    "id": "data-sim-plus-platinum",
@@ -973,7 +1002,8 @@
    "perks": [
     "bill",
     "stream2"
-   ]
+   ],
+   "after": 20000
   },
   {
    "id": "mobile-wi-fi-150",
@@ -989,7 +1019,8 @@
    },
    "perks": [
     "bill"
-   ]
+   ],
+   "after": 128
   },
   {
    "id": "mobile-wi-fi-199",
@@ -1005,7 +1036,8 @@
    },
    "perks": [
     "bill"
-   ]
+   ],
+   "after": 128
   },
   {
    "id": "data-sim-unlimited",
@@ -1022,7 +1054,8 @@
    "perks": [
     "bill",
     "after1"
-   ]
+   ],
+   "after": 1000
   },
   {
    "id": "data-sim-unlimited-premium",
@@ -1039,7 +1072,8 @@
    "perks": [
     "bill",
     "after1"
-   ]
+   ],
+   "after": 20000
   },
   {
    "id": "hala-data-50",
@@ -1199,5 +1233,9 @@
    },
    "perks": []
   }
+ ],
+ "problems": [
+  "couldn't read Hala Data 50, Hala Data 65, Hala Data 75, Hala Data 100, Hala Data 150, Hala Data 200",
+  "couldn't read Hala Unlimited Data 250"
  ]
 }

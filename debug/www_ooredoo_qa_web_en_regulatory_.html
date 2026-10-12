@@ -1,0 +1,1716 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <meta name="author" content="Ooredoo Qatar">
+    <link rel="icon" href="https://www.ooredoo.qa/web/wp-content/themes/ooredoo-cms/assets/images/ooredoo-icon-300x300.png">
+    <!-- Start VWO Async SmartCode -->
+    <link rel="preconnect" href="https://dev.visualwebsiteoptimizer.com" />
+    <script type='text/javascript' id='vwoCode'>
+    window._vwo_code ||
+    (function () {
+    var w=window,
+    d=document;
+    var account_id=786130,
+    version=2.2,
+    settings_tolerance=2000,
+    hide_element='body',
+    hide_element_style = 'opacity:0 !important;filter:alpha(opacity=0) !important;background:none !important';
+    /* DO NOT EDIT BELOW THIS LINE */
+    if(f=!1,v=d.querySelector('#vwoCode'),cc={},-1<d.URL.indexOf('__vwo_disable__')||w._vwo_code)return;try{var e=JSON.parse(localStorage.getItem('_vwo_'+account_id+'_config'));cc=e&&'object'==typeof e?e:{}}catch(e){}function r(t){try{return decodeURIComponent(t)}catch(e){return t}}var s=function(){var e={combination:[],combinationChoose:[],split:[],exclude:[],uuid:null,consent:null,optOut:null},t=d.cookie||'';if(!t)return e;for(var n,i,o=/(?:^|;\s*)(?:(_vis_opt_exp_(\d+)_combi=([^;]*))|(_vis_opt_exp_(\d+)_combi_choose=([^;]*))|(_vis_opt_exp_(\d+)_split=([^:;]*))|(_vis_opt_exp_(\d+)_exclude=[^;]*)|(_vis_opt_out=([^;]*))|(_vwo_global_opt_out=[^;]*)|(_vwo_uuid=([^;]*))|(_vwo_consent=([^;]*)))/g;null!==(n=o.exec(t));)try{n[1]?e.combination.push({id:n[2],value:r(n[3])}):n[4]?e.combinationChoose.push({id:n[5],value:r(n[6])}):n[7]?e.split.push({id:n[8],value:r(n[9])}):n[10]?e.exclude.push({id:n[11]}):n[12]?e.optOut=r(n[13]):n[14]?e.optOut=!0:n[15]?e.uuid=r(n[16]):n[17]&&(i=r(n[18]),e.consent=i&&3<=i.length?i.substring(0,3):null)}catch(e){}return e}();function i(){var e=function(){if(w.VWO&&Array.isArray(w.VWO))for(var e=0;e<w.VWO.length;e++){var t=w.VWO[e];if(Array.isArray(t)&&('setVisitorId'===t[0]||'setSessionId'===t[0]))return!0}return!1}(),t='a='+account_id+'&u='+encodeURIComponent(w._vis_opt_url||d.URL)+'&vn='+version+'&ph=1'+('undefined'!=typeof platform?'&p='+platform:'')+'&st='+w.performance.now();e||((n=function(){var e,t=[],n={},i=w.VWO&&w.VWO.appliedCampaigns||{};for(e in i){var o=i[e]&&i[e].v;o&&(t.push(e+'-'+o+'-1'),n[e]=!0)}if(s&&s.combination)for(var r=0;r<s.combination.length;r++){var a=s.combination[r];n[a.id]||t.push(a.id+'-'+a.value)}return t.join('|')}())&&(t+='&c='+n),(n=function(){var e=[],t={};if(s&&s.combinationChoose)for(var n=0;n<s.combinationChoose.length;n++){var i=s.combinationChoose[n];e.push(i.id+'-'+i.value),t[i.id]=!0}if(s&&s.split)for(var o=0;o<s.split.length;o++)t[(i=s.split[o]).id]||e.push(i.id+'-'+i.value);return e.join('|')}())&&(t+='&cc='+n),(n=function(){var e={},t=[];if(w.VWO&&Array.isArray(w.VWO))for(var n=0;n<w.VWO.length;n++){var i=w.VWO[n];if(Array.isArray(i)&&'setVariation'===i[0]&&i[1]&&Array.isArray(i[1]))for(var o=0;o<i[1].length;o++){var r,a=i[1][o];a&&'object'==typeof a&&(r=a.e,a=a.v,r&&a&&(e[r]=a))}}for(r in e)t.push(r+'-'+e[r]);return t.join('|')}())&&(t+='&sv='+n)),s&&s.optOut&&(t+='&o='+s.optOut);var n=function(){var e=[],t={};if(s&&s.exclude)for(var n=0;n<s.exclude.length;n++){var i=s.exclude[n];t[i.id]||(e.push(i.id),t[i.id]=!0)}return e.join('|')}();return n&&(t+='&e='+n),s&&s.uuid&&(t+='&id='+s.uuid),s&&s.consent&&(t+='&consent='+s.consent),w.name&&-1<w.name.indexOf('_vis_preview')&&(t+='&pM=true'),w.VWO&&w.VWO.ed&&(t+='&ed='+w.VWO.ed),t}code={nonce:v&&v.nonce,library_tolerance:function(){return'undefined'!=typeof library_tolerance?library_tolerance:void 0},settings_tolerance:function(){return cc.sT||settings_tolerance},hide_element_style:function(){return'{'+(cc.hES||hide_element_style)+'}'},hide_element:function(){return performance.getEntriesByName('first-contentful-paint')[0]?'':'string'==typeof cc.hE?cc.hE:hide_element},getVersion:function(){return version},finish:function(e){var t;f||(f=!0,(t=d.getElementById('_vis_opt_path_hides'))&&t.parentNode.removeChild(t),e&&((new Image).src='https://dev.visualwebsiteoptimizer.com/ee.gif?a='+account_id+e))},finished:function(){return f},addScript:function(e){var t=d.createElement('script');t.type='text/javascript',e.src?t.src=e.src:t.text=e.text,v&&t.setAttribute('nonce',v.nonce),d.getElementsByTagName('head')[0].appendChild(t)},load:function(e,t){t=t||{};var n=new XMLHttpRequest;n.open('GET',e,!0),n.withCredentials=!t.dSC,n.responseType=t.responseType||'text',n.onload=function(){if(t.onloadCb)return t.onloadCb(n,e);200===n.status?_vwo_code.addScript({text:n.responseText}):_vwo_code.finish('&e=loading_failure:'+e)},n.onerror=function(){if(t.onerrorCb)return t.onerrorCb(e);_vwo_code.finish('&e=loading_failure:'+e)},n.send()},init:function(){var e,t=this.settings_tolerance();w._vwo_settings_timer=setTimeout(function(){_vwo_code.finish()},t),'body'!==this.hide_element()?(n=d.createElement('style'),e=(t=this.hide_element())?t+this.hide_element_style():'',t=d.getElementsByTagName('head')[0],n.setAttribute('id','_vis_opt_path_hides'),v&&n.setAttribute('nonce',v.nonce),n.setAttribute('type','text/css'),n.styleSheet?n.styleSheet.cssText=e:n.appendChild(d.createTextNode(e)),t.appendChild(n)):(n=d.getElementsByTagName('head')[0],(e=d.createElement('div')).style.cssText='z-index: 2147483647 !important;position: fixed !important;left: 0 !important;top: 0 !important;width: 100% !important;height: 100% !important;background: white !important;',e.setAttribute('id','_vis_opt_path_hides'),e.classList.add('_vis_hide_layer'),n.parentNode.insertBefore(e,n.nextSibling));var n='https://dev.visualwebsiteoptimizer.com/j.php?'+i();-1!==w.location.search.indexOf('_vwo_xhr')?this.addScript({src:n}):this.load(n+'&x=true',{l:1})}};w._vwo_code=code;code.init();})();
+    </script>
+    <!-- End VWO Async SmartCode -->
+
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    
+    <link rel="alternate" href="https://www.ooredoo.qa/web/en/regulatory/" hreflang="x-default" />
+<link rel="alternate" hreflang="en" href="https://www.ooredoo.qa/web/en/regulatory/" />
+<link rel="alternate" hreflang="ar" href="https://www.ooredoo.qa/web/ar/regulatory/" />
+
+	<title>Regulatory - Ooredoo Qatar</title>
+	<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+	<link rel="canonical" href="https://www.ooredoo.qa/web/en/regulatory/" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="Regulatory - Ooredoo Qatar" />
+	<meta property="og:url" content="https://www.ooredoo.qa/web/en/regulatory/" />
+	<meta property="og:site_name" content="Ooredoo Qatar" />
+	<meta property="article:publisher" content="https://www.facebook.com/ooredooqatar" />
+	<meta property="article:modified_time" content="2026-10-11T05:01:37+00:00" />
+	<meta property="og:image" content="https://www.ooredoo.qa/web/wp-content/uploads/2022/08/ooredoo-og-image.png" />
+	<meta property="og:image:width" content="1200" />
+	<meta property="og:image:height" content="630" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://www.ooredoo.qa/web/en/#organization","name":"Ooredoo Qatar","url":"https://www.ooredoo.qa/web/en/","sameAs":["https://www.facebook.com/ooredooqatar","https://www.instagram.com/OoredooQatar/","https://www.linkedin.com/company/ooredooqatar","https://www.youtube.com/user/OoredooQatar","https://twitter.com/ooredooqatar"],"logo":{"@type":"ImageObject","@id":"https://www.ooredoo.qa/web/en/#logo","inLanguage":"en-US","url":"https://www.ooredoo.qa/web/wp-content/uploads/2022/03/Ooredoo-official-logo.jpg","width":1861,"height":908,"caption":"Ooredoo Qatar"},"image":{"@id":"https://www.ooredoo.qa/web/en/#logo"}},{"@type":"WebSite","@id":"https://www.ooredoo.qa/web/en/#website","url":"https://www.ooredoo.qa/web/en/","name":"Ooredoo Qatar","description":"Ooredoo Qatar, the leading telecommunications service provider","publisher":{"@id":"https://www.ooredoo.qa/web/en/#organization"},"potentialAction":[{"@type":"SearchAction","target":"https://www.ooredoo.qa/web/en/?s={search_term_string}","query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"WebPage","@id":"https://www.ooredoo.qa/web/en/regulatory/#webpage","url":"https://www.ooredoo.qa/web/en/regulatory/","name":"Regulatory - Ooredoo Qatar","isPartOf":{"@id":"https://www.ooredoo.qa/web/en/#website"},"datePublished":"2022-04-21T05:20:25+00:00","dateModified":"2026-10-11T05:01:37+00:00","breadcrumb":{"@id":"https://www.ooredoo.qa/web/en/regulatory/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://www.ooredoo.qa/web/en/regulatory/"]}]},{"@type":"BreadcrumbList","@id":"https://www.ooredoo.qa/web/en/regulatory/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"WebPage","@id":"https://www.ooredoo.qa/web/en/","url":"https://www.ooredoo.qa/web/en/","name":"Home"}},{"@type":"ListItem","position":2,"item":{"@type":"WebPage","@id":"https://www.ooredoo.qa/web/en/regulatory/","url":"https://www.ooredoo.qa/web/en/regulatory/","name":"Regulatory"}}]}]}</script>
+
+
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel='stylesheet' id='oqcms-style-css-css'  href='https://www.ooredoo.qa/web/wp-content/themes/ooredoo-cms/style.css?ver=1788083196' type='text/css' media='all' />
+<link rel='stylesheet' id='regulatory-css-css'  href='https://www.ooredoo.qa/web/wp-content/themes/ooredoo-cms/regulatory/css/regulatory.css?ver=1756879284' type='text/css' media='' />
+<script type='text/javascript' src='https://www.ooredoo.qa/web/wp-content/themes/ooredoo-cms/assets/js/jquery.min.js?ver=3.5.1' id='jquery-js'></script>
+<link rel="alternate" type="application/json+oembed" href="https://www.ooredoo.qa/web/en/wp-json/oembed/1.0/embed/?url=https%3A%2F%2Fwww.ooredoo.qa%2Fweb%2Fen%2Fregulatory%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://www.ooredoo.qa/web/en/wp-json/oembed/1.0/embed/?url=https%3A%2F%2Fwww.ooredoo.qa%2Fweb%2Fen%2Fregulatory%2F&#038;format=xml" />
+<noscript><style id="rocket-lazyload-nojs-css">.rll-youtube-player, [data-lazy-src]{display:none !important;}</style></noscript>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-T9Z8ST');</script>
+    <!-- End Google Tag Manager -->
+	
+
+    
+
+    <!--BEGIN QUALTRICS WEBSITE FEEDBACK SNIPPET-->
+    <script type='text/javascript'>
+    (function(){var g=function(e,h,f,g){
+    this.get=function(a){for(var a=a+"=",c=document.cookie.split(";"),b=0,e=c.length;b<e;b++){for(var d=c[b];" "==d.charAt(0);)d=d.substring(1,d.length);if(0==d.indexOf(a))return d.substring(a.length,d.length)}return null};
+    this.set=function(a,c){var b="",b=new Date;b.setTime(b.getTime()+6048E5);b="; expires="+b.toGMTString();document.cookie=a+"="+c+b+"; path=/; "};
+    this.check=function(){var a=this.get(f);if(a)a=a.split(":");else if(100!=e)"v"==h&&(e=Math.random()>=e/100?0:100),a=[h,e,0],this.set(f,a.join(":"));else return!0;var c=a[1];if(100==c)return!0;switch(a[0]){case "v":return!1;case "r":return c=a[2]%Math.floor(100/c),a[2]++,this.set(f,a.join(":")),!c}return!0};
+    this.go=function(){if(this.check()){var a=document.createElement("script");a.type="text/javascript";a.src=g;document.body&&document.body.appendChild(a)}};
+    this.start=function(){var t=this;"complete"!==document.readyState?window.addEventListener?window.addEventListener("load",function(){t.go()},!1):window.attachEvent&&window.attachEvent("onload",function(){t.go()}):t.go()};};
+    try{(new g(100,"r","QSI_S_ZN_9mhuxCs96dQY1im","https://zn9mhuxcs96dqy1im-ooredoogroup.siteintercept.qualtrics.com/SIE/?Q_ZID=ZN_9mhuxCs96dQY1im")).start()}catch(i){}})();
+    </script><div id='ZN_9mhuxCs96dQY1im'><!--DO NOT REMOVE-CONTENTS PLACED HERE--></div>
+    <!--END WEBSITE FEEDBACK SNIPPET-->
+
+        
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@400;700&family=Noto+Sans:wght@400;700&family=Outfit:wght@400;500;700;800&family=Rubik:wght@400;600;700&display=swap" rel="stylesheet">
+
+
+<!--BEGIN CLEVERTAP JS-->
+<script type="text/javascript">
+var clevertap = {event:[], profile:[], account:[], onUserLogin:[], notifications:[], privacy:[]};
+clevertap.account.push({"id": "W4R-47W-RZ6Z"});
+clevertap.privacy.push({optOut: false}); 
+clevertap.privacy.push({useIP: false}); 
+ (function () {
+         var wzrk = document.createElement('script');
+         wzrk.type = 'text/javascript';
+         wzrk.async = true;
+         wzrk.src = ('https:' == document.location.protocol ? 'https://d2r1yp2w7bby2u.cloudfront.net' : 'http://static.clevertap.com') + '/js/clevertap.min.js';
+         var s = document.getElementsByTagName('script')[0];
+         s.parentNode.insertBefore(wzrk, s);
+  })();
+</script>
+<!--END CLEVERTAP JS-->
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6975846722230494" crossorigin="anonymous"></script>
+
+</head>
+<body class="page-template page-template-regulatory page-template-regulatoryregulatory-php page page-id-28828 page-parent _ooredoo_website_ ">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript>
+<iframe src="//www.googletagmanager.com/ns.html?id=GTM-T9Z8ST" height="0" width="0" style="display: none; visibility: hidden"></iframe>
+</noscript>
+<!-- End Google Tag Manager -->
+
+
+
+    <script>
+    localStorage.setItem("CUSTOMER_CUSTOM_LOCAL", "ENGLISH")
+    </script>
+
+
+    <script>
+    document.cookie="CUSTOMER_CUSTOM_LOCAL=en_GB; domain=.ooredoo.qa; path=/"; 
+    </script>
+    <nav class="header">
+        <div class="container navbar header-top-navbar">
+            <ul class="nav navbar-nav nav-left-links">
+                <li class="nav-item active">
+                    <a id="Clicks_Main_Menu_Personal" class="nav-link" href="https://www.ooredoo.qa/web/en/">Personal</a>
+                </li>
+                <li class="nav-item">
+                    <a id="Clicks_Main_Menu_Business" class="nav-link" href="https://www.ooredoo.qa/web/en/business/">Business</a>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li class="nav-item">
+                                <a id="Clicks_Main_Menu_Pay_Bill" class="nav-link" href="https://selfcare.ooredoo.qa/en/consumer/pay-for-others">
+                    <div class="icons paybill"></div>
+                    <span>Pay Bill</span>
+                </a>
+
+                </li>
+                <li class="nav-item">
+                    <a id="Clicks_Main_Menu_Recharge" class="nav-link" href="https://selfcare.ooredoo.qa/recharge/">
+                        <div class="icons recharge"></div>
+                        <span>Recharge</span> 
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a id="Clicks_Main_Menu_Search" class="nav-link Clicks_Main_Search">
+                        <div class="icons search"></div>
+                        <span>Search</span> 
+                    </a>
+                </li>
+                
+                <li class="nav-item">               
+    
+                <a class="locale_changer"
+                                data-locale-name="ar"
+                                href="https://www.ooredoo.qa/web/ar/regulatory/">عربي</a>        
+                </li>
+            </ul>
+        </div>
+        <div class="container navbar navbar-expand-lg header-main-navbar">
+            <div class="navbar-header">
+                
+                <a id="Clicks_Main_Menu_Logo" href="https://www.ooredoo.qa/web/en/" class="d-none d-md-block">
+                <img class="mob-logo" src="https://www.ooredoo.qa/web/wp-content/themes/ooredoo-cms/assets/images/Ooredoo_logo.svg" alt="Ooredoo Qatar" />
+                </a>
+                <div class="navbar-header-mobile d-flex d-block d-sm-none">                    
+                    <div class="header-menu-logo">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <img src="https://www.ooredoo.qa/web/wp-content/themes/ooredoo-cms/assets/images/mobile-list-menu.svg" />
+                        </button>
+                        <a id="Clicks_Main_Menu_Logo" href="https://www.ooredoo.qa/web/en/">
+                            <img class="mob-logo" src="https://www.ooredoo.qa/web/wp-content/themes/ooredoo-cms/assets/images/Ooredoo_logo.svg">
+                        </a>
+                    </div>
+                    <div class="header-menu-icons">
+                        <a id="Clicks_Main_Menu_Search" class="nav-link primary-color Clicks_Main_Search">
+                            <img width="15px" src="https://www.ooredoo.qa/web/wp-content/themes/ooredoo-cms/assets/images/Search-mobile.svg" /> 
+                            <span>Search</span>
+                        </a>
+                        <a id="Clicks_Main_Menu_Pay_Bill" class="nav-link primary-color" href="https://selfcare.ooredoo.qa/en/consumer/pay-for-others">
+                            <img width="15px" src="https://www.ooredoo.qa/web/wp-content/themes/ooredoo-cms/assets/images/paybill.svg" /> 
+                            <span>Pay Bill</span>
+                        </a>
+                        <a id="Clicks_Main_Menu_Recharge" class="nav-link primary-color" href="https://selfcare.ooredoo.qa/recharge/">
+                            <img width="15px" src="https://www.ooredoo.qa/web/wp-content/themes/ooredoo-cms/assets/images/recharge.svg" />
+                            <span>Recharge</span>
+                        </a>
+                    </div> 
+                </div>
+
+            </div>     
+            
+            <!-- Start: Menu Items -->
+            <div class="navbar-collapse collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav header-menu-items mr-auto" id="header-menu-items">
+                                                                                                                        <li class="dropdown">
+                                <a class="dropdown-toggle" href="#" data-toggle="dropdown" id="Mobile Plans" aria-expanded="false" key="0">
+                                    Mobile Plans                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="Mobile Plans">
+
+                                    <div class="container d-none d-sm-block">
+                                        <div class="row w-100" id="dopdown1">
+                                                                                                                                                                                                
+                                                    <li class="col-sm-3 col-md-3 col-lg-3" key="0">
+                                                        <p class="navbar-item-title">
+                                                            <a class="not_clickable t-s" href="https://www.ooredoo.qa/web/en/postpaid-plans/">Postpaid plans </a>
+                                                        </p>
+                                                                                                                                                                                                <p class="navbar-item-link postpaid-plans-for-your-family bold_item_menu_link">
+                                                                        <a href="https://www.ooredoo.qa/web/en/postpaid-plans/family/">Postpaid plans for your Family</a>
+                                                                    </p>
+                                                                                                                                    <p class="navbar-item-link shahry-family">
+                                                                        <a href="https://www.ooredoo.qa/web/en/postpaid-plans/family/shahry/">Shahry+ Family</a>
+                                                                    </p>
+                                                                                                                                    <p class="navbar-item-link baytna-family">
+                                                                        <a href="https://www.ooredoo.qa/web/en/postpaid-plans/family/baytna/">Baytna Family</a>
+                                                                    </p>
+                                                                                                                                    <p class="navbar-item-link postpaid-plans-for-you bold_item_menu_link">
+                                                                        <a href="https://www.ooredoo.qa/web/en/postpaid-plans/">Postpaid plans for you</a>
+                                                                    </p>
+                                                                                                                                    <p class="navbar-item-link shahry-postpaid-plan">
+                                                                        <a href="https://www.ooredoo.qa/web/en/postpaid-plans/shahry/">Shahry+ postpaid plan</a>
+                                                                    </p>
+                                                                                                                                    <p class="navbar-item-link qatarna-postpaid-plan">
+                                                                        <a href="https://www.ooredoo.qa/web/en/postpaid-plans/qatarna/">Qatarna+ postpaid plan</a>
+                                                                    </p>
+                                                                                                                                    <p class="navbar-item-link plans-for-kids">
+                                                                        <a href="https://www.ooredoo.qa/web/en/plans-for-kids/">Plans for Kids</a>
+                                                                    </p>
+                                                                                                                                    <p class="navbar-item-link roaming">
+                                                                        <a href="https://selfcare.ooredoo.qa/en/consumer/roaming">Roaming</a>
+                                                                    </p>
+                                                                                                                                    <p class="navbar-item-link promotions bold_item_menu_link">
+                                                                        <a href="https://www.ooredoo.qa/web/en/promotions/postpaid/ ">Promotions</a>
+                                                                    </p>
+                                                                                                                                                                                </li>
+                                                   
+                                                                                                    
+                                                    <li class="col-sm-3 col-md-3 col-lg-3" key="1">
+                                                        <p class="navbar-item-title">
+                                                            <a class="not_clickable t-s" href="https://www.ooredoo.qa/web/en/postpaid-plans/add-ons/">Postpaid Add-ons</a>
+                                                        </p>
+                                                                                                                                                                                                <p class="navbar-item-link calls">
+                                                                        <a href="https://www.ooredoo.qa/web/en/postpaid-plans/add-ons/local-calls/">Calls</a>
+                                                                    </p>
+                                                                                                                                    <p class="navbar-item-link data">
+                                                                        <a href="https://www.ooredoo.qa/web/en/postpaid-plans/add-ons/local-data/">Data</a>
+                                                                    </p>
+                                                                                                                                    <p class="navbar-item-link international">
+                                                                        <a href="https://www.ooredoo.qa/web/en/postpaid-plans/add-ons/international-packs/">International</a>
+                                                                    </p>
+                                                                                                                                    <p class="navbar-item-link enjoy-other-benefits bold_item_menu_link">
+                                                                        <a href="https://www.ooredoo.qa/web/en/postpaid-plans/benefits/">Enjoy Other Benefits</a>
+                                                                    </p>
+                                                                                                                                                                                </li>
+                                                   
+                                                                                                    
+                                                    <li class="col-sm-3 col-md-3 col-lg-3" key="2">
+                                                        <p class="navbar-item-title">
+                                                            <a class="not_clickable t-s" href="https://www.ooredoo.qa/web/en/prepaid-plans/">Prepaid Plans</a>
+                                                        </p>
+                                                                                                                                                                                                <p class="navbar-item-link buy-hala-sim">
+                                                                        <a href="https://www.ooredoo.qa/web/en/prepaid-plans/buy-prepaid-sim/">Buy Hala SIM</a>
+                                                                    </p>
+                                                                                                                                    <p class="navbar-item-link buy-visitor-sim">
+                                                                        <a href="https://www.ooredoo.qa/web/en/visitor-sim/">Buy Visitor SIM</a>
+                                                                    </p>
+                                                                                                                                    <p class="navbar-item-link recharge">
+                                                                        <a href="https://selfcare.ooredoo.qa/recharge/">Recharge</a>
+                                                                    </p>
+                                                                                                                                    <p class="navbar-item-link promotions bold_item_menu_link">
+                                                                        <a href="https://www.ooredoo.qa/web/en/promotions/prepaid/ ">Promotions</a>
+                                                                    </p>
+                                                                                                                                                                                </li>
+                                                   
+                                                                                                    
+                                                    <li class="col-sm-3 col-md-3 col-lg-3" key="3">
+                                                        <p class="navbar-item-title">
+                                                            <a class="not_clickable t-s" href="https://www.ooredoo.qa/web/en/postpaid-plans/data-sim/">Buy Mobile Data Plan</a>
+                                                        </p>
+                                                                                                                                                                                                <p class="navbar-item-link data-sim-roaming">
+                                                                        <a href="https://www.ooredoo.qa/web/en/postpaid-plans/data-sim/roaming/">Data SIM Roaming</a>
+                                                                    </p>
+                                                                                                                                    <p class="navbar-item-link data">
+                                                                        <a href="https://www.ooredoo.qa/web/en/postpaid-plans/add-ons/local-data/ ">Data</a>
+                                                                    </p>
+                                                                                                                                    <p class="navbar-item-link enjoy-other-benefits bold_item_menu_link">
+                                                                        <a href="https://www.ooredoo.qa/web/en/postpaid-plans/benefits/">Enjoy Other Benefits</a>
+                                                                    </p>
+                                                                                                                                    <p class="navbar-item-link promotions bold_item_menu_link">
+                                                                        <a href="https://www.ooredoo.qa/web/en/promotions/postpaid/ ">Promotions</a>
+                                                                    </p>
+                                                                                                                                                                                </li>
+                                                   
+                                                                                                                                                    
+                                        </div>
+                                    </div>
+
+
+                                    <div class="container d-block d-sm-none">
+                                        <div class="row-fluid">
+                                            <div class="col-xs-12">
+                                                <div class="panel-group">
+                                                                                                                                                                                                                                                                                            <div class="panel panel-default">
+                                                                <a href="#Postpaidplans_0" class="collapsed panel-default-title" data-toggle="collapse" aria-expanded="false">Postpaid plans </a>
+                                                                    <div id="Postpaidplans_0" class="panel-collapse collapse " aria-expanded="false">
+                                                                        <p class="navbar-item-link postpaid-plans">
+                                                                            <a href="https://www.ooredoo.qa/web/en/postpaid-plans/">Postpaid plans </a>
+                                                                        </p> 
+                                                                                                                                                                                                                                <p class="navbar-item-link postpaid-plans-for-your-family bold_item_menu_link">
+                                                                                <a href="https://www.ooredoo.qa/web/en/postpaid-plans/family/">Postpaid plans for your Family</a>
+                                                                            </p> 
+                                                                                                                                                        <p class="navbar-item-link shahry-family">
+                                                                                <a href="https://www.ooredoo.qa/web/en/postpaid-plans/family/shahry/">Shahry+ Family</a>
+                                                                            </p> 
+                                                                                                                                                        <p class="navbar-item-link baytna-family">
+                                                                                <a href="https://www.ooredoo.qa/web/en/postpaid-plans/family/baytna/">Baytna Family</a>
+                                                                            </p> 
+                                                                                                                                                        <p class="navbar-item-link postpaid-plans-for-you bold_item_menu_link">
+                                                                                <a href="https://www.ooredoo.qa/web/en/postpaid-plans/">Postpaid plans for you</a>
+                                                                            </p> 
+                                                                                                                                                        <p class="navbar-item-link shahry-postpaid-plan">
+                                                                                <a href="https://www.ooredoo.qa/web/en/postpaid-plans/shahry/">Shahry+ postpaid plan</a>
+                                                                            </p> 
+                                                                                                                                                        <p class="navbar-item-link qatarna-postpaid-plan">
+                                                                                <a href="https://www.ooredoo.qa/web/en/postpaid-plans/qatarna/">Qatarna+ postpaid plan</a>
+                                                                            </p> 
+                                                                                                                                                        <p class="navbar-item-link plans-for-kids">
+                                                                                <a href="https://www.ooredoo.qa/web/en/plans-for-kids/">Plans for Kids</a>
+                                                                            </p> 
+                                                                                                                                                        <p class="navbar-item-link roaming">
+                                                                                <a href="https://selfcare.ooredoo.qa/en/consumer/roaming">Roaming</a>
+                                                                            </p> 
+                                                                                                                                                        <p class="navbar-item-link promotions bold_item_menu_link">
+                                                                                <a href="https://www.ooredoo.qa/web/en/promotions/postpaid/ ">Promotions</a>
+                                                                            </p> 
+                                                                                                                                                                                                                                
+                                                                    </div>
+                                                            </div>
+                                                                                                                                                                                <div class="panel panel-default">
+                                                                <a href="#Postpaidplans_1" class="collapsed panel-default-title" data-toggle="collapse" aria-expanded="false">Postpaid Add-ons</a>
+                                                                    <div id="Postpaidplans_1" class="panel-collapse collapse " aria-expanded="false">
+                                                                        <p class="navbar-item-link postpaid-add-ons">
+                                                                            <a href="https://www.ooredoo.qa/web/en/postpaid-plans/add-ons/">Postpaid Add-ons</a>
+                                                                        </p> 
+                                                                                                                                                                                                                                <p class="navbar-item-link calls">
+                                                                                <a href="https://www.ooredoo.qa/web/en/postpaid-plans/add-ons/local-calls/">Calls</a>
+                                                                            </p> 
+                                                                                                                                                        <p class="navbar-item-link data">
+                                                                                <a href="https://www.ooredoo.qa/web/en/postpaid-plans/add-ons/local-data/">Data</a>
+                                                                            </p> 
+                                                                                                                                                        <p class="navbar-item-link international">
+                                                                                <a href="https://www.ooredoo.qa/web/en/postpaid-plans/add-ons/international-packs/">International</a>
+                                                                            </p> 
+                                                                                                                                                        <p class="navbar-item-link enjoy-other-benefits bold_item_menu_link">
+                                                                                <a href="https://www.ooredoo.qa/web/en/postpaid-plans/benefits/">Enjoy Other Benefits</a>
+                                                                            </p> 
+                                                                                                                                                                                                                                
+                                                                    </div>
+                                                            </div>
+                                                                                                                                                                                <div class="panel panel-default">
+                                                                <a href="#Postpaidplans_2" class="collapsed panel-default-title" data-toggle="collapse" aria-expanded="false">Prepaid Plans</a>
+                                                                    <div id="Postpaidplans_2" class="panel-collapse collapse " aria-expanded="false">
+                                                                        <p class="navbar-item-link prepaid-plans">
+                                                                            <a href="https://www.ooredoo.qa/web/en/prepaid-plans/">Prepaid Plans</a>
+                                                                        </p> 
+                                                                                                                                                                                                                                <p class="navbar-item-link buy-hala-sim">
+                                                                                <a href="https://www.ooredoo.qa/web/en/prepaid-plans/buy-prepaid-sim/">Buy Hala SIM</a>
+                                                                            </p> 
+                                                                                                                                                        <p class="navbar-item-link buy-visitor-sim">
+                                                                                <a href="https://www.ooredoo.qa/web/en/visitor-sim/">Buy Visitor SIM</a>
+                                                                            </p> 
+                                                                                                                                                        <p class="navbar-item-link recharge">
+                                                                                <a href="https://selfcare.ooredoo.qa/recharge/">Recharge</a>
+                                                                            </p> 
+                                                                                                                                                        <p class="navbar-item-link promotions bold_item_menu_link">
+                                                                                <a href="https://www.ooredoo.qa/web/en/promotions/prepaid/ ">Promotions</a>
+                                                                            </p> 
+                                                                                                                                                                                                                                
+                                                                    </div>
+                                                            </div>
+                                                                                                                                                                                <div class="panel panel-default">
+                                                                <a href="#Postpaidplans_3" class="collapsed panel-default-title" data-toggle="collapse" aria-expanded="false">Buy Mobile Data Plan</a>
+                                                                    <div id="Postpaidplans_3" class="panel-collapse collapse " aria-expanded="false">
+                                                                        <p class="navbar-item-link buy-mobile-data-plan">
+                                                                            <a href="https://www.ooredoo.qa/web/en/postpaid-plans/data-sim/">Buy Mobile Data Plan</a>
+                                                                        </p> 
+                                                                                                                                                                                                                                <p class="navbar-item-link data-sim-roaming">
+                                                                                <a href="https://www.ooredoo.qa/web/en/postpaid-plans/data-sim/roaming/">Data SIM Roaming</a>
+                                                                            </p> 
+                                                                                                                                                        <p class="navbar-item-link data">
+                                                                                <a href="https://www.ooredoo.qa/web/en/postpaid-plans/add-ons/local-data/ ">Data</a>
+                                                                            </p> 
+                                                                                                                                                        <p class="navbar-item-link enjoy-other-benefits bold_item_menu_link">
+                                                                                <a href="https://www.ooredoo.qa/web/en/postpaid-plans/benefits/">Enjoy Other Benefits</a>
+                                                                            </p> 
+                                                                                                                                                        <p class="navbar-item-link promotions bold_item_menu_link">
+                                                                                <a href="https://www.ooredoo.qa/web/en/promotions/postpaid/ ">Promotions</a>
+                                                                            </p> 
+                                                                                                                                                                                                                                
+                                                                    </div>
+                                                            </div>
+                                                                                                            
+                                                </div> 
+                                                    
+                                            </div>
+                                        </div>
+                                    </div>
+                                </ul>
+                            </li>
+                                                        
+                                                                            <li class="dropdown">
+                                <a class="dropdown-toggle" href="#" data-toggle="dropdown" id="Home Internet & TV" aria-expanded="false" key="1">
+                                    Home Internet & TV                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="Home Internet & TV">
+
+                                    <div class="container d-none d-sm-block">
+                                        <div class="row w-100" id="dopdown1">
+                                                                                                                                                                                                
+                                                    <li class="col-sm-3 col-md-3 col-lg-3" key="0">
+                                                        <p class="navbar-item-title">
+                                                            <a class="not_clickable t-s" href="https://www.ooredoo.qa/web/en/home-plus/">Buy Home Internet </a>
+                                                        </p>
+                                                                                                                                                                                                <p class="navbar-item-link fibre-to-the-room">
+                                                                        <a href="https://www.ooredoo.qa/web/en/home-plus/fibre-to-the-room/">Fibre to the room</a>
+                                                                    </p>
+                                                                                                                                    <p class="navbar-item-link ooredoo-tv">
+                                                                        <a href="https://www.ooredoo.qa/web/en/otv-guide/">Ooredoo TV</a>
+                                                                    </p>
+                                                                                                                                    <p class="navbar-item-link ooredoo-tv-app">
+                                                                        <a href="https://www.ooredoo.qa/web/en/otv-deviceless/">Ooredoo TV App</a>
+                                                                    </p>
+                                                                                                                                    <p class="navbar-item-link promotions">
+                                                                        <a href="https://www.ooredoo.qa/web/en/promotions/home/ ">Promotions</a>
+                                                                    </p>
+                                                                                                                                                                                </li>
+                                                   
+                                                                                                    
+                                                    <li class="col-sm-3 col-md-3 col-lg-3" key="1">
+                                                        <p class="navbar-item-title">
+                                                            <a class="not_clickable t-s" href="https://www.ooredoo.qa/web/en/pre-connect/">Pre-Connect</a>
+                                                        </p>
+                                                                                                                                                                                                <p class="navbar-item-link ">
+                                                                        <a href="#"></a>
+                                                                    </p>
+                                                                                                                                                                                </li>
+                                                   
+                                                                                                                                                    
+                                        </div>
+                                    </div>
+
+
+                                    <div class="container d-block d-sm-none">
+                                        <div class="row-fluid">
+                                            <div class="col-xs-12">
+                                                <div class="panel-group">
+                                                                                                                                                                                                                                                                                            <div class="panel panel-default">
+                                                                <a href="#Postpaidplans_0" class="collapsed panel-default-title" data-toggle="collapse" aria-expanded="false">Buy Home Internet </a>
+                                                                    <div id="Postpaidplans_0" class="panel-collapse collapse " aria-expanded="false">
+                                                                        <p class="navbar-item-link buy-home-internet">
+                                                                            <a href="https://www.ooredoo.qa/web/en/home-plus/">Buy Home Internet </a>
+                                                                        </p> 
+                                                                                                                                                                                                                                <p class="navbar-item-link fibre-to-the-room">
+                                                                                <a href="https://www.ooredoo.qa/web/en/home-plus/fibre-to-the-room/">Fibre to the room</a>
+                                                                            </p> 
+                                                                                                                                                        <p class="navbar-item-link ooredoo-tv">
+                                                                                <a href="https://www.ooredoo.qa/web/en/otv-guide/">Ooredoo TV</a>
+                                                                            </p> 
+                                                                                                                                                        <p class="navbar-item-link ooredoo-tv-app">
+                                                                                <a href="https://www.ooredoo.qa/web/en/otv-deviceless/">Ooredoo TV App</a>
+                                                                            </p> 
+                                                                                                                                                        <p class="navbar-item-link promotions">
+                                                                                <a href="https://www.ooredoo.qa/web/en/promotions/home/ ">Promotions</a>
+                                                                            </p> 
+                                                                                                                                                                                                                                
+                                                                    </div>
+                                                            </div>
+                                                                                                                                                                                <div class="panel panel-default">
+                                                                <a href="#Postpaidplans_1" class="collapsed panel-default-title" data-toggle="collapse" aria-expanded="false">Pre-Connect</a>
+                                                                    <div id="Postpaidplans_1" class="panel-collapse collapse " aria-expanded="false">
+                                                                        <p class="navbar-item-link pre-connect">
+                                                                            <a href="https://www.ooredoo.qa/web/en/pre-connect/">Pre-Connect</a>
+                                                                        </p> 
+                                                                                                                                                                                                                                <p class="navbar-item-link ">
+                                                                                <a href="#"></a>
+                                                                            </p> 
+                                                                                                                                                                                                                                
+                                                                    </div>
+                                                            </div>
+                                                                                                            
+                                                </div> 
+                                                    
+                                            </div>
+                                        </div>
+                                    </div>
+                                </ul>
+                            </li>
+                                                        
+                                                                            <li class="dropdown">
+                                <a class="dropdown-toggle" href="#" data-toggle="dropdown" id="Devices " aria-expanded="false" key="2">
+                                    Devices                                 </a>
+                                <ul class="dropdown-menu" aria-labelledby="Devices ">
+
+                                    <div class="container d-none d-sm-block">
+                                        <div class="row w-100" id="dopdown1">
+                                                                                                                                                                                                
+                                                    <li class="col-sm-3 col-md-3 col-lg-3" key="0">
+                                                        <p class="navbar-item-title">
+                                                            <a class="not_clickable t-s" href="https://eshop.ooredoo.qa/en">Devices </a>
+                                                        </p>
+                                                                                                                                                                                                <p class="navbar-item-link smart-phones">
+                                                                        <a href="https://eshop.ooredoo.qa/en/collections/mobile-phones">Smart Phones</a>
+                                                                    </p>
+                                                                                                                                    <p class="navbar-item-link tablet">
+                                                                        <a href="https://eshop.ooredoo.qa/en/collections/tablets">Tablet</a>
+                                                                    </p>
+                                                                                                                                    <p class="navbar-item-link internet-devices">
+                                                                        <a href="https://eshop.ooredoo.qa/en/collections/mobile-broadband">Internet Devices</a>
+                                                                    </p>
+                                                                                                                                    <p class="navbar-item-link accessories">
+                                                                        <a href="https://eshop.ooredoo.qa/en/collections/accessories">Accessories</a>
+                                                                    </p>
+                                                                                                                                    <p class="navbar-item-link promotions">
+                                                                        <a href="https://www.ooredoo.qa/web/en/promotions/devices/">Promotions</a>
+                                                                    </p>
+                                                                                                                                                                                </li>
+                                                   
+                                                                                                    
+                                                    <li class="col-sm-3 col-md-3 col-lg-3" key="1">
+                                                        <p class="navbar-item-title">
+                                                            <a class="not_clickable t-s" href="https://eshop.ooredoo.qa/en/collections/mobile-phones/apple-mobile-phones">Apple</a>
+                                                        </p>
+                                                                                                                                                                                                <p class="navbar-item-link iphone-17">
+                                                                        <a href="https://eshop.ooredoo.qa/en/collections/mobile-phones/apple-mobile-phones">iPhone 17</a>
+                                                                    </p>
+                                                                                                                                    <p class="navbar-item-link iphone-air">
+                                                                        <a href="https://eshop.ooredoo.qa/en/collections/mobile-phones/apple-mobile-phones">iPhone Air</a>
+                                                                    </p>
+                                                                                                                                                                                </li>
+                                                   
+                                                                                                    
+                                                    <li class="col-sm-3 col-md-3 col-lg-3" key="2">
+                                                        <p class="navbar-item-title">
+                                                            <a class="not_clickable t-s" href="https://eshop.ooredoo.qa/en/collections/mobile-phones/samsung-mobile-phones">Galaxy AI </a>
+                                                        </p>
+                                                                                                                                                                                                <p class="navbar-item-link galaxy-s26-ultra">
+                                                                        <a href="https://eshop.ooredoo.qa/en/products/samsung-galaxy-s26-ultra-5g-12gb-512gb-cobalt-violet">Galaxy S26 Ultra</a>
+                                                                    </p>
+                                                                                                                                    <p class="navbar-item-link galaxy-s26-plus">
+                                                                        <a href="https://eshop.ooredoo.qa/en/collections/mobile-phones/samsung-mobile-phones">Galaxy S26 Plus</a>
+                                                                    </p>
+                                                                                                                                    <p class="navbar-item-link galaxy-s26">
+                                                                        <a href="https://eshop.ooredoo.qa/en/collections/mobile-phones/samsung-mobile-phones">Galaxy S26</a>
+                                                                    </p>
+                                                                                                                                                                                </li>
+                                                   
+                                                                                                    
+                                                    <li class="col-sm-3 col-md-3 col-lg-3" key="3">
+                                                        <p class="navbar-item-title">
+                                                            <a class="not_clickable t-s" href="https://eshop.ooredoo.qa/en/collections/smart-tv">Smart TVs</a>
+                                                        </p>
+                                                                                                                                                                                                <p class="navbar-item-link ">
+                                                                        <a href="#"></a>
+                                                                    </p>
+                                                                                                                                                                                </li>
+                                                   
+                                                                                                                                                    
+                                        </div>
+                                    </div>
+
+
+                                    <div class="container d-block d-sm-none">
+                                        <div class="row-fluid">
+                                            <div class="col-xs-12">
+                                                <div class="panel-group">
+                                                                                                                                                                                                                                                                                            <div class="panel panel-default">
+                                                                <a href="#Postpaidplans_0" class="collapsed panel-default-title" data-toggle="collapse" aria-expanded="false">Devices </a>
+                                                                    <div id="Postpaidplans_0" class="panel-collapse collapse " aria-expanded="false">
+                                                                        <p class="navbar-item-link devices">
+                                                                            <a href="https://eshop.ooredoo.qa/en">Devices </a>
+                                                                        </p> 
+                                                                                                                                                                                                                                <p class="navbar-item-link smart-phones">
+                                                                                <a href="https://eshop.ooredoo.qa/en/collections/mobile-phones">Smart Phones</a>
+                                                                            </p> 
+                                                                                                                                                        <p class="navbar-item-link tablet">
+                                                                                <a href="https://eshop.ooredoo.qa/en/collections/tablets">Tablet</a>
+                                                                            </p> 
+                                                                                                                                                        <p class="navbar-item-link internet-devices">
+                                                                                <a href="https://eshop.ooredoo.qa/en/collections/mobile-broadband">Internet Devices</a>
+                                                                            </p> 
+                                                                                                                                                        <p class="navbar-item-link accessories">
+                                                                                <a href="https://eshop.ooredoo.qa/en/collections/accessories">Accessories</a>
+                                                                            </p> 
+                                                                                                                                                        <p class="navbar-item-link promotions">
+                                                                                <a href="https://www.ooredoo.qa/web/en/promotions/devices/">Promotions</a>
+                                                                            </p> 
+                                                                                                                                                                                                                                
+                                                                    </div>
+                                                            </div>
+                                                                                                                                                                                <div class="panel panel-default">
+                                                                <a href="#Postpaidplans_1" class="collapsed panel-default-title" data-toggle="collapse" aria-expanded="false">Apple</a>
+                                                                    <div id="Postpaidplans_1" class="panel-collapse collapse " aria-expanded="false">
+                                                                        <p class="navbar-item-link apple">
+                                                                            <a href="https://eshop.ooredoo.qa/en/collections/mobile-phones/apple-mobile-phones">Apple</a>
+                                                                        </p> 
+                                                                                                                                                                                                                                <p class="navbar-item-link iphone-17">
+                                                                                <a href="https://eshop.ooredoo.qa/en/collections/mobile-phones/apple-mobile-phones">iPhone 17</a>
+                                                                            </p> 
+                                                                                                                                                        <p class="navbar-item-link iphone-air">
+                                                                                <a href="https://eshop.ooredoo.qa/en/collections/mobile-phones/apple-mobile-phones">iPhone Air</a>
+                                                                            </p> 
+                                                                                                                                                                                                                                
+                                                                    </div>
+                                                            </div>
+                                                                                                                                                                                <div class="panel panel-default">
+                                                                <a href="#Postpaidplans_2" class="collapsed panel-default-title" data-toggle="collapse" aria-expanded="false">Galaxy AI </a>
+                                                                    <div id="Postpaidplans_2" class="panel-collapse collapse " aria-expanded="false">
+                                                                        <p class="navbar-item-link galaxy-ai">
+                                                                            <a href="https://eshop.ooredoo.qa/en/collections/mobile-phones/samsung-mobile-phones">Galaxy AI </a>
+                                                                        </p> 
+                                                                                                                                                                                                                                <p class="navbar-item-link galaxy-s26-ultra">
+                                                                                <a href="https://eshop.ooredoo.qa/en/products/samsung-galaxy-s26-ultra-5g-12gb-512gb-cobalt-violet">Galaxy S26 Ultra</a>
+                                                                            </p> 
+                                                                                                                                                        <p class="navbar-item-link galaxy-s26-plus">
+                                                                                <a href="https://eshop.ooredoo.qa/en/collections/mobile-phones/samsung-mobile-phones">Galaxy S26 Plus</a>
+                                                                            </p> 
+                                                                                                                                                        <p class="navbar-item-link galaxy-s26">
+                                                                                <a href="https://eshop.ooredoo.qa/en/collections/mobile-phones/samsung-mobile-phones">Galaxy S26</a>
+                                                                            </p> 
+                                                                                                                                                                                                                                
+                                                                    </div>
+                                                            </div>
+                                                                                                                                                                                <div class="panel panel-default">
+                                                                <a href="#Postpaidplans_3" class="collapsed panel-default-title" data-toggle="collapse" aria-expanded="false">Smart TVs</a>
+                                                                    <div id="Postpaidplans_3" class="panel-collapse collapse " aria-expanded="false">
+                                                                        <p class="navbar-item-link smart-tvs">
+                                                                            <a href="https://eshop.ooredoo.qa/en/collections/smart-tv">Smart TVs</a>
+                                                                        </p> 
+                                                                                                                                                                                                                                <p class="navbar-item-link ">
+                                                                                <a href="#"></a>
+                                                                            </p> 
+                                                                                                                                                                                                                                
+                                                                    </div>
+                                                            </div>
+                                                                                                            
+                                                </div> 
+                                                    
+                                            </div>
+                                        </div>
+                                    </div>
+                                </ul>
+                            </li>
+                                                        
+                                                                            <li class="b_menu_dlink"><a href="https://www.ooredoomoney.qa/">Ooredoo Money</a></li>
+                                                        
+                                                                            <li class="dropdown">
+                                <a class="dropdown-toggle" href="#" data-toggle="dropdown" id="Nojoom" aria-expanded="false" key="4">
+                                    Nojoom                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="Nojoom">
+
+                                    <div class="container d-none d-sm-block">
+                                        <div class="row w-100" id="dopdown1">
+                                                                                                                                                                                                
+                                                    <li class="col-sm-3 col-md-3 col-lg-3" key="0">
+                                                        <p class="navbar-item-title">
+                                                            <a class="not_clickable t-s" href="https://www.ooredoo.qa/web/en/nojoom/">About Nojoom</a>
+                                                        </p>
+                                                                                                                                                                                                <p class="navbar-item-link about-al-nokhba">
+                                                                        <a href=" https://www.ooredoo.qa/web/en/nojoom/alnokhba/">About Al Nokhba</a>
+                                                                    </p>
+                                                                                                                                    <p class="navbar-item-link enrol">
+                                                                        <a href="https://www.ooredoo.qa/web/en/nojoom/enrol-now/">Enrol</a>
+                                                                    </p>
+                                                                                                                                    <p class="navbar-item-link partners">
+                                                                        <a href="https://www.ooredoo.qa/web/en/nojoom/partners/">Partners</a>
+                                                                    </p>
+                                                                                                                                    <p class="navbar-item-link rewards">
+                                                                        <a href="https://www.ooredoo.qa/web/en/nojoom/rewards/">Rewards</a>
+                                                                    </p>
+                                                                                                                                    <p class="navbar-item-link promotion">
+                                                                        <a href="https://www.ooredoo.qa/web/en/promotions/nojoom/">Promotion </a>
+                                                                    </p>
+                                                                                                                                                                                </li>
+                                                   
+                                                                                                                                                    
+                                        </div>
+                                    </div>
+
+
+                                    <div class="container d-block d-sm-none">
+                                        <div class="row-fluid">
+                                            <div class="col-xs-12">
+                                                <div class="panel-group">
+                                                                                                                                                                                                                                                                                            <div class="panel panel-default">
+                                                                <a href="#Postpaidplans_0" class="collapsed panel-default-title" data-toggle="collapse" aria-expanded="false">About Nojoom</a>
+                                                                    <div id="Postpaidplans_0" class="panel-collapse collapse " aria-expanded="false">
+                                                                        <p class="navbar-item-link about-nojoom">
+                                                                            <a href="https://www.ooredoo.qa/web/en/nojoom/">About Nojoom</a>
+                                                                        </p> 
+                                                                                                                                                                                                                                <p class="navbar-item-link about-al-nokhba">
+                                                                                <a href=" https://www.ooredoo.qa/web/en/nojoom/alnokhba/">About Al Nokhba</a>
+                                                                            </p> 
+                                                                                                                                                        <p class="navbar-item-link enrol">
+                                                                                <a href="https://www.ooredoo.qa/web/en/nojoom/enrol-now/">Enrol</a>
+                                                                            </p> 
+                                                                                                                                                        <p class="navbar-item-link partners">
+                                                                                <a href="https://www.ooredoo.qa/web/en/nojoom/partners/">Partners</a>
+                                                                            </p> 
+                                                                                                                                                        <p class="navbar-item-link rewards">
+                                                                                <a href="https://www.ooredoo.qa/web/en/nojoom/rewards/">Rewards</a>
+                                                                            </p> 
+                                                                                                                                                        <p class="navbar-item-link promotion">
+                                                                                <a href="https://www.ooredoo.qa/web/en/promotions/nojoom/">Promotion </a>
+                                                                            </p> 
+                                                                                                                                                                                                                                
+                                                                    </div>
+                                                            </div>
+                                                                                                            
+                                                </div> 
+                                                    
+                                            </div>
+                                        </div>
+                                    </div>
+                                </ul>
+                            </li>
+                                                        
+                                                                            <li class="dropdown">
+                                <a class="dropdown-toggle" href="#" data-toggle="dropdown" id="Entertainment Services" aria-expanded="false" key="5">
+                                    Entertainment Services                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="Entertainment Services">
+
+                                    <div class="container d-none d-sm-block">
+                                        <div class="row w-100" id="dopdown1">
+                                                                                                                                                                                                
+                                                    <li class="col-sm-3 col-md-3 col-lg-3" key="0">
+                                                        <p class="navbar-item-title">
+                                                            <a class="not_clickable t-s" href="https://www.ooredoo.qa/web/en/entertainment-services/">Entertainment Home</a>
+                                                        </p>
+                                                                                                                                                                                                <p class="navbar-item-link pay-for-app-store">
+                                                                        <a href="https://www.ooredoo.qa/web/en/applecarrierbilling/">Pay for app store </a>
+                                                                    </p>
+                                                                                                                                    <p class="navbar-item-link pay-for-google-play">
+                                                                        <a href="https://www.ooredoo.qa/web/en/google-payment/">Pay for Google Play </a>
+                                                                    </p>
+                                                                                                                                    <p class="navbar-item-link ooredoo-mytones">
+                                                                        <a href="https://mytones.ooredoo.qa/PopulateSongs/UnlimitedTones">Ooredoo Mytones</a>
+                                                                    </p>
+                                                                                                                                                                                </li>
+                                                   
+                                                                                                    
+                                                    <li class="col-sm-3 col-md-3 col-lg-3" key="1">
+                                                        <p class="navbar-item-title">
+                                                            <a class="not_clickable t-s" href="https://www.ooredoo.qa/web/en/goodies/">Ooredoo Goodies</a>
+                                                        </p>
+                                                                                                                                                                                                <p class="navbar-item-link ">
+                                                                        <a href="#"> </a>
+                                                                    </p>
+                                                                                                                                                                                </li>
+                                                   
+                                                                                                                                                    
+                                        </div>
+                                    </div>
+
+
+                                    <div class="container d-block d-sm-none">
+                                        <div class="row-fluid">
+                                            <div class="col-xs-12">
+                                                <div class="panel-group">
+                                                                                                                                                                                                                                                                                            <div class="panel panel-default">
+                                                                <a href="#Postpaidplans_0" class="collapsed panel-default-title" data-toggle="collapse" aria-expanded="false">Entertainment Home</a>
+                                                                    <div id="Postpaidplans_0" class="panel-collapse collapse " aria-expanded="false">
+                                                                        <p class="navbar-item-link entertainment-home">
+                                                                            <a href="https://www.ooredoo.qa/web/en/entertainment-services/">Entertainment Home</a>
+                                                                        </p> 
+                                                                                                                                                                                                                                <p class="navbar-item-link pay-for-app-store">
+                                                                                <a href="https://www.ooredoo.qa/web/en/applecarrierbilling/">Pay for app store </a>
+                                                                            </p> 
+                                                                                                                                                        <p class="navbar-item-link pay-for-google-play">
+                                                                                <a href="https://www.ooredoo.qa/web/en/google-payment/">Pay for Google Play </a>
+                                                                            </p> 
+                                                                                                                                                        <p class="navbar-item-link ooredoo-mytones">
+                                                                                <a href="https://mytones.ooredoo.qa/PopulateSongs/UnlimitedTones">Ooredoo Mytones</a>
+                                                                            </p> 
+                                                                                                                                                                                                                                
+                                                                    </div>
+                                                            </div>
+                                                                                                                                                                                <div class="panel panel-default">
+                                                                <a href="#Postpaidplans_1" class="collapsed panel-default-title" data-toggle="collapse" aria-expanded="false">Ooredoo Goodies</a>
+                                                                    <div id="Postpaidplans_1" class="panel-collapse collapse " aria-expanded="false">
+                                                                        <p class="navbar-item-link ooredoo-goodies">
+                                                                            <a href="https://www.ooredoo.qa/web/en/goodies/">Ooredoo Goodies</a>
+                                                                        </p> 
+                                                                                                                                                                                                                                <p class="navbar-item-link ">
+                                                                                <a href="#"> </a>
+                                                                            </p> 
+                                                                                                                                                                                                                                
+                                                                    </div>
+                                                            </div>
+                                                                                                            
+                                                </div> 
+                                                    
+                                            </div>
+                                        </div>
+                                    </div>
+                                </ul>
+                            </li>
+                                                        
+                                                                            <li class="dropdown">
+                                <a class="dropdown-toggle" href="#" data-toggle="dropdown" id="Help" aria-expanded="false" key="6">
+                                    Help                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="Help">
+
+                                    <div class="container d-none d-sm-block">
+                                        <div class="row w-100" id="dopdown1">
+                                                                                                                                                                                                
+                                                    <li class="col-sm-3 col-md-3 col-lg-3" key="0">
+                                                        <p class="navbar-item-title">
+                                                            <a class="not_clickable t-s" href="https://selfcare.ooredoo.qa/en/consumer/help-centre">Help Centre</a>
+                                                        </p>
+                                                                                                                                                                                                <p class="navbar-item-link frequently-asked-questions">
+                                                                        <a href="https://selfcare.ooredoo.qa/en/consumer/frequently-asked-questions">Frequently Asked Questions</a>
+                                                                    </p>
+                                                                                                                                    <p class="navbar-item-link how-to-videos">
+                                                                        <a href="https://www.ooredoo.qa/web/en/help-centre/how-to-videos/">How-to Videos</a>
+                                                                    </p>
+                                                                                                                                                                                </li>
+                                                   
+                                                                                                    
+                                                    <li class="col-sm-3 col-md-3 col-lg-3" key="1">
+                                                        <p class="navbar-item-title">
+                                                            <a class="not_clickable t-s" href="https://www.ooredoo.qa/web/en/support/">Support</a>
+                                                        </p>
+                                                                                                                                                                                                <p class="navbar-item-link online-support">
+                                                                        <a href="https://selfcare.ooredoo.qa/en/consumer/create-request/">Online Support</a>
+                                                                    </p>
+                                                                                                                                    <p class="navbar-item-link obot">
+                                                                        <a href="https://www.ooredoo.qa/web/en/obot/">obot</a>
+                                                                    </p>
+                                                                                                                                    <p class="navbar-item-link contact-us">
+                                                                        <a href="https://selfcare.ooredoo.qa/en/consumer/contact-us">Contact Us</a>
+                                                                    </p>
+                                                                                                                                    <p class="navbar-item-link online-directory">
+                                                                        <a href="https://www.ooredoo.qa/selfcare/#/onlineDirectory/en">Online Directory</a>
+                                                                    </p>
+                                                                                                                                                                                </li>
+                                                   
+                                                                                                                                                    
+                                        </div>
+                                    </div>
+
+
+                                    <div class="container d-block d-sm-none">
+                                        <div class="row-fluid">
+                                            <div class="col-xs-12">
+                                                <div class="panel-group">
+                                                                                                                                                                                                                                                                                            <div class="panel panel-default">
+                                                                <a href="#Postpaidplans_0" class="collapsed panel-default-title" data-toggle="collapse" aria-expanded="false">Help Centre</a>
+                                                                    <div id="Postpaidplans_0" class="panel-collapse collapse " aria-expanded="false">
+                                                                        <p class="navbar-item-link help-centre">
+                                                                            <a href="https://selfcare.ooredoo.qa/en/consumer/help-centre">Help Centre</a>
+                                                                        </p> 
+                                                                                                                                                                                                                                <p class="navbar-item-link frequently-asked-questions">
+                                                                                <a href="https://selfcare.ooredoo.qa/en/consumer/frequently-asked-questions">Frequently Asked Questions</a>
+                                                                            </p> 
+                                                                                                                                                        <p class="navbar-item-link how-to-videos">
+                                                                                <a href="https://www.ooredoo.qa/web/en/help-centre/how-to-videos/">How-to Videos</a>
+                                                                            </p> 
+                                                                                                                                                                                                                                
+                                                                    </div>
+                                                            </div>
+                                                                                                                                                                                <div class="panel panel-default">
+                                                                <a href="#Postpaidplans_1" class="collapsed panel-default-title" data-toggle="collapse" aria-expanded="false">Support</a>
+                                                                    <div id="Postpaidplans_1" class="panel-collapse collapse " aria-expanded="false">
+                                                                        <p class="navbar-item-link support">
+                                                                            <a href="https://www.ooredoo.qa/web/en/support/">Support</a>
+                                                                        </p> 
+                                                                                                                                                                                                                                <p class="navbar-item-link online-support">
+                                                                                <a href="https://selfcare.ooredoo.qa/en/consumer/create-request/">Online Support</a>
+                                                                            </p> 
+                                                                                                                                                        <p class="navbar-item-link obot">
+                                                                                <a href="https://www.ooredoo.qa/web/en/obot/">obot</a>
+                                                                            </p> 
+                                                                                                                                                        <p class="navbar-item-link contact-us">
+                                                                                <a href="https://selfcare.ooredoo.qa/en/consumer/contact-us">Contact Us</a>
+                                                                            </p> 
+                                                                                                                                                        <p class="navbar-item-link online-directory">
+                                                                                <a href="https://www.ooredoo.qa/selfcare/#/onlineDirectory/en">Online Directory</a>
+                                                                            </p> 
+                                                                                                                                                                                                                                
+                                                                    </div>
+                                                            </div>
+                                                                                                            
+                                                </div> 
+                                                    
+                                            </div>
+                                        </div>
+                                    </div>
+                                </ul>
+                            </li>
+                                                        
+                                            
+                </ul>
+                <ul style="padding: 0;">
+                    <li class="header-main-navbar-extra-link">
+                        <a id="Clicks_Main_Menu_Business" href="https://www.ooredoo.qa/web/en/business/">Business</a>
+                    </li>
+                    <li class="header-main-navbar-extra-link">
+                        
+                        <a id="Clicks_Main_Menu_My_Ooredoo_Login" class="login_btn" href="https://selfcare.ooredoo.qa/en/consumer/login">My Ooredoo</a>
+                                                  
+                    </li>
+                    <li class="header-main-navbar-extra-link">
+                    <a class="locale_changer"
+                                data-locale-name="ar"
+                                href="https://www.ooredoo.qa/web/ar/regulatory/">عربي</a>                    </li> 
+                </ul>
+                <ul class="navbar-nav header-main-navbar-right">
+                    <li>
+                        <div class="userwelcome" style="line-height: 30px; margin-top: 10px;"> </div>
+                    </li>
+                    <li>
+                     
+                        <a id="Clicks_Main_Menu_My_Ooredoo_Login" class="btn btn-primary login_btn" href="https://selfcare.ooredoo.qa/en/consumer/login">My Ooredoo</a>
+                                                  
+                    </li> 
+                </ul>
+            </div>
+             <!-- END: Menu Items -->
+
+        </div>
+    </nav>
+    <div class="ModalComponent ">
+       <img class="icon-close icon-m ModalComponent__close" src="https://www.ooredoo.qa/web/wp-content/themes/ooredoo-cms/assets/images/close.svg" />
+       <div class="ModalComponent__body">
+           <div class="SearchComponent">
+               <div class="SearchComponent__header d-flex align-items-center">
+                <h4>Search</h4>
+               </div>
+               <div class="SearchComponent__body">
+                   <div class="title">
+                        <h3>What are you looking for today?</h3>
+                        <h5 class="back-btn" id="backBtn" style="display:none"> Back<img src="https://www.ooredoo.qa/web/wp-content/themes/ooredoo-cms/assets/images/search-back-btn.svg" /></h5>
+                   </div>                   
+                   <div class="card-wrap">
+                        <div class="card" id="planPromotion">
+                            <h4>Plans & Promotions</h4>
+                            <p>Looking for a new SIM, or you great new offers? start your search here now</p>
+                        </div>
+                        <div class="card">
+                            <a href="https://www.ooredoo.qa/eshop/home/">
+                            <h4>Devices</h4>
+                            <p>Devices that suits your needs & modern lifestyle along with exclusive benefits</p>
+                            </a>
+                        </div>
+                   </div>
+                    <form class="input-group" style="display:none" id="searchform" method="get" action="https://www.ooredoo.qa/web/en/">
+    <input
+        type="text"
+        name="s"
+        placeholder="Search…"
+        value=""
+    />
+    <button type="submit">
+        <i aria-hidden="true" id="filtersubmit" class="fa fa-search"></i>
+    </button>
+</form>
+                </div>
+           </div>
+       </div>
+    </div>
+
+    
+    <script>    
+    //load API Call for Header
+    (function() {
+            //showing user name in header for loggedin users
+            $.post( "https://www.ooredoo.qa/webgate/api", '{ "operation": "Subscriber","language": "ENGLISH", "parameters": [] }' , function(data) {
+                if(data.result) {
+                    console.log(data);
+                    $('.userwelcome').show();
+                    $('.userwelcome').html( $('.userwelcome').text()+'Hi&nbsp'+data.subscriber.firstName+'  &nbsp; ');
+                    $('.register_btn').hide();
+                }
+            }, 'json');
+            //showing Cart Counts in header
+            // $.post( "https://www.ooredoo.qa/buy/ooredoojson",'{ "f" : "getOoredooCustomerInfoForCS"}')   
+            // .then(function(resp) {
+            //     var responseText = resp.r.basketCount;               
+            //     $('.basketItems').html(responseText);   
+            // },'json');           
+            
+        })();
+          
+     $("#planPromotion").click(function(){
+            $('.card-wrap').hide();
+            $('.input-group').fadeIn( 800, "linear" );
+            $('#backBtn').fadeIn( 1000, "linear" );
+        });
+
+        $('#backBtn').click(function(){
+            $('.card-wrap').fadeIn( 800, "linear" );
+            $('.SearchComponent__body .input-group').hide();
+            $(this).hide();
+        });
+        
+
+        //Mobile dopdwon menu 
+        jQuery(document).on('click', '.navbar-collapse .dropdown-menu.show', function (e) {
+            e.stopPropagation();
+        });   
+        
+        $('.Clicks_Main_Search').click(function(){
+            $('.ModalComponent').toggleClass('open')
+        })
+        $('.ModalComponent__close').click(function(){
+            $('.ModalComponent').removeClass('open')
+        })
+       
+        
+
+
+        
+    </script>
+<!-- START :: Breadcurmb -->
+<nav class="custom-breadcrumb">
+        <div class="container">
+                <ol class="custom-breadcrumb__list list-unstyled">
+                    <li class="custom-breadcrumb__item">  
+                        <a href="https://www.ooredoo.qa/web/en/"> <i class="fa fa-home"></i> </a>
+                    </li>
+                    <li class="custom-breadcrumb__item">  
+                        <a href="https://www.ooredoo.qa/web/en/regulatory/"> Regulatory </a>
+                    </li>
+                </ol>
+        </div>
+    </nav>
+    <!-- END :: Breadcurmb -->
+
+
+    <!-- START :: Regulatory Main Section -->
+    <section class="regulatory-main-section text-center">
+        <div class="container regulatory-container">
+                                                <h1 class="h1 regulatory-main-section__title"> <span class="main-color"> OOREDOO </span> REGULATORY  </h1>
+                    <p class="regulatory-main-section__desc">
+                        As a provider of Public Telecommunications Services; Ooredoo’s activities are governed by its fixed and mobile licenses issued pursuant to Law No. 34 of 2006 (Telecommunications Law) and the Applicable Regulatory Framework.
+                    </p>
+                                        
+        </div>
+    </section>
+    <!-- END :: Regulatory Main Section -->
+
+
+    <!-- START :: Regulatory Accordion -->
+    <section class="regulatory-accordion">
+        <div class="container regulatory-container">
+            <h2 class="h2 regulatory-accordion__title text-center"> Approved Tariff Documentation </h2>
+            
+            <div class="regulatory-accordion-wrapper">
+                <div class="reg-accordion-item">
+                                                                        <div class="reg-accordion__title d-flex align-items-center justify-content-between"> 
+                                Consumer                            </div>
+                            <div class="reg-accordion__body">
+
+                                <ul class="reg-accordion-list list-unstyled">
+                                    <li class="mt-0"> 
+                                        <a href="https://www.ooredoo.qa/web/wp-content/uploads/2024/01/General-Terms-and-Conditions-for-Consumer-Services.pdf"> General Terms and Conditions for Consumer Services </a>    
+                                    </li>
+                                </ul>
+                                <h3 class="h3 reg-accordion-list__title"> Consumer Base Tariffs: </h3>
+                                
+                                <!-- start Customer tariff loop-->
+                                <ul class="reg-accordion-list with-two-columns list-unstyled">
+                                                                    <li> 
+                                        <a href="https://www.ooredoo.qa/web/wp-content/uploads/2025/05/C00-01-Zero-Rated-services-009.pdf"> C00-01 Zero Rated services  </a> 
+                                    </li>
+                                                                    <li> 
+                                        <a href="https://www.ooredoo.qa/web/wp-content/uploads/2022/05/c02-ocard-march14.pdf"> C02-01 OCard  </a> 
+                                    </li>
+                                                                    <li> 
+                                        <a href="https://www.ooredoo.qa/web/wp-content/uploads/2026/06/C04-01-International-Calling-Card-021.pdf"> C04-01 International Calling Card  </a> 
+                                    </li>
+                                                                    <li> 
+                                        <a href="https://www.ooredoo.qa/web/wp-content/uploads/2022/05/c05-01-fixed-broadband-services-005.pdf"> C05-01 Fixed Broadband Service  </a> 
+                                    </li>
+                                                                    <li> 
+                                        <a href="https://www.ooredoo.qa/web/wp-content/uploads/2026/08/C05-03-Consumer-Fiber-Broadband-services-027.pdf"> C05-03 Consumer Fibre Broadband services  </a> 
+                                    </li>
+                                                                    <li> 
+                                        <a href="https://www.ooredoo.qa/web/wp-content/uploads/2024/06/C05-05-Consumer-Fibre-To-The-Room-002.pdf"> C05-05 Consumer Fibre To The Room  </a> 
+                                    </li>
+                                                                    <li> 
+                                        <a href="https://www.ooredoo.qa/web/wp-content/uploads/2024/07/C05-07-Home-Wireless-Broadband-001.pdf"> C05-07 Home+ Wireless Broadband  </a> 
+                                    </li>
+                                                                    <li> 
+                                        <a href="https://www.ooredoo.qa/web/wp-content/uploads/2023/01/C06-01-Fixed-Internet-on-Demand-002.pdf"> C06-01 Fixed Internet on Demand  </a> 
+                                    </li>
+                                                                    <li> 
+                                        <a href="https://www.ooredoo.qa/web/wp-content/uploads/2026/08/C10-01-Postpaid-Mobile-Services-155-1.pdf"> C10-01 Postpaid Mobile Services  </a> 
+                                    </li>
+                                                                    <li> 
+                                        <a href="https://www.ooredoo.qa/web/wp-content/uploads/2026/10/C11-01-Prepaid-Mobile-Services-195.pdf"> C11-01 Prepaid Mobile Services  </a> 
+                                    </li>
+                                                                    <li> 
+                                        <a href="https://www.ooredoo.qa/web/wp-content/uploads/2025/09/C12-01-Postpaid-Mobile-Broadband-048.pdf"> C12-01 Postpaid Mobile Broadband  </a> 
+                                    </li>
+                                                                    <li> 
+                                        <a href="https://www.ooredoo.qa/web/wp-content/uploads/2025/09/C15-01-Wi-Fi-services-for-community-living-complexes-001.pdf"> C15-01 Wi-Fi services for community living complexes 001   </a> 
+                                    </li>
+                                                                </ul>
+                                <!-- end Customer tariff loop-->
+                                <div class="reg-accordion-link">
+                                    <a id="344" href="https://www.ooredoo.qa/web/en/regulatory/consumer-base-tariff-archive/" class="link-with-arrow"> 
+                                        <img src="https://www.ooredoo.qa/web/wp-content/themes/ooredoo-cms/regulatory/images/accordion-link-img.svg" alt="PERMANENT TARIFF ARCHIVE" />
+                                        BASE TARIFF ARCHIVE                                    </a>
+                                </div>
+
+                                <h3 class="h3 reg-accordion-list__title"> Consumer Promotional Tariffs: </h3>
+                                 <!-- start Customer tariff loop-->
+                                 <ul class="reg-accordion-list with-two-columns list-unstyled">
+                                                                    <li> 
+                                        <a href="https://www.ooredoo.qa/web/wp-content/uploads/2026/09/C05-03-Promotion-on-Home-Good-to-be-back-September-2026.pdf"> C05-03 Promotion on Home+ Good to be back (September 2026)  </a> 
+                                    </li>
+                                                                    <li> 
+                                        <a href="https://www.ooredoo.qa/web/wp-content/uploads/2026/10/C10-01-C11-01-Promotion-October-National-Days-October-2026.pdf"> C10-01 C11-01 Promotion October National Days (October 2026)  </a> 
+                                    </li>
+                                                                    <li> 
+                                        <a href="https://www.ooredoo.qa/web/wp-content/uploads/2026/08/C10-01-Promotion-mobile-postpaid-services-August-2026-1.pdf"> C10-01 Promotion mobile postpaid services (August 2026)  </a> 
+                                    </li>
+                                                                    <li> 
+                                        <a href="https://www.ooredoo.qa/web/wp-content/uploads/2026/07/C11-01-Lucky-Draw-on-Your-Special-Offer-Promotion-July-2026.pdf"> C11-01 Lucky Draw on Your Special Offer Promotion (July 2026)  </a> 
+                                    </li>
+                                                                    <li> 
+                                        <a href="https://www.ooredoo.qa/web/wp-content/uploads/2025/12/8502-Tariff-Document-National-Days-Promotion-for-Hala-customers-C11-01.pdf"> C11-01 Prepaid National Days Campaign 2026  </a> 
+                                    </li>
+                                                                    <li> 
+                                        <a href="https://www.ooredoo.qa/web/wp-content/uploads/2026/10/C11-01-Promotion-Hungama-Music-October-2026.pdf"> C11-01 Promotion Hungama Music (October 2026)  </a> 
+                                    </li>
+                                                                    <li> 
+                                        <a href="https://www.ooredoo.qa/web/wp-content/uploads/2026/08/C12-01-Promotion-on-mobile-broadband-services-September-2026.pdf"> C12-01 Promotion on mobile broadband services (September 2026)  </a> 
+                                    </li>
+                                                                </ul>
+                                <!-- end Customer tariff loop-->
+
+                                <div class="reg-accordion-link">
+                                    <a id="345" href="/web/en/regulatory/consumer-promotional-tariff-archive/" class="link-with-arrow"> 
+                                        <img src="https://www.ooredoo.qa/web/wp-content/themes/ooredoo-cms/regulatory/images/accordion-link-img.svg" alt="PERMANENT TARIFF ARCHIVE" />
+                                        PROMOTIONAL TARIFF ARCHIVE                                    </a>
+                                </div>
+                            </div>
+                                                            </div> <!-- END :: Accordion Item -->
+
+                <div class="reg-accordion-item">
+                                                                        <div class="reg-accordion__title d-flex align-items-center justify-content-between"> 
+                                Business                            </div>
+                            <div class="reg-accordion__body">
+
+                                <ul class="reg-accordion-list with-two-columns list-unstyled">
+                                    <li> 
+                                        <a href="https://www.ooredoo.qa/web/wp-content/uploads/2022/05/reg-service-level-agreement.pdf"> Service Level Agreement </a>    
+                                    </li>
+                                    <li> 
+                                        <a href="https://www.ooredoo.qa/web/wp-content/uploads/2023/01/Master-Service-Agreement.pdf"> Master Services Agreement </a>    
+                                    </li>
+                                </ul>
+                                <h3 class="h3 reg-accordion-list__title"> Business Base Tariffs: </h3>
+                                <!-- start Business tariff loop-->
+                                <ul class="reg-accordion-list with-two-columns list-unstyled">
+                                                                    <li> 
+                                        <a href="https://www.ooredoo.qa/web/wp-content/uploads/2025/08/B01-01-Ooredoo-Business-Landline-012.pdf"> B01-01 Ooredoo Business Landline  </a> 
+                                    </li>
+                                                                    <li> 
+                                        <a href="https://www.ooredoo.qa/web/wp-content/uploads/2024/11/B01-03-Dual-Play-Wireless-Services-for-business-customers-001.pdf"> B01-03  Dual Play Wireless Services for business customers  </a> 
+                                    </li>
+                                                                    <li> 
+                                        <a href="https://www.ooredoo.qa/web/wp-content/uploads/2026/07/B03-01-Business-Mobile-Services-96.pdf"> B03-01 Business Mobile Services  </a> 
+                                    </li>
+                                                                    <li> 
+                                        <a href="https://www.ooredoo.qa/web/wp-content/uploads/2022/11/B05-02-VSAT-Internet-and-VSAT-VPN-03.pdf"> B05-02 VSAT Internet and VSAT VPN  </a> 
+                                    </li>
+                                                                    <li> 
+                                        <a href="https://www.ooredoo.qa/web/wp-content/uploads/2023/11/B06-01-Tetra-Services-and-Aamali-PTT-004.pdf"> B06-01 Tetra Service and Aamali PTT  </a> 
+                                    </li>
+                                                                    <li> 
+                                        <a href="https://www.ooredoo.qa/web/wp-content/uploads/2025/07/B08-01-Aamali-Bulk-SMS-016.pdf"> B08-01 Aamali Bulk SMS  </a> 
+                                    </li>
+                                                                    <li> 
+                                        <a href="https://www.ooredoo.qa/web/wp-content/uploads/2022/11/B09-01-800-Toll-Free-service-004.pdf"> B09-01 - 800 Toll-Free service  </a> 
+                                    </li>
+                                                                    <li> 
+                                        <a href="https://www.ooredoo.qa/web/wp-content/uploads/2022/11/B11-01-Telex-Services-002.pdf"> B11-01 Telex Services.  </a> 
+                                    </li>
+                                                                    <li> 
+                                        <a href="https://www.ooredoo.qa/web/wp-content/uploads/2024/11/B14-01-National-IP-VPN-005.pdf"> B14-01 National IP VPN  </a> 
+                                    </li>
+                                                                    <li> 
+                                        <a href="https://www.ooredoo.qa/web/wp-content/uploads/2025/06/B14-05-CCTV-connect-MPLS-001.pdf"> B14-05 CCTV Connect - MPLS  </a> 
+                                    </li>
+                                                                    <li> 
+                                        <a href="https://www.ooredoo.qa/web/wp-content/uploads/2023/10/B15-01-Ethernet-VPN-006.pdf"> B15-01 Ethernet VPN  </a> 
+                                    </li>
+                                                                    <li> 
+                                        <a href="https://www.ooredoo.qa/web/wp-content/uploads/2022/11/B17-01-Global-IP-VPN-002.pdf"> B17-01 Global IP VPN  </a> 
+                                    </li>
+                                                                    <li> 
+                                        <a href="https://www.ooredoo.qa/web/wp-content/uploads/2023/09/B18-01-Business-Internet-006.pdf"> B18-01 Business Internet  </a> 
+                                    </li>
+                                                                    <li> 
+                                        <a href="https://www.ooredoo.qa/web/wp-content/uploads/2024/10/B18-02-Business-Internet-Hospitality-Services-006.pdf"> B18-02 Business Internet – Hospitality Service  </a> 
+                                    </li>
+                                                                    <li> 
+                                        <a href="https://www.ooredoo.qa/web/wp-content/uploads/2022/12/B19-01-Global-Ethernet-Service-002.pdf"> B19-01 Global Ethernet Service  </a> 
+                                    </li>
+                                                                    <li> 
+                                        <a href="https://www.ooredoo.qa/web/wp-content/uploads/2022/12/B19-02-Global-Ethernet-Microsoft-Azure-002.pdf"> B19-02 Global Ethernet – Microsoft Azure  </a> 
+                                    </li>
+                                                                    <li> 
+                                        <a href="https://www.ooredoo.qa/web/wp-content/uploads/2022/12/B20-01-Fixed-Business-Broadband-services-003.pdf"> B20-01 Fixed Business Broadband services  </a> 
+                                    </li>
+                                                                    <li> 
+                                        <a href="https://www.ooredoo.qa/web/wp-content/uploads/2022/12/B27-01-Business-Unified-Communication-Service-002.pdf"> B27-01-Business Unified Communication Service  </a> 
+                                    </li>
+                                                                    <li> 
+                                        <a href="https://www.ooredoo.qa/web/wp-content/uploads/2022/12/B28-01-WaveLinks-Services-002.pdf"> B28-01 WaveLink Service  </a> 
+                                    </li>
+                                                                    <li> 
+                                        <a href="https://www.ooredoo.qa/web/wp-content/uploads/2022/12/B29-01-Public-Telepresence-Tariff-002.pdf"> B29-01 Public Telepresence  </a> 
+                                    </li>
+                                                                    <li> 
+                                        <a href="https://www.ooredoo.qa/web/wp-content/uploads/2026/10/B30-01-Business-Fiber-Broadband-011.pdf"> B30-01 Business Fibre Broadband  </a> 
+                                    </li>
+                                                                    <li> 
+                                        <a href="https://www.ooredoo.qa/web/wp-content/uploads/2022/12/B30-02-Business-Fiber-Broadband-Backup-services-002.pdf"> B30-02 Business Fiber Broadband Backup services  </a> 
+                                    </li>
+                                                                    <li> 
+                                        <a href="https://www.ooredoo.qa/web/wp-content/uploads/2025/11/B30-03-Business-Office-Packages-002.pdf"> B30-03 - Business Office Packages   </a> 
+                                    </li>
+                                                                    <li> 
+                                        <a href="https://www.ooredoo.qa/web/wp-content/uploads/2025/06/B30-05-CCTV-connect-Broadband-001.pdf"> B30-05 CCTV connect - Broadband 001  </a> 
+                                    </li>
+                                                                    <li> 
+                                        <a href="https://www.ooredoo.qa/web/wp-content/uploads/2026/06/B32-01-Postpaid-Mobile-Broadband-042.pdf"> B32-01 Post-paid Mobile Broadband  </a> 
+                                    </li>
+                                                                    <li> 
+                                        <a href="https://www.ooredoo.qa/web/wp-content/uploads/2024/07/B34-01-Inmarsat-services-005-1.pdf"> B34-01 Inmarsat services   </a> 
+                                    </li>
+                                                                    <li> 
+                                        <a href="https://www.ooredoo.qa/web/wp-content/uploads/2024/12/B35-01-IoT-Single-SIM-Solution-006.pdf"> B35-01 IoT Single SIM Solution  </a> 
+                                    </li>
+                                                                    <li> 
+                                        <a href="https://www.ooredoo.qa/web/wp-content/uploads/2024/12/B35-02-IoT-Pack-Shared-Data-Pool-001.pdf"> B35-02 IoT Pack Shared Data Pool 001  </a> 
+                                    </li>
+                                                                    <li> 
+                                        <a href="https://www.ooredoo.qa/web/wp-content/uploads/2023/09/B36-01-5G-Private-Mobile-Connectivity-001.pdf"> B36-01 5G Private Mobile Connectivity  </a> 
+                                    </li>
+                                                                </ul>
+                                <!-- end Business tariff loop-->
+
+                                <div class="reg-accordion-link">
+                                    <a href="https://www.ooredoo.qa/web/en/regulatory/business-base-tariff-archive/" class="link-with-arrow"> 
+                                        <img src="https://www.ooredoo.qa/web/wp-content/themes/ooredoo-cms/regulatory/images/accordion-link-img.svg" alt="PERMANENT TARIFF ARCHIVE" />
+                                        BASE TARIFF ARCHIVE                                     </a>
+                                </div>
+
+                                <h3 class="h3 reg-accordion-list__title"> Business Promotional Tariffs </h3>
+                                <!-- start Business tariff loop-->
+                                <ul class="reg-accordion-list with-two-columns list-unstyled">
+                                                                </ul>
+                                <!-- end Business tariff loop-->
+                                <div class="reg-accordion-link">
+                                    <a href="/web/en/regulatory/business-promotional-tariff-archive/" class="link-with-arrow"> 
+                                        <img src="https://www.ooredoo.qa/web/wp-content/themes/ooredoo-cms/regulatory/images/accordion-link-img.svg" alt="PERMANENT TARIFF ARCHIVE" />
+                                        PROMOTIONAL TARIFF ARCHIVE                                    </a>
+                                </div>
+                            </div>
+                                                            </div> <!-- END :: Accordion Item -->
+
+                <div class="reg-accordion-item">
+                                                                        <div class="reg-accordion__title d-flex align-items-center justify-content-between"> 
+                                Wholesale and Interconnections                            </div>
+                            <div class="reg-accordion__body">
+
+                                <ul class="reg-accordion-list with-one-column list-unstyled">
+                                                                                                                    <li> 
+                                            <a href="https://www.ooredoo.qa/web/wp-content/uploads/2024/10/2024-10-01-Access-to-OQDC-for-SPs-Final-version-after-CRAs-approval-Non-confidential.pdf"> Approved Reference Offer to access OQDCs (non-confidential version)  </a>
+                                                                                    </li>
+                                                                                <li> 
+                                            <a href="https://www.ooredoo.qa/web/wp-content/uploads/2025/10/Approved-RIAO-Non-Confidential.pdf"> Approved RIAO – Non-Confidential Version  </a>
+                                                                                            <p><p>Ooredoo Technical Standards: Damages and Liability<p><br>
+<p>
+This Reference Infrastructure Access Offer (RIAO) sets out the basic conditions and technical standards issued by the Communications Regulatory Authority (CRA) under which Ooredoo will accept access requests from Other Licensed Operators (OLOs). Ooredoo Technical Standards, including its procedures and processes designed to safeguard and guarantee the safety and integrity of the duct network and related infrastructure, are published elsewhere in this website. There are differences between the RIAO Technical Standards and Ooredoo Technical Standards in some areas. In case the OLO chooses not to adhere to Ooredoo’s Technical Standard in those areas where it differs from the RIAO Technical Standard and it results in damages to Ooredoo infrastructure, the CRA will ensure that the responsible OLO fully indemnifies Ooredoo against such damage.</p></p>
+                                                                                    </li>
+                                                                                <li> 
+                                            <a href="https://www.ooredoo.qa/web/wp-content/uploads/2025/10/Approved-RTO-Non-Confidential-version.pdf"> Approved RTO - Non-Confidential Version  </a>
+                                                                                    </li>
+                                                                                <li> 
+                                            <a href="https://www.ooredoo.qa/web/wp-content/uploads/2025/10/Approved-RIO-Non-Confidential-version.pdf"> Approved RIO - Non-Confidential Version  </a>
+                                                                                    </li>
+                                                                                                            </ul>
+                                <h3 class="h3 reg-accordion-list__title"> Information for Other Licensed Operators </h3>
+                                <ul class="reg-accordion-list with-one-column list-unstyled">
+                                                                                                                    <li> 
+                                            <a href="https://www.ooredoo.qa/web/wp-content/uploads/2022/05/ooredoo-technical-standard-march6.pdf"> Ooredoo Technical Standards </a>    
+                                        </li>
+                                                                                                            </ul>
+                            </div>
+                                                            </div> <!-- END :: Accordion Item -->
+            </div>
+
+        </div>
+    </section>
+    <!-- END :: Regulatory Accordion -->
+
+    
+    <!-- START :: Regulatory Info Section -->
+    <section class="regulatory-info">
+        <div class="container regulatory-container">
+            <div class="regulatory-links">
+                <h4 class="h4 regulatory-links__title text-center"> General Terms and Conditions </h4>
+                <div class="row">
+                                                                        <div class="col-12 col-lg-4">
+                                <a href="https://www.ooredoo.qa/web/en/general-terms-and-conditions-for-consumer-services/"> Consumer <div style="     position: absolute;     font-size: 10px;     transform: translateY(10px); "><br>Last Updated on 12 June 2024</div> </a>
+                            </div>
+                                                    <div class="col-12 col-lg-4">
+                                <a href="https://www.ooredoo.qa/web/wp-content/uploads/2026/03/Ooredoos-MSA-amended-Compensation-Scheme.pdf"> Business <div style="     position: absolute;     font-size: 10px;     transform: translateY(10px); "><br>Last Updated on 12 June 2024</div> </a>
+                            </div>
+                                                    <div class="col-12 col-lg-4">
+                                <a href="https://www.ooredoo.qa/web/en/website-privacy-policy/"> Ooredoo Privacy Policy </a>
+                            </div>
+                                                            </div> <!-- END :: Row -->
+
+                <h4 class="h4 regulatory-links__title text-center">  Information for Developers </h4>
+                <div class="row">
+                                                                        <div class="col-12 col-lg-4">
+                                <a href="https://www.ooredoo.qa/web/wp-content/uploads/2023/01/FINAL02_-1411-Standard-In-Building-Wiring-Bilingual_v70-INBW.pdf"> Standard Inbuilding Wiring </a>
+                            </div>
+                                                            </div> <!-- END :: Row -->
+            </div> <!-- END :: Regulatory Links -->
+
+                        <div class="regulatory-links">
+    <h4 class="h4 regulatory-links__title text-center"> Quality of Service Reports</h4>
+    <div class="row">
+        <div class="col-12 col-lg-6">
+            <a
+                href="https://www.ooredoo.qa/web/wp-content/uploads/2026/06/Ooredoo-QCR-2026-Q1-1.pdf">
+                Quality of Service Reports 2026
+            </a>
+        </div>
+        <div class="col-12 col-lg-6">
+
+            <a href="https://www.ooredoo.qa/web/en/regulatory/quality-of-service-reports-archive/" class="link-with-arrow w-100 d-flex h-100 m-0">
+                <img src="/web/wp-content/themes/ooredoo-cms/regulatory/images/accordion-link-img.svg"
+                    alt="PERMANENT TARIFF ARCHIVE">
+                Quality of Service Reports Archive
+            </a>
+        </div>
+    </div>
+    <!-- END :: Row -->
+</div>                        
+
+            <div class="communications-reg-authority">
+                <div class="com-reg-wrapper">
+                                                                        <div class="row com-main-info">
+                                <div class="col-12 col-lg-6">
+                                    <h5 class="h5 communications-reg-authority__title"> The Communications Regulatory Authority </h5>
+                                    <p class="communications-reg-authority__desc"> 
+                                        Consumer & Government Affairs Department                                    </p>
+                                </div>
+                                <div class="col-12 col-lg-6 text-right communications-reg-authority__img">
+                                                                        <img src="https://www.ooredoo.qa/web/wp-content/uploads/2022/05/The-Communications-Regulatory-Authority.svg" alt="" title="The-Communications-Regulatory-Authority" />
+                                </div>
+                            </div> <!-- END :: Main info -->
+            
+                            <div class="row com-secondary-info">
+                                <div class="col-12 col-lg-3">
+                                    <div class="authority-info">
+                                        <h6 class="h6 authority-info__label"> 24-hour hotline number </h6>
+                                        <span> 103 </span>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-lg-3">
+                                    <div class="authority-info">
+                                        <h6 class="h6 authority-info__label"> International Calling number </h6>
+                                        <a href="tel:+974-44069938">+974-44069938</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-lg-3">
+                                    <div class="authority-info">
+                                        <h6 class="h6 authority-info__label"> Fax </h6>
+                                        <a href="tel:+97444995515">+97444995515</a>
+                                    </div>
+                                </div>
+                            </div> <!-- END :: Secondary info -->
+            
+                            <div class="row com-secondary-info">
+                                <div class="col-12 col-lg-3">
+                                    <div class="authority-info">
+                                        <h6 class="h6 authority-info__label"> Address </h6>
+                                        <span> PO Box 23404, Doha, Qatar </span>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-lg-3">
+                                    <div class="authority-info">
+                                        <h6 class="h6 authority-info__label"> Email </h6>
+                                        <a href="/cdn-cgi/l/email-protection#12717d7c61677f7760647d7b7177527160733c757d643c6373"><span class="__cf_email__" data-cfemail="a2c1cdccd1d7cfc7d0d4cdcbc1c7e2c1d0c38cc5cdd48cd3c3">[email&#160;protected]</span></a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-lg-3">
+                                    <div class="authority-info">
+                                        <h6 class="h6 authority-info__label"> Website </h6>
+                                        <a href="http://www.cra.gov.qa" target="_blank">www.cra.gov.qa</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-lg-3">
+                                    <div class="authority-info">
+                                        <h6 class="h6 authority-info__label"> Twitter </h6>
+                                        <a href="https://www.twitter.com/@CRAqatar">@CRAqatar</a>
+                                    </div>
+                                </div>
+                            </div> <!-- END :: Secondary info -->
+                                                            </div>
+            </div>
+        </div>
+    </section>
+    <!-- END :: Regulatory Info Section -->
+
+
+
+
+  <footer class="CMS-footer-menu">
+    <div class="top">
+      <div class="row col-md-8 mr-0 ml-0 menu-links d-md-none d-lg-none d-xl-none" id="cms-footer-mobile-menus">
+                                      <div class="panel-group col-md-3 pr-0" id="accordion">
+              <div class="panel panel-default">
+                  <div class="panel-heading pt-1 pb-1" >
+                                            <a data-toggle="collapse" class="panel-title collapsed" data-parent="#accordion" href="#AboutOoredoo_0">
+                        About Ooredoo  
+                        <i class="fa fa-plus"></i>
+                      </a>
+                  </div> 
+                  <div id="AboutOoredoo_0" class="panel-collapse collapse in">
+                    <ul>
+                                                                                                                                  <li><a class="CMS-footer-menu-link" href="https://www.ooredoo.qa/web/en/about-us/" target="_self">About Us</a></li>
+                                                                                                                                        <li><a class="CMS-footer-menu-link" href="https://www.ooredoo.qa/web/en/ooredoo-qatar-ai/" target="_self">AI at Ooredoo Qatar</a></li>
+                                                                                                                                        <li><a class="CMS-footer-menu-link" href="https://www.ooredoo.qa/web/en/postpaid-plans/switch-to-ooredoo/" target="_self">Switch to Ooredoo</a></li>
+                                                                                                                                        <li><a class="CMS-footer-menu-link" href="https://www.ooredoo.qa/web/en/press-release/" target="_self">Press Room</a></li>
+                                                                                                                                        <li><a class="CMS-footer-menu-link" href="https://www.ooredoo.qa/web/en/careers/" target="_self">Careers</a></li>
+                                                                                                                                        <li><a class="CMS-footer-menu-link" href="https://www.ooredoo.qa/web/en/about-us/certifications-awarded-to-ooredoo/" target="_self">Ooredoo ISO Certifications</a></li>
+                                                                                                                                        <li><a class="CMS-footer-menu-link" href="https://www.ooredoo.qa/web/en/pioneering-sustainability/" target="_self">Pioneering Sustainability</a></li>
+                                                                                              </ul>
+                  </div>
+              </div>
+            </div>
+                      <div class="panel-group col-md-3 pr-0" id="accordion">
+              <div class="panel panel-default">
+                  <div class="panel-heading pt-1 pb-1" >
+                                            <a data-toggle="collapse" class="panel-title collapsed" data-parent="#accordion" href="#LegalFinance_1">
+                        Legal & Finance  
+                        <i class="fa fa-plus"></i>
+                      </a>
+                  </div> 
+                  <div id="LegalFinance_1" class="panel-collapse collapse in">
+                    <ul>
+                                                                                                                                  <li><a class="CMS-footer-menu-link" href="https://www.ooredoo.qa/web/en/regulatory/" target="_self">Regulatory</a></li>
+                                                                                                                                        <li><a class="CMS-footer-menu-link" href="https://www.ooredoo.qa/web/en/about-us/corporate-governance/" target="_self">Corporate Governance</a></li>
+                                                                                                                                        <li><a class="CMS-footer-menu-link" href="https://www.ooredoo.com/en/investors/" target="_self">Investor Relations</a></li>
+                                                                                                                                        <li><a class="CMS-footer-menu-link" href="https://www.ooredoo.qa/web/wp-content/uploads/2022/03/our-customer-charter-en.pdf" target="_self">Customer Charter</a></li>
+                                                                                                                                        <li><a class="CMS-footer-menu-link" href="https://www.ooredoo.qa/web/wp-content/uploads/2022/03/Website-notice-Qatar-Central-Securities.pdf" target="_self">Qatar Central Securities Depository (Notice)</a></li>
+                                                                                                                                        <li><a class="CMS-footer-menu-link" href="https://www.ooredoo.qa/web/en/whistleblower/" target="_self">Whistleblowing</a></li>
+                                                                                                                                        <li><a class="CMS-footer-menu-link" href="https://www.ooredoo.qa/web/en/e-procurement/" target="_self">e-Procurement</a></li>
+                                                                                              </ul>
+                  </div>
+              </div>
+            </div>
+                      <div class="panel-group col-md-3 pr-0" id="accordion">
+              <div class="panel panel-default">
+                  <div class="panel-heading pt-1 pb-1" >
+                                            <a data-toggle="collapse" class="panel-title collapsed" data-parent="#accordion" href="#Policies_2">
+                        Policies  
+                        <i class="fa fa-plus"></i>
+                      </a>
+                  </div> 
+                  <div id="Policies_2" class="panel-collapse collapse in">
+                    <ul>
+                                                                                                                                  <li><a class="CMS-footer-menu-link" href="https://www.ooredoo.qa/web/wp-content/uploads/2025/05/Business-Continuity-Management-Policy-External.pdf" target="_self">BCM Policy</a></li>
+                                                                                                                                        <li><a class="CMS-footer-menu-link" href="https://www.ooredoo.qa/web/wp-content/uploads/2024/05/QHSE-Management-Systems-Policy.pdf" target="_self">QHSE-Policy</a></li>
+                                                                                                                                        <li><a class="CMS-footer-menu-link" href="https://www.ooredoo.qa/web/wp-content/uploads/2024/01/SMS-Policy-External_Version.pdf" target="_self">SMS Policy </a></li>
+                                                                                                                                        <li><a class="CMS-footer-menu-link" href="https://vdp.ooredoo.qa/p/syash-alifsah-an-althghrat-alamnyh-wtqdymha?lang=en" target="_self">Vulnerability Disclosure Policy </a></li>
+                                                                                                                                        <li><a class="CMS-footer-menu-link" href="https://www.ooredoo.qa/web/wp-content/uploads/2024/01/Information-Security-Policy-external_version.pdf" target="_self">Information Security Policy</a></li>
+                                                                                              </ul>
+                  </div>
+              </div>
+            </div>
+                        </div>
+      <div class="row col-md-8 mr-0 ml-0 menu-links d-none d-sm-flex" id="cms-footer-menus">
+                              <div class="items">
+                <div class="row">
+                    <div class="CMS-footer-menu-content col-xs-12">
+                        <p class="title">About Ooredoo</p>
+                                                                                                                                                      <a class="CMS-footer-menu-link" href="https://www.ooredoo.qa/web/en/about-us/" target="_self">About Us</a>
+                                                                                                                                                            <a class="CMS-footer-menu-link" href="https://www.ooredoo.qa/web/en/ooredoo-qatar-ai/" target="_self">AI at Ooredoo Qatar</a>
+                                                                                                                                                            <a class="CMS-footer-menu-link" href="https://www.ooredoo.qa/web/en/postpaid-plans/switch-to-ooredoo/" target="_self">Switch to Ooredoo</a>
+                                                                                                                                                            <a class="CMS-footer-menu-link" href="https://www.ooredoo.qa/web/en/press-release/" target="_self">Press Room</a>
+                                                                                                                                                            <a class="CMS-footer-menu-link" href="https://www.ooredoo.qa/web/en/careers/" target="_self">Careers</a>
+                                                                                                                                                            <a class="CMS-footer-menu-link" href="https://www.ooredoo.qa/web/en/about-us/certifications-awarded-to-ooredoo/" target="_self">Ooredoo ISO Certifications</a>
+                                                                                                                                                            <a class="CMS-footer-menu-link" href="https://www.ooredoo.qa/web/en/pioneering-sustainability/" target="_self">Pioneering Sustainability</a>
+                                                                                                          </div>                                     
+                </div>
+            </div>
+                      <div class="items">
+                <div class="row">
+                    <div class="CMS-footer-menu-content col-xs-12">
+                        <p class="title">Legal & Finance</p>
+                                                                                                                                                      <a class="CMS-footer-menu-link" href="https://www.ooredoo.qa/web/en/regulatory/" target="_self">Regulatory</a>
+                                                                                                                                                            <a class="CMS-footer-menu-link" href="https://www.ooredoo.qa/web/en/about-us/corporate-governance/" target="_self">Corporate Governance</a>
+                                                                                                                                                            <a class="CMS-footer-menu-link" href="https://www.ooredoo.com/en/investors/" target="_self">Investor Relations</a>
+                                                                                                                                                            <a class="CMS-footer-menu-link" href="https://www.ooredoo.qa/web/wp-content/uploads/2022/03/our-customer-charter-en.pdf" target="_self">Customer Charter</a>
+                                                                                                                                                            <a class="CMS-footer-menu-link" href="https://www.ooredoo.qa/web/wp-content/uploads/2022/03/Website-notice-Qatar-Central-Securities.pdf" target="_self">Qatar Central Securities Depository (Notice)</a>
+                                                                                                                                                            <a class="CMS-footer-menu-link" href="https://www.ooredoo.qa/web/en/whistleblower/" target="_self">Whistleblowing</a>
+                                                                                                                                                            <a class="CMS-footer-menu-link" href="https://www.ooredoo.qa/web/en/e-procurement/" target="_self">e-Procurement</a>
+                                                                                                          </div>                                     
+                </div>
+            </div>
+                      <div class="items">
+                <div class="row">
+                    <div class="CMS-footer-menu-content col-xs-12">
+                        <p class="title">Policies</p>
+                                                                                                                                                      <a class="CMS-footer-menu-link" href="https://www.ooredoo.qa/web/wp-content/uploads/2025/05/Business-Continuity-Management-Policy-External.pdf" target="_self">BCM Policy</a>
+                                                                                                                                                            <a class="CMS-footer-menu-link" href="https://www.ooredoo.qa/web/wp-content/uploads/2024/05/QHSE-Management-Systems-Policy.pdf" target="_self">QHSE-Policy</a>
+                                                                                                                                                            <a class="CMS-footer-menu-link" href="https://www.ooredoo.qa/web/wp-content/uploads/2024/01/SMS-Policy-External_Version.pdf" target="_self">SMS Policy </a>
+                                                                                                                                                            <a class="CMS-footer-menu-link" href="https://vdp.ooredoo.qa/p/syash-alifsah-an-althghrat-alamnyh-wtqdymha?lang=en" target="_self">Vulnerability Disclosure Policy </a>
+                                                                                                                                                            <a class="CMS-footer-menu-link" href="https://www.ooredoo.qa/web/wp-content/uploads/2024/01/Information-Security-Policy-external_version.pdf" target="_self">Information Security Policy</a>
+                                                                                                          </div>                                     
+                </div>
+            </div>
+                  
+      </div>
+      <div class="col-md-4 appstore">
+        <div class="col-md-7 pl-0">
+          <p class="title">Get the latest <p>
+          <p class="title">
+          <span class="primary-color"><a href="https://www.ooredoo.qa/web/en/ooredoo-app/">Ooredoo App</a></span></p>
+          <p class="d-md-none d-lg-none d-xl-none">To keep track of your account, get upgrades &amp; more!</p>
+          <div class="icons">
+            <a id="Clicks_Get_The_Latest_App_App_Store" href="https://apps.apple.com/qa/app/ooredoo/id619828745" target="_blank">
+              <img width="100" src="https://www.ooredoo.qa/web/wp-content/themes/ooredoo-cms/assets/images/app-store-icon.png" alt="Download Ooredoo App on App Store" />
+            </a>
+            <a id="Clicks_Get_The_Latest_App_Google_Play" href="https://play.google.com/store/apps/details?id=qa.ooredoo.android" target="_blank">
+              <img width="100" src="https://www.ooredoo.qa/web/wp-content/themes/ooredoo-cms/assets/images/google-play-icon.png" alt="Download Ooredoo App on Google Play" />
+            </a>
+            <a id="Clicks_Get_The_Latest_App_Huawei" href="https://appgallery.huawei.com/app/C101185637" target="_blank">
+              <img width="100" src="https://www.ooredoo.qa/web/wp-content/themes/ooredoo-cms/assets/images/huawei-app-icon.svg" alt="" />
+            </a>
+          </div>
+          <p class="font-weight-bold d-none d-sm-flex">To keep track of your account, get upgrades &amp; more!</p>
+        </div>
+        <div class="col-md-5">
+            <img
+            class="float-img"
+            src="https://www.ooredoo.qa/web/wp-content/themes/ooredoo-cms/assets/images/mobile-app-banner-2026.png"
+            />
+      </div>
+      </div>      
+    </div>
+  </footer>
+  <footer class="CMS-footer-copyright">
+    <div class="wrap">
+      <div class="right order-md-2">
+          <div class="social-item title">Follow us</div>
+          <div class="social-item">
+              <a href="https://www.facebook.com/ooredooqatar" target="_blank">
+                  <img alt="Facebook Ooredoo Qatar" src='https://www.ooredoo.qa/web/wp-content/themes/ooredoo-cms/assets/images/facebook.svg' />
+              </a>
+          </div>
+          <div class="social-item">
+              <a href="https://www.instagram.com/OoredooQatar/" target="_blank">
+                  <img alt="Instagram Ooredoo Qatar" src='https://www.ooredoo.qa/web/wp-content/themes/ooredoo-cms/assets/images/instagram.svg' />
+              </a>
+          </div>
+          <div class="social-item">
+              <a href="https://twitter.com/ooredooqatar" target="_blank">
+              <img alt="Twitter Ooredoo Qatar" src='https://www.ooredoo.qa/web/wp-content/themes/ooredoo-cms/assets/images/twitter.svg' />
+              </a>
+          </div>
+          <div class="social-item">
+              <a href="https://www.youtube.com/user/OoredooQatar" target="_blank">
+              <img alt="Youtube Ooredoo Qatar" src='https://www.ooredoo.qa/web/wp-content/themes/ooredoo-cms/assets/images/youtube.svg' />
+              </a>
+          </div>
+          <div class="social-item">
+              <a href="https://www.linkedin.com/company/ooredooqatar" target="_blank">
+              <img alt="LinkedIn Ooredoo Qatar" src='https://www.ooredoo.qa/web/wp-content/themes/ooredoo-cms/assets/images/linkedin.svg' />
+              </a>
+          </div>               
+      </div>
+      <div class="left order-md-1">
+          <ul>
+                        <li>
+                  <a href="https://selfcare.ooredoo.qa/en/consumer/contact-us">Contact Us</a>
+              </li>
+              <li>
+                  <a href="https://www.ooredoo.qa/web/en/general-terms-and-conditions-for-consumer-services/">Terms & conditions </a>
+              </li>
+              <li>
+                  <a href="https://www.ooredoo.qa/web/en/website-privacy-policy/">Privacy policy</a>
+              </li>
+              
+                  
+          </ul>
+          <div class="copyright">
+          Ooredoo © 2026. All Rights Reserved          </div>
+      </div>
+    </div>
+  </footer>
+
+    <!-- START :: Custom CSS section -->
+    <style> 
+    .survey-wrap {
+    display: none;
+}
+
+.reg-accordion-item:nth-of-type(-n+2) .reg-accordion__body .reg-accordion-list.list-unstyled:first-child {
+  display: none;
+}
+
+ 
+    </style>
+    <!-- END :: Custom CSS section --> 
+
+
+<!-- START :: Footer Quick Code Section -->
+<style>
+@media (min-width: 820px) and (max-width: 1536px) {
+    .header-main-navbar .navbar-collapse .dropdown-toggle {
+        padding: 30px 7px !important;;
+    }
+}
+.result-content .list h1 {
+  text-transform: unset;
+}
+div#survey-modal {
+  bottom: 150px !important;
+}
+</style>
+
+
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+$(document).ready(function () {
+
+  /* =========================
+     CONFIG (EDIT THIS ONLY)
+  ========================== */
+var menuItems = [
+{
+    exactUrl: "https://www.ooredoo.qa/web/en/postpaid-plans/family/",
+    labelEN: "New",
+    labelAR: "جديد",
+    mobileIndex: 0
+}
+];
+
+  var isRTL = $("body").css("direction") === "rtl";
+
+  menuItems.forEach(function (item) {
+
+    var tagText = isRTL ? item.labelAR : item.labelEN;
+
+    /* =========================
+       DESKTOP
+    ========================== */
+$('a[href="' + item.exactUrl + '"]').each(function () {
+    var parent = $(this).parent();
+
+    if (!parent.find('.menu-new-tag').length) {
+        parent.append('<span class="menu-new-tag">' + tagText + '</span>');
+    }
+});
+
+    /* =========================
+       MOBILE
+    ========================== */
+    if ($(window).width() < 768) {
+
+      var panel = $('.navbar-nav .dropdown')
+        .first()
+        .find('.panel-group .panel-default')
+        .eq(item.mobileIndex); // 👈 dynamic index
+
+      if (panel.length && !panel.find('.menu-new-tag').length) {
+        panel.append('<span class="menu-new-tag">' + tagText + '</span>');
+      }
+    }
+
+  });
+
+});
+</script><!-- END :: Footer Quick Code Section -->
+<script type='text/javascript' src='https://www.ooredoo.qa/web/wp-content/themes/ooredoo-cms/inc/ms-live-chat/general-live-chat.js?ver=1790144240' id='general-live-chat-js'></script>
+<script type='text/javascript' src='https://www.ooredoo.qa/web/wp-content/themes/ooredoo-cms/assets/js/bootstrap.min.js?ver=4.5.2' id='oqcms-bootstrap-js-js'></script>
+<script type='text/javascript' src='https://www.ooredoo.qa/web/wp-content/themes/ooredoo-cms/assets/js/main.js?ver=1775688063' async='async' id='oqcms-main-script-js'></script>
+<script type='text/javascript' src='https://www.ooredoo.qa/web/wp-content/themes/ooredoo-cms/assets/js/matchHeight.min.js?ver=0.7.2' async='async' id='oqcms-match-height-js-js'></script>
+<script type='text/javascript' id='oqcms-pagination-js-js-extra'>
+/* <![CDATA[ */
+var ajaxnavigation = {"ajaxurl":"https:\/\/www.ooredoo.qa\/web\/en\/no-admin-ajax\/","query_vars":{"pagename":"regulatory","do_not_redirect":1}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.ooredoo.qa/web/wp-content/themes/ooredoo-cms/assets/js/pagination.js?ver=1.0.0' async='async' id='oqcms-pagination-js-js'></script>
+<script type='text/javascript' src='https://www.ooredoo.qa/web/wp-content/themes/ooredoo-cms/regulatory/js/regulatory.js?ver=1756879283' id='regulatory-js-js'></script>
+
+</body>
+</html>
