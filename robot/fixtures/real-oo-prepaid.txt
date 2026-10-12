@@ -1,0 +1,1903 @@
+Ooredoo Service Tariff No. C11-01
+Page 1 of 46
+General Tariff Information
+Service Provider Name Ooredoo Q.P.S.C.
+Tariff Number C11-01
+Marketing Name of the Retail Offer Prepaid mobile services (“Hala”)
+Tariff Type Standard Permanent
+Customer Group Consumer
+Tariff Effective Date 6 October2026
+Tariff Version Number 195
+Ooredoo Service Tariff No. C11-01
+Page 2 of 46
+Contents
+1 Definitions.......................................................................................................................................................... 5
+2 Tariff Terms and Conditions ....................................................................................................................... 5
+3 Service Description ........................................................................................................................................ 5
+4 Hala Plans ........................................................................................................................................................... 6
+4.1 Credit Top Ups (Hala Credit) ..................................................................................................... 7
+4.2 Hala 5G Recharge .......................................................................................................................... 7
+4.3 Hala Super Recharge.................................................................................................................. 10
+4.4 New Hala Super Recharge ......................................................................................................... 11
+4.5 Passes on New Hala Super Recharge ...................................................................................12
+4.6 Flexi Cards ...................................................................................................................................... 13
+4.7 Hala Welcome Pack ...................................................................................................................... 14
+4.8 Hala Smart Packs .......................................................................................................................... 14
+4.9 Hala Voice Recharges .................................................................................................................15
+4.9.1 Conditions ............................................................................................................................. 15
+4.9.2 Plans and charges .............................................................................................................. 15
+4.10 Hala Data Recharges ...................................................................................................................15
+4.10.1 Conditions ............................................................................................................................. 15
+4.10.2 Plans and charges .............................................................................................................. 16
+4.11 Your Special Offer ....................................................................................................................... 16
+4.12 Hala Unlimited Local Data Recharge ................................................................................... 16
+4.13 Hala daily TikTok pack ............................................................................................................... 17
+4.14 Hala Mini Data Packs .................................................................................................................. 17
+4.15 Super Booster Packs ...................................................................................................................18
+4.16 Urban Point subscription with Hala recharges ...............................................................18
+4.17 International packs .....................................................................................................................19
+4.17.1 India Key ................................................................................................................................. 19
+4.17.2 International Saver Key .................................................................................................... 19
+4.17.3 Bangladesh Key .................................................................................................................. 20
+4.17.4 Egypt Key .............................................................................................................................. 20
+4.17.5 Philippines Pack (Monthly) ............................................................................................ 20
+4.17.6 Philippines Pack (Weekly) ............................................................................................... 20
+4.17.7 Pakistan Key ........................................................................................................................ 20
+Ooredoo Service Tariff No. C11-01
+Page 3 of 46
+4.17.8 Pakistan Telenor Pack ..................................................................................................... 20
+4.17.9 India Packs ........................................................................................................................... 20
+4.17.10 India Super Key .................................................................................................................... 21
+4.17.11 Bangladesh Packs .............................................................................................................. 21
+4.17.12 New International Recharges ........................................................................................ 21
+4.17.13 Hala Visitor SIM for visitors to Qatar .......................................................................... 22
+4.17.14 Three Favourite Numbers .............................................................................................. 23
+4.17.15 Service Bundles - Optional Subscription Packs .................................................... 23
+4.18 Carry over feature ...................................................................................................................... 24
+4.19 Smartphone Plan ......................................................................................................................... 25
+4.20 Device Offer ................................................................................................................................... 25
+4.21 Other Services .............................................................................................................................. 25
+4.21.1 Call-Me-Back ....................................................................................................................... 25
+4.21.2 Collect Call............................................................................................................................ 25
+4.21.3 Credit Transfer ................................................................................................................... 26
+4.21.4 Prepaid to postpaid conversion ................................................................................... 26
+4.21.5 Easy-to-Remember Numbers ...................................................................................... 26
+4.21.6 Other Services and Rates ............................................................................................... 27
+4.21.7 Fast Credit ............................................................................................................................ 28
+4.21.8 Updating Ownership Offer ............................................................................................. 28
+4.21.9 Apple Watch Wireless Plan ............................................................................................. 28
+4.22 Standard Terms for Mobile Services ................................................................................... 29
+4.22.1 Local Calls ............................................................................................................................. 29
+4.23 Messaging ....................................................................................................................................... 29
+4.23.1 Short Message Service (SMS) ....................................................................................... 29
+4.23.2 Hala International SMS Key for Philippines ............................................................. 29
+4.23.3 Voice SMS ............................................................................................................................. 30
+4.24 Data Services ................................................................................................................................ 30
+4.24.1 Mobile Internet.................................................................................................................... 30
+4.24.2 Mobile Internet Packs ...................................................................................................... 30
+4.24.3 Zero Rated Apps ................................................................................................................ 32
+4.25 Voicemail ......................................................................................................................................... 33
+4.26 International services ............................................................................................................... 33
+4.26.1 Standard Charging ............................................................................................................ 33
+4.26.2 Ooredoo Passport .............................................................................................................. 33
+4.27 International Roaming .............................................................................................................. 34
+Ooredoo Service Tariff No. C11-01
+Page 4 of 46
+4.27.1 Standard services ............................................................................................................. 34
+4.27.2 Call Back Roaming ............................................................................................................. 37
+4.27.3 Hala Roaming Packs ......................................................................................................... 37
+5 Ooredoo Gamification ................................................................................................................................. 38
+6 Service Provider obligations .................................................................................................................... 38
+7 Subscriber obligations................................................................................................................................ 39
+8 Mobile number portability ......................................................................................................................... 39
+8.1 Porting of mobile number away from Ooredoo ............................................................... 39
+8.2 Porting of mobile numbers to Ooredoo .............................................................................. 40
+Ooredoo Service Tariff No. C11-01
+Page 5 of 46
+1 Definitions
+Ooredoo means Ooredoo Q.P.S.C.
+Roaming means utilizing an Ooredoo-enable mobile device to access services on the mobile
+network of a service provider other than Ooredoo whilst outside of Qatar.
+Service means Public Mobile Telecommunications Services, including voice calls, messaging
+and other services identified herein.
+Short Message Service (SMS) means a service feature that allows the subscriber to send a
+text message to another handset (also referred to as text messaging).
+Subscriber means the person or entity that enters into an agreement with Ooredoo to receive
+and pay for the service.
+Subscriber Identity Module Card (SIM Card) means an electronic card that contains the
+subscriber’s identity information for use with a mobile handset on a mobile network.
+Unstructured Supplementary Service Data (USSD) means a capability built into the mobile
+standard for support of transmitting information over the signaling channels of the mobile
+network
+User means the natural person who uses the service.
+2 Tariff Terms and Conditions
+This tariff is for a permanent standard service.
+This tariff contains charges and conditions applicable to the provision of consumer prepaid
+mobile services.
+These terms and conditions are in addition to the terms and conditions specified in other
+tariffs and the General Terms and Conditions for Consumer Services where referenced which
+can be found at www.ooredoo.qa
+3 Service Description
+Prepaid Mobile Service provides users with public mobile telecommunications services,
+including voice calling, messaging and data with a range of spending options for predefined
+sets of usage credit and service validity duration.
+The first top up on new Hala SIM has to be done within the initial line validity period of 30 days
+with credit top up QAR 10 and above or any other recharge which gives line validity. All other
+recharges such as Data Recharge, Dawli or Hala Smart card can also be made and these
+recharges will offer respective allowances and line validity. Customers will be sent relevant
+notification in this respect to be fully aware of the rules.
+Ooredoo Service Tariff No. C11-01
+Page 6 of 46
+Prepayment timing: The subscriber may prepay for usage and service validity at any time,
+even if the subscriber’s account has remaining credit.
+Maximum duration: The maximum duration of the service validity will be as per the last higher
+validity top up only. Any subsequent Top Up with the lower validity will not impact the already
+received higher validity.
+Grace period: If the service validity period expires, the subscriber will be entitled to a grace
+period of 179 days, during which time their service will be limited to incoming calls only. The
+remaining credit from all products/top ups and any remaining allowance will be forfeited at
+the start of the grace period and will not be refunded in any case. However, customers can
+reinstate the line by doing any Hala top up of QR 10 and above.
+Account suspension: If the subscriber fails to top up on or before the end of the grace period,
+a suspension period of 1 day will immediately commence.
+Account termination: If the subscriber fails to top up on or before the end of the suspension
+period, the account will be terminated, and the customer will permanently lose the assigned
+mobile number.
+4 Hala Plans
+The Hala SIM connection is charged at QAR 35 with a 30-day active line validity. The Hala SIM
+is charged at QAR 0 if purchased through eShop channel only with a 30 days active line
+validity.
+To extend the Hala SIM connection and line validity an initial credit top up of QAR 10 or greater
+must be completed within the 30 days service validity. The new Hala SIM customers will
+receive incoming calls for 30 days service validity irrespective of top up done or not.
+Completing a top up/recharge when using the Hala Service will automatically renew
+subscriptions to packs and/or keys discontinued earlier because of insufficient credit if the
+customer completes the top up within 30 days of the discontinuation of pack and/or key.
+Customers can stop automatic renewals by sending “STOP HOLD” to 121.
+Top up credit may be transferred to another customer (see 4.21.3). However, credit bonuses
+given to the customer by Ooredoo during a top up cannot be transferred to another customer.
+Calls made to Satellite phones like Iridium, Sky phone and Thuraya are not included in either
+the International Bonus Minutes or the International allowance offered on any of the products.
+Any Hala customer recharging with Super, Flexi, or Data of QAR 65 and above from our Digital
+Channels will get 15 % bonus on recharge allowance (Digital Offer). Digital Channels are
+Ooredoo App, Ooredoo Website, Ooredoo Mobile Money App and Bank Apps.
+Ooredoo Service Tariff No. C11-01
+Page 7 of 46
+4.1 Credit Top Ups (Hala Credit)
+Recharging with card/e-vouchers is available with the following options:
+Charge (QAR) Validity Period (Days)
+10 30
+20 30
+30 30
+40 30
+50 30
+60 30
+65 30
+100 90
+200 90
+Figure 1 – Recharging with Card/e-vouchers
+Recharging with ‘Direct top-up’ is available with the following options: The Hala customers
+can do direct Top Up via Ooredoo SSM machines or Internet Banking. Customer can chose any
+amount of Top up in between QR 10 and QR 500. Customer will get full credit in line of Top Up
+done and service line validity will be awarded as per below-mentioned slabs.
+Charge (QAR) Validity Period (Days)
+10 30
+11-19 30
+20-29 30
+30-34 30
+35-39 30
+40-49 30
+50-59 30
+60-64 30
+65-99 30
+100-199 90
+200-499 90
+500 90
+Figure 2 – Direct top-up
+4.2 Hala 5G Recharge
+The Hala 5G recharge provide customers local and international minutes, local data, credit. Its
+validity depends on the selected recharge:
+Ooredoo Service Tariff No. C11-01
+Page 8 of 46
+Hala 5G Recharge Hala 5G
+25
+Hala 5G
+60
+Hala 5G
+100
+Hala 5G
+150
+Hala 5G
+200
+Hala 5G
+250
+Price QR 25 QR 60 QR 100 QR 150 QR 200 QR 250
+Credit QR 5 QR 10 QR 20 QR 30 QR 40 QR 50
+Credit Validity 30 days 30 days 30 days 30 days 30 days 30 days
+Allowances
+Data 1 GB 2.5 GB 4 GB 7 GB 10 GB 16 GB
+International minutes1 15 25 50 75 100 125
+Local minutes 25 100 100 150 200 250
+Allowance Validity 7 days 14 days 30 days 30 days 30 days 30 days
+Out of Bundle
+Data allowance - - Unlimited Unlimited Unlimited Unlimited
+Data speed - - 128Kbps 128Kbps 128Kbps 128Kbps
+International calling - - 55 Dhs/min 55 Dhs/min 55 Dhs/min 55 Dhs/min
+Local calling - - 25 Dhs/min 25 Dhs/min 25 Dhs/min 25 Dhs/min
+Figure 3 Hala 5G Recharge
+The Hala 5G Recharges are applicable only for Hala (B2C and B2B) customers.
+The Hala 5G Recharge offers main balance credit, data and international and local minutes.
+The Hala 5G Recharge can work with any 2G, 3G, 4G or 5G device.
+Data and international and local minutes allowances are valid for 7 days and 14 days with QR25
+and QR60 respectively.
+Data and international and local minutes allowances with QR100 and above denominations
+are valid for 30 days.
+The out-of-bundle rates are applicable only with denominations of QR100 and above, are valid
+for 30 days from the date of activation of recharge and will be applicable in case customer
+runs out of data and minutes before the end of the 30-day period.
+The credit, data and minutes will be carried forward in case the customer activates another
+Hala 5G recharge before the expiry of existing remaining allowances.
+The international minutes in all Hala 5G Recharges are applicable to 120 countries.
+List of 120 applicable countries for international minutes with Hala 5G Recharge:
+COUNTRY IDD code COUNTRY IDD code COUNTRY IDD code
+INDIA 91 HONG KONG 852 GUATEMALA 502
+BANGLADESH 880 HUNGARY 36 HONDURAS 504
+INDONESIA 62 ICELAND 354 TAJIKISTAN 992
+NEPAL 977 IRAN 98 TURKMENISTAN 993
+PAKISTAN 92 IRAQ 964 GUADELOUPE 1638
+PHILIPPINES 63 IRELAND 353 UKRAINE 380
+SRI LANKA 94 JAPAN 81 URUGUAY 598
+1 Applicable for 120 countries as per the list mentioned below.
+Ooredoo Service Tariff No. C11-01
+Page 9 of 46
+COUNTRY IDD code COUNTRY IDD code COUNTRY IDD code
+THAILAND 66 JORDAN 962 UZBEKISTAN 998
+EGYPT 20 KENYA 254 VATICAN 39
+SUDAN 249 SOUTH KOREA 82 VENEZUELA 58
+BAHRAIN 973 KUWAIT 965 VIETNAM 84
+SAUDI ARABIA 966 KYRGYZSTAN 996 YEMEN 967
+TURKEY 90 LAOS 856 ZAMBIA 260
+UAE 971 LEBANON 961 TAIWAN 886
+UK 44 LIECHTENSTEIN 423
+USA 1 LITHUANIA 370
+CANADA 1 LUXEMBOURG 352
+ITALY 39 MACAO 853
+KAZAKHSTAN 7 MALAWI 265
+AFGHANISTAN 93 MALAYSIA 60
+ANDORRA 376 MALTA 356
+ANGOLA 244 MARTINIQUE 596
+ARGENTINA 54 MAURITIUS 230
+ARMENIA 374 MAYOTTE 262
+ARUBA 297 MEXICO 52
+AUSTRALIA 61 MONGOLIA 976
+AUSTRIA 43 MOZAMBIQUE 258
+BELGIUM 32 NAMIBIA 264
+BHUTAN 975 NETHERLANDS 31
+BOLIVIA 591 NETHERL. ANTILLES 599
+BOTSWANA 267 NEW CALEDONIA 687
+BRAZIL 55 NEW ZEALAND 64
+BRUNEI Darussalam 673 NIGERIA 234
+BULGARIA 359 NORWAY 47
+CAMBODIA 855 OMAN 968
+CHINA 86 PALESTINE 970
+COLOMBIA 57 PANAMA 507
+COSTA RICA 506 PARAGUAY 595
+CYPRUS 357 PERU 51
+CZECH REPUBLIC 420 POLAND 48
+DENMARK 45 PORTUGAL 351
+ECUADOR 593 ROMANIA 40
+EL SALVADOR 503 RUSSIA 7
+ESTONIA 372 SAN MARINO 378
+FAROE ISLANDS 298 SINGAPORE 65
+FINLAND 358 SLOVAKIA 421
+FRANCE 33 SLOVENIA 386
+FRENCH GUIANA 594 SOUTH AFRICA 27
+GEORGIA 995 SPAIN 34
+GERMANY 49 SURINAME 597
+GHANA 233 SWAZILAND 268
+GIBRALTAR 350 SWEDEN 46
+GREECE 30 SWITZERLAND 41
+Figure 4 Hala 5G Recharge – List of international countries
+Ooredoo Service Tariff No. C11-01
+Page 10 of 46
+4.3 Hala Super Recharge
+Hala Super Recharges provide customers with the allowances below, which validity depends on
+the selected recharge:
+Hala Super Recharge Super 100 Super 200 Super 500
+Price (QAR) 100 200 500
+Local Data (GB) 16 32 Unlimited2
+Local Data with the Digital Offer3 (GB) 18.4 38.8 Unlimited4
+Local Minutes 400 1,000 40,000
+Local Minutes with the Digital Offer 460 1,150 46,000
+International Minutes 20 + Country Bonus
+Minutes
+20 + Country Bonus
+Minutes
+20 + Country Bonus
+Minutes
+Allowance Validity (days) 28 28 28
+Endless data feature5 256 Kbps 1 Mbps 1 Mbps3
+Figure 5 Hala Super Recharge
+International Minutes are only valid for Bahrain, Bangladesh, Egypt, India, Indonesia, Nepal,
+Pakistan, Philippines (Globe), Saudi Arabia, Sri Lanka (Dialog), Sudan, Thailand, Turkey and U.A.E.
+Country Bonus International Minutes are as follows:
+Hala Super Recharge India Nepal Bangladesh Pakistan Philippines (Globe) Indonesia Sri Lanka (Dialog)
+Super 100, 200& 500 75 25 250 25 250 30 25
+Figure 6 Hala Super Recharge
+The International Minutes & Country Bonus Minutes with Super Recharge will be provisioned
+automatically upon recharge activation.
+The standard Pay As You Go rates will be applicable for voice and data services post consumption
+of standard allowance in Hala Super Recharge, wherever applicable.
+The local minutes allowance is not applicable for satellite calls, special numbers, Premium
+Service SMS, short-codes and hotline numbers.
+The local minutes and data allowances are non-transferable.
+The validity of allowance is time-stamped and will start from the date and time of recharge.
+Any Unused allowance on above Super Recharge i.e Local minutes , Local data , International
+Minute & International Bonus Minute will be carried over to the validity of next recharge , if the
+2 Customers opting for Super 500 will get 300GB at full speed and thereafter Endless Internet at a speed of 1Mbps.
+3 The Digital Offer grants 15% bonus on local data and minutes allowance. The bonus is consumed first and it is only available when the recharge is done through Ooredoo App, Ooredoo
+Money App and Ooredoo Website.
+4 Customers opting for Super 500 with the Digital Offer will get 345 GB at full speed and thereafter Endless Internet at a speed of 1Mbps.
+5 Endless Data feature provides customer with unlimited data usage at reduced speed for national mobile data service. It will be automatically activated once local data allowance provided
+against given Super Recharge amount is utilized by customer.
+Ooredoo Service Tariff No. C11-01
+Page 11 of 46
+existing recharge is renewed with another Super Recharge of QR 40 & more before the expiry of
+the existing Super recharge .
+Any remaining allowance in a customer’s account will be forfeited at the time of expiry of Hala
+Super Recharge in case of non-renewal before expiry.
+Ooredoo reserves the right to forfeit/cancel Hala Super Recharge in case any customer is using
+the same for commercial purpose or reselling.
+4.4 New Hala Super Recharge
+New Hala Super Recharge are available to customers in the denominations included in the table
+below:
+New Hala Super Recharge
+Denomination Super 15 Super 40 Super 50 Super 65 Super 75 Super 125 Super 250
+Price (QAR) 15 40 50 65 75 125 250
+Local Data (GB) 1.5 4 5 8 10 19 30
+Local Data with the Digital Offer6
+(GB) -NA- -NA- - NA- 9.2 11.5 21.8 4.5 GB
+Endless Local Data not included not included not included 256 Kbps 256 Kbps 256 Kbps not included
+Local Minutes 60 150 200 240 300 500 1,000
+Local Minutes with the Digital
+Offer -NA- -NA- -NA- 276 345 575 150
+International Minutes none 10 Minutes 10 + Country
+Bonus Minutes
+20 + Country
+Bonus Minutes
+20 + Country
+Bonus Minutes
+20 + Country
+Bonus Minutes 60 minutes
+International Minutes with the
+Digital Offer none none None 23 + Country
+Bonus Minutes
+23+ Country
+Bonus Minutes
+23 + Country
+Bonus Minutes 9 Minutes
+Roaming data (GB) none none None none none none 1
+Roaming Data with the digital
+Offer -NA- -NA- -NA- -NA- -NA- -NA- 150 MB
+Allowance Validity (days) 7 10 28 28 28 28 28 180
+Passes (number) (ref. section 4.5) - - 1 2 3 3 3
+Figure 7 New Hala Super Recharge
+International Minutes are only valid for Bahrain, Bangladesh, Egypt, India, Indonesia, Nepal,
+Pakistan, Philippines (Globe), Saudi Arabia, Sri Lanka (Dialog), Sudan, Thailand, Turkey and U.A.E.
+Country Bonus International Minutes as follows:
+6 The Digital Offer grants 15% bonus on local data, local minutes, and international minutes allowance. The bonus is consumed first and it is only available when the recharge is done through
+Ooredoo App, Ooredoo Money App and Ooredoo Website.
+Ooredoo Service Tariff No. C11-01
+Page 12 of 46
+New Super Recharge India Nepal Bangladesh Pakistan Philippines (Globe) Indonesia Sri Lanka (Dialog)
+Super 50 45 10 25 10 25 16 -
+Super 65 and above 75 25 250 25 250 30 25
+Figure 8 New Hala Super Recharge – Country bonus international minutes
+The International Minutes & Country Bonus Minutes with Super Recharge will be provisioned
+automatically upon recharge activation.
+The standard Pay As You Go rates will be applicable for voice and data services post consumption
+of standard allowance included in the New Hala Super Recharges, wherever applicable.
+Roaming data is available for use while roaming in passport countries
+List of the passport countries and operators is available at https://www.ooredoo.qa/roaming/
+Any unused allowance on Super Recharge QR 40 & more i.e. Local minutes, Local data,
+International Minute & International Bonus Minute will be carried over to the validity of next
+recharge, if the existing recharge is renewed with another Super Recharge of QR 40 & more
+before the expiry of the existing Super recharge. Carry over is applicable on Like-to-Like
+allowance .
+Any remaining allowance in a customer’s account will be forfeited at the time of expiry of Hala
+Super Recharge in case of non-renewal before expiry
+Ooredoo reserves the right to forfeit/cancel Hala Super Recharge in case any customer is using
+the same for commercial purpose or reselling.
+4.5 Passes on New Hala Super Recharge
+Customers who recharge with Super 50 & above will be eligible to claim Free Passes .
+Customers can choose from the three available Passes listed below :
+Pass Details
+Night Local Data Pass 4 GB Night Local Data available for use between 10 PM - 5 AM
+Social Local Data Pass 2 GB Social Local Data available to be used on TikTok, Facebook , Instagram & Snapchat
+Local Minute Pass 200 Local Minutes
+Figure 9 Available Passes
+Customers who recharge Super 50 will be eligible for 1 of the 3 available passes.
+Customers who recharge Super 65 will be eligible for 2 of the 3 available passes.
+Customers who recharge Super 75 and above will be eligible for all 3 passes.
+Customers will have to claim the Pass after recharging with an eligible Super Recharge.
+Customers can claim their Pass(es) for free from Ooredoo App or by dialing *100*13# on USSD .
+Pass(es) can be claimed anytime during the validity of the eligible recharge.
+Validity of the Pass(es) will be same as Validity of Super Recharge. For example, if Super
+Recharge expires on 31 January 2026, the applicable pass will also expire on 31 January 2026,
+even if the customer claimed the Pass on 25 January 2026.
+Ooredoo Service Tariff No. C11-01
+Page 13 of 46
+Pass(es) benefits cannot be carried forward and will expire on the day of expiry of the Original
+Recharge.
+4.6 Flexi Cards
+Customers can top up with Flexi Card and/or subscribe to Flexi Pack to gain Flexi Points. The
+Flexi Point can be used for national voice calling/SMS, International voice calling/SMS, local data
+services and voice calling/SMS and data while roaming.
+The Cards are available on the following denomination:
+Flexi Denomination Cards (QAR) 10 20 40 50 65 75 100 150 200
+Allocated Flexi Points 70 150 350 450 650 750 1,100 2,200 3,300
+Bonus Flexi Point -NA- -NA- -NA- -NA- 98 113 165 330 495
+Validity of allocated and bonus Flexi Point (days) 3 7 14 28 28 28 28 28 28
+Auto-renewal No Yes Yes Yes Yes Yes Yes Yes Yes
+Local Tariff on Flexi Recharge
+Local Minutes (point per 1 minute) 1 1 1 1 1 1 1 1 1
+Local SMS (point per 1 SMS) 1 1 1 1 1 1 1 1 1
+International Minutes Ref. to our website (https://www.ooredoo.qa/web/en/prepaid-
+plans/recharge/#&flexi)
+International SMS (point per 1 SMS) 1 1 1 1 1 1 1 1 1
+Roaming Tariff on Flexi Recharge
+Outgoing & Incoming Calls 10 Flexi Points = 1 Minute
+Outgoing SMS 10 Flexi Points = 1 SMS
+Roaming Data 1 Flexi Points = 5 MB
+Figure 10 Hala - Flexi Cards
+Terms and Conditions:
+71.1 Flexi Points cannot be used for Premium Service SMS, any Short Codes and any hotline numbers.
+Flexi Points are not applicable for any kind of satellite calls.
+71.2 Flexi Points are non-transferable.
+71.3 Points will be consumed automatically as and when customer uses any of the allowed service
+type. However, customers can block / assign points for specific service types – including
+roaming - within Flexi point remaining balance on Ooredoo App.
+71.4 The validity of Flexi Points will not be accumulated in case multiple cards are activated, and
+validity will be extended by days equal to validity of the new card activated.
+Ooredoo Service Tariff No. C11-01
+Page 14 of 46
+71.5 Customers can activate multiple Flexi Cards and carry forward of points is allowed in case
+subsequent card is activated before the expiry of currently active card.
+71.6 Flexi Points will be used first for local and international calls/SMS and local data services in case
+the customer has subscribed to any other pack or key which offers the same allowances with
+any validity.
+71.7 Ooredoo reserves the right to forfeit/cancel Flexi Points in case any customer is using the same
+for commercial purposes or reselling.
+4.7 Hala Welcome Pack
+Mobile calling allows a User to call local fixed and mobile telephone numbers from his mobile
+handset.
+Charging:
+73.1 The cost of the SIM card is QAR 35 and the initial credit on the SIM is zero.
+73.2 All Standard out of bundle charges is reflected on section 4.22 unless the customer is
+subscribing to any optional subscription packs or Hala Smart Packs.
+Conditions:
+74.1 This SIM will be available to all new Hala customers, customers porting to Ooredoo, customers
+migrating from Ooredoo Postpaid to Ooredoo Prepaid and Hala SIM replacement.
+74.2 The customer will have to recharge through any of the Ooredoo top-up channels for any other
+mobile service.
+4.8 Hala Smart Packs
+The Hala Smart Packs is a weekly subscription enables any Ooredoo prepaid subscriber get a
+pack of minutes, and/or data depends on the packs.
+Conditions:
+76.1 To activate Hala Smart Packs, SMS the relevant code below for the weekly pack.
+76.2 To terminate Hala Smart Packs, SMS the activation code “STOP WP” to 121. The allowance and
+out of bundle rate is applicable after local allowance.
+76.3 To check balance: SMS “Balance WP” to 121.
+76.4 Standard Hala out of Bundle rates will apply.
+The Hala Smart Packs are offered in the following defined packages:
+Description Smart 10 Smart 15 Smart 60
+Local minutes 100 175 Unlimited
+Data (MB) 100 100 250
+Local OOB On-net call rate (QAR/min) 0.20 0.20 N / A
+Local OOB Off-net call rate (QAR/min) 0.20 0.20 N / A
+Ooredoo Service Tariff No. C11-01
+Page 15 of 46
+Description Smart 10 Smart 15 Smart 60
+OOB Local Data access rates 10 Dhs/MB for the first
+100 MB and thereafter
+15 Dhs/MB
+10 Dhs/MB for the first
+100 MB and thereafter
+15 Dhs/MB
+10 Dhs/MB for the first 100
+MB and thereafter 15
+Dhs/MB
+International call rate to 121 countries (QAR/min) 0.55 0.55 0.55
+Weekly fees (QAR) 10 15 60
+Figure 11 Hala Smart Packs
+Local SMS out of bundle rate is QAR 0.30 per SMS.
+4.9 Hala Voice Recharges
+This service feature allows users to make local calls to fixed and mobiles numbers, to send SMS,
+and to browse the Internet from their mobile device.
+4.9.1 Conditions
+Customers required entering the digit code on the Hala Voice Recharges via SMS or USSD to add
+local minutes and local data.
+Hala Voice Recharges can be purchased via Ooredoo retail, Ooredoo authorized dealers, and
+Ooredoo App.
+4.9.2 Plans and charges
+Hala Voice Recharges are offered in the following defined plans:
+Local
+Minutes
+(min.)
+Bonus Local
+Minutes7
+Local Data
+(MB)
+Charge
+(QAR)
+Validity
+Hala Voice Recharge 10 100 -NA- 100 10 3 days
+Hala Voice Recharge 15 150 -NA- 100 15 10 days
+Hala Voice Recharge 40 500 -NA- 100 40 28 days
+Hala Voice Recharge 50 700 -NA- 100 50 28 days
+Hala Voice Recharge 65 1,200 180 100 65 28 days
+Hala Voice Recharge 75 1,500 225 100 75 28 days
+Figure 12 Hala Voice Recharges
+4.10 Hala Data Recharges
+This service feature allows users to browse the Internet on their mobile device.
+4.10.1 Conditions
+Customers are required to enter the digit code on their Scratch Card Voucher via SMS or USSD
+to add Mobile Local Data.
+7 The Digital Offer grants bonus for local minutes. The bonus is consumed first and it is only available when the recharge is done through Ooredoo App, Ooredoo Money App and Ooredoo
+Website.
+Ooredoo Service Tariff No. C11-01
+Page 16 of 46
+Scratch Cards are available for purchase at Ooredoo retail shops, mass markets and Ooredoo
+App.
+Scratch Card Vouchers will be consumed first if the customer has an existing Mobile Local Data
+Pack.
+Customers will resume their Mobile Local Data Pack or move to the standard Pay As You Surf
+rate when the data allowance or validity is completed.
+4.10.2 Plans and charges
+Mobile Local Data Recharge are offered in the following defined packages:
+Denomination (QR) 10 20 25 40 50 65 75 80 100 150 200
+Allowance (GB) 4 2 12 6 8 11 14 12 20 25 35
+Allowance with the Digital Offer8 (GB) NA- -NA- -NA- -NA- -NA- 12.65 16.1 13.8 23 28.75 40.25
+Validity (days) 2 7 3 14 28 28 28 28 28 28 28
+Figure 13 Hala Mobile Local Data Recharge Cards
+4.11 Your Special Offer
+“Your Special Offer” refers to special personalized offers available on channels such as Ooredoo
+App, Retailer eTop (Direct top up), Ooredoo Money, USSD, SMS, etc. which Customers can avail
+via claim/recharge.
+Ooredoo Prepaid customers will have one or more “Your Special Offer” that can be claimed or
+recharged
+The price, benefits and validity of “Your Special Offer” are personalized according to customers’
+needs & usage behaviors.
+Customers will get standard recharge offers that may include benefits such as local data, social
+media data, night data (10 pm to 5 am), endless internet (speed as defined in product), local
+minutes and international minutes, Roaming data & Minutes etc. or any other non-
+telecommunications services as well.
+“Your Special Offer” works like any other standard Prepaid Recharge.
+Customers who opt in for the “Your Special Offer” will receive an SMS notification confirming the
+details of the accepted offer.
+4.12 Hala Unlimited Local Data Recharge
+Hala customers can subscribe to the following recharge:
+Unlimited Local Data 125 Unlimited Local Data 250
+Price (QAR) 125 250
+8 The Digital Offer grants bonus for local data. The bonus is consumed first and it is only available when the recharge is done through Ooredoo App, Ooredoo Money App and Ooredoo Website.
+Ooredoo Service Tariff No. C11-01
+Page 17 of 46
+Unlimited Local Data 125 Unlimited Local Data 250
+Local Data Allowance at Full Speed (GB) 100 150
+Additional Local Data Allowance at Full Speed in case of digital
+recharges9 (GB) 15 22.5
+Throttled Speed after the total Local Data Allowance above has
+been consumed
+Up to a speed of 1 Mbps
+(unlimited local data)
+Up to a speed of 512 Kbps
+(unlimited local data)
+Allowance Validity (days) 7 30
+Figure 14 Hala Unlimited Local Data Recharge
+Any remaining data allowance will not be carried forward irrespective of recharge done before
+the expiry of current one.
+4.13 Hala daily TikTok pack
+Hala customers can subscribe to the following pack:
+Hala daily TikTok pack
+Price (QAR) 5
+Full Speed TikTok Data (GB) 5
+Endless TikTok Data (kbps) @ 128
+Validity (days) 1
+Figure 15 Hala daily TikTok pack
+Any remaining data allowance will not be carried forward irrespective of recharge done before
+the expiry of current one.
+4.14 Hala Mini Data Packs
+Hala customers with active line can subscribe to the following add-on packs:
+Price Allowance for Local Data Validity
+1 QAR 1 GB 1 hour
+3 QAR 3 GB 3 hours
+5 QAR 5 GB 5 hours
+Figure 16 Hala Mini Data Packs
+The price amount will be deducted from the Hala Customers’ main credit balance.
+The validity of the allowance starts from the time of subscription.
+In case of multiple subscriptions each allowance will have its own validity.
+This is not a recurring subscription, Hala Customers will have to subscribe to a pack every time
+they want to use it.
+Unused local data will be forfeited at the time of expiry and cannot be carried over.
+9 The Digital Offer grants bonus for local data. The bonus is consumed first and it is only available when the recharge is done through Ooredoo App, Ooredoo Money App and Ooredoo Website.
+Ooredoo Service Tariff No. C11-01
+Page 18 of 46
+4.15 Super Booster Packs
+Active Hala customers who make Super recharge of 40 QAR or above are eligible to purchase
+any of the following add-on packs.
+Booster Type Price (QAR) Allowance Validity (Days)
+Regular Data 5 2 GB 2
+Night Data 5 4 GB 2
+Social Data 5 2 GB 2
+Local Voice 5 150 Minutes 2
+IDD voice 5
+IDD Main
+(Minutes) Country Bonus (Minutes)
+Egypt, India, Philippines,
+Sri Lanka, Thailand,
+Pakistan, KSA, UAE,
+Bangladesh, Bahrain,
+Turkey, Indonesia,
+Nepal, Sudan
+5
+India 15
+Bangladesh 10
+Philippines 10
+Pakistan 10
+Indonesia 5
+2
+Figure 17 Super Booster Packs
+Eligible customers may purchase one or more packs, each of which will expire according to its
+original validity period.
+Unused allownce will be forfeited at the time of expiry and cannot be carried over.
+Super Booster Packs are available for local data or local voice usage only (inside the State of
+Qatar).
+Night Data Pack is available for local data consumption from 10:00 PM until 5:00 AM.
+Social Data Pack is available for local data consumption only on Facebook, TikTok, Instagram and
+Snapchat.
+Super booster IDD voice pack allowance grants the sum of IDD Main minutes plus specific
+Country bonuses as shown in Figure 17.
+This is not a recurring subscription, so eligible Customers must subscribe to a pack each time
+they want to use it.
+4.16 Urban Point subscription with Hala recharges
+Customers who recharge Hala Super, Hala Data, Flexi, or Hala Voice with QAR 65 or more are
+eligible to receive a free Urban Point subscription, valid for 30 days.
+To claim the free Urban Point subscription, customers must use the Ooredoo App and ensure
+that the claim is made during the validity period of the qualifying recharge.
+If multiple recharges are completed, the Urban Point subscription validity will not be cumulative;
+the subscription will remain valid for 30 days from the date of the most recent claim.
+Ooredoo Service Tariff No. C11-01
+Page 19 of 46
+4.17 International packs
+4.17.1 India Key
+A customer may opt-in via SMS for a subscription charge of QAR 1.00 per week and be eligible to
+call India for a permanent rate of QAR 0.18 per minute (18Dhs per minute). The India Key is auto
+renewable.
+A customer may opt-in via SMS for a subscription charge of QAR 19 that gives customers 35
+minutes of calling to the following countries listed below. The validity of the IDD pack is 30 days
+or once the QAR 19 has been utilized completely by the customer, they may opt-in to another
+pack immediately afterwards.
+Country
+Bahrain
+Bangladesh
+Egypt
+India
+Indonesia
+Nepal
+Pakistan
+Philippines
+Saudi
+Arabia
+Sri Lanka
+Sudan
+Syria
+Thailand
+Turkey
+UAE
+UK
+USA
+Figure 18 List of Applicable countries
+4.17.2 International Saver Key
+A customer may opt-in via SMS for a subscription charge of QAR 1 per week and be eligible for:
+118.1 National voice calls for QAR 0.25 per minute to any mobile or landline;
+118.2 National SMS for QAR 0.30 per message to any network; and
+118.3 International voice call to the following countries for QAR 0.65/minute and SMS for 0.45/SMS
+message. Nepal Telecom has a special rate of QAR 0.20/minute.
+Afghanistan, Andorra, Angola, Argentina, Armenia, Aruba, Australia, Austria, Bahrain, Bangladesh, Belgium, Bhutan, Bolivia, Botswana, Brazil,
+Brunei Darussalam, Bulgaria, Cambodia, Canada, China, Colombia, Costa Rica, Cyprus, Czech Republic, Denmark, Ecuador, Egypt, El Salvador,
+Estonia, Faroe Islands, Finland, France, French Guiana, Georgia, Germany, Ghana, Gibraltar, Greece, Guadeloupe, Guatemala, Honduras, Hong
+Kong, Hungary, Iceland, India, Indonesia, Iran, Iraq, Ireland, Italy, Japan, Jordan, Kazakhstan, Kenya, Korea South, Kuwait, Kyrgyzstan, Laos,
+Lebanon, Liechtenstein, Lithuania, Luxembourg, Macao China, Malawi, Malaysia, Malta, Martinique (French Antilles), Mauritius, Mayotte, Mexico,
+Mongolia, Mozambique, Namibia, Nepal (NCell), Netherlands, Netherlands Antilles, New Caledonia, New Zealand, Nigeria, Norway, Oman, Pakistan,
+Palestine, Panama, Paraguay, Peru, Philippines, Poland, Portugal, Romania, Russia, San Marino, Saudi Arabia, Singapore, Slovakia, Slovenia,
+South Africa, Spain, Sri Lanka, Sudan, Suriname, Swaziland, Sweden, Switzerland, Taiwan China, Tajikistan, Thailand, Turkey, Turkmenistan,
+Ooredoo Service Tariff No. C11-01
+Page 20 of 46
+Ukraine, United Arab Emirates, United Kingdom, United States of America, Uruguay, Uzbekistan, Vatican, Venezuela, Vietnam, Yemen, and
+Zambia.
+Figure 19 International Saver Key – List of countries
+The International Saver Key is auto renewable.
+4.17.3 Bangladesh Key
+A customer may opt-in via SMS for a subscription charge of QAR 2 per week and be eligible to
+call and SMS to Bangladesh for QAR 0.25/minute and QAR 0.20/message. The Bangladesh Key
+is auto renewable.
+4.17.4 Egypt Key
+A customer may opt-in via SMS for a subscription charge of QAR 2 per week and be eligible to
+call to Egypt for QAR 0.45/minute. In addition, subscribers can make local calls within Qatar for
+QAR 0.20/minute to any number. The Egypt Key is auto renewable.
+4.17.5 Philippines Pack (Monthly)
+A customer may opt-in for subscription charge of QAR 50 per month and be eligible to call
+“Globe” Philippines number for 850 minutes. Standard international calling charges will apply
+when calling other operators.
+4.17.6 Philippines Pack (Weekly)
+A customer may opt-in for subscription charge of QAR 15 per week and be eligible to call “Globe”
+Philippines number for 250 minutes. Standard international calling charges will apply when
+calling other operators. In addition, subscribers will receive 250 MB local data valid for the day of
+activation only.
+4.17.7 Pakistan Key
+A customer may opt-in for subscription charge of QAR 2 per week and be eligible to call all
+Pakistan Networks for QAR 0.20 per minute.
+4.17.8 Pakistan Telenor Pack
+A customer may opt-in for subscription charge of QAR 10 per week and be eligible to call Pakistan
+Telenor network numbers for 100 minutes. In addition, subscribers will receive 150 MB local data
+valid on the day of activation.
+The out of bundle charges when subscribing to Nepal Telecom Packs is QAR 0.18 per minutes to
+call Nepal Telecom numbers in Nepal up to the validity of the packs.
+4.17.9 India Packs
+Ooredoo Service Tariff No. C11-01
+Page 21 of 46
+A customer may opt-in for these packs and be eligible to call to India with a validity which
+depends on the selected pack. Subscribers will also get bonus local minutes and bonus local data
+according to the selected Pack. The following are the packs available for the customers:
+Price QAR India Minutes Bonus Data
+(MB)
+Bonus Local
+Minutes
+Pack Validity
+(Days)
+Bonus Validity
+(Days)
+10 100 100 10 30 7
+30 325 250 25 30 7
+45 525 500 40 30 10
+60 725 750 50 30 10
+100 1250 1500 70 30 15
+200 2800 10000 200 30 30
+Figure 20 India Packs
+The out of bundle charges when subscribing to India Packs is QAR 0.10 per minutes to call to
+India up to the validity of the packs.
+4.17.10 India Super Key
+A customer may opt-in for subscription charge of QAR 2 per week and be eligible to call to India
+for QAR 0.11 per minute and QAR 0.25 per minutes for local calls. The Hala India Super Key is auto
+renewable.
+4.17.11 Bangladesh Packs
+A customer may opt-in for these packs and be eligible to call to Bangladesh with a validity which
+depends on the selected pack. Subscribers will also get bonus local minutes and bonus local data
+according to the selected Pack. The follow are the packs available for the customers:
+Price
+QAR Bangladesh Minutes Bonus Data
+(MB)
+Bonus Local
+Minutes
+Pack Validity
+(Days)
+Bonus Validity
+(Days)
+10 60 100 10 30 7
+30 200 250 25 30 7
+45 325 500 40 30 10
+60 450 750 50 30 10
+100 850 2000 70 30 15
+200 1750 10000 250 30 30
+Figure 21 Bangladesh Packs
+The out of bundle charges when subscribing to Bangladesh Packs is QAR 0.15 per minutes to call
+to Bangladesh up to the validity of the packs.
+4.17.12 New International Recharges
+The new International Recharges available to our Hala Customers are detailed in the figure below.
+Pack Price (QAR)
+International
+Minutes Validity Countries eligible for calling
+India QR 10 120 7 days India
+Ooredoo Service Tariff No. C11-01
+Page 22 of 46
+Bangladesh 70 Bangladesh
+Pakistan 30 Pakistan
+Philippines 70 Philippines
+Nepal 10 Nepal
+GCC 20 Bahrain | Kuwait | Oman | Saudi Arabia | UAE
+Africa 10 Sudan | Ethiopia | Kenya | Ghana | Egypt | Nigeria | Eritrea
+Figure 22 New International Recharges
+Terms and conditions:
+133.1 New IDD Packs are available to all Hala B2C customers,
+133.2 International minutes for the specified countries will be credited automatically following each
+recharge.
+133.3 Customers can also activate the new packs by dialling *100*16#,
+133.4 Unused international minutes cannot be carried forward on this recharge,
+133.5 If customers make multiple recharges, any unused minutes from each recharge will expire
+according to that recharge's expiry schedule.
+4.17.13 Hala Visitor SIM for visitors to Qatar
+Hala Visitor SIM is available to people visiting Qatar.
+Customers can select one of the following plans
+Visitor SIM – Basic10 Visitor SIM – Go Visitor SIM – Plus Visitor SIM - Pro
+Price (QAR) 35 75 100 150
+Local Data (GB) 0.3 6 10 25
+National Calling (Minutes) 10 25 100 400
+International Calling (Minutes) - - 25 75
+Validity (days) 3 7 14 30
+Figure 23 Hala Visitor SIM
+Customers purchasing our Hala Visitor SIM will get full access to the app Urban Point, to enjoy
+the service without additional charges for thirty (30) days. More specifically:
+136.1 The customers will get the Urban Point subscription valid for thirty (30) days from the date of
+the SIM purchase,
+136.2 After the activation of the SIM, the customers will receive an SMS with the password and the link
+to download the Urban Point App,
+10 This plan is only sold through our offshore sale channels. The other Visitor plans are sold on-line and trough our
+standard retail channels in Qatar
+Ooredoo Service Tariff No. C11-01
+Page 23 of 46
+136.3 After downloading the Urban Point App, the customers must click on the option “I already have
+an account”. Afterwards, the customers must login into the Urban Point App, using their Ooredoo
+Visitor SIM mobile number and the password (received via SMS) and their Urban Point
+subscription will be activated.
+The international minutes are valid for the countries listed in section 4.26.
+The standard out of bundle charges are included in the sections 4.22.1, 4.26 and 4.24.1. These
+out of bundle charges are applicable unless the customer is subscribing to any optional
+subscription packs or Hala Smart Packs.
+The customers will have to recharge their SIM through any of the Ooredoo top-up channels as
+for any other mobile service.
+4.17.14 Three Favourite Numbers
+Three Favorite Numbers provides a subscriber with a 25% discount on calls made to a maximum
+of three preselected international numbers of their choice.
+Three Favorite Numbers service is charged as a monthly fee.
+Fee Charge (QAR)
+Set-Up fee (one-off fee) 10
+Monthly fee per user 10
+Number change (up to three numbers per month) 5
+Figure 24 Three Favorite Numbers
+4.17.15 Service Bundles - Optional Subscription Packs
+Optional Subscription Packs enable any Ooredoo prepaid mobile Subscriber to pre-pay for a
+bundle of call or messaging units.
+Conditions:
+143.1 Optional Subscription Packs are valid for a defined period of time after which the units expire.
+143.2 Optional Subscription Packs cannot be transferred to another user.
+143.3 When Optional Subscription Pack minutes and/or messages are consumed, all of a Subscriber’s
+subsequent international call minutes or messages are charged at Ooredoo’s standard charge
+rates. Subscriber will be continuously notified of the remaining pack balance.
+143.4 Optional Subscription Pack units are not valid for calls or messages made while roaming outside
+Qatar or for premium-rated numbers.
+143.5 Local Calls units can be used to call any local fixed or mobile network within Qatar.
+143.6 International Call units can be used to call any international fixed or mobile network.
+International Call units cannot be used to call satellite or other special destinations listed in
+section 4.26.
+143.7 Local SMS units can be used to message any local mobile network within Qatar.
+Ooredoo Service Tariff No. C11-01
+Page 24 of 46
+143.8 International SMS units can be used to message any international mobile or fixed network.
+International SMS units cannot be used to satellite, or other special destinations listed in section
+4.26.
+143.9 Optional Subscription Packs that feature recurring subscriptions will automatically re-subscribe
+the Subscriber to the service upon expiration of the pack validity. Subscribers with insufficient
+credit to be automatically re-subscribed shall be informed that their re-subscription event has
+failed, and an automatic re-subscription will be attempted 24 hours later. If the subsequent re-
+subscription event fails, the Subscriber will be automatically unsubscribed from the recurring
+service and notified that they have been un-subscribed.
+143.10 Subscribers of Optional Subscription Packs that feature recurring subscriptions can un-
+subscribe themselves at any time from the service. Upon expiration of their existing pack, they
+will not be re-subscribed to the service.
+Optional Subscription Packs are offered in the following defined packages:
+Figure 25 Service Bundles - Optional Subscription Packs
+4.18 Carry over feature
+The Carry Over feature is designed to enhance customer value and satisfaction by allowing
+prepaid users to retain unused allowances from their current recharge.
+Carry Over enables prepaid customers to carry forward any unused allowances — including local
+data, local minutes, international minutes, and roaming data — from their current recharge to the
+validity period of their next recharge. To benefit from this feature, customers must recharge
+before the expiry of their existing recharge.
+This feature is available across Hala Credit, Super, Flexi, Voice & Data Recharges, offering
+seamless continuity and improved flexibility in managing telecom usage.
+The feature covers all allowances within eligible recharges, i.e., local minutes, international
+minutes, local data, and roaming data.
+Carry Over is valid only if the next recharge is done before the expiry of the current recharge.
+The feature applies within the same recharge category, regardless of denomination.
+Carry Over is not applicable on Super 15 recharge, on passes, on promotional bonuses (e.g., digital
+recharge offers), below the line recharges, and associated benefits.
+Any unused allowance will be forfeited if the customer does not recharge before the expiry of
+the current recharge.
+Optional Subscription Pack Charge (QAR) Validity
+(Days)
+Units
+(Call minutes or
+SMS)
+Re-subscription
+Service
+International SMS Weekly 10 10 7 20 No
+International SMS Monthly 30 30 30 65 No
+Ooredoo Service Tariff No. C11-01
+Page 25 of 46
+4.19 Smartphone Plan
+An optional feature that allows customers to get up to 3 months of FREE data upon purchasing
+of a selected Smartphone.
+Conditions:
+154.1 Customers can benefit from FREE data of up to 36GB.
+154.2 This optional feature is limited to selected devices and is a subject to the availability of these
+devices.
+154.3 Data will be first consumed from FREE data allowance. Once FREE data allowance is used up or
+its validity period is expired, customers will start consuming their data allowance within Hala
+Daily / Weekly Packs or will be charged standard Pay as You Surf rate.
+154.4 Customers will be notified via SMS when the FREE data is used up or validity period expired.
+154.5 Selected Smartphones are available on Ooredoo Retail Shops, Ooredoo eShop and Ooredoo’s
+Partners.
+154.6 Prices varies on the selected Smartphones.
+4.20 Device Offer
+An optional feature that allows customers to get FREE minutes and/or data upon purchasing of
+a selected device.
+Conditions:
+156.1 This optional feature is limited to selected devices and is a subject to the availability of these
+devices.
+156.2 Customers will be notified via SMS when the FREE minutes and/or data is used up or validity
+period expires.
+156.3 Selected devices are available on Ooredoo Retail Shops, Ooredoo eShop and Third party stores.
+156.4 Prices varies on the selected Smartphones.
+4.21 Other Services
+4.21.1 Call-Me-Back
+The Call-Me-Back Service allows mobile prepaid Subscribers to ‘request’ another SMS-enabled
+Ooredoo Subscriber to call the request party back when their prepaid credit level is too low to
+support the cost of the call.
+The Call-Me-Back service has a limitation of 3 such requests per user per day.
+Call-Me-Back service is free of charge.
+4.21.2 Collect Call
+Ooredoo Service Tariff No. C11-01
+Page 26 of 46
+The ‘Collect Call’ service allows prepaid mobile Subscribers to ‘request’ another Ooredoo prepaid
+or postpaid mobile Subscriber to receive and pay for a call from the requesting party.
+This service is free of charge in respect of ‘Connection’, ‘Monthly Fee’ and ‘Call Set-Up Fee’, and
+charged to the receiving party at the standard prevailing peak charge rate for national prepaid
+mobile-to-mobile calls on Ooredoo’s network.
+4.21.3 Credit Transfer
+A subscriber may transfer some or all of their existing airtime credit to another prepaid
+subscriber.
+Conditions:
+163.1 Minimum amount that may be transferred per transaction: QAR 10.
+163.2 Maximum amount that may be transferred per transaction: QAR 1,000.
+163.3 Service validity may not be transferred.
+163.4 Extra credit on main balance from Ooredoo Money top up cannot be transferred.
+Each transfer is charged at QAR 1.
+4.21.4 Prepaid to postpaid conversion
+A Subscriber may convert his or her prepaid mobile calling account to a postpaid account.
+There is no charge for this service.
+4.21.5 Easy-to-Remember Numbers
+Easy to remember numbers are desirable numbers classified in five categories according to the
+number of consecutive identical digits and other factors.
+The table below provides examples of the types of number patterns that are classified in each
+category. Due to the large number of number of permutations available, an exhaustive list is not
+shown.
+Number Category Typical format example
+Royal XXXXXXXX
+Diamond plus AXXXXXXX XXXXXXAX XXXXXXXA XYYYYYYX XAXXXXXX
+Diamond XXAXXXXX XXXAXXXX XXXXXYYY XXXXYYYY XXXYXXXY XXXYYXXX
+Platinum Plus XXYYYXXX XYXXXYYY XYXXXXXY XXXXYYYX XXYYYYXX XYYYXXXX
+Platinum XXXXYXXY XXXXYXYX XXXXYXYY XXXXYYXY XXXYXYYY XXXYYXXY
+Gold Plus XXXXAYYY XXXAYYYY XXXYYYZZ XXXXYYYA XXXYYYYA XXXXXAYY
+Gold AXXXXBXX AXXXXYXY AXXXXYYX AXXYYYYX XXXXXABC XXXXXABX
+Silver Plus ABXXXYYY XYYYYYXA XYZZZZXY ABXXYYYY XXXABYYY XXXYYYAX
+Silver ABXXXXYY ABXYYYYX AXBCXXXX AXBXYYYY AXXXBYYY AXXXXBYY
+Bronze ABXXXXCD ABXXXYXY ABXXXYYX ABXXYYYX ABXYXXXY ABXYXYYY
+Pearl AXXBCXXX AXXYBYYY AXYXYZZZ AXYYXZZZ XXXYZYZZ XXXYZZYZ
+Mercury XABXXYYY XAXYYZZZ XAYYXZZZ XXABCYYY XXABXYYY XXYABYYY
+Cooper XAYXYZZZ XXYXXAYY XXYXXYYA XXYXXYZZ XXYXYXZZ XYXYZXYZ
+8 digit sequence 23456789 34567890 45678991 56790092 67901193 79012294
+Ooredoo Service Tariff No. C11-01
+Page 27 of 46
+Number Category Typical format example
+7 digit sequence X0123456 X1234567 X2345678 X3456789 X4567901 X5679013
+6 digit sequence XY012345 XY123457 XY234567 XY345678 XY456789
+Descending 654321XY 543210XY
+Figure 26 ETR numbers – format example
+Easy to remember numbers remain under the administrative jurisdiction of CRA, which may
+require surrender or reassignment of certain telephone numbers at any time. In no case does
+Ooredoo guarantee the right to use any easy to remember number for more than one year
+following the date of assignment.
+Easy to remember numbers are subject to a one-time charge as follows:
+Number Classification Applicable one-time charge (QAR)
+Royal 1,000,000
+Diamond plus (with "0"s) 500,000
+Diamond plus 300,000
+Diamond (with "0"s) 200,000
+Diamond 150,000
+Platinum Plus (with "0"s) 50,000
+Platinum Plus 40,000
+Platinum (with "0"s) 35,000
+Platinum 25,000
+Gold Plus (with "0"s) 20,000
+Gold Plus 15,000
+Gold (with "0"s) 13,000
+Gold 10,000
+Silver Plus (with "0"s) 7,500
+Silver Plus 6,000
+Silver (with "0"s) 5,500
+Silver 4,500
+Bronze (with "0"s) 4,000
+Bronze 3,000
+Pearl (with "0"s) 2,500
+Pearl 1,500
+Mercury (with "0"s) 1,000
+Mercury 700
+Cooper (with "0"s) 500
+Cooper 300
+8 digit sequence 10,000
+7 digit sequence 3,000
+6 digit sequence 1,500
+Descending 300
+Figure 27 ETR numbers – charges
+4.21.6 Other Services and Rates
+Ooredoo Service Tariff No. C11-01
+Page 28 of 46
+Service One-Off Charges (QAR)
+SIM replacement 11 15
+Transfer of ownership 50
+Transfer of ownership for Easy to Remember Numbers12 200
+Number Change (Standard number only, Easy to Remember Number excluded) 50
+Figure 28 Other services and rates
+4.21.7 Fast Credit
+170.1 The ability for customers to borrow Hala Credit from Ooredoo. Ooredoo will send SMS asking if
+the customer would like to use Fast Credit offers. Fast Credit gives the customers amount up to
+QAR 100 to their account.
+Conditions:
+171.1 Main balance needs to be below QAR 1 or QAR 3.
+171.2 Fast Credit will be valid for 7 days.
+171.3 Customers need to reply “yes” to the received message to subscribe to Fast Credit.
+171.4 Fast Credit cannot be used for credit transfer.
+171.5 The fast credit amount depends on the customer’s usage behavior.
+Charging:
+172.1 The service fee charged for Fast Credit will also depend on the loan advanced and will vary
+between QAR 1 to QAR 20.
+172.2 An amount equivalent to loan advanced plus applicable service fee will be automatically
+deducted upon the next recharge from the subscriber.
+4.21.8 Updating Ownership Offer
+Customers who update their ownership documents (QID) in Ooredoo’s system and then registers
+to Ooredoo Mobile Money will get 500MB free data for 10 days validity.
+Customers need to register for Full Ooredoo Mobile Money Wallet within 7 days of the takeover
+or transfer of ownership. Mobile Money Terms and Conditions Applies.
+The transfer of ownership is free of charge.
+4.21.9 Apple Watch Wireless Plan
+Supported Apple Watch models (cellular) can be paired with a mobile number and a mobile tariff
+plan. Customers who activate and pair Apple Watch with their tariff mobile device and Ooredoo
+plan can make and receive local calls, send and receive local SMS, make and receive international
+11 The SIM replacement will be free of charges if the replacement is from a physical SIM with an eSIM.
+12 Clause 169 is applicable.
+Ooredoo Service Tariff No. C11-01
+Page 29 of 46
+call and use local data directly using Apple Watch without the need of paired mobile device
+proximity.
+Supported Apple Watch models and pairing instructions can be found on www.ooredoo.qa
+Charges:
+178.1 One Time activation fee: QAR 50
+178.2 Recurring monthly rental fee: QAR 30
+178.3 All mobile service usage made on Apple Watch after pairing it with the user’s tariff plan will be
+charged and deducted according to the rates of the Ooredoo mobile tariff plan to which user
+subscribes to.
+4.22 Standard Terms for Mobile Services
+4.22.1 Local Calls
+Local calling allows a User to call local fixed and mobile telephone numbers from his mobile
+handset.
+Local calling is charged on a per-minute basis:
+Service Charges (QAR/min)
+Voice Calls to Ooredoo mobiles or landlines 0.75
+Voice Calls to other mobiles or landlines 0.75
+Video calls to Ooredoo mobiles 0.55
+Video calls to other mobiles 0.55
+Voicemail (all Qatar Networks) 0.75
+Postpaid Audiotext (9001xxx, 9002xxx) 1 – 100
+Three Digit Short Code voice calls 1 – 100
+Figure 29 Hala Services – charges for local calling
+4.23 Messaging
+4.23.1 Short Message Service (SMS)
+A service feature that allows the subscriber to send a text message to another handset (also
+referred to as text messaging).
+SMS messages are charged on a per message basis
+Service Charges (QAR)/ message
+SMS messages (peak/off-peak) 0.39
+SMS short code access (924xx, 925xx, 928xx, 929xx, 92730-92759) 0 – 100
+SMS to the number 151 for Mobile Number Portability 0
+SMS to ‘In flight’ mobiles (via Access code 88299) 5.00
+Figure 30 Hala Services – Charges for SMS
+4.23.2 Hala International SMS Key for Philippines
+Ooredoo Service Tariff No. C11-01
+Page 30 of 46
+A customer may opt-in via SMS for a subscription charge of QAR 1 per week and be eligible to
+SMS to Philippines for QAR 0.12 per SMS. For opt-in, customer can send SMS contain “SPHI” to
+121 for service activation. If the customer is no longer needed the service, he may opt-out by
+sending “STOP SPHI” to 121.
+4.23.3 Voice SMS
+Voice SMS allows an Ooredoo mobile subscriber to record and store short voice messages for
+later retrieval by the recipient. SMS notification is sent to the intended recipient, who has the
+option of listening to the associated voice message.
+Conditions:
+185.1 Voice SMS messages may be sent or retrieved by roaming Ooredoo mobile subscribers.
+185.2 Storage and replay of messages: Up to 25 voice SMS messages of 30 seconds maximum duration
+each can be stored per intended recipient.
+185.3 For sending or retrieving a voice SMS from/to an Ooredoo mobile outside Qatar, the Subscriber
+is charged at the standard voice SMS rate per message plus the applicable roaming mobile voice
+call charge per minute.
+Voice SMS messages are charged as per the following table. There is no charge to listen to
+messages for the first time, but replayed messages are charged as follows:
+Service Charges (QAR)/ message
+Voice SMS
+to send: 0.55
+message replay: 0.20
+Figure 31 Hala Services – Charges for Voice SMS
+4.24 Data Services
+4.24.1 Mobile Internet
+A service feature that allows Users to browse the Internet and WAP sites over their mobile
+handset.
+PAYG Mobile Internet charges is 20 Dhs/MB.
+4.24.2 Mobile Internet Packs
+Optional Mobile internet Packs (MIP) enable any Ooredoo prepaid mobile Subscriber to pre-pay
+for an amount of Mobile internet Megabytes (units).
+Conditions:
+MIP are valid for a defined period of time after which the units expire.
+MIP cannot be transferred to another user.
+When MIP are consumed, all of a Subscriber’s subsequent usage will be charged at Ooredoo’s
+standard charge rates. Subscriber will be continuously notified of the remaining pack balance.
+Ooredoo Service Tariff No. C11-01
+Page 31 of 46
+MIP units are not valid while roaming outside Qatar.
+MIP that feature recurring subscriptions will automatically re-subscribe the Subscriber to the
+service upon expiration of the pack validity. Subscribers with insufficient credit to be
+automatically re-subscribed shall be informed that their re-subscription event has failed and an
+automatic re-subscription will be attempted 24 hours later. If the subsequent re-subscription
+event fails, the Subscriber will be automatically unsubscribed from the recurring service and
+notified that they have been un-subscribed.
+Subscribers of MIP that feature recurring subscriptions can un-subscribe themselves at any time
+from the service. Upon expiration of their existing pack, they will not be re-subscribed to the
+service.
+Fair Usage Policy
+197.1 The Unlimited Service plan is offered for “reasonable” use only. Excessive use of the service
+beyond that which in Ooredoo’s reasonable discretion, is used for normal consumer service and
+which, as a result has the potential to negatively impact the quality of service available to other
+Ooredoo subscribers, may result in the suspension, speed throttling, traffic shaping or
+termination of the service.
+Optional Subscription Packs are offered in the following defined packages:
+Tariff Plan Charge (QAR) Allowance (MB)
+Daily
+Daily Data 1 1 10
+Daily Data 4 4 50
+Daily Flexi 20 1,000
+Weekly
+Weekly 1GB 20 1,000
+Weekly Unlimited13 125 Unlimited
+Figure 32 Hala Services – Mobile Internet Packs
+Other terms:
+199.1 Daily Data 1 and 4: if the customer exceeds their limit can they renew or choose to use the pay-
+as-you-go service.
+199.2 Daily Flexi: With Hala Flexi customer get 1GB for only QAR 20 daily. The customer gets refunded
+at end of the day for any unused data.
+199.3 Weekly 1GB: With the Weekly 1GB bundle for just QAR 20/week, customer can transfer any
+unconsumed data to next week. Customer needs to continue the subscription to continue
+accruing their data balance. With the Weekly 20 add-on for only QAR 20 per week customer can
+13 If you are a subscriber before the 28th of July 2016, you will enjoy your old Mobile Internet Unlimited Plan price of QAR 100 per week.
+Ooredoo Service Tariff No. C11-01
+Page 32 of 46
+add more data to Weekly pack as many times as they want. If customer renews Weekly 1GB pack,
+data will be carried over to the next week’s pack.
+199.4 Weekly Unlimited: Unlimited data FUP: At 100GB usage the maximum speed you can avail on 3G
+is 1Mbps and on 4G is 2Mbps until the renewal date of your data pack. At 125GB usage the
+maximum speed you can avail on 3G is 256Kbps and on 4G 512Mbps until the renewal date of
+your data pack. There will be no charges after the FUP is reached (applies to Weekly Unlimited).
+199.5 Speed booster: For the Weekly Unlimited Pack, the subscriber who exceeds 100 Gb of usage can
+restore their speed by purchasing one of the following:
+199.6 Speed booster (daily pack) at QAR 20 by sending SMS with text “SB 20” 121. The daily pack will
+provide 5 GB at full speed.
+199.7 Speed booster (weekly pack) at QAR 100 by sending SMS with text “SB 100” to 121. The weekly
+pack will provide 25 GB at full speed.
+199.8 Fair Usage Policy (FUP): After the speed booster expires or the customer consume the data pack
+allowance, the speed will be lowered according to the selected packs.
+199.9 Hala Balance Protection Feature: The Feature will automatically be activated whenever
+customers have no local data pack activated or when they consume the local data pack
+allowance (Data Card Allowance or Mobile Internet Allowance. For the first 100 MB of Pay As You
+Go (PAYG), the data usage will be charged at 0.10 QAR per MB. The rest of the data usage until
+midnight of the same day will be charged at 0.15 QAR per MB.
+4.24.3 Zero Rated Apps
+199.10 Customers will not incur any data charges while accessing the below listed “Zero Rated”
+applications. This data consumption will not be deducted from the allowance of the data packs
+subscribed by the customers and will not attract any out of bundle data charges.
+199.11 Unlimited Zero-Rated services include:
+▪ Ooredoo TV App.
+▪ Etheraz App.
+199.12 Limited Zero-Rated services include:
+199.13 Ooredoo website: For data usage of up to 50MB per day, customers do not incur any data charges
+while accessing Ooredoo App and/or Ooredoo website. However, once the customer consumed
+more than 50MB per day for Ooredoo App and/or Ooredoo website, standard rated charges will
+be applied as per tariff subscribed by the customers.
+199.14 Hayya App: For data usage of up to 100MB per day, customers do not incur any data charges
+while accessing Hayya App.
+However, once the customer consumed more than 100MB per day for Hayya App, standard rated
+charges will be applied as per tariff subscribed by the customers.
+Ooredoo Service Tariff No. C11-01
+Page 33 of 46
+199.15 Short Code: All SMS are free of charge when receiving or replying to the short code 92688 locally.
+4.25 Voicemail
+The charges will consume first from the customer’s pack they subscribed to and then will be
+charged for normal charges rate (out of bundle charges). Retrieving voicemail messages outside
+Qatar will be charged based on the applicable roaming charges (or from Ooredoo Passport
+Packs).
+4.26 International services
+International calling allows a User to call international fixed and mobile telephone numbers from
+his mobile handset.
+4.26.1 Standard Charging
+International Mobile calling is charged on a per-minute basis (out of bundle rate).
+Price for calls and messages to the listed International Destinations are available at
+https://www.ooredoo.qa/web/en/prepaid-plans/
+4.26.2 Ooredoo Passport
+4.26.2.1 Description and charges
+This optional subscription will allow the subscribers to have data and / or voice calls minutes and
+SMS (Inbound and outbound) while roaming. The following Ooredoo Passports are available for
+the subscribers.
+Charge
+(QAR)
+Allowances Duration To activate
+the service
+To check the
+balance
+Voice Data
+Daily Passport 35 - 1 GB One day Send OPDDATA
+to 114 Send BAL OP to 114
+Weekly Passport -data only 100 - 6 GB Seven days Send OPWDATA
+to 114 Send BAL OP to 114
+Weekly Passport -voice and
+data 100 100 min. and SMS 3 GB Seven days Send OPW to
+114 Send BAL OP to 114
+Monthly Passport 350 300 min. and SMS 12 GB Thirty days Send OPM to
+114 Send BAL OPM to 114
+Figure 33 Ooredoo passports
+Customers can also activate and stop the service, and check the balance using Ooredoo App.
+Subscribers can re-subscribe to this optional service after the weekly (7 days) is complete.
+Ooredoo Service Tariff No. C11-01
+Page 34 of 46
+Customers will have a choice to activate the OPM for a number of months (up to 3) of their choice;
+Ooredoo monthly passport will not auto-renew, and it will expire at the end of the last selected
+month automatically. Customers can use a keyword “OPMX (X = 1 to 3).
+The list of the passport countries and operators is available at
+https://selfcare.ooredoo.qa/en/consumer/roaming and in the Ooredoo App.
+4.26.2.2 Out of the bundle
+Customer will pay the following after the allowance has been used within the weekly and monthly
+period on the selected network (s): QAR 1 per MB and QAR 1 per roaming minute.
+When a customer spends QAR 100 for any roaming services within a 7-day period on standard
+out-of-bundle roaming rates on Ooredoo Passport partner networks, Ooredoo will automatically
+activate 1 GB of data, free of charge, valid for 7 days on Ooredoo Passport partner networks.
+4.27 International Roaming
+4.27.1 Standard services
+Ooredoo offers Roaming to its Subscribers, which includes the ability to make and receive voice
+calls and SMS messages and use data services in certain countries outside Qatar.
+Conditions:
+212.1 Roaming is offered by Ooredoo’s international roaming partners. Ooredoo is not responsible for
+quality of service or coverage made available to Users while Roaming.
+212.2 Charges apply for all incoming and outgoing calls and messages at the roaming rate applicable
+for the country in which Roaming is provided.
+212.3 Roaming service is only available in areas that are covered by Ooredoo roaming partners.
+Ooredoo is not responsible for those networks and some services may not be available while
+roaming. Ooredoo does not make any representations regarding the quality of service or
+reliability experienced by Users while Roaming.
+212.4 ‘Special case’ charge rates are applied to calls made while roaming on services supported by
+satellite. This includes the Ooredoo In-Flight Service.
+212.5 Calls made to destinations which are other than ‘local’ or ‘Qatar’ will be charged at QAR 17 per
+minute unless specifically noted. Ooredoo may implement surcharges to specific international
+calling routes while roaming on specific operators or within specific countries.
+212.6 Roaming Wireless Data usage will not be deducted from any allowance or bundle that a
+Subscriber may have active on their service. All Roaming data usage is charged at the applicable
+Roaming rate.
+The list of roaming countries available to Subscribers as listed below:
+Ooredoo Service Tariff No. C11-01
+Page 35 of 46
+Region Countries
+GCC Bahrain, Kuwait, Oman, Saudi Arabia, UAE
+M.E.N.A. Algeria, Egypt, Iraq, Jordan, Libya, Mauritania, Morocco, Palestine, Sudan, Syria, Tunisia, Yemen
+Americas Argentina, Brazil, Canada, Chile, El Salvador, Guatemala, Jamaica, Panama, Paraguay, Peru, Uruguay, USA, Venezuela
+Europe
+Armenia, Austria, Azerbaijan, Belarus, Belgium, Bosnia, Bulgaria, Croatia, Cyprus, Czech Republic, Denmark, Estonia,
+Finland, France, Georgia, Germany, Gibraltar (UK), Greece, Hungary, Iceland, Ireland, Italy, Kazakhstan, Kyrgyz Republic,
+Latvia, Liechtenstein, Lithuania, Luxembourg, Macedonia, Malta, Netherlands, Norway, Poland, Portugal, Romania,
+Russia, Serbia & Montenegro, Slovak Republic, Slovenia, Spain & Balearic Islands, Sweden, Switzerland, Tajikistan,
+Turkey, Turkmenistan, UK, Ukraine, Uzbekistan
+Asia & Oceania
+Afghanistan, Australia, Bangladesh, Brunei, Cambodia, China, Guam, Guinea, Hong Kong, India, Iran, Indonesia, Japan,
+Korea South, Macau, Malaysia, Maldives, Mongolia, Nepal, New Zealand, Pakistan, Philippines, Singapore, Sri Lanka,
+Taiwan, Thailand, Vietnam
+Africa & Rest of World Congo, Côte d'Ivoire, Ethiopia, Gambia, Ghana, Kenya, Liberia, Mauritius, Mozambique, Nigeria, Senegal, Sierra Leone,
+South Africa, Tanzania, Uganda
+Satellite, Thuraya& ‘Special
+Cases’ THURAYA, AT&T-WIRELESS MARITIME, Manx Telecom Maritime Services, Aero Mobile, In-Flight Roaming
+Figure 34 International roaming – list of countries
+Charging:
+214.1 All Roaming calls are charged each 60 seconds.
+214.2 All Roaming SMS messages are charged for each message or message part sent.
+214.3 Where available, the following Standard Rates for Outbound roaming apply:
+Zone
+Roaming
+Local
+Voice
+(QAR/min.)
+Roaming
+Terminated
+Voice
+(QAR/min.)
+Roaming Voice
+Calls to Qatar
+(QAR/min.)
+Roaming Voice
+Calls to GCC
+Zone
+(QAR/min.)
+Roaming Voice
+International &
+All Other Calls
+(QAR/min.)
+SMS
+(QAR/SMS)
+Wireless
+Data
+(QAR/MB)
+Roaming
+Voice Calls
+to Ooredoo
+Customer
+service 14
+QR/Min
+GCC15 0.85 1 1 1 1 0.20 1.00 No charge
+Figure 35 International roaming – Charges in GCC countries
+Zone16
+Roaming
+Local
+Voice
+(QAR/min.)
+Roaming
+Terminated
+Voice
+(QAR/min.)
+Roaming Voice
+Calls to Qatar
+(QAR/min.)
+Roaming Voice
+Calls to GCC
+Zone
+(QAR/min.)
+Roaming
+Voice
+International
+& All Other
+Calls
+(QAR/min.)
+SMS
+(QAR/SMS)
+Wireless
+Data
+(QAR/MB)
+Roaming
+Voice Calls
+to Ooredoo
+Customer
+service17
+QR/Min
+MENA 5 3 17 17 17 2 55 No Charge
+14 (+974 44380000)
+15 The roaming prices in the above table are in effect from 1st of April 2018.
+16 The roaming prices in the above table are in effect from 14th April 2017.
+17 (+974 44380000)
+Ooredoo Service Tariff No. C11-01
+Page 36 of 46
+Zone16
+Roaming
+Local
+Voice
+(QAR/min.)
+Roaming
+Terminated
+Voice
+(QAR/min.)
+Roaming Voice
+Calls to Qatar
+(QAR/min.)
+Roaming Voice
+Calls to GCC
+Zone
+(QAR/min.)
+Roaming
+Voice
+International
+& All Other
+Calls
+(QAR/min.)
+SMS
+(QAR/SMS)
+Wireless
+Data
+(QAR/MB)
+Roaming
+Voice Calls
+to Ooredoo
+Customer
+service17
+QR/Min
+Americas No charge
+Europe No charge
+Asia & Oceania No charge
+Africa & Rest of
+World
+No charge
+Satellite,
+Thurawal &
+‘Special Cases’
+30 30 30 30 30 2 75 30
+Figure 36 International roaming – others
+Standard Roaming Rates for all Ooredoo Passport Partners are as the following:
+Calling People in the
+country you are in
+(QAR/min.)
+Calling Qatar
+(QAR/min.)
+Calling another Country
+(QAR/min.)
+Receiving a Call
+(QAR/min.)
+Sending SMS
+(QAR/SMS)
+Mobile Roaming date
+(QAR/MB)
+0.9 1 1 1 0.25 1
+Figure 37 International roaming – rates for Ooredoo Passport partners in GCC
+Calling People in the
+country you are in
+(QAR/min.)
+Calling Qatar
+(QAR/min.)
+Calling another Country
+(QAR/min.)
+Receiving a Call
+(QAR/min.)
+Sending SMS
+(QAR/SMS)
+Mobile Roaming date
+(QAR/MB)
+2 2 2 2 1 2
+Figure 38 International roaming – rates for Ooredoo Passport partners in non-GCC
+Surcharges are applied to specific call types to specific countries or operators that modify the
+international roaming rates to the ‘all inclusive’ charge rates. Effective the 16th of May 2017, the
+roaming prices in the below table will be applicable.
+Exception
+Case
+Roaming
+Local
+(QAR/min.)
+Roaming
+Terminated
+(QAR/min.)
+Roaming
+Calls to
+Qatar
+(QAR/min.)
+Roaming
+Calls to
+Ooredoo
+Zone
+(QAR/min.)
+Roaming
+International
+& All Other
+Calls
+(QAR/min.)
+SMS
+(QAR/SMS)
+Wireless
+Data
+(QAR/MB)
+Australia - - - - - - 55
+Cuba 5 - 17 - - - -
+Morocco 5 - 17 - - - -
+Canada - 3 - - - - -
+USA - 3 - - - - -
+Seychelles - 3 - - - - -
+India - 3 - - - - -
+Ooredoo Service Tariff No. C11-01
+Page 37 of 46
+Exception
+Case
+Roaming
+Local
+(QAR/min.)
+Roaming
+Terminated
+(QAR/min.)
+Roaming
+Calls to
+Qatar
+(QAR/min.)
+Roaming
+Calls to
+Ooredoo
+Zone
+(QAR/min.)
+Roaming
+International
+& All Other
+Calls
+(QAR/min.)
+SMS
+(QAR/SMS)
+Wireless
+Data
+(QAR/MB)
+Sri Lanka - - 17 - - - -
+Czech Republic - - 17 - - - -
+Malta - - 17 - - - -
+Italy - - 17 - - - -
+Russia - - 17 - - - -
+Senegal - - - - - - 55
+Kazakhstan,
+Serbia &
+Montenegro
+- - 17 - - - -
+Switzerland - - 17 - - - -
+Tajikistan - - - - - 55
+Uzbekistan,
+Macedonia,
+Moldova
+- - 17 - - - -
+Figure 39 International roaming – Applicable surcharges
+4.27.2 Call Back Roaming
+The Call Back Roaming Service allows prepaid subscribers to originate outgoing voice calls with
+operators with which Ooredoo does not have a roaming agreement.
+Home Zone rate applies when calling from abroad to Qatar.
+International Zone rate applies when calling from abroad to ‘local’ numbers within that country,
+or to international destinations excluding Qatar.
+For countries with direct outbound roaming call capability, the standard charge rates will apply
+irrespective of whether the calls are initiated directly or using the ‘Call Back Roaming’
+methodology.
+Zone Charge (QAR) per minute
+Home Zone 5.00
+International Zone 15.00
+Figure 40 Call Back Roaming - Charges
+4.27.3 Hala Roaming Packs
+Ooredoo Service Tariff No. C11-01
+Page 38 of 46
+Ooredoo offers the packs below:
+Roaming Pack 10 Roaming Pack 30
+Price (QAR) 10 30
+Roaming Data 500 MB 1 GB
+Roaming Minutes 5 90 (30 outgoing & 60 Incoming Minutes)
+Validity 3 Days 28 Days
+Figure 41 Hala Roaming Packs
+Applicable countries are India, Pakistan, Bangladesh, Nepal, Sri Lanka, Egypt, Jordan, Turkey,
+Philippines, Morocco, Tunisia, and Algeria .
+Applicable networks are the Ooredoo Passport networks.
+5 Ooredoo Gamification
+Ooredoo Gamification gives our Hala customers the possibility to win prizes with every recharge,
+purchase, or login to the Ooredoo App or even just by entering a new game in the Ooredoo app.
+To participate in Ooredoo Gamification, Hala customers must first download the Ooredoo App.
+After doing a recharge, purchase, or login to the Ooredoo App, customers will receive a game in
+the Goodies Section under a game called Ooredoo Fun.
+In case of an event game such as National day or Sports day or others, active users can
+participate once per day without conditions to win a daily prize.
+If the customers win the game, they will be rewarded with Urban Point vouchers, or local
+minutes, or local data, or Nojoom points or other products and services..
+From time to time, Ooredoo Fun will also include lucky draws, giving away prizes offered by
+partners’ companies (e.g., smartwatches, mobile handsets, etc.).
+Ooredoo may use different commercial names to advertise this program (e.g., Sports Day Offer,
+National Day Offer, etc.).
+The customers can also buy games using their Nojoom points.
+6 Service Provider obligations
+Commencement of Service:
+232.1 The service shall commence from the Service connection date.
+232.2 The customer must activate the service by making a call or sending a SMS in Qatar within 30
+days of purchase.
+Service Availability and Limits:
+233.1 Certain factors, such as network changes, traffic volume, transmission limits, service outages,
+technical limitations, signal strength, customer device, terrain, structures, weather, or other
+Ooredoo Service Tariff No. C11-01
+Page 39 of 46
+conditions that may arise from time to time, may interfere with actual service quality and
+availability.
+233.2 Calls may be interrupted, dropped, refused or limited. Ooredoo will not be liable for any service
+limits due to these conditions that may arise from time to time, subject to our statutory and
+licence obligations and requirements.
+7 Subscriber obligations
+Equipment:
+234.1 The Subscriber shall comply with any reasonable request by Ooredoo concerning the
+configuration of their devices and/or the use of the service.
+234.2 Resale: The Subscriber cannot resell the service if (s)he does not qualify as an Eligible Person,
+within the framework set by the Class License for the Resale of Retail Telecommunications
+Services issued by the Communication Regulatory Authority (CRA)
+(https://www.cra.gov.qa/en/document/class-license-for-the-resale-of-
+retail/telecommunications-services) and without a prior written approval by Ooredoo. Failure
+comply with the above provision will result in the Services being immediately terminated and in
+the Subscriber being held responsible for the legal, regulatory and financial consequences of
+his/her behavior.
+SIM Card:
+235.1 The Subscriber must promptly notify Ooredoo if the SIM Card is damaged.
+235.2 In the event of loss or theft of SIM Card, the Subscriber must notify Ooredoo within forty-eight
+(48) hours of becoming aware of such loss or theft.
+8 Mobile number portability
+8.1 Porting of mobile number away from Ooredoo
+Subscriber may port mobile number: The Subscriber may port a mobile number allocated to the
+Subscriber by Ooredoo to the OLO by requesting the port of that mobile number from the OLO.
+Not all mobile numbers will be technically capable of being ported.
+Charges payable as at date of port: The Subscriber cannot port a mobile number to the OLO until
+all invoiced charges that are outstanding at the time the Subscriber requests the port are fully
+paid. If charges are outstanding at the time the Subscriber requests a port, Ooredoo will inform
+the Subscriber of the amount payable and the timeframe in which that payment must be made
+to avoid the cancellation of the Subscriber’s port request.
+Charges that are owed but which have not been invoiced also payable: The Subscriber must pay
+all charges that have been incurred by the Subscriber, but which have not been invoiced by
+Ooredoo Service Tariff No. C11-01
+Page 40 of 46
+Ooredoo as at the date of the port, including any early contract termination fees. Ooredoo will
+issue the Subscriber with a final invoice in respect of those charges. If the final invoice is not
+paid:
+238.1 within 30 days of the invoice date, Ooredoo may direct the OLO to bar the ability of Users to make
+outgoing calls (except for calls to emergency service organization numbers and operator service
+numbers), send SMS, access data services and any other outgoing services using the ported
+mobile number,
+238.2 within 45 days of the invoice date, Ooredoo may direct the OLO to suspend the ability of Users
+to receive public telecommunications services using the ported mobile number, and
+238.3 within 60 days of the invoice date, Ooredoo may direct the OLO to terminate the supply of the
+public telecommunications services in respect of the ported mobile number. The Subscriber may
+lose the right to use the ported mobile number if the invoiced charges are not paid within a
+certain period after the date of termination.
+This agreement will automatically terminate on the earlier of:
+239.1 the date on which all invoiced charges under this agreement (including charges invoiced after
+the date of porting) are received by Ooredoo; and
+239.2 the date that the supply of public mobile telecommunications services to the Subscriber is
+terminated by the OLO due to non-payment of Ooredoo’s outstanding invoices, if applicable.
+8.2 Porting of mobile numbers to Ooredoo
+A Subscriber that ports a mobile number from the OLO to Ooredoo must pay all charges that are
+owed to the OLO in respect of that ported mobile number, notwithstanding the fact that the
+Subscriber has ceased to acquire public mobile telecommunications services from the OLO.
+If the Subscriber does not pay all outstanding charges to the OLO in respect of that ported mobile
+number:
+241.1 within 30 days of the invoice date, Ooredoo will, upon request of the OLO, bar the ability of Users
+to make outgoing calls (except for calls to emergency service organization numbers and operator
+service numbers), send SMS, access data services and any other outgoing services using the
+ported mobile number,
+241.2 within 45 days of the invoice date, Ooredoo will, upon request of the OLO, suspend the ability of
+Users to receive public telecommunications services using the ported mobile number; and
+241.3 within 60 days of the invoice date, Ooredoo will, upon request of the OLO, terminate the supply
+of the public telecommunications services in respect of the ported mobile number. The
+Subscriber may lose the right to use the ported mobile number if the invoiced charges are not
+paid within a certain period after the date of termination.
+Ooredoo Service Tariff No. C11-01
+Page 41 of 46
+If the Subscriber requests the porting of a mobile number to Ooredoo and it is subsequently
+discovered that the port has been made in error, is fraudulent or the Subscriber does not
+otherwise have the right to port that mobile number to Ooredoo, Ooredoo may take such
+measures as are necessary to address this issue, including returning the ported number to the
+original range holder.
+* * * END OF TARIFF * * *
+Ooredoo Service Tariff No. C11-01
+Page 42 of 46
+Tariff Version Control
+Tariff Version
+Number
+Effective Date Tariff Modifications
+01 1 December 2011 Permanent Tariff Change, Roaming Voice Calls to Ooredoo Call Centre Free of Charge.
+02 10 May 2012 Permanent Tariff Change
+03 1 October 2012 Ooredoo Passport Permanent
+04 8 January 2013 New Mobile Data Plans Permanent Change
+05 31 January 2013 Permanent Tariff Change, Mobile Number Portability
+06 25 March 2013 Permanent Tariff Change, Data Services
+07 9 May 2013 Permanent Tariff Change, Haha IDD Packs
+08 24 July 2013 Permanent Tariff Change, Fast Credit
+09 1 October 2013 Permanent Tariff Change, 4G Key
+10 1 November 2013 Permanent Tariff Change, International Calling
+11 28 January 2014 Permanent Tariff Change, Bangladesh IDD Key
+12 1 April 2014 Permanent Tariff Change, e Top Up notice
+13 2 April 2014 Permanent Tariff Change, Hala Weekly Packs
+14 16 April 2014 Permanent Tariff Change, Data Scratch Card
+15 1 May 2014 Permanent Tariff Change, Smartphone Plan
+16 1 May 2014 Permanent Tariff Change, Ooredoo Passport
+17 8 June 2014 Permanent Tariff Change, International Calling and Hala Smart Packs
+18 26 June 2014 Permanent Tariff Change, Data Packs
+19 6 July 2014 Permanent Tariff Change, Top-Up Bonus
+20 13 July 2014 Permanent Tariff Change, Hala Smart Cards
+21 17 July 2014 Permanent Tariff Change, Data Services
+22 24 July 2014 Permanent Tariff Change, Hala SIM card
+23 10 August 2014 Permanent Tariff Change, Hala Smart Packs
+24 22 September 2014 Permanent Tariff Change, Fair Usage Policy
+25 1 November 2014 Permanent Tariff Change, Ooredoo Passport
+26 4 November 2014 Permanent Tariff Change, ISK and Hala Smart
+27 21 December 2014 Permanent Tariff Change, Hala Top Ups
+28 1 January 2015 Permanent Tariff Change, Hala Welcome Pack
+29 22 January 2015 Permanent Tariff Change, Hala Smart Packs
+30 4 March 2015 Permanent Tariff Change, Hala Egypt Key and Data Framework
+31 10 March 2015 Permanent Tariff Change, Hala Smart Packs and Hala Smart Cards
+32 23 July 2015 Permanent Tariff Change, Hala India Key
+33 23 September 2015 Permanent Tariff Change, Smartphone Plan
+34 7 October 2015 Permanent Tariff Change, Hala Mini Bonus recharge
+35 5 November 2015 Permanent Tariff Change, All-net charges
+36 25 December 2015 Permanent Tariff Change, ISK
+37 27 March 2016 Permanent Tariff Change, PAYG data changed to QAR 0.99
+38 1 April 2016 Permanent Tariff Change, Intra GCC roaming rates.
+39 24 April 2016 Small corrections to the tariff applied by Marketing.
+40 3 May 2016 Permanent Tariff Change, India rate increased to 12dhms.
+41 3 May 2016 India rate increased to 12dhms, small change to the text.
+42 10 May 2016 Mobile Money Top-Up offer.
+43 15 May 2016 Permanent Tariff Change, ISK rate increase IDD to 0.55, national to 0.2.
+44 29 May 2016 Ascension Island rate increased to QAR 10.
+Ooredoo Service Tariff No. C11-01
+Page 43 of 46
+Tariff Version
+Number
+Effective Date Tariff Modifications
+45 3 June 2016 India rate increased to QAR 0.12 Minute.
+46 13 June 2016 Permanent Tariff Change, revisions of credits
+47 21 June 2016 Permanent Tariff Change, service features
+48 18 July 2016 Permanent Tariff Change, revision of credits
+49 28 July 2016 Permanent Tariff Change, Mobile Internet Packs
+50 2 August 2016 Permanent Tariff Change, Data Services
+51 5 August 2016 Permanent Tariff Change, roaming rate change
+52 29 August 2016 Permanent Tariff Change, short codes
+53 6 September 2016 Permanent Tariff Change, Hala Nepal Key
+54 8 September 2016 Permanent Tariff Change, Voicemail
+55 1 October 2016 Permanent Tariff Change, Hala Globe Philippines
+56 18 November 2016 Permanent Tariff Change, Unlimited Data Pack and Fair usage Policy
+Permanent Tariff Change, QAR 2 for 64kbps unlimited for the day.
+57 30 November 2016 Unlimited Data Pack and Fair usage Policy, removed.
+Permanent Tariff Change, International Money Transfer – Data Top-Up bonus.
+58 13 December 2016 Permanent Tariff Change, Hala Go Added.
+59 19 December 2016 Unlimited data, correction made to the FuP.
+60 5 January 2017 Permanent Tariff Change, Fair Usage Policy update
+61 13 January 2017 Permanent Tariff Change, Services updates
+62 1 April 2017 Permanent Tariff Change, GCC Roaming rate change.
+63 5 April 2017 Permanent Tariff Change, Daily Mobile Internet Pack
+64 15 April 2017 Permanent Tariff Change, Pay As You Go
+65 16 May 2017 Permanent Tariff Change, Standard PAYG changes
+66 8 June 2017 Permanent Tariff Change, Data Recharge
+67 17 July 2017 Permanent Tariff Change, Standard Validity of Selected Data Recharges and SIM car price.
+68 20 July 2017 Permanent Tariff Change, QR 5 Endless Data Pack
+69 27 July 2017 Permanent Tariff Change, Pakistan Telenor Pack, Pakistan Key, Flexi Card and Pack and
+Ooredoo Mobile Money offer.
+70 21 September 2017 Permanent Tariff Change, Nepal Telecom Pack.
+71 20 October 2017 Permanent Tariff Change, Mobile Money Top Up offer
+72 21 November 2017 Permanent Tariff Change, Data Recharge and Flexi 20
+73 18 January 2018 Permanent Tariff Change, Hala India Packs.
+74 1 February 2018 Permanent Tariff Change, Hala India Super Key and Flexi Data change.
+75 18 February 2018 Permanent Tariff Change, Roaming Rates for OP change and Hala Bangladesh Key
+76 21 February 2018 Permanent Tariff Change, DSK
+77 25 February 2018 Permanent Tariff Change, Protection Feature
+78 16 March 2018 Permanent Tariff Change, Nepal Super Key
+79 22 March 2018 Permanent Tariff Change, Mobile Money
+80 1 April 2018 Permanent Tariff Change, GCC Roaming rate change.
+81 17 April 2018 Permanent Tariff Change, Top Up Bonus Removal, Data and Voice Allowance Changes
+82 30 April 2018 Permanent Tariff Change, amendment of the rates for international calls on Hala Keys.
+83 1 May 2018 Permanent Tariff Change, amendment of the rates for national and international calls on
+International Saver Key.
+84 3 May 2018 Permanent Tariff Change, Hala Flexi Card and Pack changes.
+85 24 June 2081 Permanent Tariff Change, Hala Philippines Packs, Data Card 20.
+86 28 June 2018 Permanent Tariff Change, Device Offer.
+87 9 July 2018 Permanent Tariff Change, Hala Flexi update.
+Ooredoo Service Tariff No. C11-01
+Page 44 of 46
+Tariff Version
+Number
+Effective Date Tariff Modifications
+88 26 July 2018 Permanent Tariff Change, Fast Credit.
+89 18 September 2018 Permanent Tariff Change, Smartphone Plan.
+90 28 September 2018 Permanent Tariff Change, Flexi Denomination.
+91 5 October 2018 Permanent Tariff Change, Hala Balance Protection Feature.
+92 12 October 2018 Permanent Tariff Change, Flexi Denomination.
+93 1 November 2018 Permanent Tariff Change, Mobile Money
+94 27 December 2018 Permanent Tariff Change, SIM Replacement Fee Change
+95 4 January 2019 Permanent Tariff Change, Data Recharge Adjustment
+96 26 February 2019 Permanent Tariff Change, Hala Data Standard Charges change
+97 26 March 2019 Permanent Tariff Change, Apple Watch
+98 2 April 2019 Permanent Tariff Change, Hala Standard PayG, Local Call and Hala Smart Card QR 5 charges
+change
+99 1 July 2019 Permanent Tariff Change, Hala Super Flexi Pack
+100 4 July 2019 Permanent Tariff Change, Hala Revision Philippines packs
+101 17 September 2019 Permanent Tariff Change, Hala Tourist SIM
+102 11 December 2019 Hala Visitor SIM (4.31)
+103 18 February 2020 Speed boosters FUP update (4.16.2.3.)
+104 1 July 2020 Hala Revision in Data and Flexi Products (4.17 and 4.29)
+105 23 August 2020 India and Syria Call Rate revision
+106 7 October 2020 Dynamic Fast Credit (4.25.)
+107 21 December 2020 Hala SIM through eShop channel (4.1)
+108 29 June 2021 Price and Product adjustment (4.9.1.2.), (4.10.3.1.) and (4.16.1.2)
+109 17 August 2021 Hala 5G Recharge Portfolio (4.7.1)
+110 5 November 2021 Hala International SIM (4.31)
+111 17 February 2022 Hala Smart (4.18)
+112 1 June 2022 Hala Super Charge (4.2)
+113 7 June 2022 Hala Recharge (4.1) and Flexi Cards and Packs (4.3)
+114 28 June 2022 Hala International SIM (4.8.15)
+115 6 July 2022 Flexi Cards and Packs (4.3)
+116 18 August 2022 Flexi Cards and Packs (4.3)
+117 1 September 2022 Hala Smart (4.6)
+118 13 September 2022 Digital Offer (4.1), (4.2) and (4.7)
+119 29 September 2022 Hala Validity updates (3), (4.1), (4.2), (4.3), (4.6) and (4.7)
+120 13 October 2022 Zero Rated Apps (4.14.3)
+121 19 October 2022 Flexi Cards and Packs (4.3)
+122 20 October 2022 Device Offer update (4.10)
+123 15 December 2022 Hala Super Recharge updates (4.2)
+124 20 December 2022 Hala Super Recharge updates (4.2)
+125 22 January 2023 Class License for the Resale of Retail Telecommunications Services (6)
+126 1 February 2023 Prepaid PayG updates (4.14.1)
+127 25 February 2023 Prepaid PayG updates (4.14.1)
+128 4 April 2023 Zero Rated Short Code (4.14.3)
+129 6 April 2023 Multimedia Messaging removal (4.13.3), (4.16.1), (7.1) and (7.2)
+130 26 June 2023 Data Recharge (4.7)
+131 27 September 2023 New Hala Super Recharge Denomination (4.2.1)
+132 29 September 2023 Prepaid PayG price adjustment (4.14.1)
+133 5 October 2023 Discontinuation of the Hala QR 5 Denomination (4.3, 4.6 and 4.7)
+Ooredoo Service Tariff No. C11-01
+Page 45 of 46
+Tariff Version
+Number
+Effective Date Tariff Modifications
+134 9 October 2023 Credit Validity (4.1) and Discontinuation of Super Recharge QAR 30 and QAR 60 (4.2)
+135 15 October 2023 Credit Validity Revision (4.3 and 4.7)
+136 25 October 2023 Hala Recharge (4.2)
+137 26 October 2023 Hala Line Validity updates (4.1, 4.2, 4.2.1, 4.3, 4.6, 4.7)
+138 21 November 2023 Flexi Packs Endless Data Removal (4.3)
+139 6 December 2023 Hala Credit Validity updates (4.1)
+140 14 December 2023 Removing Nepal International Calling (4.3.1, 4.4 and 4.9)
+141 14 December 2023 Hala Voice Roaming Pack (4.18.3)
+142 7 January 2024 Visitor SIM and Visitor SIM Pro (4.9.12)
+143 30 January 2024 35 and 65 denominations (4.1, 4.5 and 4.9)
+144 9 February 2024 Hala Visitor SIM Portfolio (4.10.12)
+145 28 February 2024 Hala Digital Offer (4) and Hala Endless Local Data Recharge (4.10)
+146 20 March 2024 Changes to international minutes to Nepal for Hala Super Recharge 35 and 65 (4.4)
+147 21 March 2024 One-off charge for transferring the ownership of ETR numbers (4.14.6)
+148 28 March 2024 SMS to 151 for Mobile Number Portability free of charge (4.16)
+149 4 April 2024 Introduction of Hala Data Recharge 25 (4.9). Removal of Hala Endless Local Data 25 (4.10),
+150 30 April 2024 Changes to Hala Credit (4.1), New Hala Super Recharge (4.4), Flexi Cards and Packs (4.5) and
+Hala Data Recharge (4.9)
+151 13 May 2024 Hala Smart Card 15 renamed as Hala Voice Recharge 15 and introduction of other
+denominations (4.8), small edits and formatting without changing terms and conditions (4.9)
+152 23 May 2024 New Hala Super Recharge (4.4)
+153 29 May 2024 Changes to Hala Voice Roaming Pack (4.20.3)
+154 7 June 2024 Changes to Standard Charging (4.19.1).
+Edits without changing terms and conditions (4.19.2)
+155 25 June 2024 Introduction of Ooredoo Fun (5)
+156 27 June 2024 Hala Visitor SIM (4.11.12)
+157 21 July 2024 Hala Visitor SIM (4.11.12)
+158 25 July 2024 Changes to Local Calls (4.15.1)
+159 1 August 2024 Changes to standard roaming rates (4.20.1)
+160 21 August 2024 Introduction of Endless Data Key @128kbps for Hala Super 40 Recharge (4.4)
+161 4 September 2024 Changes to Hala Unlimited Local Data Recharges (4.10)
+162 18 September 2024 Hala daily TikTok pack (4.11)
+163 22 September 2024 Changes to New Hala Super Recharge (4.4)
+164 22 October 2024 Discontinuation of the 35 QAR denomination (4.1, 4.4, 4.5, 4.9.2)
+165 30 October 2024 Changes to Credit top-ups (Hala Credit) (4.1)
+166 5 November 2024 Changes to Hala Visitor SIM (4.12.12)
+167 15 November 2024 Changes to Hala Plans in sections 4.2, 4.3, 4.4, 4.5, 4.8, 4.9 and 4.10
+168 1 February 2025 Changes to Ooredoo Gamification (5)
+169 13 February 2025 Changes to Flexi (4.5)
+170 26 February 2025 Changes to Hala Super Recharge (4.3), New Hala Super Recharge (4.4), Flexi Cards (4.5), Hala
+Voice Recharges (4.8.2), and Hala Data Recharges (4.9.2)
+171 13 March 2025 Changes to New Hala Super Recharge (4.4)
+172 20 March 2025 Changes to 4.20.2 (Ooredoo Passport)
+173 25 March 2025 Changes to 4.20.2 (Ooredoo Passport)
+174 6 May 2025 Changes to 4.12.12 (Visitor SIM)
+175 3 June 2025 Changes to 4.20.2 (Ooredoo Passport)
+176 3 July 2025 Changes to 4.21.3 (Hala Roaming Packs)
+Ooredoo Service Tariff No. C11-01
+Page 46 of 46
+Tariff Version
+Number
+Effective Date Tariff Modifications
+177 15 August 2025 Changes to 4.12.12 Hala Visitor SIM for visitors to Qatar
+178 28 August 2025 Changes to 4.4, 4.8.2 and 4.9.2 to introduce a new denomination (Hala 50 QAR)
+179 2 October 2025 Changes to 4.3
+180 14 October 2025 Changes to 4.4, 4.8.2 and 4.9.2 to introduce a new denomination (Hala 75 QAR)
+181 26 October 2025 Changes to 4.20.2 (Ooredoo Passport)
+182 30 October 2025 Changes to 4.12.12 (Visitor SIM - GO)
+183 11 November 2025 Changes to 4.5 (Flexy Packs)
+184 13 November 2025 New section 4.13 (Carry over feature) and related changes to section 4.3, 4.4 and 4.5.
+185 4 December 2025 New section 4.12.12 (New International Recharges)
+186 1 January 2026 New section 4.5 Passes on Super Recharge
+187 22 January 2026 Changes to 4.4 (Super 15)
+188 29 January 2026 Changes to 4.10.2 (Hala Data Recharge)
+189 4 February 2026 Changes to 4.6 (Flexi Cards)
+190 1 April 2026 Introduction of section 4.13 (Urban Point subscription)
+191 13 May 2026 Changes to 4.4 and 4.5 (allowances for Super 40 and Passes)
+192 11 June 2026 Changes to 4.4 and 4.14 (international minutes)
+193 20 July 2026 New section 4.11 Your Special Offer
+194 5 September 2026 New section 4.14 Hala Mini Data Packs
+195 6 October 2026 New section 4.15 Super Booster Packs

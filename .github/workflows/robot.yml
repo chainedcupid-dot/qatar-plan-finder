@@ -57,7 +57,9 @@ jobs:
           if [ "$open" = "0" ]; then
             gh issue create --title "🤖 Price robot is confused" --label robot-alarm --body-file robot-report.md
           else
-            gh issue comment "$(gh issue list --label robot-alarm --state open --json number --jq '.[0].number')" --body-file robot-report.md
+            n=$(gh issue list --label robot-alarm --state open --json number --jq '.[0].number')
+            gh issue edit "$n" --body-file robot-report.md
+            gh issue comment "$n" --body "Still confused on $(date -u +%F). The message above is today's list."
           fi
 
       - name: Close the alarm once things work again

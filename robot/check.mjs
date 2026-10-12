@@ -300,14 +300,16 @@ const withBonus = (base, dig) => dig == null ? base : (dig < base ? Math.round((
 
 export function parseOoredooPrepaid(raw) {
   const t = raw.replace(/\s+/g, " "), out = {};
-  // Super tables: find each row of "Super 15 Super 40 ..." headers
+  const FN = "\\d{0,2}";   // footnote numbers glued to words, e.g. "Digital Offer3 (GB)"
+  const L = (src) => new RegExp(src.replace(/@/g, FN), "i");
+  // Super tables: each starts with a row of "Super 15 Super 40 ..." headers
   for (const h of t.matchAll(/((?:Super\s*\d{2,3}\s*){3,})/g)) {
     const cols = [...h[1].matchAll(/\d{2,3}/g)].map(x => Number(x[0])), n = cols.length, at = h.index;
     const price = gridRow(t, at, /Price\s*\(QAR\)/i, n);
     if (!price || cellNum(price[0]) !== cols[0]) continue;
-    const data = gridRow(t, at, /Local Data\s*\(GB\)/i, n), dataD = gridRow(t, at, /Local Data with the Digital Offer\s*\(GB\)/i, n);
-    const mins = gridRow(t, at, /Local Minutes(?! with)/i, n), minsD = gridRow(t, at, /Local Minutes with the Digital Offer/i, n);
-    const endless = gridRow(t, at, /Endless (?:Local )?Data(?: feature)?/i, n);
+    const data = gridRow(t, at, L("Local Data\\s*\\(GB\\)"), n), dataD = gridRow(t, at, L("Local Data with the Digital Offer@\\s*\\(GB\\)"), n);
+    const mins = gridRow(t, at, L("Local Minutes(?! with)"), n), minsD = gridRow(t, at, L("Local Minutes with the Digital Offer@"), n);
+    const endless = gridRow(t, at, L("Endless (?:Local )?Data(?: feature)?@"), n);
     cols.forEach((v, i) => {
       const f = {}, d0 = cellNum(data && data[i]), m0 = cellNum(mins && mins[i]);
       if (d0 != null) f.data = withBonus(d0, cellNum(dataD && dataD[i]));
@@ -317,27 +319,44 @@ export function parseOoredooPrepaid(raw) {
     });
   }
   // Flexi cards
-  const fx = t.search(/Flexi Denomination Cards/i);
-  if (fx >= 0) {
-    const den = gridRow(t, fx, /Flexi Denomination Cards\s*\(QAR\)/i, 20) || [];
-    const n = den.length, pts = gridRow(t, fx, /Allocated Flexi Points/i, n), bon = gridRow(t, fx, /Bonus Flexi Point/i, n), val = gridRow(t, fx, /Validity of allocated and bonus Flexi Point\s*\(days\)/i, n);
+  for (const m of t.matchAll(/Flexi Denomination Cards\s*\(QAR\)/gi)) {
+    const den = gridRow(t, m.index, /Flexi Denomination Cards\s*\(QAR\)/i, 20) || [];
+    const n = den.length; if (n < 3) continue;
+    const pts = gridRow(t, m.index, /Allocated Flexi Points/i, n), bon = gridRow(t, m.index, /Bonus Flexi Point/i, n),
+          val = gridRow(t, m.index, L("Validity of allocated and bonus Flexi Point@\\s*\\(days\\)"), n);
     den.forEach((d, i) => { const v = cellNum(d), p = cellNum(pts && pts[i]); if (v && p) out["Hala Flexi " + v] = { pool: p + (cellNum(bon && bon[i]) || 0), ...(cellNum(val && val[i]) ? { days: cellNum(val[i]) } : {}) }; });
+    break;
   }
-  // Data recharge cards
-  const dx = t.search(/Local Data Recharge Cards/i);
-  if (dx >= 0) {
-    const den = gridRow(t, dx, /Denomination\s*\(QR\)/i, 20) || [];
-    const n = den.length, al = gridRow(t, dx, /Allowance\s*\(GB\)/i, n), alD = gridRow(t, dx, /Allowance with the Digital Offer\s*\(GB\)/i, n), val = gridRow(t, dx, /Validity\s*\(days\)/i, n);
-    den.forEach((d, i) => { const v = cellNum(d), a = cellNum(al && al[i]); if (v && a != null) out["Hala Data " + v] = { data: withBonus(a, cellNum(alD && alD[i])), ...(cellNum(val && val[i]) ? { days: cellNum(val[i]) } : {}) }; });
+  // Data recharge cards: "Denomination (QR) 10 20 ... / Allowance (GB) ... / Allowance with the Digital Offer8 (GB) ... / Validity (days) ..."
+  for (const m of t.matchAll(/Denomination\s*\(QR\)/gi)) {
+    const den = gridRow(t, m.index, /Denomination\s*\(QR\)/i, 20) || [];
+    const n = den.length; if (n < 3) continue;
+    const al = gridRow(t, m.index, L("(?<!Offer@ )Allowance\\s*\\(GB\\)"), n), alD = gridRow(t, m.index, L("Allowance with the Digital Offer@\\s*\\(GB\\)"), n),
+          val = gridRow(t, m.index, /Validity\s*\(days\)/i, n);
+    if (!al) continue;
+    den.forEach((d, i) => { const v = cellNum(d), a0 = cellNum(al[i]); if (v && a0 != null) out["Hala Data " + v] = { data: withBonus(a0, cellNum(alD && alD[i])), ...(cellNum(val && val[i]) ? { days: cellNum(val[i]) } : {}) }; });
+    break;
   }
-  // Unlimited local data recharge
-  const ux = t.search(/Unlimited Local Data Recharge/i);
-  if (ux >= 0) {
-    const pr = gridRow(t, ux, /Price\s*\(QAR\)/i, 4) || [];
-    const n = pr.length, full = gridRow(t, ux, /Local Data Allowance at Full Speed\s*\(GB\)/i, n), add = gridRow(t, ux, /in case of digital recharges\s*\(GB\)/i, n), val = gridRow(t, ux, /Allowance Validity\s*\(days\)/i, n);
-    const sp = t.slice(ux, ux + 3000).match(/Throttled Speed[\s\S]{0,400}/i);
+  // Unlimited local data: columns "Unlimited Local Data 125 Unlimited Local Data 250"
+  for (const h of t.matchAll(/((?:Unlimited Local Data\s*\d{2,3}\s*)+)(?=Local Data Allowance)/gi)) {
+    const cols = [...h[1].matchAll(/\d{2,3}/g)].map(x => Number(x[0])), n = cols.length, at = h.index;
+    const full = gridRow(t, at, L("Local Data Allowance at Full Speed@\\s*\\(GB\\)"), n), add = gridRow(t, at, L("in case of digital recharges@\\s*\\(GB\\)"), n),
+          val = gridRow(t, at, L("Allowance Validity@\\s*\\(days\\)"), n);
+    const sp = t.slice(at, at + 2000).match(/Throttled Speed[\s\S]{0,400}/i);
     const speeds = sp ? [...sp[0].matchAll(/([\d.]+)\s*([KkMm])bps/g)].map(x => kbps(x[1], x[2])) : [];
-    pr.forEach((p, i) => { const v = cellNum(p), f0 = cellNum(full && full[i]); if (v && f0 != null) out["Hala Unlimited Data " + v] = { data: f0 + (cellNum(add && add[i]) || 0), ...(cellNum(val && val[i]) ? { days: cellNum(val[i]) } : {}), ...(speeds[i] ? { after: speeds[i] } : {}) }; });
+    cols.forEach((v, i) => { const f0 = cellNum(full && full[i]); if (f0 != null) out["Hala Unlimited Data " + v] = { data: f0 + (cellNum(add && add[i]) || 0), ...(cellNum(val && val[i]) ? { days: cellNum(val[i]) } : {}), ...(speeds[i] ? { after: speeds[i] } : {}) }; });
+    break;
+  }
+  // Older layout of the unlimited table, with a "Price (QAR)" row
+  if (!Object.keys(out).some(k => k.startsWith("Hala Unlimited Data"))) {
+    const ux = t.search(/Unlimited Local Data Recharge Price/i);
+    if (ux >= 0) {
+      const pr = gridRow(t, ux, /Price\s*\(QAR\)/i, 4) || [], n = pr.length;
+      const full = gridRow(t, ux, L("Local Data Allowance at Full Speed@\\s*\\(GB\\)"), n), add = gridRow(t, ux, L("in case of digital recharges@\\s*\\(GB\\)"), n), val = gridRow(t, ux, /Allowance Validity\s*\(days\)/i, n);
+      const sp = t.slice(ux, ux + 3000).match(/Throttled Speed[\s\S]{0,400}/i);
+      const speeds = sp ? [...sp[0].matchAll(/([\d.]+)\s*([KkMm])bps/g)].map(x => kbps(x[1], x[2])) : [];
+      pr.forEach((p, i) => { const v = cellNum(p), f0 = cellNum(full && full[i]); if (v && f0 != null) out["Hala Unlimited Data " + v] = { data: f0 + (cellNum(add && add[i]) || 0), ...(cellNum(val && val[i]) ? { days: cellNum(val[i]) } : {}), ...(speeds[i] ? { after: speeds[i] } : {}) }; });
+    }
   }
   return out;
 }

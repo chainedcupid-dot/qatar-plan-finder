@@ -101,3 +101,12 @@ assert.deepEqual(oo["Hala Data 65"], { data: 12.65, days: 28 });
 assert.deepEqual(oo["Hala Data 200"], { data: 40.25, days: 28 });
 assert.deepEqual(oo["Hala Unlimited Data 250"], { data: 172.5, days: 30, after: 512 });
 console.log("Real-page tests passed ✔");
+
+// Ooredoo's real C11-01 document (footnote numbers glued to labels, history log before the tables)
+const ooReal = R.parseOoredooPrepaid(real("real-oo-prepaid.txt"));
+const ooDb = JSON.parse(real("../../plans.json"));
+for (const pl of [...ooDb.prepaid, ...ooDb.data].filter(p => p.n.startsWith("Hala"))) assert.ok(ooReal[pl.n], "real C11-01 has " + pl.n);
+assert.deepEqual(ooReal["Hala Super 200"], { data: 38.8, mins: 1150, after: 1000 });
+assert.deepEqual(ooReal["Hala Data 65"], { data: 12.65, days: 28 });
+assert.deepEqual(ooReal["Hala Unlimited Data 250"], { data: 172.5, days: 30, after: 512 });
+console.log("Real Ooredoo prepaid tests passed ✔");
