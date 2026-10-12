@@ -9,6 +9,13 @@
 <link rel="manifest" href="manifest.json">
 <link rel="icon" href="icon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="icon.svg">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Qatar Plan Finder · باقات قطر">
+<meta property="og:title" content="Are you overpaying for your phone? · هل تدفع أكثر من اللازم؟">
+<meta property="og:description" content="Every Ooredoo and Vodafone plan in Qatar, ranked by how you actually use your phone. Free.">
+<meta property="og:image" content="https://baqatqatar.com/og.png">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
 <style>body{margin:0}[hidden]{display:none!important}</style>
 <title>Qatar Plan Finder</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -101,6 +108,11 @@ select,input[type=number]{width:100%;font:15px var(--f-body);padding:9px 10px;bo
 .chip{font-size:12.5px;padding:3px 9px;border-radius:999px;background:var(--bg);border:1px solid var(--line)}
 .chip.short{background:var(--warn-tint);border-color:transparent;color:var(--warn);font-weight:600}
 .tag{grid-column:1/-1;font-size:13px;font-weight:600;color:var(--good)}
+.tagrow{grid-column:1/-1;display:flex;flex-wrap:wrap;gap:6px 10px;align-items:center}
+.delta{font-size:12.5px;font-weight:700;border-radius:999px;padding:2px 10px;font-variant-numeric:tabular-nums}
+.delta.save{background:var(--good-tint);color:var(--good)}
+.delta.more{background:var(--warn-tint);color:var(--warn)}
+.delta.same,.delta.yours{background:var(--bg);color:var(--muted);border:1px solid var(--line)}
 .tag.top{color:var(--ink);display:flex;gap:6px;align-items:center}
 .tag.top i{font-style:normal;background:var(--sand-tint);color:var(--sand);border-radius:999px;padding:1px 9px;font-size:12px}
 .tag.bad{color:var(--warn)}
@@ -338,6 +350,11 @@ const T = {
   vGood:"You're already on a good deal",vGoodBody:n=>`Nothing beats yours for how you use it. Cheapest alternative: ${n}.`,
   vPick:"Your best match",vPickBody:(n,c)=>`${n} covers everything you use for ${c}.`,
   vNone:"No single plan covers all that",vNoneBody:"Try lowering a slider, or check another tab.",
+  sh:{save:(c,b,x,p)=>`💸 I'm on ${c}. Qatar Plan Finder says switching to ${b} (QR ${p}/mo) saves me about QR ${x} a year!`,
+   good:c=>`✅ Qatar Plan Finder checked every plan in Qatar: my ${c} is already the best deal for how I use my phone.`,
+   pick:(b,c)=>`📱 Qatar Plan Finder says ${b} is my best match: ${c}.`,
+   cta:"See my result, then try yours 👇"},
+  dl:{save:x=>`Saves you QR ${x} a year`,more:x=>`QR ${x} more a year`,same:"About the same as now",yours:"Your plan now"},
   share:"Share on WhatsApp",shareText:(n,u)=>`Qatar Plan Finder picked ${n} for me. Find yours: ${u}`,
   mnp:"Switching company? You keep your number, and you can do it online.",
   go:p=>`See it on ${p==="o"?"Ooredoo":"Vodafone"}'s site →`,
@@ -362,7 +379,7 @@ const T = {
   trips:{none:"لا أسافر",gcc:"دول الخليج",pop:"بريطانيا وتركيا ومصر والصين ووجهات شائعة أخرى",other:"أي مكان آخر"},
   abroads:{none:"لا، داخل قطر فقط",gcc:"نعم، في الخليج",pop:"نعم، في الخليج وأبعد"},
   other:"أخرى / غير موجودة",noneYet:"ليس لدي واحدة بعد",gb:"جيجا",min:"دقيقة",qr:"ر.ق",
-  yr:v=>`${v.toLocaleString("ar-QA")} ر.ق في السنة الأولى`,yrR:v=>`≈ ${v.toLocaleString("ar-QA")} ر.ق في السنة`,mo:"/شهر",every:d=>d===180?"لمدة 6 أشهر":`كل ${d} يومًا`,
+  yr:v=>`${v.toLocaleString("ar-QA")} ر.ق في السنة الأولى`,yrR:v=>`≈ ${v.toLocaleString("ar-QA")} ر.ق في السنة`,mo:"/شهر",every:d=>d===180?"لمدة ٦ أشهر":`كل ${d.toLocaleString("ar-QA")} يومًا`,
   then:(p,m,s)=>`${p} ر.ق لمدة ${m} أشهر عبر الإنترنت، ثم ${s} ر.ق`,
   fits:"تغطي كل استخدامك",cheapest:"الأرخص المناسب لك",short:"لا تكفي احتياجك",
   kind:{bill:"فاتورة شهرية",recharge:"مسبق الدفع"},
@@ -380,6 +397,11 @@ const T = {
   vGood:"اختيارك الحالي ممتاز",vGoodBody:n=>`لا يوجد خيار أرخص يناسب استخدامك. أرخص بديل: ${n}.`,
   vPick:"أفضل خيار لك",vPickBody:(n,c)=>`${n} تغطي كل استخدامك بـ ${c}.`,
   vNone:"لا يوجد خيار واحد يغطي كل ذلك",vNoneBody:"جرّب تقليل أحد المؤشرات، أو تصفح تبويبًا آخر.",
+  sh:{save:(c,b,x,p)=>`💸 أنا على باقة ${c}. دليل باقات قطر يقول إن الانتقال إلى ${b} (${p} ر.ق شهريًا) يوفر لي حوالي ${x} ر.ق في السنة!`,
+   good:c=>`✅ دليل باقات قطر قارن كل الباقات في قطر: باقتي ${c} هي الأفضل لاستخدامي.`,
+   pick:(b,c)=>`📱 دليل باقات قطر يقول إن ${b} هي الأنسب لي: ${c}.`,
+   cta:"شاهد نتيجتي، ثم جرّب نتيجتك 👇"},
+  dl:{save:x=>`يوفر لك ${x} ر.ق سنويًا`,more:x=>`${x} ر.ق أكثر سنويًا`,same:"تقريبًا نفس ما تدفعه الآن",yours:"باقتك الحالية"},
   share:"شارك عبر واتساب",shareText:(n,u)=>`دليل باقات قطر اختار لي ${n}. اعرف باقتك: ${u}`,
   mnp:"ستنتقل لشركة أخرى؟ تحتفظ برقمك، ويمكنك الانتقال عبر الإنترنت.",
   go:p=>`شاهدها على موقع ${p==="o"?"Ooredoo":"Vodafone"} ←`,
@@ -426,6 +448,11 @@ const MORE = {
   vGood:"आपकी डील पहले से अच्छी है",vGoodBody:n=>`आपके इस्तेमाल के लिए इससे सस्ता कुछ नहीं। सबसे सस्ता विकल्प: ${n}।`,
   vPick:"आपके लिए सबसे अच्छा",vPickBody:(n,c)=>`${n} आपकी पूरी ज़रूरत ${c} में पूरी करता है।`,
   vNone:"कोई एक प्लान यह सब नहीं देता",vNoneBody:"कोई स्लाइडर कम करें, या दूसरा टैब देखें।",
+  sh:{save:(c,b,x,p)=>`💸 मेरा प्लान ${c} है। Qatar Plan Finder कहता है कि ${b} (QR ${p}/माह) पर जाने से मैं साल में लगभग QR ${x} बचाऊँगा!`,
+   good:c=>`✅ Qatar Plan Finder ने क़तर के सारे प्लान देखे: मेरा ${c} मेरे इस्तेमाल के लिए सबसे अच्छा है।`,
+   pick:(b,c)=>`📱 Qatar Plan Finder के हिसाब से ${b} मेरे लिए सबसे सही है: ${c}।`,
+   cta:"मेरा नतीजा देखें, फिर अपना आज़माएँ 👇"},
+  dl:{save:x=>`साल में QR ${x} की बचत`,more:x=>`साल में QR ${x} ज़्यादा`,same:"लगभग अभी जितना",yours:"आपका अभी का प्लान"},
   share:"WhatsApp पर भेजें",shareText:(n,u)=>`Qatar Plan Finder ने मेरे लिए ${n} चुना। अपना प्लान देखें: ${u}`,
   mnp:"कंपनी बदल रहे हैं? नंबर वही रहेगा, और ऑनलाइन बदल सकते हैं।",go:p=>`${prov(p)} की साइट पर देखें →`,
   more:n=>`${n} जो फ़िट नहीं होते, दिखाएँ`,less:"जो फ़िट नहीं, छिपाएँ",checked:d=>`क़ीमतें ${dateIn("hi-IN",d)} को जाँची गईं।`},
@@ -460,6 +487,11 @@ const MORE = {
   vGood:"آپ کی ڈیل پہلے سے اچھی ہے",vGoodBody:n=>`آپ کے استعمال کے لیے اس سے سستا کچھ نہیں۔ سب سے سستا متبادل: ${n}۔`,
   vPick:"آپ کے لیے بہترین",vPickBody:(n,c)=>`${n} آپ کی پوری ضرورت ${c} میں پوری کرتا ہے۔`,
   vNone:"کوئی ایک پلان یہ سب نہیں دیتا",vNoneBody:"کوئی سلائیڈر کم کریں، یا دوسرا ٹیب دیکھیں۔",
+  sh:{save:(c,b,x,p)=>`💸 میرا پلان ${c} ہے۔ Qatar Plan Finder کہتا ہے کہ ${b} (QR ${p}/ماہ) پر جانے سے میں سال میں تقریباً QR ${x} بچاؤں گا!`,
+   good:c=>`✅ Qatar Plan Finder نے قطر کے تمام پلان دیکھے: میرا ${c} میرے استعمال کے لیے سب سے اچھا ہے۔`,
+   pick:(b,c)=>`📱 Qatar Plan Finder کے مطابق ${b} میرے لیے بہترین ہے: ${c}۔`,
+   cta:"میرا نتیجہ دیکھیں، پھر اپنا آزمائیں 👇"},
+  dl:{save:x=>`سال میں QR ${x} کی بچت`,more:x=>`سال میں QR ${x} زیادہ`,same:"تقریباً ابھی جتنا",yours:"آپ کا موجودہ پلان"},
   share:"WhatsApp پر بھیجیں",shareText:(n,u)=>`Qatar Plan Finder نے میرے لیے ${n} چنا۔ اپنا پلان دیکھیں: ${u}`,
   mnp:"کمپنی بدل رہے ہیں؟ نمبر وہی رہے گا، اور آن لائن بدل سکتے ہیں۔",go:p=>`${prov(p)} کی ویب سائٹ پر دیکھیں ←`,
   more:n=>`${n} جو موزوں نہیں، دکھائیں`,less:"غیر موزوں چھپائیں",checked:d=>`قیمتیں ${dateIn("ur-PK",d)} کو چیک کی گئیں۔`},
@@ -494,6 +526,11 @@ const MORE = {
   vGood:"আপনার ডিল আগে থেকেই ভালো",vGoodBody:n=>`আপনার ব্যবহারের জন্য এর চেয়ে সস্তা কিছু নেই। সবচেয়ে সস্তা বিকল্প: ${n}।`,
   vPick:"আপনার জন্য সেরা",vPickBody:(n,c)=>`${n} আপনার সব প্রয়োজন মেটায়: ${c}।`,
   vNone:"একটি প্ল্যানে এর সব নেই",vNoneBody:"একটি স্লাইডার কমিয়ে দেখুন, বা অন্য ট্যাব দেখুন।",
+  sh:{save:(c,b,x,p)=>`💸 আমার প্ল্যান ${c}। Qatar Plan Finder বলছে ${b} (মাসে QR ${p})-এ গেলে বছরে প্রায় QR ${x} বাঁচবে!`,
+   good:c=>`✅ Qatar Plan Finder কাতারের সব প্ল্যান দেখেছে: আমার ${c} আমার ব্যবহারের জন্য সেরা।`,
+   pick:(b,c)=>`📱 Qatar Plan Finder বলছে ${b} আমার জন্য সবচেয়ে ভালো: ${c}।`,
+   cta:"আমার ফলাফল দেখুন, তারপর আপনারটা দেখুন 👇"},
+  dl:{save:x=>`বছরে QR ${x} সাশ্রয়`,more:x=>`বছরে QR ${x} বেশি`,same:"প্রায় এখনকার মতোই",yours:"আপনার বর্তমান প্ল্যান"},
   share:"WhatsApp-এ শেয়ার করুন",shareText:(n,u)=>`Qatar Plan Finder আমার জন্য ${n} বেছে দিয়েছে। আপনারটা দেখুন: ${u}`,
   mnp:"কোম্পানি বদলাচ্ছেন? নম্বর একই থাকবে, আর অনলাইনেই করা যায়।",go:p=>`${prov(p)}-এর সাইটে দেখুন →`,
   more:n=>`মানানসই নয় এমন ${n}টি দেখান`,less:"মানানসই নয় এমনগুলো লুকান",checked:d=>`দাম যাচাই করা হয়েছে: ${dateIn("bn-BD",d)}।`},
@@ -528,6 +565,11 @@ const MORE = {
   vGood:"നിങ്ങളുടെ ഡീൽ ഇപ്പോൾ തന്നെ നല്ലതാണ്",vGoodBody:n=>`നിങ്ങളുടെ ഉപയോഗത്തിന് ഇതിലും വിലകുറഞ്ഞത് ഇല്ല. ഏറ്റവും വിലകുറഞ്ഞ മറ്റൊന്ന്: ${n}.`,
   vPick:"നിങ്ങൾക്ക് ഏറ്റവും നല്ലത്",vPickBody:(n,c)=>`${n} നിങ്ങളുടെ എല്ലാ ആവശ്യവും നിറവേറ്റും: ${c}.`,
   vNone:"ഇതെല്ലാം ഒരു പ്ലാനിലും ഇല്ല",vNoneBody:"ഒരു സ്ലൈഡർ കുറച്ചു നോക്കൂ, അല്ലെങ്കിൽ മറ്റൊരു ടാബ് നോക്കൂ.",
+  sh:{save:(c,b,x,p)=>`💸 എന്റെ പ്ലാൻ ${c} ആണ്. ${b}-ലേക്ക് (മാസം QR ${p}) മാറിയാൽ വർഷം ഏകദേശം QR ${x} ലാഭിക്കാമെന്ന് Qatar Plan Finder പറയുന്നു!`,
+   good:c=>`✅ Qatar Plan Finder ഖത്തറിലെ എല്ലാ പ്ലാനുകളും നോക്കി: എന്റെ ${c} തന്നെയാണ് ഏറ്റവും നല്ലത്.`,
+   pick:(b,c)=>`📱 Qatar Plan Finder പ്രകാരം എനിക്ക് ഏറ്റവും നല്ലത് ${b}: ${c}.`,
+   cta:"എന്റെ റിസൾട്ട് കാണൂ, എന്നിട്ട് നിങ്ങളുടേത് നോക്കൂ 👇"},
+  dl:{save:x=>`വർഷം QR ${x} ലാഭം`,more:x=>`വർഷം QR ${x} കൂടുതൽ`,same:"ഏകദേശം ഇപ്പോഴത്തെ അത്രതന്നെ",yours:"ഇപ്പോഴത്തെ പ്ലാൻ"},
   share:"WhatsApp-ൽ ഷെയർ ചെയ്യൂ",shareText:(n,u)=>`Qatar Plan Finder എനിക്ക് ${n} തിരഞ്ഞെടുത്തു. നിങ്ങളുടേത് കണ്ടെത്തൂ: ${u}`,
   mnp:"കമ്പനി മാറുകയാണോ? നമ്പർ മാറില്ല, ഓൺലൈനായി ചെയ്യാം.",go:p=>`${prov(p)} സൈറ്റിൽ കാണൂ →`,
   more:n=>`ചേരാത്ത ${n} എണ്ണം കാണിക്കൂ`,less:"ചേരാത്തവ മറയ്ക്കൂ",checked:d=>`വിലകൾ പരിശോധിച്ചത്: ${dateIn("ml-IN",d)}.`},
@@ -562,6 +604,11 @@ const MORE = {
   vGood:"तपाईंको डिल पहिले नै राम्रो छ",vGoodBody:n=>`तपाईंको प्रयोगका लागि योभन्दा सस्तो केही छैन। सबैभन्दा सस्तो विकल्प: ${n}।`,
   vPick:"तपाईंका लागि उत्तम",vPickBody:(n,c)=>`${n} ले तपाईंको सबै आवश्यकता पूरा गर्छ: ${c}।`,
   vNone:"एउटै प्लानमा यी सबै छैन",vNoneBody:"कुनै स्लाइडर घटाउनुहोस्, वा अर्को ट्याब हेर्नुहोस्।",
+  sh:{save:(c,b,x,p)=>`💸 मेरो प्लान ${c} हो। Qatar Plan Finder अनुसार ${b} (मासिक QR ${p}) मा गए वर्षमा करिब QR ${x} बच्छ!`,
+   good:c=>`✅ Qatar Plan Finder ले कतारका सबै प्लान हेर्‍यो: मेरो ${c} नै मेरा लागि उत्तम छ।`,
+   pick:(b,c)=>`📱 Qatar Plan Finder अनुसार ${b} मेरा लागि उत्तम हो: ${c}।`,
+   cta:"मेरो नतिजा हेर्नुहोस्, अनि आफ्नो हेर्नुहोस् 👇"},
+  dl:{save:x=>`वर्षमा QR ${x} बचत`,more:x=>`वर्षमा QR ${x} बढी`,same:"लगभग अहिले जत्तिकै",yours:"तपाईंको हालको प्लान"},
   share:"WhatsApp मा पठाउनुहोस्",shareText:(n,u)=>`Qatar Plan Finder ले मेरा लागि ${n} छान्यो। आफ्नो हेर्नुहोस्: ${u}`,
   mnp:"कम्पनी बदल्दै हुनुहुन्छ? नम्बर उही रहन्छ, र अनलाइन गर्न सकिन्छ।",go:p=>`${prov(p)} को साइटमा हेर्नुहोस् →`,
   more:n=>`नमिल्ने ${n} वटा देखाउनुहोस्`,less:"नमिल्ने लुकाउनुहोस्",checked:d=>`मूल्य जाँचिएको मिति: ${dateIn("ne-NP",d)}।`},
@@ -597,6 +644,11 @@ const MORE = {
   vGood:"Maganda na ang deal mo",vGoodBody:n=>`Walang mas mura para sa gamit mo. Pinakamurang alternatibo: ${n}.`,
   vPick:"Pinakabagay sa'yo",vPickBody:(n,c)=>`Sakto ang ${n} sa lahat ng gamit mo: ${c}.`,
   vNone:"Walang iisang plan na sakto sa lahat ng iyan",vNoneBody:"Subukang ibaba ang isang slider, o tingnan ang ibang tab.",
+  sh:{save:(c,b,x,p)=>`💸 Naka-${c} ako. Sabi ng Qatar Plan Finder, kung lilipat ako sa ${b} (QR ${p}/buwan), makakatipid ako ng mga QR ${x} bawat taon!`,
+   good:c=>`✅ Sinuri ng Qatar Plan Finder ang lahat ng plan sa Qatar: ang ${c} ko na ang pinakamagandang deal para sa akin.`,
+   pick:(b,c)=>`📱 Sabi ng Qatar Plan Finder, ${b} ang pinakabagay sa akin: ${c}.`,
+   cta:"Tingnan ang resulta ko, tapos subukan mo rin 👇"},
+  dl:{save:x=>`Tipid na QR ${x} bawat taon`,more:x=>`QR ${x} na dagdag bawat taon`,same:"Halos pareho sa ngayon",yours:"Ang plan mo ngayon"},
   share:"I-share sa WhatsApp",shareText:(n,u)=>`Pinili ng Qatar Plan Finder ang ${n} para sa akin. Hanapin ang sa'yo: ${u}`,
   mnp:"Lilipat ng kumpanya? Hindi magbabago ang number mo, at puwedeng online.",go:p=>`Tingnan sa site ng ${prov(p)} →`,
   more:n=>`Ipakita ang ${n} na hindi bagay`,less:"Itago ang mga hindi bagay",checked:d=>`Sinuri ang mga presyo noong ${dateIn("fil-PH",d)}.`}
@@ -637,6 +689,25 @@ function planUrl(pl){
  else if(pl.n.startsWith("Postpaid+")) u = URLS.postpaid; else if(pl.n.startsWith("Unlimited+")) u = URLS.unlimited;
  return u && L==="ar" ? u.replace("/web/en/","/web/ar/") : u;
 }
+
+// ===================== SHARE LINKS =====================
+// A shared link carries the sender's settings, so the friend opens the same result they saw.
+const KEYS = {d:"data",m:"mins",c:"dest",i:"intl",v:"trip",r:"roam",a:"abroad",p:"current",x:"custom"};
+function shareLink(){
+ const s = ST[TAB], q = new URLSearchParams({t:TAB, l:L});
+ const skip = {c:s.dest==="none", i:s.dest==="none", v:TAB!=="monthly"||s.trip==="none", r:TAB!=="monthly"||s.trip==="none",
+   a:TAB!=="data"||s.abroad==="none", m:TAB==="data", x:s.current!=="other", p:s.current==="none"};
+ for(const [k,f] of Object.entries(KEYS)) if(!skip[k] && s[f]!==undefined && s[f]!=="") q.set(k, s[f]);
+ return location.origin + location.pathname + "?" + q.toString();
+}
+try{
+ const q = new URLSearchParams(location.search);
+ if(q.has("t") && ST[q.get("t")]){
+  TAB = q.get("t"); if(T[q.get("l")]) L = q.get("l");
+  const s = ST[TAB]; s.preset = null;
+  for(const [k,f] of Object.entries(KEYS)) if(q.has(k)){ const v = q.get(k); s[f] = /^-?\d+(\.\d+)?$/.test(v) ? Number(v) : v; }
+ }
+}catch(e){}
 
 // ===================== MATH =====================
 const isRecharge = pl => pl.days !== undefined;
@@ -726,21 +797,34 @@ function render(){
  if(!best){ v.className="verdict"; v.innerHTML=`<strong>${t.vNone}</strong><p>${t.vNoneBody}</p>`; }
  else{
   const save = curYear - best.yr;
+  const costOf = pl => isRecharge(pl) ? `${t.qr} ${num(pl.price)} ${t.every(pl.days)}` : t.yr(yearCost(pl));
+  const curName = curPlan ? curPlan.n : `${t.qr} ${num(s.custom)}${t.mo}`;
+  let msg;
   if(hasNow && (best.pl.n===s.current || (save<=0 && curFits))){
+   msg = t.sh.good(curName);
    const alt = fit.find(r=>r.pl.n!==s.current) || best;
    v.className="verdict good"; v.innerHTML=`<strong>${t.vGood}</strong><p>${t.vGoodBody(alt.pl.n)}</p>`;
   } else if(hasNow && save>0){
    const mnp = curPlan && curPlan.p!==best.pl.p ? `<p class="mnp">${t.mnp}</p>` : "";
+   msg = t.sh.save(curName, best.pl.n, num(Math.round(save)), num(isRecharge(best.pl) ? best.pl.price : best.pl.std));
    v.className="verdict"; v.innerHTML=`<strong>${t.vSaveHead}</strong><p>${t.vSave(best.pl.n, Math.round(save))}</p>${mnp}`;
   } else {
-   const cost = isRecharge(best.pl) ? `${t.qr} ${num(best.pl.price)} ${t.every(best.pl.days)}` : t.yr(best.yr);
+   const cost = costOf(best.pl);
+   msg = t.sh.pick(best.pl.n, cost);
    v.className="verdict"; v.innerHTML=`<strong>${t.vPick}</strong><p>${t.vPickBody(best.pl.n, cost)}</p>`;
   }
-  const here = location.href.split("#")[0] + "#" + TAB;
-  const wa = "https://wa.me/?text="+encodeURIComponent(t.shareText(best.pl.n, here));
+  const wa = "https://wa.me/?text="+encodeURIComponent(`${msg}\n\n${t.sh.cta}\n${shareLink()}`);
   v.insertAdjacentHTML("beforeend",`<a class="share" href="${wa}" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.7.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.3-.4.7-1.4a.5.5 0 0 0 0-.5l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.8 11.9 11.9 0 0 0 4.6 4c1.7.7 2.3.8 3.2.6a2.7 2.7 0 0 0 1.8-1.3 2.2 2.2 0 0 0 .1-1.3c0-.1-.2-.2-.4-.3z"/></svg>${t.share}</a>`);
  }
 
+ // How each option compares with what you pay now (a full year, promos included)
+ const deltaChip = r => {
+  if(!hasNow) return "";
+  if(r.pl.n===s.current) return `<span class="delta yours">${t.dl.yours}</span>`;
+  const d = Math.round(curYear - r.yr);
+  if(Math.abs(d) < 60) return `<span class="delta same">${t.dl.same}</span>`;
+  return d > 0 ? `<span class="delta save">${t.dl.save(num(d))}</span>` : `<span class="delta more">${t.dl.more(num(-d))}</span>`;
+ };
  const card = (r,i,isFit) => {
   const pl=r.pl, f=r.fails, c=t.chip, rc=isRecharge(pl);
   const chips = [];
@@ -769,7 +853,7 @@ function render(){
   return `<article class="plan${isFit&&i===0?" best":""}${isFit?"":" miss"}">
    <div><div class="prov ${pl.p}">${pl.p==="o"?"Ooredoo":"Vodafone"}</div><h3 class="pname">${pl.n}${kind}</h3></div>
    <div class="price">${price}</div>
-   ${tag}${!rc && pl.pm ? `<div class="promo">${t.then(num(pl.promo),num(pl.pm),num(pl.std))}</div>` : ""}
+   <div class="tagrow">${tag}${deltaChip(r)}</div>${!rc && pl.pm ? `<div class="promo">${t.then(num(pl.promo),num(pl.pm),num(pl.std))}</div>` : ""}
    <div class="specs">${chips.join("")}</div>
    ${isFit && url ? `<a class="go" href="${url}" target="_blank" rel="noopener">${t.go(pl.p)}</a>` : ""}</article>`;
  };
