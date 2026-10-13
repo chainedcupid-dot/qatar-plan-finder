@@ -71,9 +71,34 @@ h1{font-family:var(--f-display);font-weight:700;font-size:clamp(22px,5.4vw,30px)
 .theme{flex:none;width:36px;height:36px;border-radius:999px;border:1px solid rgba(255,255,255,.45);background:transparent;color:var(--on-maroon);cursor:pointer;display:grid;place-items:center;padding:0}
 .theme svg{width:18px;height:18px}
 button:focus-visible,select:focus-visible,input:focus-visible,a:focus-visible{outline:2px solid var(--sand);outline-offset:2px}
-.presets{display:flex;flex-wrap:wrap;gap:8px}
-.preset{border:1px solid var(--line);background:var(--surface);color:var(--ink);font:500 14px var(--f-body);padding:8px 14px;border-radius:999px;cursor:pointer;display:flex;gap:6px;align-items:center}
+[hidden]{display:none!important}
+.presets{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+@media (min-width:640px){.presets{grid-template-columns:repeat(auto-fill,minmax(150px,1fr))}}
+.preset{border:1.5px solid var(--line);background:var(--bg);color:var(--ink);font:inherit;padding:12px;border-radius:14px;cursor:pointer;display:flex;flex-direction:column;align-items:flex-start;gap:2px;text-align:start;min-width:0;transition:border-color .15s,transform .15s,background .15s}
+.preset .ic{font-size:22px;line-height:1;margin-bottom:6px}
+.step{scroll-margin-top:16px}
+:root[lang="ar"] .preset small,:root[lang="ur"] .preset small{font-family:var(--f-body)}
+.preset b{font:600 15px var(--f-body);line-height:1.25}
+.preset small{font:12.5px var(--f-num);color:var(--muted);font-variant-numeric:tabular-nums}
+.preset:hover{border-color:var(--maroon)}
+.preset:active{transform:scale(.97)}
 .preset[aria-pressed="true"]{background:var(--maroon);border-color:var(--maroon);color:var(--on-maroon)}
+.preset[aria-pressed="true"] small{color:var(--on-maroon);opacity:.85}
+.stephead{display:flex;gap:12px;align-items:flex-start}
+.stephead .num{flex:none;width:30px;height:30px;border-radius:999px;background:var(--maroon);color:var(--on-maroon);display:grid;place-items:center;font:700 15px var(--f-display)}
+.panel.step h2{font-family:var(--f-display);font-weight:700;font-size:19px;letter-spacing:0;text-transform:none;color:var(--ink);margin:2px 0 0;line-height:1.3}
+.step h2 label{font:inherit}
+.tap{margin:3px 0 0;font-size:14px;color:var(--muted)}
+.step1-only .step{box-shadow:0 0 0 3px var(--maroon-tint),0 10px 30px -12px rgba(0,0,0,.25);border-color:var(--maroon)}
+#step2.ask{border-color:var(--sand);box-shadow:0 0 0 3px var(--sand-tint)}
+.tune{border-top:1px solid var(--line);margin:0 -18px -18px;padding:0 18px}
+.tune summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;align-items:center;padding:14px 0;font-weight:600;color:var(--maroon-ink)}
+.tune summary::-webkit-details-marker{display:none}
+.tune summary svg{width:20px;height:20px;transition:transform .2s}
+.tune[open] summary svg{transform:rotate(180deg)}
+.tunebody{display:flex;flex-direction:column;gap:18px;padding-bottom:18px}
+.after{display:flex;flex-direction:column;gap:18px}
+@media (prefers-reduced-motion:no-preference){.after.enter{animation:rise .45s ease-out}@keyframes rise{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}}
 .panel{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:18px;display:flex;flex-direction:column;gap:18px}
 .panel h2,.kicker{font-family:var(--f-display);font-weight:500;font-size:13px;letter-spacing:.05em;text-transform:uppercase;color:var(--muted);margin:0}
 .field{display:flex;flex-direction:column;gap:6px}
@@ -150,9 +175,12 @@ footer a{color:var(--maroon-ink)}
   </div>
   <p class="tabnote" id="tabnote"></p>
 
-  <section class="panel" aria-labelledby="t-usage">
-    <h2 id="t-usage"></h2>
-    <div class="presets" id="presets" role="group"></div>
+  <section class="panel step" id="step1" aria-labelledby="t-q1">
+    <div class="stephead"><span class="num">1</span><div><h2 id="t-q1"></h2><p class="tap" id="t-tap"></p></div></div>
+    <div class="presets" id="presets" role="group" aria-labelledby="t-q1"></div>
+    <details class="tune" id="tune">
+      <summary><span id="t-tune"></span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+      <div class="tunebody">
     <div class="field">
       <div class="row"><label for="data" id="t-data"></label><span class="val" id="data-v"></span></div>
       <input type="range" id="data" min="1" max="200" step="1" value="25">
@@ -185,9 +213,16 @@ footer a{color:var(--maroon-ink)}
       <label for="abroad" id="t-abroad"></label>
       <select id="abroad"></select>
     </div>
+    <p class="hint" id="t-hint"></p>
+      </div>
+    </details>
+  </section>
+
+  <div class="after" id="after" hidden>
+  <section class="panel step" id="step2" aria-labelledby="t-current">
+    <div class="stephead"><span class="num">2</span><div><h2><label for="current" id="t-current"></label></h2><p class="tap" id="t-step2"></p></div></div>
     <div class="grid2">
       <div class="field">
-        <label for="current" id="t-current"></label>
         <select id="current"></select>
       </div>
       <div class="field" id="custom-wrap" hidden>
@@ -195,13 +230,13 @@ footer a{color:var(--maroon-ink)}
         <input type="number" id="custom" min="0" step="5" value="150" inputmode="numeric">
       </div>
     </div>
-    <p class="hint" id="t-hint"></p>
   </section>
 
   <div class="verdict" id="verdict" aria-live="polite"></div>
 
   <div class="list" id="list"></div>
   <button class="more" id="more" type="button"></button>
+  </div>
 
   <footer>
     <span id="t-checked"></span>
@@ -323,7 +358,7 @@ const T = {
    monthly:{light:"Light user",regular:"Regular",heavy:"Heavy user",home:"Calls home a lot",travel:"Travels often"},
    prepaid:{light:"Light user",regular:"Regular",heavy:"Heavy user",home:"Calls home a lot"},
    data:{light:"Light browsing",home:"Home internet",heavy:"Heavy streaming",travel:"Travels in the GCC"}},
-  usage:"How you use it",data:"Data each month",mins:"Local calls (minutes a month)",dest:"You call abroad to",intl:"International minutes a month",
+  usage:"How you use it",q1:{monthly:"How do you use your phone?",prepaid:"How do you use your phone?",data:"What do you need the internet for?"},tap:"Tap the one that sounds like you.",tune:"Fine-tune the numbers",step2:"Pick it to see how much you'd save. Or skip it.",data:"Data each month",mins:"Local calls (minutes a month)",dest:"You call abroad to",intl:"International minutes a month",
   trip:"You travel to",roam:"Roaming data while away",abroad:"Use it outside Qatar too?",
   current:{monthly:"Your plan now",prepaid:"Your recharge now",data:"Your data plan now"},
   custom:"What you pay now (QR a month)",
@@ -370,7 +405,7 @@ const T = {
    monthly:{light:"استخدام خفيف",regular:"استخدام عادي",heavy:"استخدام كثيف",home:"أتصل بأهلي كثيرًا",travel:"أسافر كثيرًا"},
    prepaid:{light:"استخدام خفيف",regular:"استخدام عادي",heavy:"استخدام كثيف",home:"أتصل بأهلي كثيرًا"},
    data:{light:"تصفح خفيف",home:"إنترنت المنزل",heavy:"مشاهدة كثيفة",travel:"أسافر في الخليج"}},
-  usage:"كيف تستخدمه",data:"البيانات شهريًا",mins:"المكالمات المحلية (دقائق شهريًا)",dest:"تتصل خارج قطر بـ",intl:"الدقائق الدولية شهريًا",
+  usage:"كيف تستخدمه",q1:{monthly:"كيف تستخدم هاتفك؟",prepaid:"كيف تستخدم هاتفك؟",data:"لماذا تحتاج الإنترنت؟"},tap:"اختر الأقرب لك.",tune:"اضبط الأرقام بنفسك",step2:"اخترها لترى كم ستوفر، أو تخطَّ هذه الخطوة.",data:"البيانات شهريًا",mins:"المكالمات المحلية (دقائق شهريًا)",dest:"تتصل خارج قطر بـ",intl:"الدقائق الدولية شهريًا",
   trip:"تسافر إلى",roam:"بيانات التجوال أثناء السفر",abroad:"تستخدمه خارج قطر أيضًا؟",
   current:{monthly:"باقتك الحالية",prepaid:"شحنك الحالي",data:"باقة البيانات الحالية"},
   custom:"ما تدفعه الآن (ر.ق شهريًا)",
@@ -425,7 +460,7 @@ const MORE = {
   presets:{monthly:{light:"कम इस्तेमाल",regular:"सामान्य",heavy:"ज़्यादा इस्तेमाल",home:"घर बहुत फ़ोन करता हूँ",travel:"अक्सर यात्रा"},
    prepaid:{light:"कम इस्तेमाल",regular:"सामान्य",heavy:"ज़्यादा इस्तेमाल",home:"घर बहुत फ़ोन करता हूँ"},
    data:{light:"हल्की ब्राउज़िंग",home:"घर का इंटरनेट",heavy:"बहुत वीडियो",travel:"खाड़ी देशों में यात्रा"}},
-  usage:"आप कैसे इस्तेमाल करते हैं",data:"हर महीने डेटा",mins:"लोकल कॉल (मिनट प्रति माह)",dest:"आप विदेश में कॉल करते हैं",intl:"अंतरराष्ट्रीय मिनट प्रति माह",
+  usage:"आप कैसे इस्तेमाल करते हैं",q1:{monthly:"आप फ़ोन कैसे इस्तेमाल करते हैं?",prepaid:"आप फ़ोन कैसे इस्तेमाल करते हैं?",data:"इंटरनेट किस लिए चाहिए?"},tap:"जो आपके जैसा लगे, उसे चुनें।",tune:"नंबर ख़ुद सेट करें",step2:"इसे चुनें और देखें कितनी बचत होगी। या छोड़ दें।",data:"हर महीने डेटा",mins:"लोकल कॉल (मिनट प्रति माह)",dest:"आप विदेश में कॉल करते हैं",intl:"अंतरराष्ट्रीय मिनट प्रति माह",
   trip:"आप यात्रा करते हैं",roam:"बाहर रहते हुए रोमिंग डेटा",abroad:"क़तर के बाहर भी इस्तेमाल करेंगे?",
   current:{monthly:"आपका अभी का प्लान",prepaid:"आपका अभी का रिचार्ज",data:"आपका अभी का डेटा प्लान"},custom:"अभी आप कितना देते हैं (QR प्रति माह)",
   hint:"पक्का नहीं पता? Ooredoo या My Vodafone ऐप में पिछले महीने का डेटा और मिनट दिखते हैं।",
@@ -464,7 +499,7 @@ const MORE = {
   presets:{monthly:{light:"کم استعمال",regular:"عام",heavy:"زیادہ استعمال",home:"گھر بہت کال کرتا ہوں",travel:"اکثر سفر"},
    prepaid:{light:"کم استعمال",regular:"عام",heavy:"زیادہ استعمال",home:"گھر بہت کال کرتا ہوں"},
    data:{light:"ہلکی براؤزنگ",home:"گھر کا انٹرنیٹ",heavy:"بہت زیادہ ویڈیو",travel:"خلیجی ممالک کا سفر"}},
-  usage:"آپ کیسے استعمال کرتے ہیں",data:"ماہانہ ڈیٹا",mins:"لوکل کالز (منٹ ماہانہ)",dest:"آپ بیرونِ ملک کال کرتے ہیں",intl:"بین الاقوامی منٹ ماہانہ",
+  usage:"آپ کیسے استعمال کرتے ہیں",q1:{monthly:"آپ فون کیسے استعمال کرتے ہیں؟",prepaid:"آپ فون کیسے استعمال کرتے ہیں؟",data:"انٹرنیٹ کس لیے چاہیے؟"},tap:"جو آپ جیسا لگے، اسے چنیں۔",tune:"نمبر خود سیٹ کریں",step2:"اسے چنیں اور دیکھیں کتنی بچت ہوگی۔ یا چھوڑ دیں۔",data:"ماہانہ ڈیٹا",mins:"لوکل کالز (منٹ ماہانہ)",dest:"آپ بیرونِ ملک کال کرتے ہیں",intl:"بین الاقوامی منٹ ماہانہ",
   trip:"آپ سفر کرتے ہیں",roam:"سفر میں رومنگ ڈیٹا",abroad:"قطر سے باہر بھی استعمال کریں گے؟",
   current:{monthly:"آپ کا موجودہ پلان",prepaid:"آپ کا موجودہ ری چارج",data:"آپ کا موجودہ ڈیٹا پلان"},custom:"ابھی آپ کتنا دیتے ہیں (QR ماہانہ)",
   hint:"یقین نہیں؟ Ooredoo یا My Vodafone ایپ میں پچھلے مہینے کا ڈیٹا اور منٹ نظر آتے ہیں۔",
@@ -503,7 +538,7 @@ const MORE = {
   presets:{monthly:{light:"কম ব্যবহার",regular:"সাধারণ",heavy:"বেশি ব্যবহার",home:"দেশে অনেক কল করি",travel:"প্রায়ই ভ্রমণ"},
    prepaid:{light:"কম ব্যবহার",regular:"সাধারণ",heavy:"বেশি ব্যবহার",home:"দেশে অনেক কল করি"},
    data:{light:"হালকা ব্রাউজিং",home:"বাসার ইন্টারনেট",heavy:"অনেক ভিডিও",travel:"উপসাগরীয় দেশে ভ্রমণ"}},
-  usage:"আপনি কীভাবে ব্যবহার করেন",data:"প্রতি মাসে ডেটা",mins:"লোকাল কল (মাসে মিনিট)",dest:"আপনি বিদেশে কল করেন",intl:"মাসে আন্তর্জাতিক মিনিট",
+  usage:"আপনি কীভাবে ব্যবহার করেন",q1:{monthly:"আপনি ফোন কীভাবে ব্যবহার করেন?",prepaid:"আপনি ফোন কীভাবে ব্যবহার করেন?",data:"ইন্টারনেট কীসের জন্য?"},tap:"যেটা আপনার সাথে মেলে, সেটা বেছে নিন।",tune:"সংখ্যাগুলো নিজে ঠিক করুন",step2:"এটা বেছে নিন, দেখুন কত বাঁচবে। অথবা বাদ দিন।",data:"প্রতি মাসে ডেটা",mins:"লোকাল কল (মাসে মিনিট)",dest:"আপনি বিদেশে কল করেন",intl:"মাসে আন্তর্জাতিক মিনিট",
   trip:"আপনি ভ্রমণ করেন",roam:"বাইরে থাকার সময় রোমিং ডেটা",abroad:"কাতারের বাইরেও ব্যবহার করবেন?",
   current:{monthly:"আপনার বর্তমান প্ল্যান",prepaid:"আপনার বর্তমান রিচার্জ",data:"আপনার বর্তমান ডেটা প্ল্যান"},custom:"এখন কত দেন (মাসে QR)",
   hint:"নিশ্চিত নন? Ooredoo বা My Vodafone অ্যাপে গত মাসের ডেটা আর মিনিট দেখা যায়।",
@@ -542,7 +577,7 @@ const MORE = {
   presets:{monthly:{light:"കുറഞ്ഞ ഉപയോഗം",regular:"സാധാരണ",heavy:"കൂടുതൽ ഉപയോഗം",home:"നാട്ടിലേക്ക് ധാരാളം വിളിക്കും",travel:"പലപ്പോഴും യാത്ര"},
    prepaid:{light:"കുറഞ്ഞ ഉപയോഗം",regular:"സാധാരണ",heavy:"കൂടുതൽ ഉപയോഗം",home:"നാട്ടിലേക്ക് ധാരാളം വിളിക്കും"},
    data:{light:"കുറച്ച് ബ്രൗസിംഗ്",home:"വീട്ടിലെ ഇന്റർനെറ്റ്",heavy:"ധാരാളം വീഡിയോ",travel:"ഗൾഫ് രാജ്യങ്ങളിൽ യാത്ര"}},
-  usage:"നിങ്ങൾ എങ്ങനെ ഉപയോഗിക്കുന്നു",data:"മാസം ഡാറ്റ",mins:"ലോക്കൽ കോളുകൾ (മാസം മിനിറ്റ്)",dest:"നിങ്ങൾ വിദേശത്തേക്ക് വിളിക്കുന്നത്",intl:"മാസം അന്താരാഷ്ട്ര മിനിറ്റ്",
+  usage:"നിങ്ങൾ എങ്ങനെ ഉപയോഗിക്കുന്നു",q1:{monthly:"നിങ്ങൾ ഫോൺ എങ്ങനെ ഉപയോഗിക്കുന്നു?",prepaid:"നിങ്ങൾ ഫോൺ എങ്ങനെ ഉപയോഗിക്കുന്നു?",data:"ഇന്റർനെറ്റ് എന്തിനാണ്?"},tap:"നിങ്ങൾക്ക് ചേരുന്നത് തിരഞ്ഞെടുക്കൂ.",tune:"നമ്പറുകൾ സ്വയം സെറ്റ് ചെയ്യൂ",step2:"ഇത് തിരഞ്ഞെടുത്താൽ എത്ര ലാഭിക്കാമെന്ന് കാണാം. അല്ലെങ്കിൽ ഒഴിവാക്കൂ.",data:"മാസം ഡാറ്റ",mins:"ലോക്കൽ കോളുകൾ (മാസം മിനിറ്റ്)",dest:"നിങ്ങൾ വിദേശത്തേക്ക് വിളിക്കുന്നത്",intl:"മാസം അന്താരാഷ്ട്ര മിനിറ്റ്",
   trip:"നിങ്ങൾ യാത്ര ചെയ്യുന്നത്",roam:"യാത്രയിലെ റോമിംഗ് ഡാറ്റ",abroad:"ഖത്തറിന് പുറത്തും ഉപയോഗിക്കുമോ?",
   current:{monthly:"ഇപ്പോഴത്തെ പ്ലാൻ",prepaid:"ഇപ്പോഴത്തെ റീചാർജ്",data:"ഇപ്പോഴത്തെ ഡാറ്റ പ്ലാൻ"},custom:"ഇപ്പോൾ എത്ര കൊടുക്കുന്നു (മാസം QR)",
   hint:"ഉറപ്പില്ലേ? Ooredoo അല്ലെങ്കിൽ My Vodafone ആപ്പിൽ കഴിഞ്ഞ മാസത്തെ ഡാറ്റയും മിനിറ്റും കാണാം.",
@@ -581,7 +616,7 @@ const MORE = {
   presets:{monthly:{light:"थोरै प्रयोग",regular:"सामान्य",heavy:"धेरै प्रयोग",home:"घरमा धेरै फोन गर्छु",travel:"धेरै यात्रा"},
    prepaid:{light:"थोरै प्रयोग",regular:"सामान्य",heavy:"धेरै प्रयोग",home:"घरमा धेरै फोन गर्छु"},
    data:{light:"हल्का ब्राउजिङ",home:"घरको इन्टरनेट",heavy:"धेरै भिडियो",travel:"खाडी देशमा यात्रा"}},
-  usage:"तपाईं कसरी प्रयोग गर्नुहुन्छ",data:"मासिक डेटा",mins:"लोकल कल (मासिक मिनेट)",dest:"तपाईं विदेश फोन गर्नुहुन्छ",intl:"मासिक अन्तर्राष्ट्रिय मिनेट",
+  usage:"तपाईं कसरी प्रयोग गर्नुहुन्छ",q1:{monthly:"तपाईं फोन कसरी प्रयोग गर्नुहुन्छ?",prepaid:"तपाईं फोन कसरी प्रयोग गर्नुहुन्छ?",data:"इन्टरनेट केका लागि?"},tap:"तपाईंसँग मिल्ने एउटा छान्नुहोस्।",tune:"अंकहरू आफैं मिलाउनुहोस्",step2:"यो छान्नुहोस्, कति बच्छ हेर्नुहोस्। वा छोड्नुहोस्।",data:"मासिक डेटा",mins:"लोकल कल (मासिक मिनेट)",dest:"तपाईं विदेश फोन गर्नुहुन्छ",intl:"मासिक अन्तर्राष्ट्रिय मिनेट",
   trip:"तपाईं यात्रा गर्नुहुन्छ",roam:"बाहिर हुँदा रोमिङ डेटा",abroad:"कतार बाहिर पनि प्रयोग गर्नुहुन्छ?",
   current:{monthly:"तपाईंको हालको प्लान",prepaid:"तपाईंको हालको रिचार्ज",data:"तपाईंको हालको डेटा प्लान"},custom:"अहिले कति तिर्नुहुन्छ (मासिक QR)",
   hint:"पक्का छैन? Ooredoo वा My Vodafone एपमा गत महिनाको डेटा र मिनेट देखिन्छ।",
@@ -620,7 +655,7 @@ const MORE = {
   presets:{monthly:{light:"Kaunting gamit",regular:"Karaniwan",heavy:"Malakas gumamit",home:"Madalas tumawag sa pamilya",travel:"Madalas bumiyahe"},
    prepaid:{light:"Kaunting gamit",regular:"Karaniwan",heavy:"Malakas gumamit",home:"Madalas tumawag sa pamilya"},
    data:{light:"Kaunting browsing",home:"Internet sa bahay",heavy:"Maraming video",travel:"Biyahe sa GCC"}},
-  usage:"Paano mo ito ginagamit",data:"Data bawat buwan",mins:"Local na tawag (minuto bawat buwan)",dest:"Tumatawag ka sa ibang bansa, sa",intl:"International na minuto bawat buwan",
+  usage:"Paano mo ito ginagamit",q1:{monthly:"Paano mo ginagamit ang phone mo?",prepaid:"Paano mo ginagamit ang phone mo?",data:"Para saan ang internet?"},tap:"Piliin ang pinakabagay sa iyo.",tune:"Ikaw na ang mag-set ng numbers",step2:"Piliin ito para makita kung magkano ang matitipid mo. O laktawan.",data:"Data bawat buwan",mins:"Local na tawag (minuto bawat buwan)",dest:"Tumatawag ka sa ibang bansa, sa",intl:"International na minuto bawat buwan",
   trip:"Bumibiyahe ka sa",roam:"Roaming data habang wala sa Qatar",abroad:"Gagamitin din sa labas ng Qatar?",
   current:{monthly:"Plan mo ngayon",prepaid:"Load mo ngayon",data:"Data plan mo ngayon"},custom:"Magkano ang binabayaran mo ngayon (QR kada buwan)",
   hint:"Hindi sigurado? Makikita sa Ooredoo o My Vodafone app ang data at minuto mo noong nakaraang buwan.",
@@ -672,10 +707,13 @@ const PRESETS = {
 };
 const DEFAULT_PRESET = {monthly:"regular",prepaid:"regular",data:"home"};
 const DATA_MAX = {monthly:200,prepaid:100,data:500};
-const CURRENT_DEFAULT = {monthly:"Shahry+ Super",prepaid:"none",data:"none"};
+const CURRENT_DEFAULT = {monthly:"none",prepaid:"none",data:"none"};
 let L = "en", TAB = "monthly", showAll = false;
 const ST = {};
-for(const t of ["monthly","prepaid","data"]) ST[t] = {...{data:25,mins:400,dest:"none",intl:0,trip:"none",roam:0,abroad:"none"}, ...PRESETS[t][DEFAULT_PRESET[t]], preset:DEFAULT_PRESET[t], current:CURRENT_DEFAULT[t], custom:150};
+for(const t of ["monthly","prepaid","data"]) ST[t] = {...{data:25,mins:400,dest:"none",intl:0,trip:"none",roam:0,abroad:"none"}, ...PRESETS[t][DEFAULT_PRESET[t]], preset:null, current:CURRENT_DEFAULT[t], custom:150, started:false};
+// Returning visitors go straight to their result
+try{ const saved = JSON.parse(localStorage.getItem("qpf-st")||"null"); if(saved) for(const t in ST) if(saved[t] && saved[t].started) Object.assign(ST[t], saved[t]); }catch(e){}
+const saveST = () => { try{ localStorage.setItem("qpf-st", JSON.stringify(ST)); }catch(e){} };
 try{ const s = localStorage.getItem("qpf-lang"); if(T[s]) L=s; const tb = localStorage.getItem("qpf-tab"); if(ST[tb]) TAB=tb; }catch(e){}
 if(/^#(monthly|prepaid|data)$/.test(location.hash)) TAB = location.hash.slice(1);
 const $ = id => document.getElementById(id);
@@ -704,7 +742,7 @@ try{
  const q = new URLSearchParams(location.search);
  if(q.has("t") && ST[q.get("t")]){
   TAB = q.get("t"); if(T[q.get("l")]) L = q.get("l");
-  const s = ST[TAB]; s.preset = null;
+  const s = ST[TAB]; s.preset = null; s.started = true;
   for(const [k,f] of Object.entries(KEYS)) if(q.has(k)){ const v = q.get(k); s[f] = /^-?\d+(\.\d+)?$/.test(v) ? Number(v) : v; }
  }
 }catch(e){}
@@ -764,17 +802,26 @@ function applyLang(){
  $("t-title").textContent = t.title; $("t-sub").textContent = t.sub;
  for(const k of ["monthly","prepaid","data"]){ const b=$("tab-"+k); b.textContent=t.tabs[k]; b.setAttribute("aria-selected",String(k===TAB)); }
  $("tabnote").textContent = t.tabnote[TAB];
- for(const k of ["usage","data","mins","dest","intl","trip","roam","abroad","custom","hint"]) $("t-"+k).textContent = t[k];
+ for(const k of ["tap","tune","step2","data","mins","dest","intl","trip","roam","abroad","custom","hint"]) $("t-"+k).textContent = t[k];
+ $("t-q1").textContent = t.q1[TAB];
  $("t-current").textContent = t.current[TAB];
  document.querySelectorAll("[data-on]").forEach(el=>{ el.hidden = !el.dataset.on.split(" ").includes(TAB); });
  const pr = PRESETS[TAB], s = ST[TAB];
- $("presets").innerHTML = Object.keys(pr).map(k=>`<button type="button" class="preset" data-p="${k}" aria-pressed="${s.preset===k}">${t.presets[TAB][k]}</button>`).join("");
+ const IC = {light:"🌱",regular:"📱",heavy:"🔥",home:TAB==="data"?"🏠":"📞",travel:"✈️"}; if(TAB==="data") IC.heavy="🎬";
+ const n = v => v.toLocaleString(L==="ar"?"ar-QA":"en");
+ $("presets").innerHTML = Object.keys(pr).map(k=>{ const p = pr[k];
+   const d = TAB==="data" ? `${n(p.data)} ${t.gb}` : `${n(p.data)} ${t.gb} · ${n(p.mins)} ${t.min}`;
+   return `<button type="button" class="preset" data-p="${k}" aria-pressed="${s.preset===k}"><span class="ic" aria-hidden="true">${IC[k]}</span><b>${t.presets[TAB][k]}</b><small>${d}</small></button>`; }).join("");
  $("t-checked").textContent = t.checked(new Date(CHECKED+"T12:00:00")); $("t-src").innerHTML = t.src; 
  fillSelects(); writeControls(); render();
 }
 
 function render(){
  const t = T[L], s = ST[TAB];
+ $("after").hidden = !s.started;
+ document.body.classList.toggle("step1-only", !s.started);
+ $("step2").classList.toggle("ask", s.started && s.current==="none");
+ if(s.started) saveST();
  const num = v => (Math.round(v*10)/10).toLocaleString(L==="ar"?"ar-QA":"en");
  const max = DATA_MAX[TAB];
  $("data-v").textContent = (s.data>=max ? `${num(max)}+` : num(s.data)) + " " + t.gb;
@@ -863,16 +910,24 @@ function render(){
 }
 
 // ===================== EVENTS =====================
+// First choice on a tab: reveal step 2 and the results, and glide down to them.
+function start(){
+ const s = ST[TAB]; if(s.started) return;
+ s.started = true; const a = $("after"); a.hidden = false; a.classList.remove("enter"); void a.offsetWidth; a.classList.add("enter");
+ requestAnimationFrame(()=>$("step2").scrollIntoView({behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth", block:"start"}));
+}
 const clearPreset = () => { ST[TAB].preset = null; document.querySelectorAll(".preset").forEach(b=>b.setAttribute("aria-pressed","false")); };
 ["data","mins","intl","roam"].forEach(id=>$(id).addEventListener("input",()=>{readControls();clearPreset();render();}));
-["dest","trip","abroad"].forEach(id=>$(id).addEventListener("change",()=>{readControls();clearPreset();render();}));
-$("current").addEventListener("change",()=>{readControls();render();});
+["data","mins","intl","roam"].forEach(id=>$(id).addEventListener("change",()=>{start();render();}));
+["dest","trip","abroad"].forEach(id=>$(id).addEventListener("change",()=>{readControls();clearPreset();start();render();}));
+$("current").addEventListener("change",()=>{readControls();render();
+ if(ST[TAB].current!=="none") requestAnimationFrame(()=>$("verdict").scrollIntoView({behavior:"smooth",block:"nearest"}));});
 $("custom").addEventListener("input",()=>{readControls();render();});
 $("presets").addEventListener("click",e=>{
  const b=e.target.closest(".preset"); if(!b) return;
  Object.assign(ST[TAB], PRESETS[TAB][b.dataset.p], {preset:b.dataset.p});
  document.querySelectorAll(".preset").forEach(x=>x.setAttribute("aria-pressed",String(x===b)));
- writeControls(); render();
+ writeControls(); start(); render();
 });
 $("tabs").addEventListener("click",e=>{
  const b=e.target.closest(".tab"); if(!b || b.dataset.tab===TAB) return;
