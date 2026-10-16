@@ -3,21 +3,21 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="description" content="Compare every Ooredoo and Vodafone postpaid plan in Qatar against how you actually use your phone. قارن باقات Ooredoo وVodafone في قطر.">
+<meta name="description" content="Free tool that compares every Ooredoo and Vodafone plan in Qatar and shows the cheapest one for how you use your phone. قارن كل باقات أوريدو وفودافون في قطر.">
 <meta name="theme-color" content="#8a1538">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <link rel="manifest" href="manifest.json">
 <link rel="icon" href="icon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="icon.svg">
 <meta property="og:type" content="website">
-<meta property="og:site_name" content="Qatar Plan Finder · باقات قطر">
+<meta property="og:site_name" content="Baqat Qatar · باقات قطر">
 <meta property="og:title" content="Are you overpaying for your phone? · هل تدفع أكثر من اللازم؟">
 <meta property="og:description" content="Every Ooredoo and Vodafone plan in Qatar, ranked by how you actually use your phone. Free.">
 <meta property="og:image" content="https://baqatqatar.com/og.png">
 <meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 <style>body{margin:0}[hidden]{display:none!important}</style>
-<title>Qatar Plan Finder</title>
+<title>Baqat Qatar</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@500;700&family=IBM+Plex+Sans+Arabic:wght@400;500;600&family=IBM+Plex+Mono:wght@500&family=Noto+Sans+Devanagari:wght@400;600&family=Noto+Sans+Bengali:wght@400;600&family=Noto+Sans+Malayalam:wght@400;600&display=swap">
 <style>
@@ -156,7 +156,7 @@ footer a{color:var(--maroon-ink)}
 </head><body>
 
 <div class="brandbar"><div class="in">
-  <div class="brand"><svg viewBox="0 0 48 48" role="img" aria-label="Qatar Plan Finder logo"><rect width="48" height="48" rx="12" fill="#ffffff"/><rect x="10" y="27" width="7" height="11" rx="2" fill="#8a1538"/><rect x="20.5" y="20" width="7" height="18" rx="2" fill="#8a1538"/><rect x="31" y="13" width="7" height="25" rx="2" fill="#8a1538"/><circle cx="34.5" cy="8" r="3.5" fill="#c99a3e"/></svg><div><b id="t-brand"></b><small id="t-brand2"></small></div></div>
+  <div class="brand"><svg viewBox="0 0 48 48" role="img" aria-label="Baqat Qatar logo"><rect width="48" height="48" rx="12" fill="#ffffff"/><rect x="10" y="27" width="7" height="11" rx="2" fill="#8a1538"/><rect x="20.5" y="20" width="7" height="18" rx="2" fill="#8a1538"/><rect x="31" y="13" width="7" height="25" rx="2" fill="#8a1538"/><circle cx="34.5" cy="8" r="3.5" fill="#c99a3e"/></svg><div><b id="t-brand"></b><small id="t-brand2"></small></div></div>
   <div class="controls">
     <button class="theme" id="theme" type="button"></button>
     <label class="langwrap"><span class="langface" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M3 12h18M12 3c2.6 2.6 3.8 5.6 3.8 9s-1.2 6.4-3.8 9c-2.6-2.6-3.8-5.6-3.8-9S9.4 5.6 12 3z" fill="none" stroke="currentColor" stroke-width="1.8"/></svg><b id="langcode">EN</b></span><select id="lang" aria-label="Language"></select></label>
@@ -352,7 +352,7 @@ const FLEX_RATE = {in:1,bd:1,ph:3,pk:5,np:5,any:5};
 
 // ===================== WORDS =====================
 const T = {
- en:{dir:"ltr",lang:"عربي",brand:"Qatar Plan Finder",brand2:"دليل باقات قطر",title:"Which mobile plan is right for you?",
+ en:{dir:"ltr",lang:"عربي",brand:"Baqat Qatar",brand2:"باقات قطر",title:"Which mobile plan is right for you?",
   sub:"Every plan from Ooredoo and Vodafone, ranked by how you actually use your phone. Free, and not owned by either company.",
   langName:"English",
   tabs:{monthly:"Monthly bill",prepaid:"Prepaid",data:"Data only"},
@@ -388,18 +388,18 @@ const T = {
   vGood:"You're already on a good deal",vGoodBody:n=>`Nothing beats yours for how you use it. Cheapest alternative: ${n}.`,
   vPick:"Your best match",vPickBody:(n,c)=>`${n} covers everything you use for ${c}.`,
   vNone:"No single plan covers all that",vNoneBody:"Try lowering a slider, or check another tab.",
-  sh:{save:(c,b,x,p)=>`💸 I'm on ${c}. Qatar Plan Finder says switching to ${b} (QR ${p}/mo) saves me about QR ${x} a year!`,
-   good:c=>`✅ Qatar Plan Finder checked every plan in Qatar: my ${c} is already the best deal for how I use my phone.`,
-   pick:(b,c)=>`📱 Qatar Plan Finder says ${b} is my best match: ${c}.`,
+  sh:{save:(c,b,x,p)=>`💸 I'm on ${c}. Baqat Qatar says switching to ${b} (QR ${p}/mo) saves me about QR ${x} a year!`,
+   good:c=>`✅ Baqat Qatar checked every plan in Qatar: my ${c} is already the best deal for how I use my phone.`,
+   pick:(b,c)=>`📱 Baqat Qatar says ${b} is my best match: ${c}.`,
    cta:"See my result, then try yours 👇"},
   dl:{save:x=>`Saves you QR ${x} a year`,more:x=>`QR ${x} more a year`,same:"About the same as now",yours:"Your plan now"},
-  share:"Share on WhatsApp",shareText:(n,u)=>`Qatar Plan Finder picked ${n} for me. Find yours: ${u}`,
+  share:"Share on WhatsApp",shareText:(n,u)=>`Baqat Qatar picked ${n} for me. Find yours: ${u}`,
   mnp:"Switching company? You keep your number, and you can do it online.",
   go:p=>`See it on ${p==="o"?"Ooredoo":"Vodafone"}'s site →`,
   more:n=>`Show ${n} that don't fit`,less:"Hide the ones that don't fit",
   checked:d=>`Prices checked ${d.toLocaleDateString("en-GB",{day:"numeric",month:"long",year:"numeric"})}.`,
   src:'Sources: <a href="https://www.ooredoo.qa/web/en/postpaid-plans/" target="_blank" rel="noopener">Ooredoo plans</a> · <a href="https://www.ooredoo.qa/web/en/prepaid-plans/recharge/" target="_blank" rel="noopener">Ooredoo Hala recharges</a> · <a href="https://www.vodafone.qa/en/about-us/legal-and-regulatory/tariff-documents" target="_blank" rel="noopener">Vodafone tariff documents</a>',},
- ar:{dir:"rtl",lang:"English",brand:"دليل باقات قطر",brand2:"Qatar Plan Finder",title:"أي باقة جوال تناسبك؟",
+ ar:{dir:"rtl",lang:"English",brand:"باقات قطر",brand2:"Baqat Qatar",title:"أي باقة جوال تناسبك؟",
   sub:"كل باقات Ooredoo وVodafone، مرتبة حسب استخدامك الفعلي لهاتفك. مجاني، ولا يتبع أيًا من الشركتين.",
   langName:"العربية",
   tabs:{monthly:"فاتورة شهرية",prepaid:"مسبق الدفع",data:"بيانات فقط"},
@@ -435,12 +435,12 @@ const T = {
   vGood:"اختيارك الحالي ممتاز",vGoodBody:n=>`لا يوجد خيار أرخص يناسب استخدامك. أرخص بديل: ${n}.`,
   vPick:"أفضل خيار لك",vPickBody:(n,c)=>`${n} تغطي كل استخدامك بـ ${c}.`,
   vNone:"لا يوجد خيار واحد يغطي كل ذلك",vNoneBody:"جرّب تقليل أحد المؤشرات، أو تصفح تبويبًا آخر.",
-  sh:{save:(c,b,x,p)=>`💸 أنا على باقة ${c}. دليل باقات قطر يقول إن الانتقال إلى ${b} (${p} ر.ق شهريًا) يوفر لي حوالي ${x} ر.ق في السنة!`,
-   good:c=>`✅ دليل باقات قطر قارن كل الباقات في قطر: باقتي ${c} هي الأفضل لاستخدامي.`,
-   pick:(b,c)=>`📱 دليل باقات قطر يقول إن ${b} هي الأنسب لي: ${c}.`,
+  sh:{save:(c,b,x,p)=>`💸 أنا على باقة ${c}. باقات قطر يقول إن الانتقال إلى ${b} (${p} ر.ق شهريًا) يوفر لي حوالي ${x} ر.ق في السنة!`,
+   good:c=>`✅ باقات قطر قارن كل الباقات في قطر: باقتي ${c} هي الأفضل لاستخدامي.`,
+   pick:(b,c)=>`📱 باقات قطر يقول إن ${b} هي الأنسب لي: ${c}.`,
    cta:"شاهد نتيجتي، ثم جرّب نتيجتك 👇"},
   dl:{save:x=>`يوفر لك ${x} ر.ق سنويًا`,more:x=>`${x} ر.ق أكثر سنويًا`,same:"تقريبًا نفس ما تدفعه الآن",yours:"باقتك الحالية"},
-  share:"شارك عبر واتساب",shareText:(n,u)=>`دليل باقات قطر اختار لي ${n}. اعرف باقتك: ${u}`,
+  share:"شارك عبر واتساب",shareText:(n,u)=>`باقات قطر اختار لي ${n}. اعرف باقتك: ${u}`,
   mnp:"ستنتقل لشركة أخرى؟ تحتفظ برقمك، ويمكنك الانتقال عبر الإنترنت.",
   go:p=>`شاهدها على موقع ${p==="o"?"Ooredoo":"Vodafone"} ←`,
   more:n=>`عرض ${n} لا تناسبك`,less:"إخفاء غير المناسبة",
@@ -456,7 +456,7 @@ const prov = p => p==="o" ? "Ooredoo" : "Vodafone";
 const sN = (word) => ({stream1:`1 ${word}`,stream2:`2 ${word}`,stream3:`3 ${word}`,stream4:`4 ${word}`,stream5:`5 ${word}`});
 const vw = (f) => ({vw30:f(30),vw50:f(50),vw100:f(100),vw150:f(150)});
 const MORE = {
- hi:{dir:"ltr",langName:"हिन्दी",brand2:"क़तर प्लान फ़ाइंडर",title:"आपके लिए कौन सा मोबाइल प्लान सही है?",
+ hi:{dir:"ltr",langName:"हिन्दी",title:"आपके लिए कौन सा मोबाइल प्लान सही है?",
   sub:"Ooredoo और Vodafone के सभी प्लान, आपके असली इस्तेमाल के हिसाब से। मुफ़्त, और किसी भी कंपनी का नहीं।",
   tabs:{monthly:"मासिक बिल",prepaid:"प्रीपेड",data:"सिर्फ़ डेटा"},
   tabnote:{monthly:"पोस्टपेड: हर महीने के आख़िर में एक बिल।",prepaid:"रिचार्ज: पहले पैसे दें, कोई कॉन्ट्रैक्ट नहीं, कोई बिल नहीं।",data:"सिर्फ़ इंटरनेट, राउटर, टैबलेट या दूसरे सिम के लिए। कॉल नहीं। Qatarna+ पर हैं? एक्स्ट्रा डेटा सिम सिर्फ़ QR 25–50 महीना।"},
@@ -486,16 +486,16 @@ const MORE = {
   vGood:"आपकी डील पहले से अच्छी है",vGoodBody:n=>`आपके इस्तेमाल के लिए इससे सस्ता कुछ नहीं। सबसे सस्ता विकल्प: ${n}।`,
   vPick:"आपके लिए सबसे अच्छा",vPickBody:(n,c)=>`${n} आपकी पूरी ज़रूरत ${c} में पूरी करता है।`,
   vNone:"कोई एक प्लान यह सब नहीं देता",vNoneBody:"कोई स्लाइडर कम करें, या दूसरा टैब देखें।",
-  sh:{save:(c,b,x,p)=>`💸 मेरा प्लान ${c} है। Qatar Plan Finder कहता है कि ${b} (QR ${p}/माह) पर जाने से मैं साल में लगभग QR ${x} बचाऊँगा!`,
-   good:c=>`✅ Qatar Plan Finder ने क़तर के सारे प्लान देखे: मेरा ${c} मेरे इस्तेमाल के लिए सबसे अच्छा है।`,
-   pick:(b,c)=>`📱 Qatar Plan Finder के हिसाब से ${b} मेरे लिए सबसे सही है: ${c}।`,
+  sh:{save:(c,b,x,p)=>`💸 मेरा प्लान ${c} है। Baqat Qatar कहता है कि ${b} (QR ${p}/माह) पर जाने से मैं साल में लगभग QR ${x} बचाऊँगा!`,
+   good:c=>`✅ Baqat Qatar ने क़तर के सारे प्लान देखे: मेरा ${c} मेरे इस्तेमाल के लिए सबसे अच्छा है।`,
+   pick:(b,c)=>`📱 Baqat Qatar के हिसाब से ${b} मेरे लिए सबसे सही है: ${c}।`,
    cta:"मेरा नतीजा देखें, फिर अपना आज़माएँ 👇"},
   dl:{save:x=>`साल में QR ${x} की बचत`,more:x=>`साल में QR ${x} ज़्यादा`,same:"लगभग अभी जितना",yours:"आपका अभी का प्लान"},
-  share:"WhatsApp पर भेजें",shareText:(n,u)=>`Qatar Plan Finder ने मेरे लिए ${n} चुना। अपना प्लान देखें: ${u}`,
+  share:"WhatsApp पर भेजें",shareText:(n,u)=>`Baqat Qatar ने मेरे लिए ${n} चुना। अपना प्लान देखें: ${u}`,
   mnp:"कंपनी बदल रहे हैं? नंबर वही रहेगा, और ऑनलाइन बदल सकते हैं।",go:p=>`${prov(p)} की साइट पर देखें →`,
   more:n=>`${n} जो फ़िट नहीं होते, दिखाएँ`,less:"जो फ़िट नहीं, छिपाएँ",checked:d=>`क़ीमतें ${dateIn("hi-IN",d)} को जाँची गईं।`},
 
- ur:{dir:"rtl",langName:"اردو",brand2:"قطر پلان فائنڈر",title:"آپ کے لیے کون سا موبائل پلان صحیح ہے؟",
+ ur:{dir:"rtl",langName:"اردو",title:"آپ کے لیے کون سا موبائل پلان صحیح ہے؟",
   sub:"Ooredoo اور Vodafone کے تمام پلان، آپ کے اصل استعمال کے مطابق۔ مفت، اور کسی کمپنی کا نہیں۔",
   tabs:{monthly:"ماہانہ بل",prepaid:"پری پیڈ",data:"صرف ڈیٹا"},
   tabnote:{monthly:"پوسٹ پیڈ: ہر مہینے کے آخر میں ایک بل۔",prepaid:"ری چارج: پہلے ادائیگی، کوئی معاہدہ نہیں، کوئی بل نہیں۔",data:"صرف انٹرنیٹ، راؤٹر، ٹیبلٹ یا دوسری سم کے لیے۔ کال نہیں۔ Qatarna+ پر ہیں؟ اضافی ڈیٹا سم صرف QR 25–50 ماہانہ۔"},
@@ -525,16 +525,16 @@ const MORE = {
   vGood:"آپ کی ڈیل پہلے سے اچھی ہے",vGoodBody:n=>`آپ کے استعمال کے لیے اس سے سستا کچھ نہیں۔ سب سے سستا متبادل: ${n}۔`,
   vPick:"آپ کے لیے بہترین",vPickBody:(n,c)=>`${n} آپ کی پوری ضرورت ${c} میں پوری کرتا ہے۔`,
   vNone:"کوئی ایک پلان یہ سب نہیں دیتا",vNoneBody:"کوئی سلائیڈر کم کریں، یا دوسرا ٹیب دیکھیں۔",
-  sh:{save:(c,b,x,p)=>`💸 میرا پلان ${c} ہے۔ Qatar Plan Finder کہتا ہے کہ ${b} (QR ${p}/ماہ) پر جانے سے میں سال میں تقریباً QR ${x} بچاؤں گا!`,
-   good:c=>`✅ Qatar Plan Finder نے قطر کے تمام پلان دیکھے: میرا ${c} میرے استعمال کے لیے سب سے اچھا ہے۔`,
-   pick:(b,c)=>`📱 Qatar Plan Finder کے مطابق ${b} میرے لیے بہترین ہے: ${c}۔`,
+  sh:{save:(c,b,x,p)=>`💸 میرا پلان ${c} ہے۔ Baqat Qatar کہتا ہے کہ ${b} (QR ${p}/ماہ) پر جانے سے میں سال میں تقریباً QR ${x} بچاؤں گا!`,
+   good:c=>`✅ Baqat Qatar نے قطر کے تمام پلان دیکھے: میرا ${c} میرے استعمال کے لیے سب سے اچھا ہے۔`,
+   pick:(b,c)=>`📱 Baqat Qatar کے مطابق ${b} میرے لیے بہترین ہے: ${c}۔`,
    cta:"میرا نتیجہ دیکھیں، پھر اپنا آزمائیں 👇"},
   dl:{save:x=>`سال میں QR ${x} کی بچت`,more:x=>`سال میں QR ${x} زیادہ`,same:"تقریباً ابھی جتنا",yours:"آپ کا موجودہ پلان"},
-  share:"WhatsApp پر بھیجیں",shareText:(n,u)=>`Qatar Plan Finder نے میرے لیے ${n} چنا۔ اپنا پلان دیکھیں: ${u}`,
+  share:"WhatsApp پر بھیجیں",shareText:(n,u)=>`Baqat Qatar نے میرے لیے ${n} چنا۔ اپنا پلان دیکھیں: ${u}`,
   mnp:"کمپنی بدل رہے ہیں؟ نمبر وہی رہے گا، اور آن لائن بدل سکتے ہیں۔",go:p=>`${prov(p)} کی ویب سائٹ پر دیکھیں ←`,
   more:n=>`${n} جو موزوں نہیں، دکھائیں`,less:"غیر موزوں چھپائیں",checked:d=>`قیمتیں ${dateIn("ur-PK",d)} کو چیک کی گئیں۔`},
 
- bn:{dir:"ltr",langName:"বাংলা",brand2:"কাতার প্ল্যান ফাইন্ডার",title:"আপনার জন্য কোন মোবাইল প্ল্যান সঠিক?",
+ bn:{dir:"ltr",langName:"বাংলা",title:"আপনার জন্য কোন মোবাইল প্ল্যান সঠিক?",
   sub:"Ooredoo আর Vodafone-এর সব প্ল্যান, আপনার আসল ব্যবহার অনুযায়ী সাজানো। বিনামূল্যে, আর কোনো কোম্পানির নয়।",
   tabs:{monthly:"মাসিক বিল",prepaid:"প্রিপেইড",data:"শুধু ডেটা"},
   tabnote:{monthly:"পোস্টপেইড: প্রতি মাসের শেষে একটি বিল।",prepaid:"রিচার্জ: আগে টাকা দিন, কোনো চুক্তি নেই, কোনো বিল নেই।",data:"শুধু ইন্টারনেট, রাউটার, ট্যাবলেট বা দ্বিতীয় সিমের জন্য। কল নেই। Qatarna+ আছে? অতিরিক্ত ডেটা সিম মাসে মাত্র QR 25–50।"},
@@ -564,16 +564,16 @@ const MORE = {
   vGood:"আপনার ডিল আগে থেকেই ভালো",vGoodBody:n=>`আপনার ব্যবহারের জন্য এর চেয়ে সস্তা কিছু নেই। সবচেয়ে সস্তা বিকল্প: ${n}।`,
   vPick:"আপনার জন্য সেরা",vPickBody:(n,c)=>`${n} আপনার সব প্রয়োজন মেটায়: ${c}।`,
   vNone:"একটি প্ল্যানে এর সব নেই",vNoneBody:"একটি স্লাইডার কমিয়ে দেখুন, বা অন্য ট্যাব দেখুন।",
-  sh:{save:(c,b,x,p)=>`💸 আমার প্ল্যান ${c}। Qatar Plan Finder বলছে ${b} (মাসে QR ${p})-এ গেলে বছরে প্রায় QR ${x} বাঁচবে!`,
-   good:c=>`✅ Qatar Plan Finder কাতারের সব প্ল্যান দেখেছে: আমার ${c} আমার ব্যবহারের জন্য সেরা।`,
-   pick:(b,c)=>`📱 Qatar Plan Finder বলছে ${b} আমার জন্য সবচেয়ে ভালো: ${c}।`,
+  sh:{save:(c,b,x,p)=>`💸 আমার প্ল্যান ${c}। Baqat Qatar বলছে ${b} (মাসে QR ${p})-এ গেলে বছরে প্রায় QR ${x} বাঁচবে!`,
+   good:c=>`✅ Baqat Qatar কাতারের সব প্ল্যান দেখেছে: আমার ${c} আমার ব্যবহারের জন্য সেরা।`,
+   pick:(b,c)=>`📱 Baqat Qatar বলছে ${b} আমার জন্য সবচেয়ে ভালো: ${c}।`,
    cta:"আমার ফলাফল দেখুন, তারপর আপনারটা দেখুন 👇"},
   dl:{save:x=>`বছরে QR ${x} সাশ্রয়`,more:x=>`বছরে QR ${x} বেশি`,same:"প্রায় এখনকার মতোই",yours:"আপনার বর্তমান প্ল্যান"},
-  share:"WhatsApp-এ শেয়ার করুন",shareText:(n,u)=>`Qatar Plan Finder আমার জন্য ${n} বেছে দিয়েছে। আপনারটা দেখুন: ${u}`,
+  share:"WhatsApp-এ শেয়ার করুন",shareText:(n,u)=>`Baqat Qatar আমার জন্য ${n} বেছে দিয়েছে। আপনারটা দেখুন: ${u}`,
   mnp:"কোম্পানি বদলাচ্ছেন? নম্বর একই থাকবে, আর অনলাইনেই করা যায়।",go:p=>`${prov(p)}-এর সাইটে দেখুন →`,
   more:n=>`মানানসই নয় এমন ${n}টি দেখান`,less:"মানানসই নয় এমনগুলো লুকান",checked:d=>`দাম যাচাই করা হয়েছে: ${dateIn("bn-BD",d)}।`},
 
- ml:{dir:"ltr",langName:"മലയാളം",brand2:"ഖത്തർ പ്ലാൻ ഫൈൻഡർ",title:"നിങ്ങൾക്ക് ഏത് മൊബൈൽ പ്ലാൻ ആണ് നല്ലത്?",
+ ml:{dir:"ltr",langName:"മലയാളം",title:"നിങ്ങൾക്ക് ഏത് മൊബൈൽ പ്ലാൻ ആണ് നല്ലത്?",
   sub:"Ooredoo, Vodafone എന്നിവയുടെ എല്ലാ പ്ലാനുകളും, നിങ്ങളുടെ യഥാർത്ഥ ഉപയോഗം അനുസരിച്ച്. സൗജന്യം, ഒരു കമ്പനിയുടേതുമല്ല.",
   tabs:{monthly:"മാസ ബിൽ",prepaid:"പ്രീപെയ്ഡ്",data:"ഡാറ്റ മാത്രം"},
   tabnote:{monthly:"പോസ്റ്റ്‌പെയ്ഡ്: എല്ലാ മാസവും അവസാനം ഒരു ബിൽ.",prepaid:"റീചാർജ്: ആദ്യം പണം, കരാറില്ല, ബില്ലില്ല.",data:"ഇന്റർനെറ്റ് മാത്രം, റൗട്ടർ, ടാബ്‌ലെറ്റ് അല്ലെങ്കിൽ രണ്ടാം സിമ്മിന്. കോളില്ല. Qatarna+ ഉണ്ടോ? എക്സ്ട്രാ ഡാറ്റ സിമ്മിന് മാസം QR 25–50 മാത്രം."},
@@ -603,16 +603,16 @@ const MORE = {
   vGood:"നിങ്ങളുടെ ഡീൽ ഇപ്പോൾ തന്നെ നല്ലതാണ്",vGoodBody:n=>`നിങ്ങളുടെ ഉപയോഗത്തിന് ഇതിലും വിലകുറഞ്ഞത് ഇല്ല. ഏറ്റവും വിലകുറഞ്ഞ മറ്റൊന്ന്: ${n}.`,
   vPick:"നിങ്ങൾക്ക് ഏറ്റവും നല്ലത്",vPickBody:(n,c)=>`${n} നിങ്ങളുടെ എല്ലാ ആവശ്യവും നിറവേറ്റും: ${c}.`,
   vNone:"ഇതെല്ലാം ഒരു പ്ലാനിലും ഇല്ല",vNoneBody:"ഒരു സ്ലൈഡർ കുറച്ചു നോക്കൂ, അല്ലെങ്കിൽ മറ്റൊരു ടാബ് നോക്കൂ.",
-  sh:{save:(c,b,x,p)=>`💸 എന്റെ പ്ലാൻ ${c} ആണ്. ${b}-ലേക്ക് (മാസം QR ${p}) മാറിയാൽ വർഷം ഏകദേശം QR ${x} ലാഭിക്കാമെന്ന് Qatar Plan Finder പറയുന്നു!`,
-   good:c=>`✅ Qatar Plan Finder ഖത്തറിലെ എല്ലാ പ്ലാനുകളും നോക്കി: എന്റെ ${c} തന്നെയാണ് ഏറ്റവും നല്ലത്.`,
-   pick:(b,c)=>`📱 Qatar Plan Finder പ്രകാരം എനിക്ക് ഏറ്റവും നല്ലത് ${b}: ${c}.`,
+  sh:{save:(c,b,x,p)=>`💸 എന്റെ പ്ലാൻ ${c} ആണ്. ${b}-ലേക്ക് (മാസം QR ${p}) മാറിയാൽ വർഷം ഏകദേശം QR ${x} ലാഭിക്കാമെന്ന് Baqat Qatar പറയുന്നു!`,
+   good:c=>`✅ Baqat Qatar ഖത്തറിലെ എല്ലാ പ്ലാനുകളും നോക്കി: എന്റെ ${c} തന്നെയാണ് ഏറ്റവും നല്ലത്.`,
+   pick:(b,c)=>`📱 Baqat Qatar പ്രകാരം എനിക്ക് ഏറ്റവും നല്ലത് ${b}: ${c}.`,
    cta:"എന്റെ റിസൾട്ട് കാണൂ, എന്നിട്ട് നിങ്ങളുടേത് നോക്കൂ 👇"},
   dl:{save:x=>`വർഷം QR ${x} ലാഭം`,more:x=>`വർഷം QR ${x} കൂടുതൽ`,same:"ഏകദേശം ഇപ്പോഴത്തെ അത്രതന്നെ",yours:"ഇപ്പോഴത്തെ പ്ലാൻ"},
-  share:"WhatsApp-ൽ ഷെയർ ചെയ്യൂ",shareText:(n,u)=>`Qatar Plan Finder എനിക്ക് ${n} തിരഞ്ഞെടുത്തു. നിങ്ങളുടേത് കണ്ടെത്തൂ: ${u}`,
+  share:"WhatsApp-ൽ ഷെയർ ചെയ്യൂ",shareText:(n,u)=>`Baqat Qatar എനിക്ക് ${n} തിരഞ്ഞെടുത്തു. നിങ്ങളുടേത് കണ്ടെത്തൂ: ${u}`,
   mnp:"കമ്പനി മാറുകയാണോ? നമ്പർ മാറില്ല, ഓൺലൈനായി ചെയ്യാം.",go:p=>`${prov(p)} സൈറ്റിൽ കാണൂ →`,
   more:n=>`ചേരാത്ത ${n} എണ്ണം കാണിക്കൂ`,less:"ചേരാത്തവ മറയ്ക്കൂ",checked:d=>`വിലകൾ പരിശോധിച്ചത്: ${dateIn("ml-IN",d)}.`},
 
- ne:{dir:"ltr",langName:"नेपाली",brand2:"कतार प्लान फाइन्डर",title:"तपाईंलाई कुन मोबाइल प्लान ठिक छ?",
+ ne:{dir:"ltr",langName:"नेपाली",title:"तपाईंलाई कुन मोबाइल प्लान ठिक छ?",
   sub:"Ooredoo र Vodafone का सबै प्लान, तपाईंको वास्तविक प्रयोग अनुसार। निःशुल्क, र कुनै कम्पनीको होइन।",
   tabs:{monthly:"मासिक बिल",prepaid:"प्रिपेड",data:"डेटा मात्र"},
   tabnote:{monthly:"पोस्टपेड: हरेक महिनाको अन्त्यमा एउटा बिल।",prepaid:"रिचार्ज: पहिले पैसा, कुनै सम्झौता छैन, बिल छैन।",data:"इन्टरनेट मात्र, राउटर, ट्याब्लेट वा दोस्रो सिमका लागि। कल छैन। Qatarna+ छ? थप डेटा सिम मासिक QR 25–50 मात्र।"},
@@ -642,16 +642,16 @@ const MORE = {
   vGood:"तपाईंको डिल पहिले नै राम्रो छ",vGoodBody:n=>`तपाईंको प्रयोगका लागि योभन्दा सस्तो केही छैन। सबैभन्दा सस्तो विकल्प: ${n}।`,
   vPick:"तपाईंका लागि उत्तम",vPickBody:(n,c)=>`${n} ले तपाईंको सबै आवश्यकता पूरा गर्छ: ${c}।`,
   vNone:"एउटै प्लानमा यी सबै छैन",vNoneBody:"कुनै स्लाइडर घटाउनुहोस्, वा अर्को ट्याब हेर्नुहोस्।",
-  sh:{save:(c,b,x,p)=>`💸 मेरो प्लान ${c} हो। Qatar Plan Finder अनुसार ${b} (मासिक QR ${p}) मा गए वर्षमा करिब QR ${x} बच्छ!`,
-   good:c=>`✅ Qatar Plan Finder ले कतारका सबै प्लान हेर्‍यो: मेरो ${c} नै मेरा लागि उत्तम छ।`,
-   pick:(b,c)=>`📱 Qatar Plan Finder अनुसार ${b} मेरा लागि उत्तम हो: ${c}।`,
+  sh:{save:(c,b,x,p)=>`💸 मेरो प्लान ${c} हो। Baqat Qatar अनुसार ${b} (मासिक QR ${p}) मा गए वर्षमा करिब QR ${x} बच्छ!`,
+   good:c=>`✅ Baqat Qatar ले कतारका सबै प्लान हेर्‍यो: मेरो ${c} नै मेरा लागि उत्तम छ।`,
+   pick:(b,c)=>`📱 Baqat Qatar अनुसार ${b} मेरा लागि उत्तम हो: ${c}।`,
    cta:"मेरो नतिजा हेर्नुहोस्, अनि आफ्नो हेर्नुहोस् 👇"},
   dl:{save:x=>`वर्षमा QR ${x} बचत`,more:x=>`वर्षमा QR ${x} बढी`,same:"लगभग अहिले जत्तिकै",yours:"तपाईंको हालको प्लान"},
-  share:"WhatsApp मा पठाउनुहोस्",shareText:(n,u)=>`Qatar Plan Finder ले मेरा लागि ${n} छान्यो। आफ्नो हेर्नुहोस्: ${u}`,
+  share:"WhatsApp मा पठाउनुहोस्",shareText:(n,u)=>`Baqat Qatar ले मेरा लागि ${n} छान्यो। आफ्नो हेर्नुहोस्: ${u}`,
   mnp:"कम्पनी बदल्दै हुनुहुन्छ? नम्बर उही रहन्छ, र अनलाइन गर्न सकिन्छ।",go:p=>`${prov(p)} को साइटमा हेर्नुहोस् →`,
   more:n=>`नमिल्ने ${n} वटा देखाउनुहोस्`,less:"नमिल्ने लुकाउनुहोस्",checked:d=>`मूल्य जाँचिएको मिति: ${dateIn("ne-NP",d)}।`},
 
- fil:{dir:"ltr",langName:"Filipino",brand2:"Hanapan ng Plan sa Qatar",title:"Aling mobile plan ang bagay sa'yo?",
+ fil:{dir:"ltr",langName:"Filipino",title:"Aling mobile plan ang bagay sa'yo?",
   sub:"Lahat ng plan ng Ooredoo at Vodafone, inayos ayon sa totoong gamit mo ng phone. Libre, at hindi pag-aari ng alinmang kumpanya.",
   tabs:{monthly:"Buwanang bill",prepaid:"Prepaid",data:"Data lang"},
   tabnote:{monthly:"Postpaid: isang bill sa katapusan ng bawat buwan.",prepaid:"Load: magbayad muna, walang kontrata, walang bill.",data:"Internet lang, para sa router, tablet o pangalawang SIM. Walang tawag. Naka-Qatarna+? QR 25–50 lang kada buwan ang extra data SIM."},
@@ -682,12 +682,12 @@ const MORE = {
   vGood:"Maganda na ang deal mo",vGoodBody:n=>`Walang mas mura para sa gamit mo. Pinakamurang alternatibo: ${n}.`,
   vPick:"Pinakabagay sa'yo",vPickBody:(n,c)=>`Sakto ang ${n} sa lahat ng gamit mo: ${c}.`,
   vNone:"Walang iisang plan na sakto sa lahat ng iyan",vNoneBody:"Subukang ibaba ang isang slider, o tingnan ang ibang tab.",
-  sh:{save:(c,b,x,p)=>`💸 Naka-${c} ako. Sabi ng Qatar Plan Finder, kung lilipat ako sa ${b} (QR ${p}/buwan), makakatipid ako ng mga QR ${x} bawat taon!`,
-   good:c=>`✅ Sinuri ng Qatar Plan Finder ang lahat ng plan sa Qatar: ang ${c} ko na ang pinakamagandang deal para sa akin.`,
-   pick:(b,c)=>`📱 Sabi ng Qatar Plan Finder, ${b} ang pinakabagay sa akin: ${c}.`,
+  sh:{save:(c,b,x,p)=>`💸 Naka-${c} ako. Sabi ng Baqat Qatar, kung lilipat ako sa ${b} (QR ${p}/buwan), makakatipid ako ng mga QR ${x} bawat taon!`,
+   good:c=>`✅ Sinuri ng Baqat Qatar ang lahat ng plan sa Qatar: ang ${c} ko na ang pinakamagandang deal para sa akin.`,
+   pick:(b,c)=>`📱 Sabi ng Baqat Qatar, ${b} ang pinakabagay sa akin: ${c}.`,
    cta:"Tingnan ang resulta ko, tapos subukan mo rin 👇"},
   dl:{save:x=>`Tipid na QR ${x} bawat taon`,more:x=>`QR ${x} na dagdag bawat taon`,same:"Halos pareho sa ngayon",yours:"Ang plan mo ngayon"},
-  share:"I-share sa WhatsApp",shareText:(n,u)=>`Pinili ng Qatar Plan Finder ang ${n} para sa akin. Hanapin ang sa'yo: ${u}`,
+  share:"I-share sa WhatsApp",shareText:(n,u)=>`Pinili ng Baqat Qatar ang ${n} para sa akin. Hanapin ang sa'yo: ${u}`,
   mnp:"Lilipat ng kumpanya? Hindi magbabago ang number mo, at puwedeng online.",go:p=>`Tingnan sa site ng ${prov(p)} →`,
   more:n=>`Ipakita ang ${n} na hindi bagay`,less:"Itago ang mga hindi bagay",checked:d=>`Sinuri ang mga presyo noong ${dateIn("fil-PH",d)}.`}
 };
@@ -720,6 +720,7 @@ const saveST = () => { try{ localStorage.setItem("qpf-st", JSON.stringify(ST)); 
 // First visit: open in the phone's own language (an Arabic phone gets Arabic). A saved choice always wins.
 let savedLang = null; try{ savedLang = localStorage.getItem("qpf-lang"); }catch(e){}
 if(T[savedLang]) L = savedLang;
+else if(/^\/ar(\/|$)/.test(location.pathname)) L = "ar";
 else{ try{ for(const x of (navigator.languages || [navigator.language || ""])){ let c = String(x).toLowerCase().split("-")[0]; if(c==="tl") c="fil"; if(T[c]){ L=c; break; } } }catch(e){} }
 try{ const tb = localStorage.getItem("qpf-tab"); if(ST[tb]) TAB=tb; }catch(e){}
 if(/^#(monthly|prepaid|data)$/.test(location.hash)) TAB = location.hash.slice(1);
