@@ -36,7 +36,9 @@ assert.equal(parseVodafonePromo(promoText, "260729", new Date("2026-12-01")), nu
 assert.match(docs.prepaid, /260610-tariff-notification-prepaid/);
 
 // Prepaid + data readers
-const db = JSON.parse(fs.readFileSync(new URL("../plans.json", import.meta.url)));
+// A frozen copy of the plan list that matches the saved test pages.
+// (The live plans.json changes every day when prices change, so the tests must not read it.)
+const db = JSON.parse(fs.readFileSync(new URL("./fixtures/plans-snapshot.json", import.meta.url)));
 const hala = htmlToText(fx("hala.html").toString());
 for (const pl of [...db.prepaid, ...db.data].filter(p => p.n.startsWith("Hala"))) {
   const win = packWindow(hala, nameToRegex(pl.n));
@@ -104,7 +106,7 @@ console.log("Real-page tests passed ✔");
 
 // Ooredoo's real C11-01 document (footnote numbers glued to labels, history log before the tables)
 const ooReal = R.parseOoredooPrepaid(real("real-oo-prepaid.txt"));
-const ooDb = JSON.parse(real("../../plans.json"));
+const ooDb = JSON.parse(real("plans-snapshot.json"));
 for (const pl of [...ooDb.prepaid, ...ooDb.data].filter(p => p.n.startsWith("Hala"))) assert.ok(ooReal[pl.n], "real C11-01 has " + pl.n);
 assert.deepEqual(ooReal["Hala Super 200"], { data: 38.8, mins: 1150, after: 1000 });
 assert.deepEqual(ooReal["Hala Data 65"], { data: 12.65, days: 28 });

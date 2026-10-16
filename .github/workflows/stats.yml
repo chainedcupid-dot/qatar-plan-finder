@@ -1,0 +1,59 @@
+# Copies the visitor counter into a plain text file (branch "stats"), every hour.
+# Lets Claude read your numbers without screenshots. Needs the GC_TOKEN secret.
+name: stats
+on:
+  schedule:
+    - cron: "23 * * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: stats
+  cancel-in-progress: true
+jobs:
+  stats:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Read the counter
+        env:
+          GC_TOKEN: ${{ secrets.GC_TOKEN }}
+          GC_CODE: chained-cupid
+        run: |
+          set -e
+          if [ -z "$GC_TOKEN" ]; then echo "No GC_TOKEN secret, skipping"; exit 0; fi
+          mkdir s && cd s
+          B="https://$GC_CODE.goatcounter.com"
+          today=$(TZ=Asia/Qatar date +%F)
+          for p in "today:$today" "week:$(TZ=Asia/Qatar date -d '-6 day' +%F)" "month:$(TZ=Asia/Qatar date -d '-29 day' +%F)"; do
+            n=${p%%:*}; s=${p#*:}
+            curl -fsS --max-time 60 "$B/?access-token=$GC_TOKEN&period-start=$s&period-end=$today" -o "$n.html" || echo "fetch $n failed"
+          done
+          python3 - <<'EOF'
+          import html, os, re, datetime
+          from html.parser import HTMLParser
+          class P(HTMLParser):
+              def __init__(s): super().__init__(); s.out=[]; s.skip=0
+              def handle_starttag(s,t,a):
+                  if t in ("script","style","svg","head","nav","form"): s.skip+=1
+                  if t in ("tr","li","p","div","h1","h2","h3","br","td","th"): s.out.append("\n")
+              def handle_endtag(s,t):
+                  if t in ("script","style","svg","head","nav","form") and s.skip: s.skip-=1
+              def handle_data(s,d):
+                  if not s.skip: s.out.append(d)
+          tok = os.environ["GC_TOKEN"]
+          now = datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=3))).strftime("%Y-%m-%d %H:%M")
+          parts = [f"# Baqat Qatar visitor stats\nUpdated {now} (Qatar time)\n"]
+          for n in ("today","week","month"):
+              if not os.path.exists(f"{n}.html"): parts.append(f"\n## {n}\n(fetch failed)\n"); continue
+              p = P(); p.feed(open(f"{n}.html", encoding="utf8", errors="replace").read())
+              lines = [re.sub(r"\s+"," ",l).strip() for l in "".join(p.out).split("\n")]
+              txt = "\n".join(l for l in lines if l).replace(tok, "***")
+              parts.append(f"\n## {n.upper()}\n{txt}\n")
+          open("stats.md","w").write("".join(parts))
+          EOF
+          rm -f *.html
+          git init -q && git checkout -q -b stats
+          git add stats.md
+          git -c user.name="stats-robot" -c user.email="stats-robot@users.noreply.github.com" commit -qm "stats $today"
+          git push -qf "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}" stats
+          echo "Saved."

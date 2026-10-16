@@ -70,3 +70,16 @@ jobs:
           for n in $(gh issue list --label robot-alarm --state open --json number --jq '.[].number'); do
             gh issue close "$n" --comment "Fixed itself, prices read fine today. ✅"
           done
+
+      - name: Ring the alarm if the robot itself broke
+        if: failure()
+        env: { GH_TOKEN: "${{ github.token }}" }
+        run: |
+          gh label create robot-alarm --color B60205 --force || true
+          link="${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          open=$(gh issue list --label robot-alarm --state open --json number --jq 'length')
+          if [ "$open" = "0" ]; then
+            gh issue create --title "🤖 Price robot broke before it could check prices" --label robot-alarm --body "Today's run stopped early. Details: $link"
+          else
+            gh issue comment "$(gh issue list --label robot-alarm --state open --json number --jq '.[0].number')" --body "Broke again on $(date -u +%F): $link"
+          fi

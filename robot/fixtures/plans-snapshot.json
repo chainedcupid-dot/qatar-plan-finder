@@ -1,0 +1,1203 @@
+{
+ "checked": "2026-10-12",
+ "note": "null means unlimited. The robot updates monthly plans, prepaid recharges and data plans every day.",
+ "sources": {},
+ "plans": [
+  {
+   "id": "shahry-plus-select",
+   "p": "o",
+   "n": "Shahry+ Select",
+   "std": 100,
+   "promo": 100,
+   "pm": 0,
+   "data": 8,
+   "mins": 150,
+   "intl": {
+    "in": 0,
+    "ph": 0,
+    "any": 0
+   },
+   "roam": {
+    "gcc": 0,
+    "pop": 0,
+    "other": 0
+   },
+   "perks": [
+    "build"
+   ]
+  },
+  {
+   "id": "shahry-plus-go",
+   "p": "o",
+   "n": "Shahry+ Go",
+   "std": 140,
+   "promo": 130,
+   "pm": 4,
+   "data": 15,
+   "mins": 500,
+   "intl": {
+    "in": 300,
+    "ph": 150,
+    "any": 50
+   },
+   "roam": {
+    "gcc": 0,
+    "pop": 0,
+    "other": 0
+   },
+   "perks": [
+    "wa"
+   ]
+  },
+  {
+   "id": "shahry-plus-shahid",
+   "p": "o",
+   "n": "Shahry+ Shahid",
+   "std": 180,
+   "promo": 145,
+   "pm": 4,
+   "data": 8,
+   "mins": 150,
+   "intl": {
+    "in": 0,
+    "ph": 0,
+    "any": 0
+   },
+   "roam": {
+    "gcc": 0,
+    "pop": 0,
+    "other": 0
+   },
+   "perks": [
+    "wa",
+    "shahid"
+   ]
+  },
+  {
+   "id": "shahry-plus-super",
+   "p": "o",
+   "n": "Shahry+ Super",
+   "std": 200,
+   "promo": 160,
+   "pm": 4,
+   "data": 25,
+   "mins": null,
+   "intl": {
+    "in": 300,
+    "ph": 150,
+    "any": 50
+   },
+   "roam": {
+    "gcc": 0,
+    "pop": 0,
+    "other": 0
+   },
+   "perks": [
+    "wa",
+    "social20",
+    "stream1"
+   ]
+  },
+  {
+   "id": "shahry-plus-social",
+   "p": "o",
+   "n": "Shahry+ Social",
+   "std": 250,
+   "promo": 210,
+   "pm": 4,
+   "data": 40,
+   "mins": null,
+   "intl": {
+    "in": 300,
+    "ph": 150,
+    "any": 50
+   },
+   "roam": {
+    "gcc": 0,
+    "pop": 0,
+    "other": 0
+   },
+   "perks": [
+    "wa",
+    "socialU",
+    "stream1"
+   ]
+  },
+  {
+   "id": "qatarna-plus-pro",
+   "p": "o",
+   "n": "Qatarna+ Pro",
+   "std": 365,
+   "promo": 280,
+   "pm": 6,
+   "data": 125,
+   "mins": null,
+   "intl": {
+    "in": 500,
+    "ph": 350,
+    "any": 200
+   },
+   "roam": {
+    "gcc": 15,
+    "pop": 15,
+    "other": 15
+   },
+   "perks": [
+    "stream2"
+   ]
+  },
+  {
+   "id": "qatarna-plus-premium",
+   "p": "o",
+   "n": "Qatarna+ Premium",
+   "std": 525,
+   "promo": 405,
+   "pm": 6,
+   "data": 350,
+   "mins": null,
+   "intl": {
+    "in": 750,
+    "ph": 525,
+    "any": 300
+   },
+   "roam": {
+    "gcc": null,
+    "pop": 30,
+    "other": 30
+   },
+   "perks": [
+    "stream3"
+   ]
+  },
+  {
+   "id": "qatarna-plus-platinum",
+   "p": "o",
+   "n": "Qatarna+ Platinum",
+   "std": 925,
+   "promo": 750,
+   "pm": 6,
+   "data": 750,
+   "mins": null,
+   "intl": {
+    "in": 1250,
+    "ph": 875,
+    "any": 500
+   },
+   "roam": {
+    "gcc": null,
+    "pop": null,
+    "other": 100
+   },
+   "perks": [
+    "stream4",
+    "valet"
+   ]
+  },
+  {
+   "id": "qatarna-plus-al-nokhba",
+   "p": "o",
+   "n": "Qatarna+ Al Nokhba",
+   "std": 1200,
+   "promo": 1200,
+   "pm": 0,
+   "data": 1000,
+   "mins": null,
+   "intl": {
+    "in": 2500,
+    "ph": 1750,
+    "any": 1000
+   },
+   "roam": {
+    "gcc": null,
+    "pop": null,
+    "other": 200
+   },
+   "perks": [
+    "stream5",
+    "valet"
+   ]
+  },
+  {
+   "id": "postpaid-plus-essential",
+   "p": "v",
+   "n": "Postpaid+ Essential",
+   "std": 130,
+   "promo": 115,
+   "pm": 4,
+   "data": 15,
+   "mins": 500,
+   "intl": {
+    "in": 300,
+    "ph": 150,
+    "any": 50
+   },
+   "roam": {
+    "gcc": 0,
+    "pop": 0,
+    "other": 0
+   },
+   "perks": []
+  },
+  {
+   "id": "postpaid-plus-extra",
+   "p": "v",
+   "n": "Postpaid+ Extra",
+   "std": 180,
+   "promo": 145,
+   "pm": 4,
+   "data": 40,
+   "mins": null,
+   "intl": {
+    "in": 300,
+    "ph": 150,
+    "any": 50
+   },
+   "roam": {
+    "gcc": 0,
+    "pop": 0,
+    "other": 0
+   },
+   "perks": []
+  },
+  {
+   "id": "postpaid-plus-max",
+   "p": "v",
+   "n": "Postpaid+ Max",
+   "std": 230,
+   "promo": 180,
+   "pm": 4,
+   "data": 60,
+   "mins": null,
+   "intl": {
+    "in": 300,
+    "ph": 150,
+    "any": 50
+   },
+   "roam": {
+    "gcc": 0,
+    "pop": 0,
+    "other": 0
+   },
+   "perks": []
+  },
+  {
+   "id": "unlimited-plus",
+   "p": "v",
+   "n": "Unlimited+",
+   "std": 300,
+   "promo": 225,
+   "pm": 6,
+   "data": 125,
+   "mins": null,
+   "intl": {
+    "in": 200,
+    "ph": 200,
+    "any": 200
+   },
+   "roam": {
+    "gcc": 15,
+    "pop": 15,
+    "other": 15
+   },
+   "perks": [
+    "vw30"
+   ]
+  },
+  {
+   "id": "unlimited-plus-premium",
+   "p": "v",
+   "n": "Unlimited+ Premium",
+   "std": 450,
+   "promo": 350,
+   "pm": 6,
+   "data": 350,
+   "mins": null,
+   "intl": {
+    "in": 300,
+    "ph": 300,
+    "any": 300
+   },
+   "roam": {
+    "gcc": 50,
+    "pop": 20,
+    "other": 20
+   },
+   "perks": [
+    "vw50",
+    "valet"
+   ]
+  },
+  {
+   "id": "unlimited-plus-platinum",
+   "p": "v",
+   "n": "Unlimited+ Platinum",
+   "std": 750,
+   "promo": 650,
+   "pm": 6,
+   "data": 750,
+   "mins": null,
+   "intl": {
+    "in": 400,
+    "ph": 400,
+    "any": 400
+   },
+   "roam": {
+    "gcc": null,
+    "pop": null,
+    "other": 50
+   },
+   "perks": [
+    "vw100",
+    "valet"
+   ]
+  },
+  {
+   "id": "unlimited-plus-vip",
+   "p": "v",
+   "n": "Unlimited+ VIP",
+   "std": 1000,
+   "promo": 1000,
+   "pm": 0,
+   "data": 1000,
+   "mins": null,
+   "intl": {
+    "in": 1000,
+    "ph": 1000,
+    "any": 1000
+   },
+   "roam": {
+    "gcc": null,
+    "pop": null,
+    "other": 100
+   },
+   "perks": [
+    "vw150",
+    "valet"
+   ]
+  }
+ ],
+ "prepaid": [
+  {
+   "id": "hala-super-40",
+   "p": "o",
+   "n": "Hala Super 40",
+   "price": 40,
+   "days": 28,
+   "data": 4,
+   "mins": 150,
+   "intl": {
+    "in": 55,
+    "bd": 35,
+    "ph": 35,
+    "pk": 35,
+    "any": 10
+   },
+   "perks": []
+  },
+  {
+   "id": "hala-super-50",
+   "p": "o",
+   "n": "Hala Super 50",
+   "price": 50,
+   "days": 28,
+   "data": 5,
+   "mins": 200,
+   "intl": {
+    "in": 55,
+    "bd": 35,
+    "ph": 35,
+    "pk": 35,
+    "any": 10
+   },
+   "perks": []
+  },
+  {
+   "id": "hala-super-65",
+   "p": "o",
+   "n": "Hala Super 65",
+   "price": 65,
+   "days": 28,
+   "data": 9.2,
+   "mins": 276,
+   "intl": {
+    "in": 95,
+    "bd": 270,
+    "ph": 270,
+    "pk": 95,
+    "any": 20
+   },
+   "perks": [
+    "urban"
+   ]
+  },
+  {
+   "id": "hala-super-75",
+   "p": "o",
+   "n": "Hala Super 75",
+   "price": 75,
+   "days": 28,
+   "data": 11.5,
+   "mins": 345,
+   "intl": {
+    "in": 95,
+    "bd": 270,
+    "ph": 270,
+    "pk": 95,
+    "any": 20
+   },
+   "perks": [
+    "endless"
+   ]
+  },
+  {
+   "id": "hala-super-100",
+   "p": "o",
+   "n": "Hala Super 100",
+   "price": 100,
+   "days": 28,
+   "data": 18.4,
+   "mins": 460,
+   "intl": {
+    "in": 95,
+    "bd": 270,
+    "ph": 270,
+    "pk": 95,
+    "any": 20
+   },
+   "perks": [
+    "endless"
+   ]
+  },
+  {
+   "id": "hala-super-125",
+   "p": "o",
+   "n": "Hala Super 125",
+   "price": 125,
+   "days": 28,
+   "data": 21.8,
+   "mins": 575,
+   "intl": {
+    "in": 95,
+    "bd": 270,
+    "ph": 270,
+    "pk": 95,
+    "any": 20
+   },
+   "perks": [
+    "endless"
+   ]
+  },
+  {
+   "id": "hala-super-200",
+   "p": "o",
+   "n": "Hala Super 200",
+   "price": 200,
+   "days": 28,
+   "data": 34.8,
+   "mins": 1150,
+   "intl": {
+    "in": 95,
+    "bd": 270,
+    "ph": 270,
+    "pk": 95,
+    "any": 20
+   },
+   "perks": [
+    "endless"
+   ]
+  },
+  {
+   "id": "hala-super-500",
+   "p": "o",
+   "n": "Hala Super 500",
+   "price": 500,
+   "days": 28,
+   "data": 345,
+   "mins": null,
+   "intl": {
+    "in": 95,
+    "bd": 270,
+    "ph": 270,
+    "pk": 95,
+    "any": 20
+   },
+   "perks": [
+    "endless"
+   ]
+  },
+  {
+   "id": "hala-super-250",
+   "p": "o",
+   "n": "Hala Super 250",
+   "price": 250,
+   "days": 180,
+   "data": 34.5,
+   "mins": 1150,
+   "intl": {
+    "in": 69,
+    "bd": 69,
+    "ph": 69,
+    "pk": 69,
+    "any": 69
+   },
+   "perks": [
+    "endless",
+    "sixmonths"
+   ]
+  },
+  {
+   "id": "hala-flexi-50",
+   "p": "o",
+   "n": "Hala Flexi 50",
+   "price": 50,
+   "days": 28,
+   "pool": 450,
+   "gb": 73,
+   "perks": [
+    "flex"
+   ]
+  },
+  {
+   "id": "hala-flexi-65",
+   "p": "o",
+   "n": "Hala Flexi 65",
+   "price": 65,
+   "days": 28,
+   "pool": 748,
+   "gb": 73,
+   "perks": [
+    "flex"
+   ]
+  },
+  {
+   "id": "hala-flexi-75",
+   "p": "o",
+   "n": "Hala Flexi 75",
+   "price": 75,
+   "days": 28,
+   "pool": 863,
+   "gb": 73,
+   "perks": [
+    "flex"
+   ]
+  },
+  {
+   "id": "hala-flexi-100",
+   "p": "o",
+   "n": "Hala Flexi 100",
+   "price": 100,
+   "days": 28,
+   "pool": 1265,
+   "gb": 73,
+   "perks": [
+    "flex"
+   ]
+  },
+  {
+   "id": "hala-flexi-150",
+   "p": "o",
+   "n": "Hala Flexi 150",
+   "price": 150,
+   "days": 28,
+   "pool": 2530,
+   "gb": 73,
+   "perks": [
+    "flex"
+   ]
+  },
+  {
+   "id": "hala-flexi-200",
+   "p": "o",
+   "n": "Hala Flexi 200",
+   "price": 200,
+   "days": 28,
+   "pool": 3795,
+   "gb": 73,
+   "perks": [
+    "flex"
+   ]
+  },
+  {
+   "id": "combo-plus-40",
+   "p": "v",
+   "n": "Combo+ 40",
+   "price": 40,
+   "days": 28,
+   "data": 4,
+   "mins": 150,
+   "intl": {
+    "in": 10,
+    "bd": 10,
+    "ph": 10,
+    "pk": 10,
+    "any": 10
+   },
+   "perks": []
+  },
+  {
+   "id": "combo-plus-50",
+   "p": "v",
+   "n": "Combo+ 50",
+   "price": 50,
+   "days": 28,
+   "data": 5,
+   "mins": 200,
+   "intl": {
+    "in": 55,
+    "bd": 35,
+    "ph": 35,
+    "pk": 20,
+    "any": 10
+   },
+   "perks": []
+  },
+  {
+   "id": "combo-plus-65",
+   "p": "v",
+   "n": "Combo+ 65",
+   "price": 65,
+   "days": 28,
+   "data": 8,
+   "mins": 240,
+   "intl": {
+    "in": 95,
+    "bd": 270,
+    "ph": 270,
+    "pk": 45,
+    "any": 20
+   },
+   "perks": [
+    "endless"
+   ]
+  },
+  {
+   "id": "combo-plus-75",
+   "p": "v",
+   "n": "Combo+ 75",
+   "price": 75,
+   "days": 28,
+   "data": 10,
+   "mins": 300,
+   "intl": {
+    "in": 95,
+    "bd": 270,
+    "ph": 270,
+    "pk": 45,
+    "any": 20
+   },
+   "perks": [
+    "endless"
+   ]
+  },
+  {
+   "id": "combo-plus-100",
+   "p": "v",
+   "n": "Combo+ 100",
+   "price": 100,
+   "days": 28,
+   "data": 16,
+   "mins": 400,
+   "intl": {
+    "in": 95,
+    "bd": 270,
+    "ph": 270,
+    "pk": 45,
+    "any": 20
+   },
+   "perks": [
+    "endless"
+   ]
+  },
+  {
+   "id": "combo-plus-125",
+   "p": "v",
+   "n": "Combo+ 125",
+   "price": 125,
+   "days": 28,
+   "data": 19,
+   "mins": 500,
+   "intl": {
+    "in": 95,
+    "bd": 270,
+    "ph": 270,
+    "pk": 45,
+    "any": 20
+   },
+   "perks": [
+    "endless"
+   ]
+  },
+  {
+   "id": "combo-plus-150",
+   "p": "v",
+   "n": "Combo+ 150",
+   "price": 150,
+   "days": 28,
+   "data": 24,
+   "mins": 750,
+   "intl": {
+    "in": 0,
+    "bd": 0,
+    "ph": 0,
+    "pk": 0,
+    "any": 0
+   },
+   "perks": []
+  },
+  {
+   "id": "combo-plus-300",
+   "p": "v",
+   "n": "Combo+ 300",
+   "price": 300,
+   "days": 28,
+   "data": 40,
+   "mins": 1500,
+   "intl": {
+    "in": 50,
+    "bd": 50,
+    "ph": 50,
+    "pk": 50,
+    "any": 50
+   },
+   "perks": [
+    "endless"
+   ]
+  },
+  {
+   "id": "combo-plus-250",
+   "p": "v",
+   "n": "Combo+ 250",
+   "price": 250,
+   "days": 180,
+   "data": 30,
+   "mins": 1000,
+   "intl": {
+    "in": 60,
+    "bd": 60,
+    "ph": 60,
+    "pk": 60,
+    "any": 60
+   },
+   "perks": [
+    "sixmonths"
+   ]
+  },
+  {
+   "id": "flex-50",
+   "p": "v",
+   "n": "Flex 50",
+   "price": 50,
+   "days": 28,
+   "pool": 450,
+   "gb": 74,
+   "perks": [
+    "flex"
+   ]
+  },
+  {
+   "id": "flex-65",
+   "p": "v",
+   "n": "Flex 65",
+   "price": 65,
+   "days": 28,
+   "pool": 650,
+   "gb": 74,
+   "perks": [
+    "flex"
+   ]
+  },
+  {
+   "id": "flex-75",
+   "p": "v",
+   "n": "Flex 75",
+   "price": 75,
+   "days": 28,
+   "pool": 750,
+   "gb": 74,
+   "perks": [
+    "flex"
+   ]
+  },
+  {
+   "id": "flex-100",
+   "p": "v",
+   "n": "Flex 100",
+   "price": 100,
+   "days": 28,
+   "pool": 1100,
+   "gb": 74,
+   "perks": [
+    "flex"
+   ]
+  },
+  {
+   "id": "flex-120",
+   "p": "v",
+   "n": "Flex 120",
+   "price": 120,
+   "days": 28,
+   "pool": 1350,
+   "gb": 74,
+   "perks": [
+    "flex"
+   ]
+  },
+  {
+   "id": "flex-150",
+   "p": "v",
+   "n": "Flex 150",
+   "price": 150,
+   "days": 28,
+   "pool": 2200,
+   "gb": 74,
+   "perks": [
+    "flex"
+   ]
+  },
+  {
+   "id": "flex-200",
+   "p": "v",
+   "n": "Flex 200",
+   "price": 200,
+   "days": 28,
+   "pool": 3300,
+   "gb": 74,
+   "perks": [
+    "flex"
+   ]
+  },
+  {
+   "id": "flex-300",
+   "p": "v",
+   "n": "Flex 300",
+   "price": 300,
+   "days": 28,
+   "pool": 3750,
+   "gb": 74,
+   "perks": [
+    "flex"
+   ]
+  },
+  {
+   "id": "flex-500",
+   "p": "v",
+   "n": "Flex 500",
+   "price": 500,
+   "days": 28,
+   "pool": 6250,
+   "gb": 74,
+   "perks": [
+    "flex"
+   ]
+  }
+ ],
+ "data": [
+  {
+   "id": "data-sim-plus-go",
+   "p": "o",
+   "n": "Data SIM+ Go",
+   "std": 150,
+   "promo": 150,
+   "pm": 0,
+   "data": 35,
+   "abroad": {
+    "gcc": 0,
+    "pop": 0
+   },
+   "perks": [
+    "bill"
+   ]
+  },
+  {
+   "id": "data-sim-plus-super",
+   "p": "o",
+   "n": "Data SIM+ Super",
+   "std": 200,
+   "promo": 200,
+   "pm": 0,
+   "data": 60,
+   "abroad": {
+    "gcc": 0,
+    "pop": 0
+   },
+   "perks": [
+    "bill"
+   ]
+  },
+  {
+   "id": "data-sim-plus-pro",
+   "p": "o",
+   "n": "Data SIM+ Pro",
+   "std": 300,
+   "promo": 300,
+   "pm": 0,
+   "data": 300,
+   "abroad": {
+    "gcc": 0,
+    "pop": 0
+   },
+   "perks": [
+    "bill",
+    "after1"
+   ]
+  },
+  {
+   "id": "data-sim-plus-premium",
+   "p": "o",
+   "n": "Data SIM+ Premium",
+   "std": 400,
+   "promo": 400,
+   "pm": 0,
+   "data": 500,
+   "abroad": {
+    "gcc": null,
+    "pop": 0
+   },
+   "perks": [
+    "bill",
+    "stream2"
+   ]
+  },
+  {
+   "id": "data-sim-plus-platinum",
+   "p": "o",
+   "n": "Data SIM+ Platinum",
+   "std": 550,
+   "promo": 550,
+   "pm": 0,
+   "data": 500,
+   "abroad": {
+    "gcc": null,
+    "pop": null
+   },
+   "perks": [
+    "bill",
+    "stream2"
+   ]
+  },
+  {
+   "id": "mobile-wi-fi-150",
+   "p": "v",
+   "n": "Mobile Wi-Fi 150",
+   "std": 150,
+   "promo": 150,
+   "pm": 0,
+   "data": 35,
+   "abroad": {
+    "gcc": 0,
+    "pop": 0
+   },
+   "perks": [
+    "bill"
+   ]
+  },
+  {
+   "id": "mobile-wi-fi-199",
+   "p": "v",
+   "n": "Mobile Wi-Fi 199",
+   "std": 199,
+   "promo": 199,
+   "pm": 0,
+   "data": 60,
+   "abroad": {
+    "gcc": 0,
+    "pop": 0
+   },
+   "perks": [
+    "bill"
+   ]
+  },
+  {
+   "id": "data-sim-unlimited",
+   "p": "v",
+   "n": "Data SIM Unlimited",
+   "std": 299,
+   "promo": 299,
+   "pm": 0,
+   "data": 300,
+   "abroad": {
+    "gcc": 0,
+    "pop": 0
+   },
+   "perks": [
+    "bill",
+    "after1"
+   ]
+  },
+  {
+   "id": "data-sim-unlimited-premium",
+   "p": "v",
+   "n": "Data SIM Unlimited Premium",
+   "std": 399,
+   "promo": 399,
+   "pm": 0,
+   "data": 300,
+   "abroad": {
+    "gcc": 100,
+    "pop": 100
+   },
+   "perks": [
+    "bill",
+    "after1"
+   ]
+  },
+  {
+   "id": "hala-data-50",
+   "p": "o",
+   "n": "Hala Data 50",
+   "price": 50,
+   "days": 28,
+   "data": 8,
+   "abroad": {
+    "gcc": 0,
+    "pop": 0
+   },
+   "perks": []
+  },
+  {
+   "id": "hala-data-65",
+   "p": "o",
+   "n": "Hala Data 65",
+   "price": 65,
+   "days": 28,
+   "data": 12.7,
+   "abroad": {
+    "gcc": 0,
+    "pop": 0
+   },
+   "perks": []
+  },
+  {
+   "id": "hala-data-75",
+   "p": "o",
+   "n": "Hala Data 75",
+   "price": 75,
+   "days": 28,
+   "data": 16.1,
+   "abroad": {
+    "gcc": 0,
+    "pop": 0
+   },
+   "perks": []
+  },
+  {
+   "id": "hala-data-100",
+   "p": "o",
+   "n": "Hala Data 100",
+   "price": 100,
+   "days": 28,
+   "data": 23,
+   "abroad": {
+    "gcc": 0,
+    "pop": 0
+   },
+   "perks": []
+  },
+  {
+   "id": "hala-data-150",
+   "p": "o",
+   "n": "Hala Data 150",
+   "price": 150,
+   "days": 28,
+   "data": 28.8,
+   "abroad": {
+    "gcc": 0,
+    "pop": 0
+   },
+   "perks": []
+  },
+  {
+   "id": "hala-data-200",
+   "p": "o",
+   "n": "Hala Data 200",
+   "price": 200,
+   "days": 28,
+   "data": 40.3,
+   "abroad": {
+    "gcc": 0,
+    "pop": 0
+   },
+   "perks": []
+  },
+  {
+   "id": "hala-unlimited-data-250",
+   "p": "o",
+   "n": "Hala Unlimited Data 250",
+   "price": 250,
+   "days": 30,
+   "data": 172.5,
+   "abroad": {
+    "gcc": 0,
+    "pop": 0
+   },
+   "perks": [
+    "endless"
+   ]
+  },
+  {
+   "id": "prepaid-internet-50",
+   "p": "v",
+   "n": "Prepaid Internet 50",
+   "price": 50,
+   "days": 28,
+   "data": 8,
+   "abroad": {
+    "gcc": 0,
+    "pop": 0
+   },
+   "perks": []
+  },
+  {
+   "id": "prepaid-internet-75",
+   "p": "v",
+   "n": "Prepaid Internet 75",
+   "price": 75,
+   "days": 28,
+   "data": 14,
+   "abroad": {
+    "gcc": 0,
+    "pop": 0
+   },
+   "perks": []
+  },
+  {
+   "id": "prepaid-internet-100",
+   "p": "v",
+   "n": "Prepaid Internet 100",
+   "price": 100,
+   "days": 28,
+   "data": 20,
+   "abroad": {
+    "gcc": 0,
+    "pop": 0
+   },
+   "perks": []
+  },
+  {
+   "id": "prepaid-internet-150",
+   "p": "v",
+   "n": "Prepaid Internet 150",
+   "price": 150,
+   "days": 28,
+   "data": 25,
+   "abroad": {
+    "gcc": 0,
+    "pop": 0
+   },
+   "perks": []
+  },
+  {
+   "id": "prepaid-internet-200",
+   "p": "v",
+   "n": "Prepaid Internet 200",
+   "price": 200,
+   "days": 28,
+   "data": 35,
+   "abroad": {
+    "gcc": 0,
+    "pop": 0
+   },
+   "perks": []
+  }
+ ]
+}

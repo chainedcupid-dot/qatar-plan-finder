@@ -342,7 +342,10 @@ const NEPAL = {"Hala Super 40":20,"Hala Super 50":20,"Hala Super 65":45,"Hala Su
  "Hala Super 500":45,"Hala Super 250":69,"Combo+ 40":10,"Combo+ 50":20,"Combo+ 65":45,"Combo+ 75":45,"Combo+ 100":45,"Combo+ 125":45,"Combo+ 150":0,
  "Combo+ 300":50,"Combo+ 250":60};
 DB.prepaid.forEach(p=>{ if(p.intl && p.intl.np===undefined && NEPAL[p.n]!==undefined) p.intl.np = NEPAL[p.n]; });
-const withAfter = list => list.forEach(p=>{ if(p.after===undefined && AFTER[p.n]) p.after = AFTER[p.n]; });
+// Qatarna+ extra data SIMs (car, tablet): price per plan, from Ooredoo's Qatarna+ fine print
+const MSIM = {"Qatarna+ Pro":"msim50","Qatarna+ Premium":"msim25","Qatarna+ Platinum":"msimFree1","Qatarna+ Al Nokhba":"msimFree2"};
+const withAfter = list => list.forEach(p=>{ if(p.after===undefined && AFTER[p.n]) p.after = AFTER[p.n];
+ if(MSIM[p.n]){ p.perks = p.perks || []; if(!p.perks.includes(MSIM[p.n])) p.perks = [...p.perks, MSIM[p.n]]; } });
 Object.values(DB).forEach(withAfter);
 // Flex units per international minute (Vodafone's published rates; Ooredoo Flexi assumed similar).
 const FLEX_RATE = {in:1,bd:1,ph:3,pk:5,np:5,any:5};
@@ -353,7 +356,7 @@ const T = {
   sub:"Every plan from Ooredoo and Vodafone, ranked by how you actually use your phone. Free, and not owned by either company.",
   langName:"English",
   tabs:{monthly:"Monthly bill",prepaid:"Prepaid",data:"Data only"},
-  tabnote:{monthly:"Postpaid plans: you pay one bill at the end of each month.",prepaid:"Recharge cards: pay first, no contract, no bill.",data:"Internet only, for a router, tablet or a second SIM. No calls."},
+  tabnote:{monthly:"Postpaid plans: you pay one bill at the end of each month.",prepaid:"Recharge cards: pay first, no contract, no bill.",data:"Internet only, for a router, tablet or a second SIM. No calls. On Qatarna+? An extra data SIM costs just QR 25–50 a month."},
   presets:{
    monthly:{light:"Light user",regular:"Regular",heavy:"Heavy user",home:"Calls home a lot",travel:"Travels often"},
    prepaid:{light:"Light user",regular:"Regular",heavy:"Heavy user",home:"Calls home a lot"},
@@ -376,7 +379,7 @@ const T = {
    pool:(v,g)=>`${v} units to spend · 1 GB = ${g} units · 1 min = 1 unit`,abroadOk:v=>v===U?"Works there too":`${v} GB usable there`,abroadNo:"Qatar only",
    after:(spd,q)=>`After the limit: ${spd}, ${q}`},
   speedQ:["chat only","slow browsing","music & basic video","still fine for HD video"],
-  perks:{wa:"Free WhatsApp data",shahid:"Shahid included",social20:"20 GB social apps",socialU:"Unlimited social apps",stream1:"1 streaming app",
+  perks:{msim50:"Extra data SIM for car or tablet: QR 50/mo",msim25:"Extra data SIM for car or tablet: QR 25/mo",msimFree1:"1 free extra data SIM for car or tablet",msimFree2:"2 free extra data SIMs for car or tablet",wa:"Free WhatsApp data",shahid:"Shahid included",social20:"20 GB social apps",socialU:"Unlimited social apps",stream1:"1 streaming app",
    stream2:"2 streaming apps",stream3:"3 streaming apps",stream4:"4 streaming apps",stream5:"5 streaming apps",valet:"Valet parking",
    vw30:"QR 30 monthly voucher",vw50:"QR 50 monthly voucher",vw100:"QR 100 monthly voucher",vw150:"QR 150 monthly voucher",build:"Add extras for a fee",
    urban:"Urban Point deals",endless:"Slow data after the limit, never cut off",sixmonths:"One recharge lasts 6 months",
@@ -400,7 +403,7 @@ const T = {
   sub:"كل باقات Ooredoo وVodafone، مرتبة حسب استخدامك الفعلي لهاتفك. مجاني، ولا يتبع أيًا من الشركتين.",
   langName:"العربية",
   tabs:{monthly:"فاتورة شهرية",prepaid:"مسبق الدفع",data:"بيانات فقط"},
-  tabnote:{monthly:"باقات الدفع الآجل: فاتورة واحدة في نهاية كل شهر.",prepaid:"بطاقات الشحن: ادفع أولًا، بدون عقد وبدون فاتورة.",data:"إنترنت فقط، لراوتر أو تابلت أو شريحة ثانية. بدون مكالمات."},
+  tabnote:{monthly:"باقات الدفع الآجل: فاتورة واحدة في نهاية كل شهر.",prepaid:"بطاقات الشحن: ادفع أولًا، بدون عقد وبدون فاتورة.",data:"إنترنت فقط، لراوتر أو تابلت أو شريحة ثانية. بدون مكالمات. مشترك في قطرنا+؟ شريحة بيانات إضافية تكلف 25–50 ر.ق فقط شهريًا."},
   presets:{
    monthly:{light:"استخدام خفيف",regular:"استخدام عادي",heavy:"استخدام كثيف",home:"أتصل بأهلي كثيرًا",travel:"أسافر كثيرًا"},
    prepaid:{light:"استخدام خفيف",regular:"استخدام عادي",heavy:"استخدام كثيف",home:"أتصل بأهلي كثيرًا"},
@@ -423,7 +426,7 @@ const T = {
    pool:(v,g)=>`${v} وحدة للصرف · 1 جيجا = ${g} وحدة · الدقيقة = وحدة`,abroadOk:v=>v===U?"تعمل هناك أيضًا":`${v} جيجا هناك`,abroadNo:"داخل قطر فقط",
    after:(spd,q)=>`بعد انتهاء الباقة: ${spd}، ${q}`},
   speedQ:["للدردشة فقط","تصفح بطيء","موسيقى وفيديو بسيط","يكفي لفيديو HD"],
-  perks:{wa:"واتساب مجاني",shahid:"اشتراك شاهد",social20:"20 جيجا للتواصل الاجتماعي",socialU:"تواصل اجتماعي غير محدود",stream1:"تطبيق بث واحد",
+  perks:{msim50:"شريحة بيانات إضافية للسيارة أو التابلت: 50 ر.ق شهريًا",msim25:"شريحة بيانات إضافية للسيارة أو التابلت: 25 ر.ق شهريًا",msimFree1:"شريحة بيانات إضافية مجانية للسيارة أو التابلت",msimFree2:"شريحتا بيانات إضافيتان مجانًا للسيارة أو التابلت",wa:"واتساب مجاني",shahid:"اشتراك شاهد",social20:"20 جيجا للتواصل الاجتماعي",socialU:"تواصل اجتماعي غير محدود",stream1:"تطبيق بث واحد",
    stream2:"تطبيقا بث",stream3:"3 تطبيقات بث",stream4:"4 تطبيقات بث",stream5:"5 تطبيقات بث",valet:"صف السيارات",
    vw30:"قسيمة 30 ر.ق شهريًا",vw50:"قسيمة 50 ر.ق شهريًا",vw100:"قسيمة 100 ر.ق شهريًا",vw150:"قسيمة 150 ر.ق شهريًا",build:"إضافات برسوم",
    urban:"عروض Urban Point",endless:"إنترنت بطيء بعد الحد، لا ينقطع",sixmonths:"شحنة واحدة لمدة 6 أشهر",
@@ -456,7 +459,7 @@ const MORE = {
  hi:{dir:"ltr",langName:"हिन्दी",brand2:"क़तर प्लान फ़ाइंडर",title:"आपके लिए कौन सा मोबाइल प्लान सही है?",
   sub:"Ooredoo और Vodafone के सभी प्लान, आपके असली इस्तेमाल के हिसाब से। मुफ़्त, और किसी भी कंपनी का नहीं।",
   tabs:{monthly:"मासिक बिल",prepaid:"प्रीपेड",data:"सिर्फ़ डेटा"},
-  tabnote:{monthly:"पोस्टपेड: हर महीने के आख़िर में एक बिल।",prepaid:"रिचार्ज: पहले पैसे दें, कोई कॉन्ट्रैक्ट नहीं, कोई बिल नहीं।",data:"सिर्फ़ इंटरनेट, राउटर, टैबलेट या दूसरे सिम के लिए। कॉल नहीं।"},
+  tabnote:{monthly:"पोस्टपेड: हर महीने के आख़िर में एक बिल।",prepaid:"रिचार्ज: पहले पैसे दें, कोई कॉन्ट्रैक्ट नहीं, कोई बिल नहीं।",data:"सिर्फ़ इंटरनेट, राउटर, टैबलेट या दूसरे सिम के लिए। कॉल नहीं। Qatarna+ पर हैं? एक्स्ट्रा डेटा सिम सिर्फ़ QR 25–50 महीना।"},
   presets:{monthly:{light:"कम इस्तेमाल",regular:"सामान्य",heavy:"ज़्यादा इस्तेमाल",home:"घर बहुत फ़ोन करता हूँ",travel:"अक्सर यात्रा"},
    prepaid:{light:"कम इस्तेमाल",regular:"सामान्य",heavy:"ज़्यादा इस्तेमाल",home:"घर बहुत फ़ोन करता हूँ"},
    data:{light:"हल्की ब्राउज़िंग",home:"घर का इंटरनेट",heavy:"बहुत वीडियो",travel:"खाड़ी देशों में यात्रा"}},
@@ -476,7 +479,7 @@ const MORE = {
    pool:(v,g)=>`${v} यूनिट · 1 GB = ${g} यूनिट · 1 मिनट = 1 यूनिट`,abroadOk:v=>v===U?"वहाँ भी चलता है":`वहाँ ${v} GB`,abroadNo:"सिर्फ़ क़तर में",
    after:(spd,q)=>`लिमिट के बाद: ${spd}, ${q}`},
   speedQ:["सिर्फ़ चैट","धीमी ब्राउज़िंग","गाने और साधारण वीडियो","HD वीडियो भी चलेगा"],
-  perks:{wa:"WhatsApp डेटा मुफ़्त",shahid:"Shahid शामिल",social20:"सोशल ऐप्स के लिए 20 GB",socialU:"सोशल ऐप्स अनलिमिटेड",...sN("स्ट्रीमिंग ऐप"),
+  perks:{msim50:"कार या टैबलेट के लिए एक्स्ट्रा डेटा सिम: QR 50/माह",msim25:"कार या टैबलेट के लिए एक्स्ट्रा डेटा सिम: QR 25/माह",msimFree1:"कार या टैबलेट के लिए 1 एक्स्ट्रा डेटा सिम मुफ़्त",msimFree2:"2 एक्स्ट्रा डेटा सिम मुफ़्त (कार या टैबलेट)",wa:"WhatsApp डेटा मुफ़्त",shahid:"Shahid शामिल",social20:"सोशल ऐप्स के लिए 20 GB",socialU:"सोशल ऐप्स अनलिमिटेड",...sN("स्ट्रीमिंग ऐप"),
    valet:"वैले पार्किंग",...vw(n=>`हर माह QR ${n} वाउचर`),build:"पैसे देकर एक्स्ट्रा जोड़ें",urban:"Urban Point ऑफ़र",sixmonths:"एक रिचार्ज 6 महीने चलता है",
    flex:"यूनिट डेटा, कॉल या विदेश कॉल पर, जैसे चाहें"},
   vSave:(n,s)=>`${n} पर जाएँ और साल में लगभग QR ${fmt(s)} बचाएँ।`,vSaveHead:"बेहतर डील मौजूद है",
@@ -495,7 +498,7 @@ const MORE = {
  ur:{dir:"rtl",langName:"اردو",brand2:"قطر پلان فائنڈر",title:"آپ کے لیے کون سا موبائل پلان صحیح ہے؟",
   sub:"Ooredoo اور Vodafone کے تمام پلان، آپ کے اصل استعمال کے مطابق۔ مفت، اور کسی کمپنی کا نہیں۔",
   tabs:{monthly:"ماہانہ بل",prepaid:"پری پیڈ",data:"صرف ڈیٹا"},
-  tabnote:{monthly:"پوسٹ پیڈ: ہر مہینے کے آخر میں ایک بل۔",prepaid:"ری چارج: پہلے ادائیگی، کوئی معاہدہ نہیں، کوئی بل نہیں۔",data:"صرف انٹرنیٹ، راؤٹر، ٹیبلٹ یا دوسری سم کے لیے۔ کال نہیں۔"},
+  tabnote:{monthly:"پوسٹ پیڈ: ہر مہینے کے آخر میں ایک بل۔",prepaid:"ری چارج: پہلے ادائیگی، کوئی معاہدہ نہیں، کوئی بل نہیں۔",data:"صرف انٹرنیٹ، راؤٹر، ٹیبلٹ یا دوسری سم کے لیے۔ کال نہیں۔ Qatarna+ پر ہیں؟ اضافی ڈیٹا سم صرف QR 25–50 ماہانہ۔"},
   presets:{monthly:{light:"کم استعمال",regular:"عام",heavy:"زیادہ استعمال",home:"گھر بہت کال کرتا ہوں",travel:"اکثر سفر"},
    prepaid:{light:"کم استعمال",regular:"عام",heavy:"زیادہ استعمال",home:"گھر بہت کال کرتا ہوں"},
    data:{light:"ہلکی براؤزنگ",home:"گھر کا انٹرنیٹ",heavy:"بہت زیادہ ویڈیو",travel:"خلیجی ممالک کا سفر"}},
@@ -515,7 +518,7 @@ const MORE = {
    pool:(v,g)=>`${v} یونٹ · 1 GB = ${g} یونٹ · 1 منٹ = 1 یونٹ`,abroadOk:v=>v===U?"وہاں بھی چلتا ہے":`وہاں ${v} GB`,abroadNo:"صرف قطر میں",
    after:(spd,q)=>`حد کے بعد: ${spd}، ${q}`},
   speedQ:["صرف چیٹ","سست براؤزنگ","موسیقی اور سادہ ویڈیو","HD ویڈیو بھی چلے گی"],
-  perks:{wa:"WhatsApp ڈیٹا مفت",shahid:"Shahid شامل",social20:"سوشل ایپس کے لیے 20 GB",socialU:"سوشل ایپس لامحدود",...sN("اسٹریمنگ ایپ"),
+  perks:{msim50:"گاڑی یا ٹیبلٹ کے لیے اضافی ڈیٹا سم: QR 50/ماہ",msim25:"گاڑی یا ٹیبلٹ کے لیے اضافی ڈیٹا سم: QR 25/ماہ",msimFree1:"گاڑی یا ٹیبلٹ کے لیے 1 اضافی ڈیٹا سم مفت",msimFree2:"2 اضافی ڈیٹا سم مفت (گاڑی یا ٹیبلٹ)",wa:"WhatsApp ڈیٹا مفت",shahid:"Shahid شامل",social20:"سوشل ایپس کے لیے 20 GB",socialU:"سوشل ایپس لامحدود",...sN("اسٹریمنگ ایپ"),
    valet:"ویلے پارکنگ",...vw(n=>`ہر ماہ QR ${n} واؤچر`),build:"فیس دے کر اضافی چیزیں",urban:"Urban Point آفرز",sixmonths:"ایک ری چارج 6 ماہ چلتا ہے",
    flex:"یونٹ ڈیٹا، کال یا بین الاقوامی پر، جیسے چاہیں"},
   vSave:(n,s)=>`${n} پر جائیں اور سال میں تقریباً QR ${fmt(s)} بچائیں۔`,vSaveHead:"بہتر ڈیل موجود ہے",
@@ -534,7 +537,7 @@ const MORE = {
  bn:{dir:"ltr",langName:"বাংলা",brand2:"কাতার প্ল্যান ফাইন্ডার",title:"আপনার জন্য কোন মোবাইল প্ল্যান সঠিক?",
   sub:"Ooredoo আর Vodafone-এর সব প্ল্যান, আপনার আসল ব্যবহার অনুযায়ী সাজানো। বিনামূল্যে, আর কোনো কোম্পানির নয়।",
   tabs:{monthly:"মাসিক বিল",prepaid:"প্রিপেইড",data:"শুধু ডেটা"},
-  tabnote:{monthly:"পোস্টপেইড: প্রতি মাসের শেষে একটি বিল।",prepaid:"রিচার্জ: আগে টাকা দিন, কোনো চুক্তি নেই, কোনো বিল নেই।",data:"শুধু ইন্টারনেট, রাউটার, ট্যাবলেট বা দ্বিতীয় সিমের জন্য। কল নেই।"},
+  tabnote:{monthly:"পোস্টপেইড: প্রতি মাসের শেষে একটি বিল।",prepaid:"রিচার্জ: আগে টাকা দিন, কোনো চুক্তি নেই, কোনো বিল নেই।",data:"শুধু ইন্টারনেট, রাউটার, ট্যাবলেট বা দ্বিতীয় সিমের জন্য। কল নেই। Qatarna+ আছে? অতিরিক্ত ডেটা সিম মাসে মাত্র QR 25–50।"},
   presets:{monthly:{light:"কম ব্যবহার",regular:"সাধারণ",heavy:"বেশি ব্যবহার",home:"দেশে অনেক কল করি",travel:"প্রায়ই ভ্রমণ"},
    prepaid:{light:"কম ব্যবহার",regular:"সাধারণ",heavy:"বেশি ব্যবহার",home:"দেশে অনেক কল করি"},
    data:{light:"হালকা ব্রাউজিং",home:"বাসার ইন্টারনেট",heavy:"অনেক ভিডিও",travel:"উপসাগরীয় দেশে ভ্রমণ"}},
@@ -554,7 +557,7 @@ const MORE = {
    pool:(v,g)=>`${v} ইউনিট · 1 GB = ${g} ইউনিট · 1 মিনিট = 1 ইউনিট`,abroadOk:v=>v===U?"সেখানেও চলে":`সেখানে ${v} GB`,abroadNo:"শুধু কাতারে",
    after:(spd,q)=>`সীমা শেষ হলে: ${spd}, ${q}`},
   speedQ:["শুধু চ্যাট","ধীর ব্রাউজিং","গান ও সাধারণ ভিডিও","HD ভিডিওও চলবে"],
-  perks:{wa:"WhatsApp ডেটা ফ্রি",shahid:"Shahid সহ",social20:"সোশ্যাল অ্যাপে 20 GB",socialU:"সোশ্যাল অ্যাপ আনলিমিটেড",...sN("স্ট্রিমিং অ্যাপ"),
+  perks:{msim50:"গাড়ি বা ট্যাবলেটের জন্য অতিরিক্ত ডেটা সিম: মাসে QR 50",msim25:"গাড়ি বা ট্যাবলেটের জন্য অতিরিক্ত ডেটা সিম: মাসে QR 25",msimFree1:"গাড়ি বা ট্যাবলেটের জন্য 1টি অতিরিক্ত ডেটা সিম ফ্রি",msimFree2:"2টি অতিরিক্ত ডেটা সিম ফ্রি (গাড়ি বা ট্যাবলেট)",wa:"WhatsApp ডেটা ফ্রি",shahid:"Shahid সহ",social20:"সোশ্যাল অ্যাপে 20 GB",socialU:"সোশ্যাল অ্যাপ আনলিমিটেড",...sN("স্ট্রিমিং অ্যাপ"),
    valet:"ভ্যালে পার্কিং",...vw(n=>`প্রতি মাসে QR ${n} ভাউচার`),build:"টাকা দিয়ে বাড়তি যোগ করুন",urban:"Urban Point অফার",sixmonths:"একটি রিচার্জে 6 মাস",
    flex:"ইউনিট ডেটা, কল বা বিদেশ কলে, যেভাবে চান"},
   vSave:(n,s)=>`${n}-এ যান এবং বছরে প্রায় QR ${fmt(s)} বাঁচান।`,vSaveHead:"আরও ভালো ডিল আছে",
@@ -573,7 +576,7 @@ const MORE = {
  ml:{dir:"ltr",langName:"മലയാളം",brand2:"ഖത്തർ പ്ലാൻ ഫൈൻഡർ",title:"നിങ്ങൾക്ക് ഏത് മൊബൈൽ പ്ലാൻ ആണ് നല്ലത്?",
   sub:"Ooredoo, Vodafone എന്നിവയുടെ എല്ലാ പ്ലാനുകളും, നിങ്ങളുടെ യഥാർത്ഥ ഉപയോഗം അനുസരിച്ച്. സൗജന്യം, ഒരു കമ്പനിയുടേതുമല്ല.",
   tabs:{monthly:"മാസ ബിൽ",prepaid:"പ്രീപെയ്ഡ്",data:"ഡാറ്റ മാത്രം"},
-  tabnote:{monthly:"പോസ്റ്റ്‌പെയ്ഡ്: എല്ലാ മാസവും അവസാനം ഒരു ബിൽ.",prepaid:"റീചാർജ്: ആദ്യം പണം, കരാറില്ല, ബില്ലില്ല.",data:"ഇന്റർനെറ്റ് മാത്രം, റൗട്ടർ, ടാബ്‌ലെറ്റ് അല്ലെങ്കിൽ രണ്ടാം സിമ്മിന്. കോളില്ല."},
+  tabnote:{monthly:"പോസ്റ്റ്‌പെയ്ഡ്: എല്ലാ മാസവും അവസാനം ഒരു ബിൽ.",prepaid:"റീചാർജ്: ആദ്യം പണം, കരാറില്ല, ബില്ലില്ല.",data:"ഇന്റർനെറ്റ് മാത്രം, റൗട്ടർ, ടാബ്‌ലെറ്റ് അല്ലെങ്കിൽ രണ്ടാം സിമ്മിന്. കോളില്ല. Qatarna+ ഉണ്ടോ? എക്സ്ട്രാ ഡാറ്റ സിമ്മിന് മാസം QR 25–50 മാത്രം."},
   presets:{monthly:{light:"കുറഞ്ഞ ഉപയോഗം",regular:"സാധാരണ",heavy:"കൂടുതൽ ഉപയോഗം",home:"നാട്ടിലേക്ക് ധാരാളം വിളിക്കും",travel:"പലപ്പോഴും യാത്ര"},
    prepaid:{light:"കുറഞ്ഞ ഉപയോഗം",regular:"സാധാരണ",heavy:"കൂടുതൽ ഉപയോഗം",home:"നാട്ടിലേക്ക് ധാരാളം വിളിക്കും"},
    data:{light:"കുറച്ച് ബ്രൗസിംഗ്",home:"വീട്ടിലെ ഇന്റർനെറ്റ്",heavy:"ധാരാളം വീഡിയോ",travel:"ഗൾഫ് രാജ്യങ്ങളിൽ യാത്ര"}},
@@ -593,7 +596,7 @@ const MORE = {
    pool:(v,g)=>`${v} യൂണിറ്റ് · 1 GB = ${g} യൂണിറ്റ് · 1 മിനിറ്റ് = 1 യൂണിറ്റ്`,abroadOk:v=>v===U?"അവിടെയും പ്രവർത്തിക്കും":`അവിടെ ${v} GB`,abroadNo:"ഖത്തറിൽ മാത്രം",
    after:(spd,q)=>`പരിധി കഴിഞ്ഞാൽ: ${spd}, ${q}`},
   speedQ:["ചാറ്റ് മാത്രം","പതുക്കെ ബ്രൗസിംഗ്","പാട്ടും സാധാരണ വീഡിയോയും","HD വീഡിയോയും ശരിയാകും"],
-  perks:{wa:"WhatsApp ഡാറ്റ സൗജന്യം",shahid:"Shahid ഉൾപ്പെടെ",social20:"സോഷ്യൽ ആപ്പുകൾക്ക് 20 GB",socialU:"സോഷ്യൽ ആപ്പുകൾ അൺലിമിറ്റഡ്",...sN("സ്ട്രീമിംഗ് ആപ്പ്"),
+  perks:{msim50:"കാറിനോ ടാബ്‌ലെറ്റിനോ എക്സ്ട്രാ ഡാറ്റ സിം: മാസം QR 50",msim25:"കാറിനോ ടാബ്‌ലെറ്റിനോ എക്സ്ട്രാ ഡാറ്റ സിം: മാസം QR 25",msimFree1:"കാറിനോ ടാബ്‌ലെറ്റിനോ 1 എക്സ്ട്രാ ഡാറ്റ സിം സൗജന്യം",msimFree2:"2 എക്സ്ട്രാ ഡാറ്റ സിം സൗജന്യം (കാർ, ടാബ്‌ലെറ്റ്)",wa:"WhatsApp ഡാറ്റ സൗജന്യം",shahid:"Shahid ഉൾപ്പെടെ",social20:"സോഷ്യൽ ആപ്പുകൾക്ക് 20 GB",socialU:"സോഷ്യൽ ആപ്പുകൾ അൺലിമിറ്റഡ്",...sN("സ്ട്രീമിംഗ് ആപ്പ്"),
    valet:"വാലറ്റ് പാർക്കിംഗ്",...vw(n=>`മാസം QR ${n} വൗച്ചർ`),build:"പണം നൽകി കൂടുതൽ ചേർക്കാം",urban:"Urban Point ഓഫറുകൾ",sixmonths:"ഒരു റീചാർജ് 6 മാസം",
    flex:"യൂണിറ്റുകൾ ഡാറ്റ, കോൾ, വിദേശ കോൾ എന്നിവയ്ക്ക് ഇഷ്ടം പോലെ"},
   vSave:(n,s)=>`${n}-ലേക്ക് മാറൂ, വർഷം ഏകദേശം QR ${fmt(s)} ലാഭിക്കൂ.`,vSaveHead:"മികച്ച ഡീൽ ഉണ്ട്",
@@ -612,7 +615,7 @@ const MORE = {
  ne:{dir:"ltr",langName:"नेपाली",brand2:"कतार प्लान फाइन्डर",title:"तपाईंलाई कुन मोबाइल प्लान ठिक छ?",
   sub:"Ooredoo र Vodafone का सबै प्लान, तपाईंको वास्तविक प्रयोग अनुसार। निःशुल्क, र कुनै कम्पनीको होइन।",
   tabs:{monthly:"मासिक बिल",prepaid:"प्रिपेड",data:"डेटा मात्र"},
-  tabnote:{monthly:"पोस्टपेड: हरेक महिनाको अन्त्यमा एउटा बिल।",prepaid:"रिचार्ज: पहिले पैसा, कुनै सम्झौता छैन, बिल छैन।",data:"इन्टरनेट मात्र, राउटर, ट्याब्लेट वा दोस्रो सिमका लागि। कल छैन।"},
+  tabnote:{monthly:"पोस्टपेड: हरेक महिनाको अन्त्यमा एउटा बिल।",prepaid:"रिचार्ज: पहिले पैसा, कुनै सम्झौता छैन, बिल छैन।",data:"इन्टरनेट मात्र, राउटर, ट्याब्लेट वा दोस्रो सिमका लागि। कल छैन। Qatarna+ छ? थप डेटा सिम मासिक QR 25–50 मात्र।"},
   presets:{monthly:{light:"थोरै प्रयोग",regular:"सामान्य",heavy:"धेरै प्रयोग",home:"घरमा धेरै फोन गर्छु",travel:"धेरै यात्रा"},
    prepaid:{light:"थोरै प्रयोग",regular:"सामान्य",heavy:"धेरै प्रयोग",home:"घरमा धेरै फोन गर्छु"},
    data:{light:"हल्का ब्राउजिङ",home:"घरको इन्टरनेट",heavy:"धेरै भिडियो",travel:"खाडी देशमा यात्रा"}},
@@ -632,7 +635,7 @@ const MORE = {
    pool:(v,g)=>`${v} युनिट · 1 GB = ${g} युनिट · 1 मिनेट = 1 युनिट`,abroadOk:v=>v===U?"त्यहाँ पनि चल्छ":`त्यहाँ ${v} GB`,abroadNo:"कतारमा मात्र",
    after:(spd,q)=>`सीमा सकिएपछि: ${spd}, ${q}`},
   speedQ:["च्याट मात्र","ढिलो ब्राउजिङ","गीत र साधारण भिडियो","HD भिडियो पनि चल्छ"],
-  perks:{wa:"WhatsApp डेटा निःशुल्क",shahid:"Shahid समावेश",social20:"सामाजिक एपका लागि 20 GB",socialU:"सामाजिक एप अनलिमिटेड",...sN("स्ट्रिमिङ एप"),
+  perks:{msim50:"कार वा ट्याब्लेटका लागि थप डेटा सिम: मासिक QR 50",msim25:"कार वा ट्याब्लेटका लागि थप डेटा सिम: मासिक QR 25",msimFree1:"कार वा ट्याब्लेटका लागि 1 थप डेटा सिम निःशुल्क",msimFree2:"2 थप डेटा सिम निःशुल्क (कार वा ट्याब्लेट)",wa:"WhatsApp डेटा निःशुल्क",shahid:"Shahid समावेश",social20:"सामाजिक एपका लागि 20 GB",socialU:"सामाजिक एप अनलिमिटेड",...sN("स्ट्रिमिङ एप"),
    valet:"भ्यालेट पार्किङ",...vw(n=>`मासिक QR ${n} भाउचर`),build:"शुल्क तिरेर थप्न सकिन्छ",urban:"Urban Point अफर",sixmonths:"एक रिचार्ज 6 महिना",
    flex:"युनिट डेटा, कल वा विदेश कलमा, जसरी चाहनुहुन्छ"},
   vSave:(n,s)=>`${n} मा जानुहोस् र वर्षमा करिब QR ${fmt(s)} बचाउनुहोस्।`,vSaveHead:"अझ राम्रो डिल छ",
@@ -651,7 +654,7 @@ const MORE = {
  fil:{dir:"ltr",langName:"Filipino",brand2:"Hanapan ng Plan sa Qatar",title:"Aling mobile plan ang bagay sa'yo?",
   sub:"Lahat ng plan ng Ooredoo at Vodafone, inayos ayon sa totoong gamit mo ng phone. Libre, at hindi pag-aari ng alinmang kumpanya.",
   tabs:{monthly:"Buwanang bill",prepaid:"Prepaid",data:"Data lang"},
-  tabnote:{monthly:"Postpaid: isang bill sa katapusan ng bawat buwan.",prepaid:"Load: magbayad muna, walang kontrata, walang bill.",data:"Internet lang, para sa router, tablet o pangalawang SIM. Walang tawag."},
+  tabnote:{monthly:"Postpaid: isang bill sa katapusan ng bawat buwan.",prepaid:"Load: magbayad muna, walang kontrata, walang bill.",data:"Internet lang, para sa router, tablet o pangalawang SIM. Walang tawag. Naka-Qatarna+? QR 25–50 lang kada buwan ang extra data SIM."},
   presets:{monthly:{light:"Kaunting gamit",regular:"Karaniwan",heavy:"Malakas gumamit",home:"Madalas tumawag sa pamilya",travel:"Madalas bumiyahe"},
    prepaid:{light:"Kaunting gamit",regular:"Karaniwan",heavy:"Malakas gumamit",home:"Madalas tumawag sa pamilya"},
    data:{light:"Kaunting browsing",home:"Internet sa bahay",heavy:"Maraming video",travel:"Biyahe sa GCC"}},
@@ -671,7 +674,7 @@ const MORE = {
    pool:(v,g)=>`${v} units · 1 GB = ${g} units · 1 minuto = 1 unit`,abroadOk:v=>v===U?"Gumagana rin doon":`${v} GB magagamit doon`,abroadNo:"Sa Qatar lang",
    after:(spd,q)=>`Pagkaubos: ${spd}, ${q}`},
   speedQ:["pang-chat lang","mabagal na browsing","musika at simpleng video","kaya pa ang HD video"],
-  perks:{wa:"Libreng WhatsApp data",shahid:"Kasama ang Shahid",social20:"20 GB para sa social apps",socialU:"Unlimited na social apps",
+  perks:{msim50:"Extra data SIM para sa kotse o tablet: QR 50/buwan",msim25:"Extra data SIM para sa kotse o tablet: QR 25/buwan",msimFree1:"1 libreng extra data SIM para sa kotse o tablet",msimFree2:"2 libreng extra data SIM para sa kotse o tablet",wa:"Libreng WhatsApp data",shahid:"Kasama ang Shahid",social20:"20 GB para sa social apps",socialU:"Unlimited na social apps",
    stream1:"1 streaming app",stream2:"2 streaming apps",stream3:"3 streaming apps",stream4:"4 streaming apps",stream5:"5 streaming apps",
    valet:"Valet parking",...vw(n=>`QR ${n} na voucher kada buwan`),build:"Magdagdag ng extras na may bayad",urban:"Mga deal ng Urban Point",sixmonths:"Isang load, 6 na buwan",
    flex:"Gamitin ang units sa data, tawag o international, ikaw ang bahala"},
@@ -714,7 +717,11 @@ for(const t of ["monthly","prepaid","data"]) ST[t] = {...{data:25,mins:400,dest:
 // Returning visitors go straight to their result
 try{ const saved = JSON.parse(localStorage.getItem("qpf-st")||"null"); if(saved) for(const t in ST) if(saved[t] && saved[t].started) Object.assign(ST[t], saved[t]); }catch(e){}
 const saveST = () => { try{ localStorage.setItem("qpf-st", JSON.stringify(ST)); }catch(e){} };
-try{ const s = localStorage.getItem("qpf-lang"); if(T[s]) L=s; const tb = localStorage.getItem("qpf-tab"); if(ST[tb]) TAB=tb; }catch(e){}
+// First visit: open in the phone's own language (an Arabic phone gets Arabic). A saved choice always wins.
+let savedLang = null; try{ savedLang = localStorage.getItem("qpf-lang"); }catch(e){}
+if(T[savedLang]) L = savedLang;
+else{ try{ for(const x of (navigator.languages || [navigator.language || ""])){ let c = String(x).toLowerCase().split("-")[0]; if(c==="tl") c="fil"; if(T[c]){ L=c; break; } } }catch(e){} }
+try{ const tb = localStorage.getItem("qpf-tab"); if(ST[tb]) TAB=tb; }catch(e){}
 if(/^#(monthly|prepaid|data)$/.test(location.hash)) TAB = location.hash.slice(1);
 const $ = id => document.getElementById(id);
 
