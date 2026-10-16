@@ -1,5 +1,5 @@
 # Copies the visitor counter into a plain text file (branch "stats"), every hour.
-# Lets Claude read your numbers without screenshots. Needs the GC_TOKEN secret.
+# Lets Claude read your numbers without screenshots. Needs the GC_API secret (a GoatCounter API key).
 name: stats
 on:
   schedule:
@@ -16,44 +16,58 @@ jobs:
     steps:
       - name: Read the counter
         env:
-          GC_TOKEN: ${{ secrets.GC_TOKEN }}
+          GC_API: ${{ secrets.GC_API }}
           GC_CODE: chained-cupid
         run: |
           set -e
-          if [ -z "$GC_TOKEN" ]; then echo "No GC_TOKEN secret, skipping"; exit 0; fi
+          if [ -z "$GC_API" ]; then echo "No GC_API secret, skipping"; exit 0; fi
           mkdir s && cd s
-          B="https://$GC_CODE.goatcounter.com"
-          today=$(TZ=Asia/Qatar date +%F)
-          for p in "today:$today" "week:$(TZ=Asia/Qatar date -d '-6 day' +%F)" "month:$(TZ=Asia/Qatar date -d '-29 day' +%F)"; do
-            n=${p%%:*}; s=${p#*:}
-            curl -fsS --max-time 60 "$B/?access-token=$GC_TOKEN&period-start=$s&period-end=$today" -o "$n.html" || echo "fetch $n failed"
-          done
           python3 - <<'EOF'
-          import html, os, re, datetime
-          from html.parser import HTMLParser
-          class P(HTMLParser):
-              def __init__(s): super().__init__(); s.out=[]; s.skip=0
-              def handle_starttag(s,t,a):
-                  if t in ("script","style","svg","head","nav","form"): s.skip+=1
-                  if t in ("tr","li","p","div","h1","h2","h3","br","td","th"): s.out.append("\n")
-              def handle_endtag(s,t):
-                  if t in ("script","style","svg","head","nav","form") and s.skip: s.skip-=1
-              def handle_data(s,d):
-                  if not s.skip: s.out.append(d)
-          tok = os.environ["GC_TOKEN"]
-          now = datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=3))).strftime("%Y-%m-%d %H:%M")
-          parts = [f"# Baqat Qatar visitor stats\nUpdated {now} (Qatar time)\n"]
-          for n in ("today","week","month"):
-              if not os.path.exists(f"{n}.html"): parts.append(f"\n## {n}\n(fetch failed)\n"); continue
-              p = P(); p.feed(open(f"{n}.html", encoding="utf8", errors="replace").read())
-              lines = [re.sub(r"\s+"," ",l).strip() for l in "".join(p.out).split("\n")]
-              txt = "\n".join(l for l in lines if l).replace(tok, "***")
-              parts.append(f"\n## {n.upper()}\n{txt}\n")
-          open("stats.md","w").write("".join(parts))
+          import json, os, time, urllib.request, urllib.parse, datetime as dt
+          key, base = os.environ["GC_API"], f"https://{os.environ['GC_CODE']}.goatcounter.com/api/v0"
+          qa = dt.timezone(dt.timedelta(hours=3)); now = dt.datetime.now(qa)
+          def get(path, **q):
+              url = base + path + ("?" + urllib.parse.urlencode(q) if q else "")
+              req = urllib.request.Request(url, headers={"Authorization": "Bearer " + key, "Content-Type": "application/json"})
+              for _ in range(3):
+                  try:
+                      with urllib.request.urlopen(req, timeout=60) as r: return json.load(r)
+                  except urllib.error.HTTPError as e:
+                      if e.code == 429: time.sleep(3); continue
+                      return {"error": f"HTTP {e.code}: {e.read()[:200].decode(errors='replace')}"}
+                  except Exception as e: return {"error": str(e)}
+                  finally: time.sleep(0.4)
+              return {"error": "rate limited"}
+          def iso(d): return d.astimezone(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+          today0 = now.replace(hour=0, minute=0, second=0, microsecond=0)
+          periods = [("TODAY (since midnight Qatar time)", today0), ("LAST 7 DAYS", today0 - dt.timedelta(days=6)), ("LAST 30 DAYS", today0 - dt.timedelta(days=29))]
+          out = [f"# Baqat Qatar visitor stats\nUpdated {now:%Y-%m-%d %H:%M} (Qatar time)\n"]
+          for title, start in periods:
+              q = dict(start=iso(start), end=iso(now))
+              out.append(f"\n## {title}\n")
+              tot = get("/stats/total", **q)
+              if "error" in tot: out.append(f"total: {tot['error']}\n")
+              else:
+                  out.append(f"Visits: {tot.get('total')}   Events: {tot.get('total_events')}\n")
+                  days = [(s.get('day'), s.get('daily')) for s in tot.get('stats', [])]
+                  if len(days) > 1: out.append("Per day: " + ", ".join(f"{d}={n}" for d, n in days) + "\n")
+                  elif days and tot['stats'][0].get('hourly'):
+                      h = tot['stats'][0]['hourly']; out.append("Per hour (UTC): " + " ".join(f"{i}h={n}" for i, n in enumerate(h) if n) + "\n")
+              hits = get("/stats/hits", limit=100, **q)
+              if "error" in hits: out.append(f"pages: {hits['error']}\n")
+              else:
+                  out.append("\n### Pages and events\n")
+                  for h in hits.get("hits", []):
+                      out.append(f"- {h.get('count')}  {h.get('path')}{'  (event)' if h.get('event') else ''}\n")
+              for page in ("toprefs", "locations", "systems", "browsers", "sizes"):
+                  r = get(f"/stats/{page}", limit=15, **q)
+                  out.append(f"\n### {page}\n")
+                  if "error" in r: out.append(r["error"] + "\n"); continue
+                  for s in r.get("stats", []): out.append(f"- {s.get('count')}  {s.get('name') or '(unknown)'}\n")
+          open("stats.md", "w").write("".join(out).replace(key, "***"))
           EOF
-          rm -f *.html
           git init -q && git checkout -q -b stats
           git add stats.md
-          git -c user.name="stats-robot" -c user.email="stats-robot@users.noreply.github.com" commit -qm "stats $today"
+          git -c user.name="stats-robot" -c user.email="stats-robot@users.noreply.github.com" commit -qm "stats $(date -u +%F)"
           git push -qf "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}" stats
           echo "Saved."
