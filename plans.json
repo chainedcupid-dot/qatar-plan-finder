@@ -1,5 +1,5 @@
 {
- "checked": "2026-10-29",
+ "checked": "2026-10-30",
  "note": "null means unlimited. The robot updates monthly plans, prepaid recharges and data plans every day.",
  "sources": {
   "shahry": "https://www.ooredoo.qa/web/en/postpaid-plans/shahry/",
@@ -1235,20 +1235,5 @@
    },
    "perks": []
   }
- ],
- "problems": [
-  "Vodafone tariff documents: fetch failed",
-  "couldn't find Postpaid+ Essential",
-  "couldn't find Postpaid+ Extra",
-  "couldn't find Postpaid+ Max",
-  "couldn't find Unlimited+",
-  "couldn't find Unlimited+ Premium",
-  "couldn't find Unlimited+ Platinum",
-  "couldn't find Unlimited+ VIP",
-  "couldn't read Combo+ 40, Combo+ 50, Combo+ 65, Combo+ 75, Combo+ 100, Combo+ 125, Combo+ 150, Combo+ 300, Combo+ 250",
-  "couldn't read Flex 50, Flex 65, Flex 75, Flex 100, Flex 120, Flex 150, Flex 200, Flex 300, Flex 500",
-  "couldn't read Mobile Wi-Fi 150, Mobile Wi-Fi 199",
-  "couldn't read Data SIM Unlimited, Data SIM Unlimited Premium",
-  "couldn't read Prepaid Internet 50, Prepaid Internet 75, Prepaid Internet 100, Prepaid Internet 150, Prepaid Internet 200"
  ]
 }
