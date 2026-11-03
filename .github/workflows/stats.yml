@@ -45,8 +45,14 @@ jobs:
           for title, start in periods:
               q = dict(start=iso(start), end=iso(now))
               out.append(f"\n## {title}\n")
-              tot = get("/stats/total", **q)
-              if "error" in tot: out.append(f"total: {tot['error']}\n")
+              tot = get("/stats/total", **q) if not title.startswith("TODAY") else {"skip": True}
+              if "skip" in tot:
+                  wk = get("/stats/total", start=iso(today0 - dt.timedelta(days=6)), end=iso(now))
+                  days = {s.get('day'): s.get('daily') for s in wk.get('stats', [])} if "error" not in wk else {}
+                  out.append(f"Visits today: {days.get(now.strftime('%Y-%m-%d'), '?')}\n")
+                  tot = None
+              if tot is None: pass
+              elif "error" in tot: out.append(f"total: {tot['error']}\n")
               else:
                   out.append(f"Visits: {tot.get('total')}   Events: {tot.get('total_events')}\n")
                   days = [(s.get('day'), s.get('daily')) for s in tot.get('stats', [])]
@@ -64,10 +70,29 @@ jobs:
                   out.append(f"\n### {page}\n")
                   if "error" in r: out.append(r["error"] + "\n"); continue
                   for s in r.get("stats", []): out.append(f"- {s.get('count')}  {s.get('name') or '(unknown)'}\n")
+          # Savings found by visitors: anonymous events like "saved/2400", added up since launch
+          total, people, excl, pages = 0, 0, [], 0
+          sq = dict(start=iso(dt.datetime(2026, 10, 17, tzinfo=qa)), end=iso(now))
+          while pages < 30:
+              q2 = dict(sq, limit=100, filter="saved/")
+              if excl: q2["exclude_paths"] = ",".join(map(str, excl))
+              r = get("/stats/hits", **q2)
+              if "error" in r: out.append(f"\nsavings: {r['error']}\n"); break
+              for h in r.get("hits", []):
+                  excl.append(h.get("path_id"))
+                  path = (h.get("path") or "")
+                  if path.startswith("saved/"):
+                      try: amt = int(path.split("/")[1])
+                      except ValueError: continue
+                      if 0 < amt <= 20000: total += amt * int(h.get("count") or 0); people += int(h.get("count") or 0)
+              pages += 1
+              if not r.get("more") or not r.get("hits"): break
+          json.dump({"total": total, "people": people, "updated": now.isoformat(timespec="minutes")}, open("savings.json", "w"))
+          out.insert(1, f"\nSavings found by visitors so far: QR {total:,} a year ({people} results)\n")
           open("stats.md", "w").write("".join(out).replace(key, "***"))
           EOF
           git init -q && git checkout -q -b stats
-          git add stats.md
+          git add stats.md savings.json
           git -c user.name="stats-robot" -c user.email="stats-robot@users.noreply.github.com" commit -qm "stats $(date -u +%F)"
           git push -qf "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}" stats
           echo "Saved."

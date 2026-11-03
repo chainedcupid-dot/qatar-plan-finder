@@ -378,13 +378,29 @@ export const believable = (oldV, newV) => newV > 0 && (!oldV || (newV <= oldV * 
 const DEBUG = path.join(ROOT, "debug");
 const dname = url => url.replace(/^https?:\/\//, "").replace(/[^a-z0-9]+/gi, "_").slice(-90);
 function saveDebug(url, ext, data) { try { fs.mkdirSync(DEBUG, { recursive: true }); fs.writeFileSync(path.join(DEBUG, dname(url) + ext), data); } catch {} }
+// Websites hiccup. Each page gets 4 tries, a little further apart each time, before the robot gives up on it.
 async function get(url, binary = false) {
-  const res = await fetch(url, { headers: { "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36", "accept-language": "en" } });
-  if (!res.ok) { saveDebug(url, ".error.txt", `HTTP ${res.status}`); throw new Error(`${url} answered ${res.status}`); }
-  if (binary) return Buffer.from(await res.arrayBuffer());
-  const html = await res.text();
-  saveDebug(url, ".html", html); saveDebug(url, ".txt", htmlToText(html));
-  return html;
+  let last;
+  for (let attempt = 1; attempt <= 4; attempt++) {
+    try {
+      const res = await fetch(url, { signal: AbortSignal.timeout(45000), headers: { "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36", "accept-language": "en" } });
+      if (!res.ok) {
+        saveDebug(url, ".error.txt", `HTTP ${res.status}`);
+        const err = new Error(`${url} answered ${res.status}`);
+        if (res.status < 500 && res.status !== 429) { err.final = true; }
+        throw err;
+      }
+      if (binary) return Buffer.from(await res.arrayBuffer());
+      const html = await res.text();
+      saveDebug(url, ".html", html); saveDebug(url, ".txt", htmlToText(html));
+      return html;
+    } catch (e) {
+      last = e;
+      if (e.final || attempt === 4 || process.env.ROBOT_NO_RETRY) break;
+      await new Promise(r => setTimeout(r, 15000 * attempt));
+    }
+  }
+  throw last;
 }
 // Pages that only fill in their prices after their own code runs (like Ooredoo's Hala recharge app)
 // are opened in GitHub's built-in Chrome, exactly like a person would. Falls back to a plain download.
@@ -523,7 +539,8 @@ async function main() {
 
   db.checked = new Date().toISOString().slice(0, 10);
   db.sources = { ...db.sources, ...sources };
-  if (problems.length) db.problems = problems; else delete db.problems;
+  if (problems.length) { db.problems = problems; db.problemDays = (db.problemDays || 0) + 1; }
+  else { delete db.problems; delete db.problemDays; }
   fs.writeFileSync(PLANS_FILE, JSON.stringify(db, null, 1) + "\n");
 
   console.log(changes.length ? "Changed:\n  " + changes.join("\n  ") : "No price changes today.");
@@ -532,7 +549,10 @@ async function main() {
       "\n\nOld prices were kept for anything it couldn't read. Usually a provider redesigned a page.";
     fs.writeFileSync(path.join(ROOT, "robot-report.md"), report);
     console.error(report);
-    process.exit(1);
+    // One bad day is usually a provider's website hiccuping, and it fixes itself by tomorrow.
+    // Only ring the alarm when the same trouble is still there on a second day in a row.
+    if (db.problemDays >= 2) process.exit(1);
+    console.log("First bad day: no alarm yet, trying again tomorrow.");
   }
 }
 
