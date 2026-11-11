@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-10",
+ "checked": "2026-11-11",
  "note": "null means unlimited. The robot updates monthly plans, prepaid recharges and data plans every day.",
  "sources": {
   "shahry": "https://www.ooredoo.qa/web/en/postpaid-plans/shahry/",
@@ -229,8 +229,8 @@
    "p": "v",
    "n": "Postpaid+ Essential",
    "std": 130,
-   "promo": 130,
-   "pm": 0,
+   "promo": 115,
+   "pm": 4,
    "data": 15,
    "mins": 500,
    "intl": {
@@ -251,8 +251,8 @@
    "p": "v",
    "n": "Postpaid+ Extra",
    "std": 180,
-   "promo": 180,
-   "pm": 0,
+   "promo": 150,
+   "pm": 4,
    "data": 40,
    "mins": null,
    "intl": {
@@ -273,8 +273,8 @@
    "p": "v",
    "n": "Postpaid+ Max",
    "std": 230,
-   "promo": 230,
-   "pm": 0,
+   "promo": 180,
+   "pm": 4,
    "data": 60,
    "mins": null,
    "intl": {
@@ -1235,12 +1235,5 @@
    },
    "perks": []
   }
- ],
- "problems": [
-  "Vodafone tariff documents: fetch failed",
-  "couldn't read Combo+ 40, Combo+ 50, Combo+ 65, Combo+ 75, Combo+ 100, Combo+ 125, Combo+ 150, Combo+ 300, Combo+ 250",
-  "couldn't read Flex 50, Flex 65, Flex 75, Flex 100, Flex 120, Flex 150, Flex 200, Flex 300, Flex 500",
-  "couldn't read Prepaid Internet 50, Prepaid Internet 75, Prepaid Internet 100, Prepaid Internet 150, Prepaid Internet 200"
- ],
- "problemDays": 1
+ ]
 }
