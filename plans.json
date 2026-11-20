@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-19",
+ "checked": "2026-11-20",
  "note": "null means unlimited. The robot updates monthly plans, prepaid recharges and data plans every day.",
  "sources": {
   "shahry": "https://www.ooredoo.qa/web/en/postpaid-plans/shahry/",
@@ -85,7 +85,7 @@
    "p": "o",
    "n": "Shahry+ Super",
    "std": 200,
-   "promo": 160,
+   "promo": 165,
    "pm": 4,
    "data": 25,
    "mins": null,
